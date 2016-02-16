@@ -1,0 +1,516 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html>
+
+<head>
+	<title>CodeProject: Add docking and floating support easely and quickly with DockExtender. Free source code and programming help</title>
+</head>	
+
+<body>
+
+<a href="#Main"><img alt="Click here to Skip to main content" src="/Images/t.gif"
+style="position:absolute;top:0;left:0;width:1px;height:1px;z-index:100;border-style:none" /></a>
+
+<div style="width:100%;padding:0px;margin:0px">
+	<div style="width:100%;"></div>
+	<table width="100%" cellspacing="0" cellpadding="0" border="0"><tr>
+		<td class="HeaderLogo"><a href="/"></td>				 
+		<td class="HeaderBanner" width="100%" align="right"></td>
+	</tr></table>
+	
+	<div style="width:100%;"><a name="_top"></a><table id="ctl00_ArticleTopHeader_HeaderTable" class="ArticleHeader" cellpadding="3" width="100%">
+	<tr valign="top">
+		<td class="SmallText">
+	
+	<a id="ctl00_ArticleTopHeader_ChapterLink" href="/script/Content/Chapter.aspx?chptId=1">Desktop Development</a> &#187;
+	<a id="ctl00_ArticleTopHeader_SectionLink" href="/KB/miscctrl/">Miscellaneous</a> &#187;
+	<a id="ctl00_ArticleTopHeader_SubsectionLink" href="/KB/miscctrl/index.aspx?#Miscellaneous - General">General</a>
+	
+	<span id="ctl00_ArticleTopHeader_SkillLevel" class="ArticleIntermediate">&nbsp;&nbsp;&nbsp; Intermediate</span> 
+	<span id="ctl00_ArticleTopHeader_LicenceTerms" class="SmallText" style="margin-left:40px;">License: <a href="http://www.codeproject.com/info/cpol10.aspx">The Code Project Open License (CPOL)</a></span>
+	<br />
+	<br />
+	<h1><a href="http://www.codeproject.com/KB/miscctrl/DockExtender.aspx"><span id="ctl00_ArticleTopHeader_ArticleTitle" class="ArticleTopTitle">Add docking and floating support easely and quickly with DockExtender</span></a></h1>
+	<b>By <a href="/script/Articles/MemberArticles.aspx?amid=2192187">Herre Kuijpers</a></b><br />
+	<br />
+    <span id="ctl00_ArticleTopHeader_ArticleDescr">DockExtender allows you to add docking / floating / resizing behaviour to any control on your win form with just a few lines of code, making it very easy for your application to support basic docking features.</span>
+</td>
+		<td style="width:210px;">
+	<span id="ctl00_ArticleTopHeader_ArticleAttributes" class="SmallText">C# 2.0.NET 2.0, Win2K, WinXP, Win2003, Vista, WinForms, VS2005, Dev</span>
+	<table style="margin:8px 0 0 0;padding:0;" class="SmallText">
+	
+	<tr><td>Posted:</td><td><b>23 Feb 2007</b></td></tr>
+	
+	<tr><td>Updated:</td><td><b>4 Jul 2007</b></td></tr>
+	
+	<tr><td>Views:</td><td><b>47,242</b></td></tr>
+	
+	<tr><td>Bookmarked:</td><td><b>132 times</b></td></tr>
+	
+	
+	
+	
+	</table>
+</td>
+	</tr>
+</table>
+
+	</div>
+</div>
+
+<div>
+
+
+
+<div id="ctl00_ArticlePane" class="ArticlePane" style="border-left-style:none;">
+
+	
+	<a name="Main"></a>
+	<span id="ctl00_ResultMessage"></span>
+	
+	
+    
+	<div id="ctl00_ArtDiv">
+	<table cellpadding="0" cellspacing="0" border="0">	
+	<tr valign="top">
+		<td valign="top" width="100%">
+		    
+<table>
+
+</table>
+
+
+
+			
+		</td>
+		<td style="text-align:right;white-space:nowrap;width:100px">
+		<table id="CurRat"><tr><td>            
+<table>
+<tr>
+	<td id="ctl00_ArticleRating_VL" style="white-space:nowrap" class="SmallText" align="right"> 
+		<span id="ctl00_ArticleRating_VoteLabel">39 votes for this article.</span>
+	</td>
+
+	<td>
+		<table border="1" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="left" bgcolor="White" width="20px" height="7px"><img src="/script/Ratings/Images/red.gif" height="7" border="0" width="20" align="middle" /></td>
+		<td align="left" bgcolor="White" width="20px" height="7px"><img src="/script/Ratings/Images/red.gif" height="7" border="0" width="20" align="middle" /></td>
+		<td align="left" bgcolor="White" width="20px" height="7px"><img src="/script/Ratings/Images/red.gif" height="7" border="0" width="20" align="middle" /></td>
+		<td align="left" bgcolor="White" width="20px" height="7px"><img src="/script/Ratings/Images/red.gif" height="7" border="0" width="20" align="middle" /></td>
+		<td align="left" bgcolor="White" width="20px" height="7px" style="white-space:nowrap;padding:0px;"><img src="/script/Ratings/Images/red.gif" height="7" border="0" width="14" align="middle" /><img src="/script/Ratings/Images/white.gif" height="7" border="0" width="6" align="middle" /></td>
+	</tr>
+</table>
+
+		<span id="ctl00_ArticleRating_Votes" class="SmallText"></span>
+	</td>
+</tr>
+<tr id="ctl00_ArticleRating_PopularityRow">
+	<td colspan="2" align="right" class="SmallText">
+		<a id="ctl00_ArticleRating_PopularityLnk" title="Calculated as rating x Log10(# votes)" href="/script/Articles/TopArticles.aspx?ta_so=1">Popularity: 7.47</a>
+		<span id="ctl00_ArticleRating_PopularityLbl"></span>
+		<span id="ratingVal">Rating: <b>4.69</b> out of 5</span>
+		
+	</td>
+</tr>
+
+</table>
+</td>
+		<td>            
+<div>
+<table class="HistTable" title="Voting Distribution. Recent data only"><tr><td><img src="/script/Ratings/Images//Images/t.gif" width="10px" height="1px" border="0px" alt="" title="" /><br />1</td>
+<td><img src="/script/Ratings/Images/pollcol.gif" width="10px" height="1px" border="0px" alt="1 vote, 2.6%" title="1 vote, 2.6%" /><br />2</td>
+<td><img src="/script/Ratings/Images/pollcol.gif" width="10px" height="1px" border="0px" alt="1 vote, 2.6%" title="1 vote, 2.6%" /><br />3</td>
+<td><img src="/script/Ratings/Images/pollcol.gif" width="10px" height="2px" border="0px" alt="4 votes, 10.3%" title="4 votes, 10.3%" /><br />4</td>
+<td><img src="/script/Ratings/Images/pollcol.gif" width="10px" height="20px" border="0px" alt="33 votes, 84.6%" title="33 votes, 84.6%" /><br />5</td>
+</td></table>
+</div>
+
+
+
+</td></tr></table>
+		</td>
+	</tr>
+	</table>
+	
+	
+	
+	
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div id="contentdiv">
+	
+	<!-- Main Page Contents Start -->
+	
+
+<!-- Article Starts -->
+
+
+<li><a href="DockExtender/DockExtender_src.zip">Download demo + source files - 33.9 KB</a> 
+<p><img height="443" alt="Sample Image - DockExtender1.png" src="http://www.codeproject.com/KB/miscctrl/DockExtender/DockExtender1.png" width="608" /></p>
+
+<h2>Introduction</h2>
+
+<p>So you are looking to add 'control docking' features to your winform application? E.g. you want to have a floating toolbar or allow users to dock parts of your form at a different location at runtime? This tiny and lightweight control extender for C# 2.0 will help you enable these features. </p>
+
+<p>I wrote this solution with the following purposes/constraints in mind:</p>
+
+<ul>
+<li>Docking/Floating behaviour must be easy to incorporate and use in new and existing winform projects </li>
+
+<li>It may not pose too many constraints on the structuring of the form layout </li>
+
+<li>The code must be lightweight. That is, have a small footprint and require few resources; i.e. may not be dependent on external, magic libraries.</li>
+
+<li>Dockable controls must support resizing </li>
+
+<li>The code must be easy to use: steep learning curve! </li>
+
+<li>Use native C# where possible. </li>
+</ul>
+
+<p>In order to support these constraints I had to cut some features. E.g. this solution will not allow docking of single tab pages in tab controls. Also because of the basic programmatic interface, the client has little control over what happens with the floating/docking controls. So if you are looking for a more full blown (but also bloated and much heavier) solution that supports all types of docking you might want to consider <a href="http://sourceforge.net/projects/dockpanelsuite">Weifen Luo's DockManager</a> on source forge or commercial products. </p>
+
+<p>Still interested in a low impact, easy to use, and lightweight approach? This solution will allow you to practically make any control dockable/floatable in just a few lines of code! So how does it work you ask? Just keep on reading.</p>
+
+<h2>Using the code</h2>
+
+<p>It's simple, first setup the project: create a new winform project, add the <em>DockExtender.cs</em>, <em>Floaty.cs</em> and <em>Overlay.cs</em> files to your project. Then, for the sake of the example, add a ToolStrip control to your form.</p>
+
+<p>Then add the <code>ControlExtenders</code> namespace to the form and declare the <code>DockExtender</code> object in the form. Then in the constructor of your form create a <code><span class="code-keyword">new</span> DockExtender</code> object and <code>Attach</code> the (container) control to it that you want make dockable/floatable (the toolstrip in this example). Once it is attached, the <code>DockExtender <span class="code-keyword">class</span></code> will extend the behaviour of your attached control and will take care of the floating/docking behaviour for you. The following code will make a toolbar control dockable/floating:</p>
+
+<pre lang="cs">    <span class="code-comment">//</span><span class="code-comment">add namespace    </span>
+    <span class="code-keyword">using</span> ControlExtenders; 
+    
+    ...
+
+    <span class="code-comment">//</span><span class="code-comment"> declare dockExtender as a member of the form</span>
+         DockExtender dockExtender;
+
+    ...
+
+    <span class="code-comment">//</span><span class="code-comment"> in the Form1() constructor create the DockExtender to manage controls </span>
+    <span class="code-comment">//</span><span class="code-comment"> on for the 'dockHost'</span>
+         dockExtender = <span class="code-keyword">new</span> DockExtender(<span class="code-keyword">this</span>); <span class="code-comment">//</span><span class="code-comment"> 'this' is Form1</span>
+            
+         <span class="code-comment">//</span><span class="code-comment"> Attach the toolStrip1 toolbar. The 2nd argument is the handle.  </span>
+         <span class="code-comment">//</span><span class="code-comment"> This will make the whole toolstrip draggable. A floaty object is </span>
+         <span class="code-comment">//</span><span class="code-comment"> returned.</span>
+         IFloaty floaty = dockExtender.Attach(toolStrip1);</pre>
+
+<p>There, that's it! Two lines of code to make your first dockable/floatable control!</p>
+
+<h3>Drag and resize</h3>
+
+<p>Basically all you need is what I call a 'Container' control. It represents the part of your form that can be made floatable/dockable. In order to drag the Container control around with the mouse you needs a 'Handle', this is basically the Container's caption/griphandle. Of course if you supply the container itself as the handle, the whole container will become the handlebar (as in the example above)! </p>
+
+<p>Now the beauty of this solution is that the 'Container' control and 'Handle' control can be of any type (as long as it is derived from ScrollableControl and Control respectively)! In my demo for simplicity's sake, I used a Panel for the container and a Label (hosted on the panel) for the handle. (Note: Obviously the handle looks rather plain, but it would be very easy to make it nicer looking. This is beyond the scope of this article though).</p>
+
+<p>To make it more interesting it would be very handy to allow a docked container control to be resized by the user. The DockExtender supports this, yet there is one restriction. You can only use a <code>Splitter</code> control (or a subclass of Splitter) with the DockExtender. E.g.:</p>
+
+<pre lang="cs"><span class="code-comment">//</span><span class="code-comment"> Attach the a panel as container, a label as handlebar and a splitter to </span>
+<span class="code-comment">//</span><span class="code-comment"> resize the control to make panel1 dockable/floatable and resizable</span>
+IFloaty floaty = dockExtender.Attach(panel1, label1, splitter1);</pre>
+
+<p>Now when executing this code, and docking the panel1 on the form your will notice that the splitter is automatically positioned on top of the panel, allowing the user to resize the panel.</p>
+
+<h3>Docking (Z-)order</h3>
+
+<p>By default containers are docked on the inside of the docking host (ie. the form). This means, that if other controls are already docked in the host, the container will be docked on the inside of the host (bring to front).</p>
+
+<p>In some cases you may not want to dock only on the inside, but rather on the outside. E.g. toolbars or menus are typically docked on the outside (sent to back). To allow this we can use the returned floaty object to set some additional properties: <code>floaty.DockOnInside</code>:</p>
+
+<pre lang="cs"><span class="code-comment">//</span><span class="code-comment"> Attach the toolStrip1 toolbar as container and handle</span>
+IFloaty floaty = dockExtender.Attach(toolStrip1);
+
+<span class="code-comment">//</span><span class="code-comment"> supply false for 'dockOnInside'-flag. Allow docking on the outside of the </span>
+<span class="code-comment">//</span><span class="code-comment"> docking host</span>
+floaty.DockOnInside = <span class="code-keyword">false</span>; <span class="code-comment">//</span><span class="code-comment"> dock to outside</span></pre>
+
+<p>If the DockOnInside is set to false the control will be set to the back, making it dock on the outside of the dockhost. </p>
+
+<h3>Docking event</h3>
+
+<p>So in this example the toolbar will be docked on the outside. This raises a problem though, because this means that for instance the menubar will be docked below the toolbar which is not desired. In order to cope with this problem, a 'Docking' event is raised when a control is docked. This allows the client to set the correct Z-Ordering of the non-dockable controls, such as the menubar, statusbar and the inner document.</p>
+
+<p>To capture this event, you need to do the following:</p>
+
+<pre lang="cs"><span class="code-comment">//</span><span class="code-comment"> get a reference to the floating control to which the container is attached </span>
+<span class="code-comment">//</span><span class="code-comment"> by the DockExtender</span>
+IFloaty floaty = dockExtender.Attach(panel1, label1, splitter1); 
+    
+<span class="code-comment">//</span><span class="code-comment"> the floaty will raise a Docking event when it is docking.</span>
+floaty.Docking += <span class="code-keyword">new</span> EventHandler(floaty_Docking);
+
+...
+
+<span class="code-keyword">void</span>  floaty_Docking(<span class="code-keyword">object</span> sender, EventArgs e)
+{
+    <span class="code-comment">//</span><span class="code-comment"> make sure the ZOrder remains intact for the menubar and statusbar</span>
+    menuStrip1.SendToBack();
+    statusStrip1.SendToBack();
+}</pre>
+
+<p>Now the menuStrip and statusStrip will always be positioned correctly with the correct Z-Order.</p>
+
+<h3>More features</h3>
+
+<p>A few more trivial features are available that I will not explain in depth here. In order to have more control over the display of the floaty/container, you can programmatically <code>Show()</code> and <code>Hide()</code> a <code>IFloaty</code> object, or use the dockManager's <code>Show(container) </code>/<code>Hide(container)</code> method to display the container control. Also you can iterate through the list of registered <code>DockExtender.Floaties</code>.</p>
+
+<h2>Sources and Demo</h2>
+
+<p>The sources project contains <strong>all</strong> sources of the DockExtender and of the demo project, no external or magic libraries are needed! Feel free to use and adapt this code for your own purposes.</p>
+
+<h2>How does it work?</h2>
+
+<p>For those that are interested I will explain here how the internals of the DockExtender work. The DockExtender consists of three main classes: 'DockExtender', 'Floaty' and 'Overlay'. DockExtender is more a management class that manages the floaties. For each container that is attached, a corresponding Floaty object is created to which the container is attached. </p>
+
+<p>The Floaty does most of the work. The Overlay class is used by the floaty to display the designated docking area's. Basically there are the following types of actions: </p>
+
+<ul>
+<li>Attach the container </li>
+
+<li>Go from docked state to floating state </li>
+
+<li>Select designated docking area </li>
+
+<li>Go from floating state to docked state </li>
+</ul>
+
+<h3>Attach the container</h3>
+
+<ol>
+<li>The state of the container is stored in the DockState struct. This allows to restore to the previous state if necessary. </li>
+
+<li>The Floaty will attach mouse move event handlers to the handle and track the movement of the mouse when it is hovering over the handle </li>
+</ol>
+
+<h3>From Docked to Floating</h3>
+
+<ol>
+<li>Mouse move events are triggered by the handle </li>
+
+<li>Resize the floaty form to the size of the docked control </li>
+
+<li>Send a Left-button-up windows message to the handle so it will stop firing mouse move events (requires Win API) </li>
+
+<li>Re-parent the control into the floaty and dock it as Filled </li>
+
+<li>Position the floaty under the mouse cursor </li>
+
+<li>Hide the handle </li>
+
+<li>Send a system command windows message to the floaty to start the size-move loop (requires Win API) </li>
+
+<li>The mouse is now dragging the floaty </li>
+</ol>
+
+<h3>Select designated docking area</h3>
+
+<ol>
+<li>Get the mouse position </li>
+
+<li>Check over which attached forms/controls the mouse is hovering </li>
+
+<li>Determine the maximum potential docking area. </li>
+
+<li>If the mouse is moving into a designated area, calculate the position and size of the overlay </li>
+
+<li>Present the overlay control for the designated area </li>
+
+<li>Dock the control </li>
+</ol>
+
+<h3>From Floating to Docked</h3>
+
+<ol>
+<li>Set the DockState parameters to the new docking area </li>
+
+<li>Re-parent the container into the designated control/form </li>
+
+<li>Show the handle </li>
+
+<li>Hide the floaty form </li>
+
+<li>Set the Z-Order of the container </li>
+
+<li>Fire the Docking event </li>
+</ol>
+
+<h2>Points of Interest</h2>
+
+<p>Using an 'extender' approach makes it so much easier to develope. It means you are no longer required to use specific controls or derive from them in order to extend their behaviour. This way any control can be extended fast and easy without a lot of code modifications, and is therefore very well suited to be incorporated into existing projects that require these extended features.</p>
+
+<p>Origionally the idea was to allow docking also inside containers, but this gave a number of new challanges to tackle, so I left it out of this demo by default. The code can however still be triggired by setting the <code>floaty.DockOnHostOnly</code> to <code><span class="code-keyword">false</span></code>. Note that setting this property may result in undesired effects. </p>
+
+<p>Just one personal note I want to make here is that I saw no other way than to use the SendMessage API instead of pure c#. I prefer to write c# in pure c# and not resort to win API's, but there you have it.</p>
+
+<p>If you decide to use this code, feel free to post pointers and tips for improvements. Happy Coding!</p>
+
+<h2>History</h2>
+
+<p>Version 1.0 of the DockExtender was published on the 23th of Februari 2007. </p>
+</li>
+
+
+
+
+
+
+
+
+	<!-- Main Page Contents End -->
+	
+	</div>
+	
+	
+	
+	
+	
+	<form name="aspnetForm" method="post" action="displayarticle.aspx?display=Print" id="aspnetForm" style="margin:0;padding:0">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTAyMTMzODg1Ng9kFgJmD2QWBAILDxYCHgdWaXNpYmxlaBYCAgMPDxYCHwBnZGQCDA8WAh4Fc3R5bGUFF2JvcmRlci1sZWZ0LXN0eWxlOm5vbmU7FgoCBw9kFgwCAQ9kFgJmDxYCHgtfIUl0ZW1Db3VudGZkAgMPDxYCHwBoZBYGZg8PFgIeC05hdmlnYXRlVXJsBSwvS0IvbWlzY2N0cmwvRG9ja0V4dGVuZGVyLmFzcHg/ZGlzcGxheT1QcmludGRkAgEPDxYCHwMFJi9zY3JpcHQvQXJ0aWNsZXMvUmVwb3J0LmFzcHg/YWlkPTE3NzI5ZGQCBQ8PFgIfAwUxL3NjcmlwdC9jb21tb24vVGVsbEZyaWVuZC5hc3B4P29idGlkPTImb2JpZD0xNzcyOWRkAgUPZBYEAgEPZBYCAgEPDxYCHgRUZXh0BRozOSB2b3RlcyBmb3IgdGhpcyBhcnRpY2xlLmRkAgcPZBYCZg9kFgQCAQ8PFgQfBAUQUG9wdWxhcml0eTogNy40Nx8DBSkvc2NyaXB0L0FydGljbGVzL1RvcEFydGljbGVzLmFzcHg/dGFfc289MWRkAgUPFgIfBAUcUmF0aW5nOiA8Yj40LjY5PC9iPiBvdXQgb2YgNWQCGw9kFggCAQ9kFgQCAQ8WAh4JaW5uZXJodG1sBbYBPHA+VGhpcyBhcnRpY2xlLCBhbG9uZyB3aXRoIGFueSBhc3NvY2lhdGVkIHNvdXJjZSBjb2RlIGFuZCBmaWxlcywgaXMgbGljZW5zZWQgdW5kZXIgPGEgaHJlZj0iaHR0cDovL3d3dy5jb2RlcHJvamVjdC5jb20vaW5mby9jcG9sMTAuYXNweCI+VGhlIENvZGUgUHJvamVjdCBPcGVuIExpY2Vuc2UgKENQT0wpPC9hPjwvcD5kAgIPZBYCAgEPEGRkFgBkAgUPFgIfAgIBZAIHDxYCHwBoZAINDxYCHwBoFgJmD2QWAgIBD2QWAmYPZBYCAgkPZBYCAgEPEGRkFgBkAiUPDxYCHwBoZGQCJw9kFgYCAQ8WAh8EBTU8Yj4yMCBtZXNzYWdlczwvYj4gaGF2ZSBiZWVuIHBvc3RlZCBmb3IgdGhpcyBhcnRpY2xlLmQCAw8PFgQfAwUeL0tCL21pc2NjdHJsL0RvY2tFeHRlbmRlci5hc3B4HwQFOGh0dHA6Ly93d3cuY29kZXByb2plY3QuY29tL0tCL21pc2NjdHJsL0RvY2tFeHRlbmRlci5hc3B4ZGQCBQ8PFgIfAwUvL0tCL21pc2NjdHJsL0RvY2tFeHRlbmRlci5hc3B4P2Rpc3BsYXk9UHJpbnRBbGxkZAILDw8WAh8DBScvc2NyaXB0L0FydGljbGVzL0FydGljbGUuYXNweD9haWQ9MTc3MjlkZAIRDxYCHwQFCjQgSnVsIDIwMDdkAhMPDxYEHwQFDVNlYW4gRXdpbmd0b24fAwUoL3NjcmlwdC9NZW1iZXJzaGlwL1ZpZXcuYXNweD9taWQ9Mzg3Mzg3MWRkAhUPFgIfBAUgQ29weXJpZ2h0IDIwMDcgYnkgSGVycmUgS3VpanBlcnNkZPpbiadJ64d/z6s+zgV5GZ916LKn" />
+</div>
+
+
+	
+	<h2>License</h2>
+	<div id="ctl00_LicenseTerms"><p>This article, along with any associated source code and files, is licensed under <a href="http://www.codeproject.com/info/cpol10.aspx">The Code Project Open License (CPOL)</a></p></div>
+	
+	<h2>About the Author</h2>
+	
+			
+   
+        
+<table cellpadding="0" cellspacing="5" border="0" width="100%">
+<tr valign="top">
+<td id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberPhotoTable" valign="top" style="width:155px;">
+	<b><a id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberProfileLink" href="/Members/Herre-Kuijpers">Herre Kuijpers</a></b><br /><br />
+	<center><img id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberPhoto" src="/script/Membership/ProfileImages/{0C055ACB-A7CD-4D97-B42D-90FD96723059}.jpg" style="border-width:0px;" /></center><br />
+	<span id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberType" class="SmallText">Member</span>		
+</td>
+
+<td>
+	Herre Kuijpers started working as a software developer at a small research company after completing his computer science degree in 1997, where he has gained a broad experience with developing and implementing computer systems in visual basic and visual c++. <br /><br />Currently Herre Kuijpers works at Capgemini Netherlands for over 8 years, where he developed skills with all kinds of technologies and languages such as c#, asp.net, silverlight, VC++, Javascript, SQL, UML, RUP. <br />Currently he fulfills the role of software architect in various projects.<br />	
+
+	<table>
+	<tr id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_jobTitleRow">
+	<td class="SmallText" nowrap="nowrap">Occupation: </td>
+	<td width="100%"><span id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberJobTitle" class="SmallText">Architect</span></td>
+</tr>
+
+
+	<tr id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_companyRow">
+	<td class="SmallText">Company: </td>
+	<td width="100%"><span id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberCompany" class="SmallText">Capgemini</span></td>
+</tr>
+
+
+	<tr id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_locationRow">
+	<td class="SmallText">Location: </td>
+	<td width="100%"><span id="ctl00_AboutAuthorRptr_ctl00_AboutAuthor_memberLocation" class="SmallText"><img src="/script/Geo/Images/NL.gif" alt="Netherlands" width="16" height="11" /> Netherlands</span></td>
+</tr>
+
+	</table>
+	</td>
+	</tr>
+	</table>
+
+
+			<br />
+		
+	
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">	
+	<tr valign="top">			
+		<td style="width:100%;">
+			
+		</td>
+		<td>
+			
+									 
+		</td>
+	</tr>
+	</table>
+
+	
+	</form>
+	
+	<div style="margin-left:40px;padding:10;white-space:nowrap;overflow:hidden;">
+		
+		
+			  
+			
+		 
+	</div>
+
+	
+
+	
+	<h2>Discussions and Feedback</h2>					
+	<p><img alt="Comment" src="/script/forums/images/NewComment.gif" width="12px" height="16px" />
+	<b>20 messages</b> have been posted for this article. 
+	Visit <b><a id="ctl00_ArticleLink" href="/KB/miscctrl/DockExtender.aspx">http://www.codeproject.com/KB/miscctrl/DockExtender.aspx</a></b> to post and view comments 
+	on this article, or click
+	<b><a id="ctl00_PrintWithMessage" href="/KB/miscctrl/DockExtender.aspx?display=PrintAll">here</a></b> to get a 
+	print view with messages.
+	</p>
+	
+	</div>
+	
+	
+<div id="MicrosoftTranslatorWidget" 
+style="text-align:center;width:360px; min-height: 0px; border-color: #4C8D2C; background-color: #9FC28E;margin:auto">
+<noscript><a href="http://www.microsofttranslator.com/BV.aspx?a=http%3a%2f%2fwww.codeproject.com%2f">Translate 
+this page</a><br />Translation powered by <a href="http://www.microsofttranslator.com">Microsoft® 
+Translator</a></noscript>
+</div>
+
+	
+	<table width="100%">
+	<tr valign="top">
+		<td align="left" class="TinyText">
+		    <a id="ctl00_PermaLink" href="/script/Articles/Article.aspx?aid=17729">PermaLink</a> | 
+			<a id="ctl00_PrivacyLink" href="/info/privacy.aspx">Privacy</a> |
+			<a id="ctl00_TermsOfUseLink" href="/info/TermsOfUse.aspx">Terms of Use</a>
+			<br />Last Updated: 4 Jul 2007<br />
+			Editor: <a id="ctl00_ArticleEditor" href="/script/Membership/View.aspx?mid=3873871">Sean Ewington</a><br />
+		</td>
+		<td align="right"  valign="top" class="TinyText">
+			Copyright 2007 by Herre Kuijpers<br />Everything else
+			Copyright &copy; <a href="mailto:webmaster@codeproject.com">CodeProject</a>, 1999-2009 <br />
+			Web15 |
+			<a id="ctl00_AdvertiseLink" href="/info/MediaKit.aspx">Advertise on the Code Project </a>
+		</td>
+	</tr>
+	
+	</table>
+	
+	<center>
+		
+	</center>
+
+</div>
+</div>	
+	
+<div>
+
+
+</div>
+
+<br />
+
+
+</body>
+</html>
