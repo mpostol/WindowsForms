@@ -66,9 +66,6 @@
     <Compile Include="TreeViewSearcherTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AuthoringTests.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,9 +91,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ControlLibraryForms\ControlLibraryForms.csproj">
+    <ProjectReference Include="..\CAS.Windows.Forms\CAS.Windows.Forms.csproj">
       <Project>{90f8cf13-2d55-4497-bfd9-bc84e82f50ee}</Project>
-      <Name>ControlLibraryForms</Name>
+      <Name>CAS.Windows.Forms</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

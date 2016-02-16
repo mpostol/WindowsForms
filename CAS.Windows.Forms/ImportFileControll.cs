@@ -16,19 +16,16 @@
 //  mailto:techsupp@cas.com.pl
 //  http:\\www.cas.eu
 //</summary>
+
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Text;
 using System.Windows.Forms;
 using CAS.Lib.RTLib;
 
 namespace CAS.Lib.ControlLibrary
 {
   /// <summary>
-  /// Controll That is responsible for selecting file to import
+  /// Control That is responsible for selecting file to import
   /// </summary>
   public partial class ImportFileControll: UserControl
   {
