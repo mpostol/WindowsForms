@@ -24,6 +24,7 @@ namespace CAS.Lib.ControlLibrary
 {
   public partial class About: UserControl
   {
+
     #region public
     /// <summary>
     /// Component shows CAS about information
