@@ -4,12 +4,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id><#=CASWindowsFormsName#></id>
-    <version><#= CASWindowsFormsVersion #></version>
+    <version><#= CASWindowsFormsVersion #><#= CASWindowsFormsPreRelease #></version>
     <title><#= CASWindowsFormsTitle #></title>
     <authors><#=AssemblyCompany#></authors>
     <owners><#=Owner#></owners>
     <projectUrl>svn://svnserver.hq.cas.com.pl/Products/CAS.Windows.Forms</projectUrl>
-    <licenseUrl>http://www.cas.internetdsl.pl/commserver/P_DowloadCenter/Lic-09000401EN_License_Agreement.pdf</licenseUrl>
+    <licenseUrl>http://www.commsvr.com/DownloadCenter/ProductSoftware/LicenseAgreement.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
     <description>
@@ -19,7 +19,7 @@
       Library of Forms controls.
     </summary>
     <releaseNotes>
-      Contains previously released .dll for components decoupling and versioning control.
+      Maintenance 2016. Contains previously released CAS.Controls.dll containing Form components.
     </releaseNotes>
     <copyright>
       <#=AssemblyCopyright#>
@@ -31,6 +31,9 @@
     </dependencies>
   </metadata>
   <files>
+        <file src="..\bin\Release\CAS.Windows.Forms.dll" target="lib\net451\CAS.Windows.Forms.dll" />
+        <file src="..\bin\Release\CAS.Windows.Forms.dll.config" target="lib\net451\CAS.Windows.Forms.dll.config" />
+        <file src="..\bin\Release\CAS.Windows.Forms.xml" target="lib\net451\CAS.Windows.Forms.xml" />
   </files>
 </package>
 

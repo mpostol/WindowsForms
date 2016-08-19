@@ -16,7 +16,7 @@
 using System;
 using System.Windows.Forms;
 using System.ComponentModel;
-using CAS.Lib.ControlLibrary.Properties;
+using CAS.Windows.Forms.Properties;
 
 namespace CAS.Lib.ControlLibrary
 {

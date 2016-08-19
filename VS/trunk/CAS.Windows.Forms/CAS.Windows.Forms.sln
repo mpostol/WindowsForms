@@ -1,9 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UT", "UT", "{0A971CAF-57CD-4AB8-A0F3-10F902DDFD61}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48D1F11F-5B5E-4429-8BFE-A693B633DA7B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "Scripts\Scripts.csproj", "{64E78726-BC5B-4014-B8CE-5CC2881B97B4}"
@@ -75,7 +73,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6AC85A36-DD69-4E7A-B4E1-A3A5E5FC2F4B} = {0A971CAF-57CD-4AB8-A0F3-10F902DDFD61}
 		{D506423B-BA21-49E6-8C3B-88A771CA444E} = {48D1F11F-5B5E-4429-8BFE-A693B633DA7B}
 	EndGlobalSection
 EndGlobal

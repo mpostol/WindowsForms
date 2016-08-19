@@ -19,8 +19,8 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("<#=CASWindowsFormsName#>")]
-[assembly: AssemblyDescription("<#=CASWindowsFormsTitle#>")]
+[assembly: AssemblyTitle("CAS.Windows.FormsUnitTests")]
+[assembly: AssemblyDescription("<#=CASWindowsFormsTitle#> Unit Test")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("<#=AssemblyCompany#>")]
 [assembly: AssemblyProduct("<#=CoreProductName#>")]
@@ -28,7 +28,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("<#=CASWindowsFormsTrademark#>")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
-[assembly: Guid( "cf4f43e1-e97b-4230-9ba3-bf563f2bf525" )]
+[assembly: Guid( "ab1adb44-affb-4735-bdf1-8d37533eed8b" )]
 [assembly: AssemblyVersion("<#= CASWindowsFormsVersion #>.*")]
 [assembly: AssemblyFileVersion("<#= CASWindowsFormsVersion #>")]
 

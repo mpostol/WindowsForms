@@ -13,7 +13,7 @@
 //  http://www.cas.eu
 //</summary>
 
-using CAS.Lib.ControlLibrary.Properties;
+using CAS.Windows.Forms.Properties;
 using System;
 using System.ComponentModel;
 using System.Xml;
