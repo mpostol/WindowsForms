@@ -362,19 +362,6 @@
     <None Include="cas.snk" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\ImageLibrary\png\stop.png">
-      <Link>Resources\stop.png</Link>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\ImageLibrary\png\restart.png">
-      <Link>Resources\restart.png</Link>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\ImageLibrary\png\start.png">
-      <Link>Resources\start.png</Link>
-    </None>
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\AssemblyInfo.tt">
@@ -405,11 +392,17 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\restart.png" />
+    <Content Include="Images\start.png" />
+    <Content Include="Images\stop.png" />
     <Content Include="Properties\CAS.Windows.Forms.nuspec.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>CAS.Windows.Forms.nuspec.nuspec</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
