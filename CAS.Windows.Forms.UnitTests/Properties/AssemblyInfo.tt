@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("<#= CASWindowsFormsVersion #>.*")]
 [assembly: AssemblyFileVersion("<#= CASWindowsFormsVersion #>")]
 
-<#@ include file = "..\..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>
+<#@ include file = "..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>
 
