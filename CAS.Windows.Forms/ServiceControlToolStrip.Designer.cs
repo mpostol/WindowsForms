@@ -46,7 +46,7 @@
       // toolStripButton_start
       // 
       this.toolStripButton_start.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.toolStripButton_start.Image = global::CAS.Lib.ControlLibrary.Properties.Resources.start;
+      this.toolStripButton_start.Image = global::CAS.Windows.Forms.Properties.Resources.start;
       this.toolStripButton_start.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.toolStripButton_start.Name = "toolStripButton_start";
       this.toolStripButton_start.Size = new System.Drawing.Size( 23, 20 );
@@ -57,7 +57,7 @@
       // toolStripButton_stop
       // 
       this.toolStripButton_stop.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.toolStripButton_stop.Image = global::CAS.Lib.ControlLibrary.Properties.Resources.stop;
+      this.toolStripButton_stop.Image = global::CAS.Windows.Forms.Properties.Resources.stop;
       this.toolStripButton_stop.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.toolStripButton_stop.Name = "toolStripButton_stop";
       this.toolStripButton_stop.Size = new System.Drawing.Size( 23, 4 );
@@ -68,7 +68,7 @@
       // toolStripButton_restart
       // 
       this.toolStripButton_restart.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-      this.toolStripButton_restart.Image = global::CAS.Lib.ControlLibrary.Properties.Resources.restart;
+      this.toolStripButton_restart.Image = CAS.Windows.Forms.Properties.Resources.restart;
       this.toolStripButton_restart.ImageTransparentColor = System.Drawing.Color.Magenta;
       this.toolStripButton_restart.Name = "toolStripButton_restart";
       this.toolStripButton_restart.Size = new System.Drawing.Size( 23, 4 );

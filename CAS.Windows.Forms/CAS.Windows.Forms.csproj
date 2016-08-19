@@ -8,8 +8,8 @@
     <ProjectGuid>{90F8CF13-2D55-4497-BFD9-BC84E82F50EE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CAS.Lib.ControlLibrary</RootNamespace>
-    <AssemblyName>CAS.ControlLibrary</AssemblyName>
+    <RootNamespace>CAS.Windows.Forms</RootNamespace>
+    <AssemblyName>CAS.Windows.Forms</AssemblyName>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
     <FileUpgradeFlags>
@@ -17,7 +17,7 @@
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -43,7 +43,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\debug\CAS.ControlLibrary.XML</DocumentationFile>
+    <DocumentationFile>bin\debug\CAS.Windows.Forms.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -52,8 +53,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>none</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\CAS.ControlLibrary.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\CAS.Windows.Forms.xml</DocumentationFile>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CAS.CodeProtect, Version=5.0.2.39087, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
@@ -115,6 +117,7 @@
       <DependentUpon>DockPanelUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="ImportFunctionRootClass.cs" />
     <Compile Include="LabeledTreeViewPair.cs" />
     <Compile Include="LabeledTreeViewToolStrip.cs">
       <SubType>Component</SubType>
@@ -382,6 +385,7 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CAS.Windows.Forms.nuspec.tt</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -404,6 +408,7 @@
     <Content Include="Properties\CAS.Windows.Forms.nuspec.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>CAS.Windows.Forms.nuspec.nuspec</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

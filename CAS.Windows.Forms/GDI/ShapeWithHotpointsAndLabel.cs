@@ -15,10 +15,10 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Windows.Forms.Properties;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using CAS.Lib.ControlLibrary.Properties;
 
 namespace CAS.Lib.ControlLibrary.GDI
 {

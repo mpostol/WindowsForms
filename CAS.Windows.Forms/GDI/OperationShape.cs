@@ -16,11 +16,11 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Windows.Forms.Properties;
 using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using CAS.Lib.ControlLibrary.Properties;
 
 namespace CAS.Lib.ControlLibrary.GDI
 {
@@ -29,14 +29,14 @@ namespace CAS.Lib.ControlLibrary.GDI
   /// </summary>
   public class OperationShape: ShapeWithHotpointsAndLabel
   {
-    private const float InputSpaccingCoef = 1.3F;
+    private const float m_InputSpacingCoefficient = 1.3F;
     private const int ConnectorLengthInPercent = 25;
     private const int DefaultMainWidth = 40;
     private const int DefaultMainHeight = 40;
     private int MyMainWidth = DefaultMainWidth;
     private int MyMainHeight = DefaultMainHeight;
     private int MyConnectorSizeInPixels = (int)( ConnectorLengthInPercent * DefaultMainWidth / 100 );
-    private System.Windows.Forms.ToolTip toolTip_main;
+    private ToolTip toolTip_main;
     private System.ComponentModel.IContainer components;
     private int MyConnectorSizeInPixelsPrevious = 0;
     /// <summary>
@@ -110,9 +110,9 @@ namespace CAS.Lib.ControlLibrary.GDI
             HotpointsInputs[ HotpointType.Top ].Length + 1,//+1 - because space for one above and one under the controlis necessary
             topbottomsize_base );
         }
-        int leftrightsize = (int)( leftrightsize_base * InputSpaccingCoef *
+        int leftrightsize = (int)( leftrightsize_base * m_InputSpacingCoefficient *
           MyConnectorSizeInPixels );
-        int topbottomsize = (int)( topbottomsize_base * InputSpaccingCoef *
+        int topbottomsize = (int)( topbottomsize_base * m_InputSpacingCoefficient *
           MyConnectorSizeInPixels );
         if ( leftrightsize < DefaultMainHeight * Zoom )
           leftrightsize = (int)( DefaultMainHeight * Zoom );

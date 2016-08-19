@@ -18,9 +18,15 @@
 using CAS.Lib.ControlLibrary;
 using System;
 
-namespace NetworkConfig.HMI.Import
+namespace CAS.Windows.Forms
 {
-  abstract class ImportFunctionRootClass
+  /// <summary>
+  /// Class ImportFunctionRootClass - base class to implement import functionality 
+  /// </summary>
+  /// <remarks>
+  /// It opens file dialog to get file name and call the derived class to import comntent.
+  /// </remarks>
+  public abstract class ImportFunctionRootClass
   {
     #region private members
     private OKCancelForm m_okcancelform;
@@ -30,14 +36,25 @@ namespace NetworkConfig.HMI.Import
     private System.Windows.Forms.Form m_parrent_form = null;
     #endregion
     #region protected function
+    /// <summary>
+    /// Does the import functionality.
+    /// </summary>
     protected abstract void DoTheImport();
-    protected void SetImportInfo(ImportFileControll.ImportInfo _importinfo)
+    /// <summary>
+    /// Sets the import information.
+    /// </summary>
+    /// <param name="importInfo">The importinfo.</param>
+    protected void SetImportInfo(ImportFileControll.ImportInfo importInfo)
     {
-      m_importinfo = _importinfo;
+      m_importinfo = importInfo;
     }
-    protected void AppendToLog(string texttoappend)
+    /// <summary>
+    /// Appends to log.
+    /// </summary>
+    /// <param name="text2Append">The text to be appended to the local log.</param>
+    protected void AppendToLog(string text2Append)
     {
-      m_import_log += " " + texttoappend + "\r\n";
+      m_import_log += " " + text2Append + "\r\n";
     }
     #endregion
     #region creator
@@ -46,12 +63,20 @@ namespace NetworkConfig.HMI.Import
       m_importinfo = _importinfo;
       m_parrent_form = parrent_form;
     }
-    protected ImportFunctionRootClass( System.Windows.Forms.Form parrent_form )
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ImportFunctionRootClass"/> class.
+    /// </summary>
+    /// <param name="parentForm">The parent form.</param>
+    protected ImportFunctionRootClass( System.Windows.Forms.Form parentForm )
     {
-      m_parrent_form = parrent_form;
+      m_parrent_form = parentForm;
     }
     #endregion
     #region Public
+    /// <summary>
+    /// Imports this instance.
+    /// </summary>
+    /// <exception cref="System.Exception">please initialize (SetImportInfo) class: ImportFunctionRootClass first</exception>
     public void Import()
     {
       m_import_log = "";
@@ -79,8 +104,12 @@ namespace NetworkConfig.HMI.Import
         }
       }
       else
-        throw new Exception("please initialise (SetImportInfo) class: ImportFunctionRootClass first");
+        throw new Exception("please initialize (SetImportInfo) class: ImportFunctionRootClass first");
     }
+    /// <summary>
+    /// Gets the import log.
+    /// </summary>
+    /// <returns>System.String.</returns>
     public string GetImportLog()
     {
       return m_import_log;

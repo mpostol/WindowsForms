@@ -18,18 +18,16 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("CAS.Windows.Forms")]
-[assembly: AssemblyDescription("CAS.Windows.Forms-Forms Extension")]
+[assembly: AssemblyDescription("CAS.Windows.Forms - Controls Library")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
 [assembly: AssemblyProduct("CAS Framework Core")]
 [assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
-[assembly: AssemblyTrademark("CAS.Windows.Forms-CAS Framework")]
+[assembly: AssemblyTrademark("CAS Framework")]
 [assembly: AssemblyCulture("")]
-
 [assembly: ComVisible(false)]
-// The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid( "cf4f43e1-e97b-4230-9ba3-bf563f2bf525" )]
-[assembly: AssemblyVersion("5.0.2.*")]
-[assembly: AssemblyFileVersion("5.0.2")]
+[assembly: AssemblyVersion("5.0.4.*")]
+[assembly: AssemblyFileVersion("5.0.4")]
 
 
