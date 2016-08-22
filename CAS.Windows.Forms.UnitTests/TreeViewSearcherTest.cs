@@ -7,19 +7,19 @@
 //  $URL$
 //  $Id$
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
+//  Copyright (C)2009; CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
 //  mailto://techsupp@cas.eu
 //  http://www.cas.eu
 //</summary>
 
 
-using System;
-using System.Windows.Forms;
 using CAS.Lib.ControlLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Windows.Forms;
 
-namespace BK.ControlLibrary.UT
+namespace CAS.Windows.Forms.UnitTests
 {
 
 
