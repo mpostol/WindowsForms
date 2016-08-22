@@ -18,7 +18,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("CAS.Windows.Forms")]
-[assembly: AssemblyDescription("CAS.Windows.Forms - Controls Library")]
+[assembly: AssemblyDescription("CAS Windows Forms Controls Library")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
 [assembly: AssemblyProduct("CAS Framework Core")]

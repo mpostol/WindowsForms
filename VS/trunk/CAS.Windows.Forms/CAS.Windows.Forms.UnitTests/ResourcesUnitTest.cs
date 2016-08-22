@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Drawing;
 
-namespace CAS.Windows.FormsUnitTests
+namespace CAS.Windows.Forms.UnitTests
 {
   [TestClass]
   public class ResourcesUnitTest

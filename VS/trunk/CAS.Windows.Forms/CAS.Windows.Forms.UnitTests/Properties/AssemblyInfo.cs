@@ -18,7 +18,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("CAS.Windows.FormsUnitTests")]
-[assembly: AssemblyDescription("CAS.Windows.Forms - Controls Library Unit Test")]
+[assembly: AssemblyDescription("CAS Windows Forms Controls Library Unit Test")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
 [assembly: AssemblyProduct("CAS Framework Core")]
