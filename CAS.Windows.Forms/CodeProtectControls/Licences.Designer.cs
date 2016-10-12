@@ -16,9 +16,9 @@
 //  http://www.cas.eu
 //</summary>
 
-namespace CAS.Lib.CodeProtect.Controls
+namespace CAS.Windows.Forms.CodeProtectControls
 {
-  partial class Licences
+  partial class Licenses
   {
     /// <summary> 
     /// Required designer variable.
@@ -123,7 +123,7 @@ namespace CAS.Lib.CodeProtect.Controls
       this.Controls.Add( this.m_InstallLicBut );
       this.Name = "Licences";
       this.Size = new System.Drawing.Size( 380, 319 );
-      this.Load += new System.EventHandler( this.Licences_Load );
+      this.Load += new System.EventHandler( this.LicensesLoad );
       this.ResumeLayout( false );
       this.PerformLayout();
 

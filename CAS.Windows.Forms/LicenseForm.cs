@@ -15,7 +15,7 @@
 //  http://www.cas.eu
 //</summary>
 
-using CAS.Lib.CodeProtect.Controls;
+using CAS.Windows.Forms.CodeProtectControls;
 using CAS.Windows.Forms.Properties;
 using Microsoft.Win32;
 using System;
@@ -23,6 +23,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
+using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
 
@@ -30,29 +31,16 @@ namespace CAS.Lib.ControlLibrary
 {
   public partial class LicenseForm : Form
   {
+    #region public API
     /// <summary>
-    /// delegate that provide licence request message
+    /// delegate that provide license request message
     /// </summary>
     public delegate string LicenceRequestMessageProviderDelegate();
     /// <summary>
-    /// Gets or sets the licence request message provider.
+    /// Gets or sets the license request message provider.
     /// </summary>
-    /// <value>The licence request message provider.</value>
+    /// <value>The license request message provider.</value>
     public LicenceRequestMessageProviderDelegate LicenceRequestMessageProvider { set; private get; }
-    /// <summary>
-    /// Form shows CAS about information
-    /// </summary>
-    /// <param name="productImage">Icon of the product </param>
-    /// <param name="cLicenseOwner">Owner name of the product license.</param>
-    /// <param name="cassembly">Assembly the about form is for.</param>
-    public LicenseForm(Image productImage, string cLicenseOwner, System.Reflection.Assembly cassembly)
-      : this()
-    {
-      Licences l = new Licences();
-      if (cassembly == null)
-        throw (new ArgumentException("Assembly cannot be null"));
-      licenseInformation = String.Format("User: {0}, Product: {1}", cLicenseOwner, l.GetLicenseInfo());
-    }
     /// <summary>
     /// Adds an additional control.
     /// </summary>
@@ -73,6 +61,26 @@ namespace CAS.Lib.ControlLibrary
         this.m_TabControl.ResumeLayout();
       }// cn_TableLayoutPanel.
     }
+
+    #endregion
+
+    #region construtors
+    /// <summary>
+    /// Form shows CAS about information
+    /// </summary>
+    /// <param name="productImage">Icon of the product </param>
+    /// <param name="cLicenseOwner">Owner name of the product license.</param>
+    /// <param name="assembly">Assembly the about form is for.</param>
+    public LicenseForm(Image productImage, string cLicenseOwner, Assembly assembly)
+      : this()
+    {
+      Licenses l = new Licenses();
+      if (assembly == null)
+        throw (new ArgumentException("Assembly cannot be null"));
+      licenseInformation = String.Format("User: {0}, Product: {1}", cLicenseOwner, l.GetLicenseInfo());
+    }
+    #endregion
+
     #region private
     private LicenseForm()
     {
@@ -167,5 +175,6 @@ namespace CAS.Lib.ControlLibrary
     }
     private string licenseInformation;
     #endregion
+
   }
 }

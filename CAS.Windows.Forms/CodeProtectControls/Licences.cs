@@ -16,28 +16,28 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.CodeProtect.EnvironmentAccess;
+using CAS.Lib.CodeProtect.LicenseDsc;
+using CAS.Lib.CodeProtect.Properties;
 using System;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
-using CAS.Lib.CodeProtect.LicenseDsc;
-using CAS.Lib.CodeProtect.Properties;
 
-namespace CAS.Lib.CodeProtect.Controls
+namespace CAS.Windows.Forms.CodeProtectControls
 {
   /// <summary>
   /// A control to support licenses management
   /// </summary>
-  public partial class Licences: UserControl
+  public partial class Licenses : UserControl
   {
     #region public
     #region creator
     /// <summary>
-    /// Initializes a new instance of the <see cref="Licences"/> class.
+    /// Initializes a new instance of the <see cref="Licenses"/> class.
     /// </summary>
-    public Licences()
+    public Licenses()
     {
       InitializeComponent();
     }
@@ -51,18 +51,17 @@ namespace CAS.Lib.CodeProtect.Controls
       try
       {
         LicenseFile m_License = null;
-        using ( m_License = LicenseFile.LoadFile
-           ( FileNames.CreateLicenseFileStream( FileMode.Open, FileAccess.Read, FileShare.Read ), null, false ) )
+        using (m_License = LicenseFile.LoadFile(FileNames.CreateLicenseFileStream(FileMode.Open, FileAccess.Read, FileShare.Read), null, false))
         {
           StringBuilder sb = new StringBuilder();
-          sb.AppendLine( Resources.License_request_message );
-          sb.AppendLine( GetMainLicenseInformation( m_License ) );
+          sb.AppendLine(Resources.License_request_message);
+          sb.AppendLine(GetMainLicenseInformation(m_License));
           return sb.ToString();
         }
       }
-      catch ( Exception ex )
+      catch (Exception ex)
       {
-        MessageBox.Show( ex.Message );
+        MessageBox.Show(ex.Message);
         return "";
       }
     }
@@ -76,15 +75,14 @@ namespace CAS.Lib.CodeProtect.Controls
       try
       {
         LicenseFile m_License = null;
-        using ( m_License = LicenseFile.LoadFile
-           ( FileNames.CreateLicenseFileStream( FileMode.Open, FileAccess.Read, FileShare.Read ), null, false ) )
+        using (m_License = LicenseFile.LoadFile(FileNames.CreateLicenseFileStream(FileMode.Open, FileAccess.Read, FileShare.Read), null, false))
         {
           return m_License.Product.FullName;
         }
       }
-      catch ( Exception ex )
+      catch (Exception ex)
       {
-        MessageBox.Show( ex.Message );
+        MessageBox.Show(ex.Message);
         return "";
       }
     }
@@ -92,18 +90,18 @@ namespace CAS.Lib.CodeProtect.Controls
     #endregion
 
     #region private
-    private static string GetMainLicenseInformation( LicenseFile clic )
+    private static string GetMainLicenseInformation(LicenseFile license)
     {
       StringBuilder sb = new StringBuilder();
-      sb.AppendLine( "This license is issued for:" + clic.Product.FullName );
-      sb.AppendLine( "\tDescription:" + clic.Product.Description );
-      sb.AppendLine( "This product is licensed for:" );
-      sb.AppendLine( "\tUser name:\t" + clic.User.Name );
-      sb.AppendLine( "\tUser organization:\t" + clic.User.Organization );
-      sb.AppendLine( "\tUser email:\t" + clic.User.Email );
-      sb.AppendLine( "License general information:" );
-      sb.AppendLine( "\tHardware key:\t" + clic.HardwareKeyTokenBasedOnDevice );
-      sb.AppendLine( "\tLicense key:\t" + clic.LicenseKey );
+      sb.AppendLine("This license is issued for:" + license.Product.FullName);
+      sb.AppendLine("\tDescription:" + license.Product.Description);
+      sb.AppendLine("This product is licensed for:");
+      sb.AppendLine("\tUser name:\t" + license.User.Name);
+      sb.AppendLine("\tUser organization:\t" + license.User.Organization);
+      sb.AppendLine("\tUser email:\t" + license.User.Email);
+      sb.AppendLine("License general information:");
+      sb.AppendLine("\tHardware key:\t" + license.HardwareKeyTokenBasedOnDevice);
+      sb.AppendLine("\tLicense key:\t" + license.LicenseKey);
       return sb.ToString();
     }
     private void OpenLicense()
@@ -111,63 +109,64 @@ namespace CAS.Lib.CodeProtect.Controls
       try
       {
         LicenseFile m_License = null;
-        using ( m_License = LicenseFile.LoadFile
-           ( FileNames.CreateLicenseFileStream( FileMode.Open, FileAccess.Read, FileShare.Read ), null, false ) )
+        using (m_License = LicenseFile.LoadFile
+           (FileNames.CreateLicenseFileStream(FileMode.Open, FileAccess.Read, FileShare.Read), null, false))
         {
           StringBuilder sb = new StringBuilder();
-          sb.AppendLine( GetMainLicenseInformation( m_License ) );
+          sb.AppendLine(GetMainLicenseInformation(m_License));
           sb.AppendLine();
-          sb.AppendLine( "Constrains attached to this license:" );
-          foreach ( IConstraint con in ( (LicenseFile)m_License ).Constraints )
-            sb.AppendLine( con.ToString() );
+          sb.AppendLine("Constrains attached to this license:");
+          foreach (IConstraint con in ((LicenseFile)m_License).Constraints)
+            sb.AppendLine(con.ToString());
           m_textBoxLIcDescriptor.Text = sb.ToString();
         }
       }
-      catch ( Exception ex )
+      catch (Exception ex)
       {
         m_textBoxLIcDescriptor.Text = Resources.Tx_LicNoFileErr + " : " + ex.Message;
         return;
       }
     }
+
     #region event handlers
-    private void m_InstallLicBut_Click( object sender, EventArgs e )
+    private void m_InstallLicBut_Click(object sender, EventArgs e)
     {
-      if ( m_OpenFileDialog.ShowDialog() != DialogResult.OK )
+      if (m_OpenFileDialog.ShowDialog() != DialogResult.OK)
         return;
-      try 
-      { 
-        CodeProtect.LicenseDsc.LicenseFile.UpgradeLicense( m_OpenFileDialog.FileName );
-        MessageBox.Show( "License upgrade has been successfully installed", "Upgrade license", MessageBoxButtons.OK, MessageBoxIcon.Information );
+      try
+      {
+        LicenseFile.UpgradeLicense(m_OpenFileDialog.FileName);
+        MessageBox.Show("License upgrade has been successfully installed", "Upgrade license", MessageBoxButtons.OK, MessageBoxIcon.Information);
       }
-      catch ( Exception ex )
+      catch (Exception ex)
       {
         string mess = "Installation license failure: ";
-        mess = LicenseFileException.TraceInnerExceptions( ex, mess );
-        MessageBox.Show( mess, Resources.CaptionUpgardeLicense, MessageBoxButtons.OK, MessageBoxIcon.Error );
+        mess = LicenseFileException.TraceInnerExceptions(ex, mess);
+        MessageBox.Show(mess, Resources.CaptionUpgardeLicense, MessageBoxButtons.OK, MessageBoxIcon.Error);
       }
     }
-    private void button_export_info_Click( object sender, EventArgs e )
+    private void button_export_info_Click(object sender, EventArgs e)
     {
       try
       {
-        if ( m_saveFileDialog.ShowDialog() == DialogResult.OK )
+        if (m_saveFileDialog.ShowDialog() == DialogResult.OK)
         {
-          FileInfo _fileInfo = new FileInfo( m_saveFileDialog.FileName );
-          if ( _fileInfo.Exists )
+          FileInfo _fileInfo = new FileInfo(m_saveFileDialog.FileName);
+          if (_fileInfo.Exists)
             _fileInfo.Delete();
-          using ( StreamWriter file = new StreamWriter( m_saveFileDialog.FileName ) )
+          using (StreamWriter file = new StreamWriter(m_saveFileDialog.FileName))
           {
-            file.Write( m_textBoxLIcDescriptor.Text );
+            file.Write(m_textBoxLIcDescriptor.Text);
           }
-          Process.Start( m_saveFileDialog.FileName );
+          Process.Start(m_saveFileDialog.FileName);
         }
       }
-      catch ( Exception ex )
+      catch (Exception ex)
       {
-        MessageBox.Show( ex.Message );
+        MessageBox.Show(ex.Message);
       }
     }
-    private void Licences_Load( object sender, EventArgs e )
+    private void LicensesLoad(object sender, EventArgs e)
     {
       OpenLicense();
     }

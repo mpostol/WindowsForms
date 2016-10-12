@@ -1,6 +1,6 @@
-﻿namespace CAS.Lib.CodeProtect.Controls
+﻿namespace CAS.Windows.Forms.CodeProtectControls
 {
-  partial class UlockKeyDialog
+  partial class UnlockKeyDialog
   {
     /// <summary> 
     /// Required designer variable.
@@ -31,17 +31,17 @@
       this.components = new System.ComponentModel.Container();
       System.Windows.Forms.ToolTip m_ToolTip;
       System.Windows.Forms.Label labelUnlock;
-      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager( typeof( UlockKeyDialog ) );
-      this.m_UlockKey = new System.Windows.Forms.TextBox();
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager( typeof(UnlockKeyDialog) );
+      this.m_UnlockKey = new System.Windows.Forms.TextBox();
       this.m_OKButton = new System.Windows.Forms.Button();
       this.m_CancelButton = new System.Windows.Forms.Button();
-      this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+      this.m_SplitContainer = new System.Windows.Forms.SplitContainer();
       this.m_HelpText = new System.Windows.Forms.RichTextBox();
       m_ToolTip = new System.Windows.Forms.ToolTip( this.components );
       labelUnlock = new System.Windows.Forms.Label();
-      this.splitContainer1.Panel1.SuspendLayout();
-      this.splitContainer1.Panel2.SuspendLayout();
-      this.splitContainer1.SuspendLayout();
+      this.m_SplitContainer.Panel1.SuspendLayout();
+      this.m_SplitContainer.Panel2.SuspendLayout();
+      this.m_SplitContainer.SuspendLayout();
       this.SuspendLayout();
       // 
       // m_ToolTip
@@ -50,12 +50,12 @@
       // 
       // m_UlockKey
       // 
-      this.m_UlockKey.Dock = System.Windows.Forms.DockStyle.Bottom;
-      this.m_UlockKey.Location = new System.Drawing.Point( 0, 18 );
-      this.m_UlockKey.Name = "m_UlockKey";
-      this.m_UlockKey.Size = new System.Drawing.Size( 580, 20 );
-      this.m_UlockKey.TabIndex = 1;
-      m_ToolTip.SetToolTip( this.m_UlockKey, "In the \"Unlock key\" text box enter your key." );
+      this.m_UnlockKey.Dock = System.Windows.Forms.DockStyle.Bottom;
+      this.m_UnlockKey.Location = new System.Drawing.Point( 0, 18 );
+      this.m_UnlockKey.Name = "m_UlockKey";
+      this.m_UnlockKey.Size = new System.Drawing.Size( 580, 20 );
+      this.m_UnlockKey.TabIndex = 1;
+      m_ToolTip.SetToolTip( this.m_UnlockKey, "In the \"Unlock key\" text box enter your key." );
       // 
       // labelUnlock
       // 
@@ -92,24 +92,24 @@
       // 
       // splitContainer1
       // 
-      this.splitContainer1.Anchor = ( (System.Windows.Forms.AnchorStyles)( ( ( ( System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom )
+      this.m_SplitContainer.Anchor = ( (System.Windows.Forms.AnchorStyles)( ( ( ( System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom )
                   | System.Windows.Forms.AnchorStyles.Left )
                   | System.Windows.Forms.AnchorStyles.Right ) ) );
-      this.splitContainer1.Location = new System.Drawing.Point( 0, 0 );
-      this.splitContainer1.Name = "splitContainer1";
-      this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+      this.m_SplitContainer.Location = new System.Drawing.Point( 0, 0 );
+      this.m_SplitContainer.Name = "splitContainer1";
+      this.m_SplitContainer.Orientation = System.Windows.Forms.Orientation.Horizontal;
       // 
       // splitContainer1.Panel1
       // 
-      this.splitContainer1.Panel1.Controls.Add( this.m_HelpText );
+      this.m_SplitContainer.Panel1.Controls.Add( this.m_HelpText );
       // 
       // splitContainer1.Panel2
       // 
-      this.splitContainer1.Panel2.Controls.Add( labelUnlock );
-      this.splitContainer1.Panel2.Controls.Add( this.m_UlockKey );
-      this.splitContainer1.Size = new System.Drawing.Size( 580, 472 );
-      this.splitContainer1.SplitterDistance = 430;
-      this.splitContainer1.TabIndex = 4;
+      this.m_SplitContainer.Panel2.Controls.Add( labelUnlock );
+      this.m_SplitContainer.Panel2.Controls.Add( this.m_UnlockKey );
+      this.m_SplitContainer.Size = new System.Drawing.Size( 580, 472 );
+      this.m_SplitContainer.SplitterDistance = 430;
+      this.m_SplitContainer.TabIndex = 4;
       // 
       // m_HelpText
       // 
@@ -132,7 +132,7 @@
       this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
       this.CancelButton = this.m_CancelButton;
       this.ClientSize = new System.Drawing.Size( 580, 506 );
-      this.Controls.Add( this.splitContainer1 );
+      this.Controls.Add( this.m_SplitContainer );
       this.Controls.Add( this.m_CancelButton );
       this.Controls.Add( this.m_OKButton );
       this.Icon = ( (System.Drawing.Icon)( resources.GetObject( "$this.Icon" ) ) );
@@ -142,10 +142,10 @@
       this.Name = "UlockKeyDialog";
       this.Text = "Unlock software";
       m_ToolTip.SetToolTip( this, resources.GetString( "$this.ToolTip" ) );
-      this.splitContainer1.Panel1.ResumeLayout( false );
-      this.splitContainer1.Panel2.ResumeLayout( false );
-      this.splitContainer1.Panel2.PerformLayout();
-      this.splitContainer1.ResumeLayout( false );
+      this.m_SplitContainer.Panel1.ResumeLayout( false );
+      this.m_SplitContainer.Panel2.ResumeLayout( false );
+      this.m_SplitContainer.Panel2.PerformLayout();
+      this.m_SplitContainer.ResumeLayout( false );
       this.ResumeLayout( false );
 
     }
@@ -154,8 +154,8 @@
 
     private System.Windows.Forms.Button m_OKButton;
     private System.Windows.Forms.Button m_CancelButton;
-    private System.Windows.Forms.SplitContainer splitContainer1;
-    private System.Windows.Forms.TextBox m_UlockKey;
+    private System.Windows.Forms.SplitContainer m_SplitContainer;
+    private System.Windows.Forms.TextBox m_UnlockKey;
     private System.Windows.Forms.RichTextBox m_HelpText;
   }
 }
