@@ -23,42 +23,42 @@ using CAS.Lib.CodeProtect.Properties;
 using CAS.Lib.CodeProtect.EnvironmentAccess;
 
 
-namespace CAS.Lib.CodeProtect.Controls
+namespace CAS.Windows.Forms.CodeProtectControls
 {
   /// <summary>
   /// Dialog used to provide the unlock key.
   /// </summary>
-  public partial class UlockKeyDialog: Form
+  public partial class UnlockKeyDialog: Form
   {
     #region public
     /// <summary>
-    /// Initializes a new instance of the <see cref="UlockKeyDialog"/> class.
+    /// Initializes a new instance of the <see cref="UnlockKeyDialog"/> class.
     /// </summary>
-    /// <param name="container">The container of the embeded resources.</param>
-    private UlockKeyDialog( UnlockKeyAssemblyContainer container )
+    /// <param name="container">The container of the embedded resources.</param>
+    private UnlockKeyDialog( UnlockKeyAssemblyContainer container )
     {
       InitializeComponent();
       this.m_HelpText.Rtf = Resources.HowToUlock_docx;
       m_Container = container;
     }
     /// <summary>
-    /// Initializes a new instance of the <see cref="UlockKeyDialog"/> class.
+    /// Initializes a new instance of the <see cref="UnlockKeyDialog"/> class.
     /// </summary>
-    /// <param name="assembly">The assembly - container of the embeded resources.</param>
-    public UlockKeyDialog( Assembly assembly )
+    /// <param name="assembly">The assembly - container of the embedded resources.</param>
+    public UnlockKeyDialog( Assembly assembly )
       : this( new UnlockKeyAssemblyContainer( assembly ) )
     { }
     /// <summary>
-    /// Initializes a new instance of the <see cref="UlockKeyDialog"/> class.
+    /// Initializes a new instance of the <see cref="UnlockKeyDialog"/> class.
     /// </summary>
-    /// <param name="assemblyName">Name of an assembly that is a container of the embeded resources.</param>
-    public UlockKeyDialog( string assemblyName )
+    /// <param name="assemblyName">Name of an assembly that is a container of the embedded resources.</param>
+    public UnlockKeyDialog( string assemblyName )
       : this( new UnlockKeyAssemblyContainer( assemblyName ) )
     { }
     /// <summary>
-    /// Initializes a new instance of the <see cref="UlockKeyDialog"/> class. It uses a default container of the embeded resources.
+    /// Initializes a new instance of the <see cref="UnlockKeyDialog"/> class. It uses a default container of the embedded resources.
     /// </summary>
-    public UlockKeyDialog()
+    public UnlockKeyDialog()
       : this( new UnlockKeyAssemblyContainer() )
     { }
     /// <summary>
@@ -81,23 +81,23 @@ namespace CAS.Lib.CodeProtect.Controls
       UnlockKeyAssemblyContainer container = new UnlockKeyAssemblyContainer( assemblyName );
       if ( container == null )
         return;
-      Invocker inv = new Invocker( container );
+      Invoker inv = new Invoker( container );
       AddMenu( toolStripItemCollection, inv );
     }
     /// <summary>
     /// Adds the <see cref="ToolStripMenuItem"/> to the <paramref name="toolStripItemCollection"/>.
     /// </summary>
     /// <param name="toolStripItemCollection">The tool strip item collection.</param>
-    /// <param name="resourceCointainer">The resource cointainer.</param>
-    public static void AddMenu( ToolStripItemCollection toolStripItemCollection, Assembly resourceCointainer )
+    /// <param name="resourceContainer">The resource container.</param>
+    public static void AddMenu( ToolStripItemCollection toolStripItemCollection, Assembly resourceContainer )
     {
-      Invocker inv = new Invocker( new UnlockKeyAssemblyContainer( resourceCointainer ) );
+      Invoker inv = new Invoker( new UnlockKeyAssemblyContainer( resourceContainer ) );
       AddMenu( toolStripItemCollection, inv );
     }
     #endregion
 
     #region private
-    private static void AddMenu( ToolStripItemCollection toolStripItemCollection, Invocker inv )
+    private static void AddMenu( ToolStripItemCollection toolStripItemCollection, Invoker inv )
     {
       ToolStripMenuItem mi = new ToolStripMenuItem( Resources.MenuItemText )
       {
@@ -110,18 +110,18 @@ namespace CAS.Lib.CodeProtect.Controls
       toolStripItemCollection.Add( mi );
     }
 
-    private class Invocker
+    private class Invoker
     {
       /// <summary>
-      /// Initializes a new instance of the <see cref="Invocker"/> class.
+      /// Initializes a new instance of the <see cref="Invoker"/> class.
       /// </summary>
       /// <param name="container">The container.</param>
-      internal Invocker( UnlockKeyAssemblyContainer container )
+      internal Invoker( UnlockKeyAssemblyContainer container )
       {
         m_Container = container;
       }
       /// <summary>
-      /// Handles the menu item click and shows the <see cref="UlockKeyDialog"/> .
+      /// Handles the menu item click and shows the <see cref="UnlockKeyDialog"/> .
       /// </summary>
       /// <param name="sender">The sender.</param>
       /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
@@ -129,7 +129,7 @@ namespace CAS.Lib.CodeProtect.Controls
       {
         if ( m_Container == null )
           return;
-        using ( UlockKeyDialog dialog = new UlockKeyDialog( m_Container ) )
+        using ( UnlockKeyDialog dialog = new UnlockKeyDialog( m_Container ) )
         {
           dialog.ShowDialog();
         }
@@ -139,12 +139,12 @@ namespace CAS.Lib.CodeProtect.Controls
     private UnlockKeyAssemblyContainer m_Container;
     private void m_OKButton_Click( object sender, EventArgs e )
     {
-      if ( String.IsNullOrEmpty( m_UlockKey.Text ) )
+      if ( String.IsNullOrEmpty( m_UnlockKey.Text ) )
         return;
       string path = String.Empty;
       try
       {
-        path = m_Container.GetManifestResourcePath( m_UlockKey.Text );
+        path = m_Container.GetManifestResourcePath( m_UnlockKey.Text );
         if ( String.IsNullOrEmpty( path ) )
         {
           MessageBox.Show

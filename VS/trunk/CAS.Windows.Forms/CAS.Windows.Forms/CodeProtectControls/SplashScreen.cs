@@ -13,6 +13,7 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.CodeProtect;
 using CAS.Lib.CodeProtect.EnvironmentAccess;
 using CAS.Lib.CodeProtect.Properties;
 using System;
@@ -24,13 +25,14 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace CAS.Lib.CodeProtect.Controls
+namespace CAS.Windows.Forms.CodeProtectControls
 {
   /// <summary>
   /// SplashScreen to provide information about events while starting.
   /// </summary>
   public partial class SplashScreen: Form
   {
+
     #region public
     /// <summary>
     /// This class trace to a text box on on the <see cref="SplashScreen"/> failure reason and warning.
@@ -305,5 +307,6 @@ namespace CAS.Lib.CodeProtect.Controls
       MaintenancePeriodWarning = m_MaintenanceControlComponent.Licensed;
     }
     #endregion private
+
   }
 }

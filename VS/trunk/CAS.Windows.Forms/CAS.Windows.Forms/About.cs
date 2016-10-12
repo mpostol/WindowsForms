@@ -15,10 +15,10 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Windows.Forms.CodeProtectControls;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using CAS.Lib.CodeProtect.Controls;
 
 namespace CAS.Lib.ControlLibrary
 {
@@ -37,7 +37,7 @@ namespace CAS.Lib.ControlLibrary
     /// <summary>
     /// Allows do show on the about window the assembly full name.
     /// </summary>
-    public Licences SetLicenseLabel
+    public Licenses SetLicenseLabel
     {
       set
       {

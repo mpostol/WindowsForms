@@ -17,6 +17,7 @@
 
 using CAS.Lib.ControlLibrary;
 using System;
+using System.Windows.Forms;
 
 namespace CAS.Windows.Forms
 {
@@ -24,7 +25,7 @@ namespace CAS.Windows.Forms
   /// Class ImportFunctionRootClass - base class to implement import functionality 
   /// </summary>
   /// <remarks>
-  /// It opens file dialog to get file name and call the derived class to import comntent.
+  /// It opens file dialog to get file name and call the derived class to import content.
   /// </remarks>
   public abstract class ImportFunctionRootClass
   {
@@ -43,7 +44,7 @@ namespace CAS.Windows.Forms
     /// <summary>
     /// Sets the import information.
     /// </summary>
-    /// <param name="importInfo">The importinfo.</param>
+    /// <param name="importInfo">The import info.</param>
     protected void SetImportInfo(ImportFileControll.ImportInfo importInfo)
     {
       m_importinfo = importInfo;
@@ -58,10 +59,10 @@ namespace CAS.Windows.Forms
     }
     #endregion
     #region creator
-    internal ImportFunctionRootClass( ImportFileControll.ImportInfo _importinfo, System.Windows.Forms.Form parrent_form )
+    internal ImportFunctionRootClass( ImportFileControll.ImportInfo _importinfo, Form parentForm )
     {
       m_importinfo = _importinfo;
-      m_parrent_form = parrent_form;
+      m_parrent_form = parentForm;
     }
     /// <summary>
     /// Initializes a new instance of the <see cref="ImportFunctionRootClass"/> class.
@@ -72,6 +73,7 @@ namespace CAS.Windows.Forms
       m_parrent_form = parentForm;
     }
     #endregion
+
     #region Public
     /// <summary>
     /// Imports this instance.
