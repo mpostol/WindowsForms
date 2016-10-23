@@ -91,6 +91,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyTraceEventUnitTest.cs" />
+    <Compile Include="Instrumentation\Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -101,7 +103,7 @@
     <Compile Include="CSVManagementUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="App.config" />
     <None Include="cas.snk" />
     <None Include="TestData\CSVManagementTestData.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
