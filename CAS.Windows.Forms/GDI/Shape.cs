@@ -15,9 +15,11 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.RTLib.Processes;
 using CAS.Windows.Forms.Properties;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
@@ -105,8 +107,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       {
         string sourceName = this.GetType().FullName + ".Shape_Resize";
         MessageBox.Show( String.Format( Resources.ErrorMessage, sourceName ), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error );
-        TraceEvent.Tracer.TraceError( 102, sourceName,
-          CAS.Lib.RTLib.Processes.TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException( ex ) );
+        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 102, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException( ex ) );
       }
     }
 
@@ -137,8 +138,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       {
         string sourceName = this.GetType().FullName + ".Shape_Paint";
         MessageBox.Show( String.Format( Resources.ErrorMessage, sourceName ), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error );
-        TraceEvent.Tracer.TraceError( 140, sourceName,
-          CAS.Lib.RTLib.Processes.TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException( ex ) );
+        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 140, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException( ex ) );
       }
     }
 

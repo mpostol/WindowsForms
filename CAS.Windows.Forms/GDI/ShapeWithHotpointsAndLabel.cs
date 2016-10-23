@@ -15,8 +15,10 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.RTLib.Processes;
 using CAS.Windows.Forms.Properties;
 using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -25,7 +27,7 @@ namespace CAS.Lib.ControlLibrary.GDI
   /// <summary>
   /// Shape with hotpoints and label on it
   /// </summary>
-  public class ShapeWithHotpointsAndLabel: ShapeWithHotpoints
+  public class ShapeWithHotpointsAndLabel : ShapeWithHotpoints
   {
     #region private
     private const float LabelSpaccingCoef = 1.1F;
@@ -37,10 +39,10 @@ namespace CAS.Lib.ControlLibrary.GDI
       // 
       // ShapeWithHotpointsAndLabel
       // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF( 6F, 13F );
+      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.Name = "ShapeWithHotpointsAndLabel";
-      this.Paint += new System.Windows.Forms.PaintEventHandler( this.ShapeWithHotpointsAndLabel_Paint );
-      this.ResumeLayout( false );
+      this.Paint += new System.Windows.Forms.PaintEventHandler(this.ShapeWithHotpointsAndLabel_Paint);
+      this.ResumeLayout(false);
       this.PerformLayout();
 
     }
@@ -58,20 +60,20 @@ namespace CAS.Lib.ControlLibrary.GDI
     {
       Size size = this.Size;
       SizeF labelsize = GetLabelSize();
-      if ( size != null && labelsize != null )
+      if (size != null && labelsize != null)
       {
         bool change = false;
-        if ( size.Width < labelsize.Width * LabelSpaccingCoef + mTextMargin )
+        if (size.Width < labelsize.Width * LabelSpaccingCoef + mTextMargin)
         {
-          size.Width = (int)( labelsize.Width * LabelSpaccingCoef + mTextMargin );
+          size.Width = (int)(labelsize.Width * LabelSpaccingCoef + mTextMargin);
           change = true;
         }
-        if ( size.Height < labelsize.Height * LabelSpaccingCoef + mTextMargin )
+        if (size.Height < labelsize.Height * LabelSpaccingCoef + mTextMargin)
         {
-          size.Height = (int)( labelsize.Height * LabelSpaccingCoef + mTextMargin );
+          size.Height = (int)(labelsize.Height * LabelSpaccingCoef + mTextMargin);
           change = true;
         }
-        if ( change )
+        if (change)
           this.Size = size;
       }
       base.RecalculateAndCheckSizeOfTheShape();
@@ -92,13 +94,11 @@ namespace CAS.Lib.ControlLibrary.GDI
         RecalculateAndCheckSizeOfTheShape();
       }
     }
-    private void ShapeWithHotpointsAndLabel_Paint( object sender, System.Windows.Forms.PaintEventArgs e )
+    private void ShapeWithHotpointsAndLabel_Paint(object sender, System.Windows.Forms.PaintEventArgs e)
     {
       SizeF mylabelsize = GetLabelSize();
-      if ( mylabelsize != null && MyGraphicsSettings != null )
-        e.Graphics.DrawString( myLabel, MyGraphicsSettings.MainFont, MyGraphicsSettings.TextBrush,
-          new PointF( ClientRectangle.Width / 2 - mylabelsize.Width / 2,
-             ClientRectangle.Height / 2 - mylabelsize.Height / 2 ) );
+      if (mylabelsize != null && MyGraphicsSettings != null)
+        e.Graphics.DrawString(myLabel, MyGraphicsSettings.MainFont, MyGraphicsSettings.TextBrush, new PointF(ClientRectangle.Width / 2 - mylabelsize.Width / 2, ClientRectangle.Height / 2 - mylabelsize.Height / 2));
     }
     /// <summary>
     /// Gets or sets the text margin in pixels.
@@ -122,21 +122,20 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// <returns></returns>
     protected SizeF GetLabelSize()
     {
-      if ( MyGraphicsSettings == null )
+      if (MyGraphicsSettings == null)
         return new SizeF();
       try
       {
         Graphics g = this.CreateGraphics();
-        SizeF size = g.MeasureString( myLabel, MyGraphicsSettings.MainFont );
+        SizeF size = g.MeasureString(myLabel, MyGraphicsSettings.MainFont);
         g.Dispose();
         return size;
       }
-      catch ( Exception ex )
+      catch (Exception ex)
       {
         string sourceName = this.GetType().FullName + ".GetLabelSize";
-        MessageBox.Show( String.Format( Resources.ErrorMessage, sourceName ), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error );
-        TraceEvent.Tracer.TraceError( 130, sourceName,
-          CAS.Lib.RTLib.Processes.TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException( ex ) );
+        MessageBox.Show(String.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 130, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
         return new SizeF();
       }
     }
