@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CAS.Windows.Forms</id>
-    <version>6.0.0-Delta</version>
+    <version>6.0.1</version>
     <title>CAS Windows Forms Controls Library</title>
     <authors>CAS</authors>
     <owners>commsvr.com</owners>
