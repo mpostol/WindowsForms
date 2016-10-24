@@ -44,7 +44,7 @@ namespace CAS.Windows.Forms.UnitTests
       Assert.IsNotNull(_advancedListener);
       Assert.IsFalse(String.IsNullOrEmpty(_advancedListener.GetFileName()));
       FileInfo _logFileInfo = new FileInfo(_advancedListener.GetFileName());
-      long _startLength = _logFileInfo.Length;
+      long _startLength = _logFileInfo.Exists ?_logFileInfo.Length : 0;
       _tracer.TraceEvent(TraceEventType.Information, 0, "LogFileExistsTest is executed");
       Assert.IsFalse(String.IsNullOrEmpty(_advancedListener.GetFileName()));
       _logFileInfo.Refresh();
