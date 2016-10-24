@@ -429,7 +429,7 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </None>
-    <None Include="Properties\CAS.Windows.Forms.nuspec.nuspec">
+    <None Include="CAS.Windows.Forms.nuspec.nuspec">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CAS.Windows.Forms.nuspec.tt</DependentUpon>
@@ -456,7 +456,7 @@
     <Content Include="Images\restart.png" />
     <Content Include="Images\start.png" />
     <Content Include="Images\stop.png" />
-    <Content Include="Properties\CAS.Windows.Forms.nuspec.tt">
+    <Content Include="CAS.Windows.Forms.nuspec.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>CAS.Windows.Forms.nuspec.nuspec</LastGenOutput>
       <SubType>Designer</SubType>
