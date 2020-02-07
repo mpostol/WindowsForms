@@ -88,12 +88,6 @@
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="UAOOI.ProcessObserver.RealTime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\UAOOI.ProcessObserver.RealTime.6.0.0-Alpha\lib\net451\UAOOI.ProcessObserver.RealTime.dll</HintPath>
-    </Reference>
-    <Reference Include="UAOOI.ProcessObserver.RealTimeCore, Version=6.0.0.0, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\UAOOI.ProcessObserver.RealTime.6.0.0-Alpha\lib\net451\UAOOI.ProcessObserver.RealTimeCore.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.cs">
@@ -152,6 +146,7 @@
     <Compile Include="DebugDockPanelUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Diagnostics\ExceptionExtensions.cs" />
     <Compile Include="DockPanelUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -456,7 +451,6 @@
       <LastGenOutput>CAS.Windows.Forms.nuspec.nuspec</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Logo64.PNG" />
     <None Include="Resources\SecurityUnlock.ico" />
   </ItemGroup>
   <ItemGroup />

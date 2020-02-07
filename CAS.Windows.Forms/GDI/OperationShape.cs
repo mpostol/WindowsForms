@@ -5,7 +5,7 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.Lib.RTLib.Processes;
+using CAS.Windows.Forms.Diagnostics;
 using CAS.Windows.Forms.Properties;
 using System;
 using System.Diagnostics;
@@ -84,7 +84,7 @@ namespace CAS.Lib.ControlLibrary.GDI
         {
           string sourceName = GetType().FullName + ".RefreshPath";
           MessageBox.Show(string.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
-          AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 61, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
+          AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 87, sourceName, ex.GetMessageWithExceptionNameFromExceptionIncludingInnerException());
         }
         base.RefreshPath();
       }
@@ -155,7 +155,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       {
         string sourceName = GetType().FullName + ".RecalculateAndCheckSizeOfTheShape";
         MessageBox.Show(string.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
-        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 118, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
+        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 118, sourceName, ex.GetMessageWithExceptionNameFromExceptionIncludingInnerException());
       }
       base.RecalculateAndCheckSizeOfTheShape();
     }

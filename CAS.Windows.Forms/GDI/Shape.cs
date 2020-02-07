@@ -5,7 +5,7 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.Lib.RTLib.Processes;
+using CAS.Windows.Forms.Diagnostics;
 using CAS.Windows.Forms.Properties;
 using System;
 using System.Collections.Generic;
@@ -82,7 +82,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       {
         string sourceName = GetType().FullName + ".Shape_Resize";
         MessageBox.Show(string.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
-        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 102, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
+        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 102, sourceName, ex.GetMessageWithExceptionNameFromExceptionIncludingInnerException());
       }
     }
     /// <summary>
@@ -112,7 +112,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       {
         string sourceName = GetType().FullName + ".Shape_Paint";
         MessageBox.Show(string.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
-        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 140, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
+        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 140, sourceName, ex.GetMessageWithExceptionNameFromExceptionIncludingInnerException());
       }
     }
     private void Shape_Load(object sender, EventArgs e)
@@ -184,7 +184,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       set
       {
         if (value <= 0)
-          throw new ArgumentOutOfRangeException("Zomm alows only greater than 0 values");
+          throw new ArgumentOutOfRangeException("Zoom allows only greater than 0 values");
         mZoom = value;
         MyGraphicsSettings = MyGraphicsSettings.GetGraphicsSettingsWithSpecifiedZoom(value);
         Size = new Size(0, 0);
