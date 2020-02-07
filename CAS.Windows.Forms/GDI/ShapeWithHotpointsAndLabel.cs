@@ -5,7 +5,7 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.Lib.RTLib.Processes;
+using CAS.Windows.Forms.Diagnostics;
 using CAS.Windows.Forms.Properties;
 using System;
 using System.Diagnostics;
@@ -126,7 +126,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       {
         string sourceName = this.GetType().FullName + ".GetLabelSize";
         MessageBox.Show(String.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
-        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 130, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
+        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 130, sourceName, ex.GetMessageWithExceptionNameFromExceptionIncludingInnerException());
         return new SizeF();
       }
     }

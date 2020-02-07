@@ -89,12 +89,6 @@
     <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="UAOOI.ProcessObserver.RealTime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\UAOOI.ProcessObserver.RealTime.6.0.0-Alpha\lib\net451\UAOOI.ProcessObserver.RealTime.dll</HintPath>
-    </Reference>
-    <Reference Include="UAOOI.ProcessObserver.RealTimeCore, Version=6.0.0.0, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\UAOOI.ProcessObserver.RealTime.6.0.0-Alpha\lib\net451\UAOOI.ProcessObserver.RealTimeCore.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyTraceEventUnitTest.cs" />
@@ -111,7 +105,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="cas.snk" />
-    <None Include="packages.config" />
     <None Include="TestData\CSVManagementTestData.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -146,7 +139,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Logo64.PNG" />
     <Content Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
