@@ -17,19 +17,12 @@ namespace CAS.Lib.ControlLibrary
   /// </summary>
   public partial class ImportFileControll : UserControl
   {
-    #region members
-    private ImportInfo m_info;
-    private ICanBeAccepted m_canbeaccepted;
-    #endregion
+
     /// <summary>
     /// abstract class that contains main data for the form and import settings
     /// </summary>
     public abstract class ImportInfo
     {
-
-      #region private
-      private string m_filename;
-      #endregion
 
       /// <summary>
       /// the name for that import
@@ -75,11 +68,7 @@ namespace CAS.Lib.ControlLibrary
       /// selected filename
       /// </summary>
       [BrowsableAttribute(false)]
-      public string Filename
-      {
-        get => m_filename;
-        set => m_filename = value;
-      }
+      public string Filename { get; set; }
     }
 
     #region constructor
@@ -106,20 +95,23 @@ namespace CAS.Lib.ControlLibrary
     }
     #endregion
 
+    #region private
+    private ImportInfo m_info;
+    private ICanBeAccepted m_canbeaccepted;
+
     #region handlers
     private void button1_Click(object sender, EventArgs e)
     {
       if (openFileDialog_for_import.ShowDialog() == DialogResult.OK)
-      {
         textBox_filename.Text = openFileDialog_for_import.FileName;
-      }
     }
-    #endregion
-
     private void textBox_filename_TextChanged(object sender, EventArgs e)
     {
       m_info.Filename = textBox_filename.Text;
       m_canbeaccepted.CanBeAccepted(true);
     }
+    #endregion
+
+    #endregion
   }
 }
