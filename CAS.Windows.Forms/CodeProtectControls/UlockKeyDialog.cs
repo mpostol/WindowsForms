@@ -1,17 +1,10 @@
-﻿//<summary>
-//  Title   : CAS.Lib.CodeProtect.Controls.UlockKeyDialog: Dialog used to provide the unlock key.
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
+
 
 using System;
 using System.Drawing;
@@ -104,7 +97,7 @@ namespace CAS.Windows.Forms.CodeProtectControls
         ToolTipText = Resources.MenuItemToolTipText,
         ShortcutKeys = Keys.Alt | Keys.K,
         ShowShortcutKeys = true,
-        Image = Bitmap.FromHicon( Resources.SecurityUnlock.ToBitmap().GetHicon() )
+        Image = Bitmap.FromHicon( UnlockKeyDialogResources.SecurityUnlock.ToBitmap().GetHicon() )
       };
       mi.Click += new EventHandler( inv.ClickHandler );
       toolStripItemCollection.Add( mi );

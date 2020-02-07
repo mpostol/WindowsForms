@@ -1,19 +1,9 @@
-﻿//<summary>
-//  Title   : Root Shape controll for all other objects
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    20080304 - mzbrzezny: created
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using CAS.Lib.RTLib.Processes;
 using CAS.Windows.Forms.Properties;
@@ -29,7 +19,7 @@ namespace CAS.Lib.ControlLibrary.GDI
   /// <summary>
   /// Shape root graphical element
   /// </summary>
-  public partial class Shape: UserControl
+  public partial class Shape : UserControl
   {
     #region private
     private float mZoom;
@@ -49,11 +39,11 @@ namespace CAS.Lib.ControlLibrary.GDI
       paths = new List<GraphicsPath>();
       RefreshPath();
       GraphicsPath path = new GraphicsPath();
-      if ( paths != null )
-        foreach ( GraphicsPath p in paths )
-          path.AddPath( p, false );
+      if (paths != null)
+        foreach (GraphicsPath p in paths)
+          path.AddPath(p, false);
       path.CloseAllFigures();
-      this.Region = new Region( path );
+      Region = new Region(path);
     }
     /// <summary>
     /// Refreshes the path. this function recreate the shape depends on the control size
@@ -72,22 +62,16 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// Adds the path.
     /// </summary>
     /// <param name="path">The path.</param>
-    protected void AddPath( GraphicsPath path )
+    protected void AddPath(GraphicsPath path)
     {
-      if ( path != null && path.PointCount > 0 )
-        paths.Add( path );
+      if (path != null && path.PointCount > 0)
+        paths.Add(path);
     }
     /// <summary>
     /// Gets my graphics settings.
     /// </summary>
     /// <value>My graphics settings.</value>
-    protected GraphicsSettings MyGraphicsSettings
-    {
-      get
-      {
-        return myGraphicsSettings;
-      }
-    }
+    protected GraphicsSettings MyGraphicsSettings => myGraphicsSettings;
 
 
     /// <summary>
@@ -95,19 +79,19 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// </summary>
     /// <param name="sender">The source of the event.</param>
     /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
-    private void Shape_Resize( object sender, EventArgs e )
+    private void Shape_Resize(object sender, EventArgs e)
     {
       try
       {
         RecalculateAndCheckSizeOfTheShape();
         RefreshPathRootShape();
-        this.Invalidate();
+        Invalidate();
       }
-      catch ( Exception ex )
+      catch (Exception ex)
       {
-        string sourceName = this.GetType().FullName + ".Shape_Resize";
-        MessageBox.Show( String.Format( Resources.ErrorMessage, sourceName ), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error );
-        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 102, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException( ex ) );
+        string sourceName = GetType().FullName + ".Shape_Resize";
+        MessageBox.Show(string.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 102, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
       }
     }
 
@@ -116,57 +100,57 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// </summary>
     /// <param name="sender">The source of the event.</param>
     /// <param name="e">The <see cref="System.Windows.Forms.PaintEventArgs"/> instance containing the event data.</param>
-    private void Shape_Paint( object sender, PaintEventArgs e )
+    private void Shape_Paint(object sender, PaintEventArgs e)
     {
       try
       {
-        if ( paths != null )
+        if (paths != null)
         {
-          foreach ( GraphicsPath p in paths )
-            if ( p != null )
+          foreach (GraphicsPath p in paths)
+            if (p != null)
             {
               Graphics dc = e.Graphics;
               dc.SmoothingMode = SmoothingMode.AntiAlias;
-              if ( isSelected )
-                dc.DrawPath( myGraphicsSettings.SelectionPen, p );
+              if (isSelected)
+                dc.DrawPath(myGraphicsSettings.SelectionPen, p);
               else
-                dc.DrawPath( myGraphicsSettings.MainPen, p );
+                dc.DrawPath(myGraphicsSettings.MainPen, p);
             }
         }
       }
-      catch ( Exception ex )
+      catch (Exception ex)
       {
-        string sourceName = this.GetType().FullName + ".Shape_Paint";
-        MessageBox.Show( String.Format( Resources.ErrorMessage, sourceName ), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error );
-        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 140, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException( ex ) );
+        string sourceName = GetType().FullName + ".Shape_Paint";
+        MessageBox.Show(string.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 140, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
       }
     }
 
-    private void Shape_Load( object sender, EventArgs e )
+    private void Shape_Load(object sender, EventArgs e)
     {
       RefreshPathRootShape();
     }
-    private void Shape_MouseMove( object sender, MouseEventArgs e )
+    private void Shape_MouseMove(object sender, MouseEventArgs e)
     {
-      if ( e.Button == MouseButtons.Left )
+      if (e.Button == MouseButtons.Left)
         isMoving = true;
     }
-    private void Shape_MouseDown( object sender, MouseEventArgs e )
+    private void Shape_MouseDown(object sender, MouseEventArgs e)
     {
       isMoving = false;
       UpdateStableLocation();
     }
-    private void Shape_MouseUp( object sender, MouseEventArgs e )
+    private void Shape_MouseUp(object sender, MouseEventArgs e)
     {
       isMoving = false;
       UpdateStableLocation();
     }
-    private void Shape_LocationChanged( object sender, EventArgs e )
+    private void Shape_LocationChanged(object sender, EventArgs e)
     {
-      if ( !isMoving )
+      if (!isMoving)
         UpdateStableLocation();
     }
-    private void Shape_Scroll( object sender, ScrollEventArgs e )
+    private void Shape_Scroll(object sender, ScrollEventArgs e)
     {
 
     }
@@ -179,14 +163,8 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// </value>
     public bool IsSelected
     {
-      get
-      {
-        return isSelected;
-      }
-      set
-      {
-        isSelected = value;
-      }
+      get => isSelected;
+      set => isSelected = value;
     }
     /// <summary>
     /// Initializes a new instance of the <see cref="Shape"/> class.
@@ -201,25 +179,19 @@ namespace CAS.Lib.ControlLibrary.GDI
       SetStyle(
         ControlStyles.UserPaint |
         ControlStyles.AllPaintingInWmPaint |
-        ControlStyles.OptimizedDoubleBuffer, true );
+        ControlStyles.OptimizedDoubleBuffer, true);
     }
     /// <summary>
     /// Gets the stable location. This location is not changed while shape is moved.
     /// </summary>
     /// <value>The stable location.</value>
-    public Point StableLocation
-    {
-      get
-      {
-        return mStableLocation;
-      }
-    }
+    public Point StableLocation => mStableLocation;
     /// <summary>
     /// Updates the stable location.
     /// </summary>
     public void UpdateStableLocation()
     {
-      mStableLocation = new Point( Left, Top );
+      mStableLocation = new Point(Left, Top);
     }
 
     /// <summary>
@@ -228,17 +200,14 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// <value>The zoom.</value>
     public float Zoom
     {
-      get
-      {
-        return mZoom;
-      }
+      get => mZoom;
       set
       {
-        if ( value <= 0 )
-          throw new ArgumentOutOfRangeException( "Zomm alows only greater than 0 values" );
+        if (value <= 0)
+          throw new ArgumentOutOfRangeException("Zomm alows only greater than 0 values");
         mZoom = value;
-        myGraphicsSettings = myGraphicsSettings.GetGraphicsSettingsWithSpecifiedZoom( value );
-        this.Size = new Size( 0, 0 );
+        myGraphicsSettings = myGraphicsSettings.GetGraphicsSettingsWithSpecifiedZoom(value);
+        Size = new Size(0, 0);
       }
     }
 

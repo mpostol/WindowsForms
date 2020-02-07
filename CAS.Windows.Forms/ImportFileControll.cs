@@ -1,26 +1,14 @@
-//<summary>
-//  Title   : Import filename with option component
-//  System  : Microsoft Visual C# .NET 2005
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    Mzbrzezny - 20070615: created
-//    <Author> - <date>:
-//    <description>
+//___________________________________________________________________________________
 //
-//  Copyright (C)2006, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.com.pl
-//  http:\\www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.ComponentModel;
 using System.Windows.Forms;
-using CAS.Lib.RTLib;
+using UAOOI.Windows.GUIAbstractions;
 
 namespace CAS.Lib.ControlLibrary
 {
