@@ -8,8 +8,8 @@
     <ProjectGuid>{90F8CF13-2D55-4497-BFD9-BC84E82F50EE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CAS.Windows.Forms</RootNamespace>
-    <AssemblyName>CAS.Windows.Forms</AssemblyName>
+    <RootNamespace>UAOOI.Windows.Forms</RootNamespace>
+    <AssemblyName>UAOOI.Windows.Forms</AssemblyName>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
     <FileUpgradeFlags>
@@ -43,7 +43,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\debug\CAS.Windows.Forms.xml</DocumentationFile>
+    <DocumentationFile>bin\debug\UAOOI.Windows.Forms.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -53,7 +53,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>none</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\CAS.Windows.Forms.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\UAOOI.Windows.Forms.xml</DocumentationFile>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <Prefer32Bit>false</Prefer32Bit>
     <NoWarn>IDE0001,IDE0002,IDE0003</NoWarn>
@@ -413,16 +413,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="NuGetMetadata.nuspec">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NuGetMetadata.tt</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
-    </None>
-    <None Include="CAS.Windows.Forms.nuspec.nuspec">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CAS.Windows.Forms.nuspec.tt</DependentUpon>
-      <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -446,10 +445,9 @@
     <Content Include="Images\restart.png" />
     <Content Include="Images\start.png" />
     <Content Include="Images\stop.png" />
-    <Content Include="CAS.Windows.Forms.nuspec.tt">
+    <Content Include="NuGetMetadata.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>CAS.Windows.Forms.nuspec.nuspec</LastGenOutput>
-      <SubType>Designer</SubType>
+      <LastGenOutput>NuGetMetadata.nuspec</LastGenOutput>
     </Content>
     <None Include="Resources\SecurityUnlock.ico" />
   </ItemGroup>

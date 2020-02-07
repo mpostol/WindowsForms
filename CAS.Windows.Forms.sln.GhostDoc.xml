@@ -134,6 +134,7 @@
     </ConceptualContent>
     <SelectedProjects>
       <SelectedProject>CAS.Windows.Forms</SelectedProject>
+      <SelectedProject>Windows.GUIAbstractions</SelectedProject>
     </SelectedProjects>
   </HelpConfiguration>
 </HelpConfigurations>

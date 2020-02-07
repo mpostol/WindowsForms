@@ -38,7 +38,7 @@ namespace CAS.Windows.Forms.UnitTests
       EventTypeFilter _eventTypeFilter = _advancedListener.Filter as EventTypeFilter;
       Assert.AreEqual(SourceLevels.All, _eventTypeFilter.EventType);
       string _testPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-      Assert.AreEqual<string>(Path.Combine(_testPath, @"CAS.Windows.Forms.UnitTests.log"), _advancedListener.GetFileName());
+      Assert.AreEqual<string>(Path.Combine(_testPath, @"UAOOI.Windows.Forms.UnitTests.log"), _advancedListener.GetFileName());
     }
     [TestMethod]
     public void LogFileExistsTest()

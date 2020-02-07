@@ -8,4 +8,8 @@
     <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\VS.git\WindowsForms\Windows.GUIAbstractions\UAOOI.Windows.GUIAbstractions.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

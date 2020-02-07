@@ -9,8 +9,8 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("CAS.Windows.Forms")]
-[assembly: AssemblyDescription("CAS Windows Forms Controls Library")]
+[assembly: AssemblyTitle("UAOOI.Windows.Forms")]
+[assembly: AssemblyDescription("Windows Forms Controls Library")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mariusz Postol")]
 [assembly: AssemblyProduct("Object-Oriented Internet")]

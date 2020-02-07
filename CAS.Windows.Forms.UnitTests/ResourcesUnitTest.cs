@@ -1,6 +1,13 @@
-﻿
+﻿//___________________________________________________________________________________
+//
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Drawing;
+using UAOOI.Windows.Forms.Properties;
 
 namespace CAS.Windows.Forms.UnitTests
 {
@@ -10,11 +17,11 @@ namespace CAS.Windows.Forms.UnitTests
     [TestMethod]
     public void ImagesTestMethod()
     {
-      Bitmap _startBitmap = Forms.Properties.Resources.start;
+      Bitmap _startBitmap = Resources.start;
       Assert.IsNotNull(_startBitmap);
-      _startBitmap = Forms.Properties.Resources.stop;
+      _startBitmap = Resources.stop;
       Assert.IsNotNull(_startBitmap);
-      _startBitmap = Forms.Properties.Resources.restart;
+      _startBitmap = Resources.restart;
       Assert.IsNotNull(_startBitmap);
     }
   }

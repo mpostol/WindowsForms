@@ -9,7 +9,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("CAS.Windows.FormsUnitTests")]
-[assembly: AssemblyDescription("CAS Windows Forms Controls Library Unit Test")]
+[assembly: AssemblyDescription("Windows Forms Controls Library Unit Test")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mariusz Postol")]
 [assembly: AssemblyProduct("Object-Oriented Internet")]

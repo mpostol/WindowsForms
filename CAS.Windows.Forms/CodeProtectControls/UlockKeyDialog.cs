@@ -13,6 +13,7 @@ using System.Drawing;
 using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
+using UAOOI.Windows.Forms.CodeProtectControls;
 
 namespace CAS.Windows.Forms.CodeProtectControls
 {

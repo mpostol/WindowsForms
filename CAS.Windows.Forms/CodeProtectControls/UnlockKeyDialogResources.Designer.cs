@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CAS.Windows.Forms.CodeProtectControls {
+namespace UAOOI.Windows.Forms.CodeProtectControls {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace CAS.Windows.Forms.CodeProtectControls {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CAS.Windows.Forms.CodeProtectControls.UnlockKeyDialogResources", typeof(UnlockKeyDialogResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialogResources", typeof(UnlockKeyDialogResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -1,25 +1,18 @@
-﻿//<summary>
-//  Title   : XmlQualifiedName Editor
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-using CAS.Windows.Forms.Properties;
 using System;
 using System.ComponentModel;
 using System.Xml;
+using UAOOI.Windows.Forms.Properties;
 
 namespace CAS.Lib.ControlLibrary
 {
+
   /// <summary>
   /// XmlQualifiedName Editor
   /// </summary>
@@ -27,17 +20,17 @@ namespace CAS.Lib.ControlLibrary
   {
     #region private
     private static uint m_Counter = 0;
-    private static string DefaultName { get { return String.Format( Settings.Default.XmlDefaultName, m_Counter++ ); } }
-    private string Normalize( string value )
+    private static string DefaultName => string.Format(Settings.Default.XmlDefaultName, m_Counter++);
+    private string Normalize(string value)
     {
-      return XmlConvert.EncodeLocalName( value.Trim() ).Replace("_x", "X");
+      return XmlConvert.EncodeLocalName(value.Trim()).Replace("_x", "X");
     }
     private string m_Name;
     private string m_NameSpace;
     private void RaiseXmlQualifiedNameHasChanged()
     {
-      if ( XmlQualifiedNameHasChanged != null )
-        XmlQualifiedNameHasChanged( this, EventArgs.Empty );
+      if (XmlQualifiedNameHasChanged != null)
+        XmlQualifiedNameHasChanged(this, EventArgs.Empty);
     }
     #endregion
     #region public properties
@@ -46,14 +39,14 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <value>The name.</value>
     [
-    DisplayName( "Name" ),
-    BrowsableAttribute( true ),
-    DescriptionAttribute( "The name" ),
-    NotifyParentPropertyAttribute( true )
+    DisplayName("Name"),
+    BrowsableAttribute(true),
+    DescriptionAttribute("The name"),
+    NotifyParentPropertyAttribute(true)
     ]
     public string Name
     {
-      get { return m_Name; }
+      get => m_Name;
       set
       {
         m_Name = Normalize(value);
@@ -66,17 +59,17 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <value>The name space.</value>
     [
-    DisplayName( "Name Space" ),
-    TypeConverter( typeof( NamespaceConverter ) ),
-    BrowsableAttribute( true ),
-    DescriptionAttribute( "The name space" ),
-    NotifyParentPropertyAttribute( true )
+    DisplayName("Name Space"),
+    TypeConverter(typeof(NamespaceConverter)),
+    BrowsableAttribute(true),
+    DescriptionAttribute("The name space"),
+    NotifyParentPropertyAttribute(true)
     ]
     public string NameSpace
     {
       get
       {
-        if ( !IsEmpty && String.IsNullOrEmpty( m_NameSpace ) )
+        if (!IsEmpty && string.IsNullOrEmpty(m_NameSpace))
           return NamespaceProvider.GetTargetNamespace();
         return m_NameSpace;
       }
@@ -92,19 +85,19 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <value><c>true</c> if this instance is empty; otherwise, <c>false</c>.</value>
     [
-    DisplayName( "Is Empty" ),
-    BrowsableAttribute( true ),
-    DescriptionAttribute( "The value indicating whether this instance is empty." ),
-    NotifyParentPropertyAttribute( true )
+    DisplayName("Is Empty"),
+    BrowsableAttribute(true),
+    DescriptionAttribute("The value indicating whether this instance is empty."),
+    NotifyParentPropertyAttribute(true)
     ]
-    public bool IsEmpty { get { return String.IsNullOrEmpty( m_Name ) && String.IsNullOrEmpty( m_NameSpace ); } }
+    public bool IsEmpty => string.IsNullOrEmpty(m_Name) && string.IsNullOrEmpty(m_NameSpace);
     /// <summary>
     /// Gets or sets a value indicating whether name is based on default name.
     /// </summary>
     /// <value>
     /// 	<c>true</c> if name is based on default name otherwise, <c>false</c>.
     /// </value>
-    [ BrowsableAttribute( false )]
+    [BrowsableAttribute(false)]
     public bool NameIsBasedOnDefault { get; private set; }
     #endregion
     #region public
@@ -112,10 +105,10 @@ namespace CAS.Lib.ControlLibrary
     /// Updates the name and namespace based on passed value.
     /// </summary>
     /// <param name="value">The value.</param>
-    public void UpdateNameAndNamespaceBasedOn( XmlQualifiedNameEditor value )
+    public void UpdateNameAndNamespaceBasedOn(XmlQualifiedNameEditor value)
     {
-      if ( value == null )
-        throw new ArgumentNullException( "value" );
+      if (value == null)
+        throw new ArgumentNullException("value");
       this.Name = value.Name;
       this.NameSpace = value.NameSpace;
     }
@@ -123,9 +116,9 @@ namespace CAS.Lib.ControlLibrary
     /// Updates the name and namespace and namespace provider based on passed value.
     /// </summary>
     /// <param name="value">The value.</param>
-    public void UpdateNameAndNamespaceAndNamespaceProviderBasedOn( XmlQualifiedNameEditor value )
+    public void UpdateNameAndNamespaceAndNamespaceProviderBasedOn(XmlQualifiedNameEditor value)
     {
-      this.UpdateNameAndNamespaceBasedOn( value );
+      this.UpdateNameAndNamespaceBasedOn(value);
       this.NamespaceProvider = value.NamespaceProvider;
     }
     /// <summary>
@@ -134,8 +127,8 @@ namespace CAS.Lib.ControlLibrary
     /// <returns>
     /// 	<c>true</c> if the specified name is null; otherwise <c>false</c>.
     /// </returns>
-    [BrowsableAttribute( false )]
-    public bool IsNull { get { return IsEmpty || String.IsNullOrEmpty( Name ); } }
+    [BrowsableAttribute(false)]
+    public bool IsNull => IsEmpty || string.IsNullOrEmpty(Name);
     /// <summary>
     /// Occurs when [XML qualified name has changed].
     /// </summary>
@@ -144,13 +137,13 @@ namespace CAS.Lib.ControlLibrary
     /// Gets the XmlQualifiedName edited by this editor.
     /// </summary>
     /// <value>The XmlQualifiedName or null if XmlQualifiedName is empty</value>
-    [BrowsableAttribute( false )]
+    [BrowsableAttribute(false)]
     public XmlQualifiedName XmlQualifiedName
     {
       get
       {
-        if ( !IsEmpty )
-          return new XmlQualifiedName( Name, NameSpace );
+        if (!IsEmpty)
+          return new XmlQualifiedName(Name, NameSpace);
         else
           return null; //XmlQualifiedNameEditor should not return empty XmlQualifiedName - only null is allowed
       }
@@ -163,7 +156,7 @@ namespace CAS.Lib.ControlLibrary
     /// </returns>
     public override string ToString()
     {
-      if ( !IsEmpty )
+      if (!IsEmpty)
         return NameSpace + ":" + Name;
       else
         return "<not set>";
@@ -178,7 +171,7 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <param name="qualifiedName">Name property of the qualified name or autogenerated identyfier.</param>
     /// <returns></returns>
-    public static string GetNameOrGenerateIfInstanceIsNull( XmlQualifiedName qualifiedName )
+    public static string GetNameOrGenerateIfInstanceIsNull(XmlQualifiedName qualifiedName)
     {
       return qualifiedName == null ? DefaultName : qualifiedName.Name;
     }
@@ -187,7 +180,7 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <param name="qualifiedName">Namespace of the qualified neame or autogenerated identyfier.</param>
     /// <returns></returns>
-    public static string GetNamespaceOrGenerateIfInstanceIsNull( XmlQualifiedName qualifiedName )
+    public static string GetNamespaceOrGenerateIfInstanceIsNull(XmlQualifiedName qualifiedName)
     {
       return qualifiedName == null ? DefaultName : qualifiedName.Namespace;
     }
@@ -196,9 +189,9 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <param name="namespaceProvider">The namespace provider.</param>
     /// <returns></returns>
-    public static XmlQualifiedNameEditor CreateXmlQualifiedNameEditor( IXmlQualifiedNameEditorNamespaceProvider namespaceProvider )
+    public static XmlQualifiedNameEditor CreateXmlQualifiedNameEditor(IXmlQualifiedNameEditorNamespaceProvider namespaceProvider)
     {
-      return new XmlQualifiedNameEditor( DefaultName, String.Empty, namespaceProvider );
+      return new XmlQualifiedNameEditor(DefaultName, string.Empty, namespaceProvider);
     }
     #endregion
     #region creator
@@ -207,8 +200,8 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <param name="xmlQualifiedName">XmlQualifiedName to be edited.</param>
     /// <param name="namespaceProvider">The namespace provider.</param>
-    public XmlQualifiedNameEditor( XmlQualifiedName xmlQualifiedName, IXmlQualifiedNameEditorNamespaceProvider namespaceProvider ) :
-      this( xmlQualifiedName, namespaceProvider, false )
+    public XmlQualifiedNameEditor(XmlQualifiedName xmlQualifiedName, IXmlQualifiedNameEditorNamespaceProvider namespaceProvider) :
+      this(xmlQualifiedName, namespaceProvider, false)
     { }
     /// <summary>
     /// Initializes a new instance of the <see cref="XmlQualifiedNameEditor"/> class.
@@ -217,17 +210,17 @@ namespace CAS.Lib.ControlLibrary
     /// <param name="namespaceProvider">The namespace provider.</param>
     /// <param name="createDefault">if set to <c>true</c> assigns a default value for the <see cref="Name"/> parameter.
     /// </param>
-    public XmlQualifiedNameEditor( XmlQualifiedName xmlQualifiedName, IXmlQualifiedNameEditorNamespaceProvider namespaceProvider, bool createDefault )
+    public XmlQualifiedNameEditor(XmlQualifiedName xmlQualifiedName, IXmlQualifiedNameEditorNamespaceProvider namespaceProvider, bool createDefault)
     {
-      if ( xmlQualifiedName != null )
+      if (xmlQualifiedName != null)
       {
         Name = xmlQualifiedName.Name;
         m_NameSpace = xmlQualifiedName.Namespace;
       }
       else
       {
-        m_Name = createDefault ? DefaultName : String.Empty;
-        m_NameSpace = String.Empty;
+        m_Name = createDefault ? DefaultName : string.Empty;
+        m_NameSpace = string.Empty;
         NameIsBasedOnDefault = createDefault;
       }
       NamespaceProvider = namespaceProvider;
@@ -239,7 +232,7 @@ namespace CAS.Lib.ControlLibrary
     /// <param name="name">The local name to use as the name of the System.Xml.XmlQualifiedName object.</param>
     /// <param name="ns">The namespace for the System.Xml.XmlQualifiedName object.</param>
     /// <param name="namespaceProvider">The namespace provider.</param>
-    public XmlQualifiedNameEditor( string name, string ns, IXmlQualifiedNameEditorNamespaceProvider namespaceProvider )
+    public XmlQualifiedNameEditor(string name, string ns, IXmlQualifiedNameEditorNamespaceProvider namespaceProvider)
     {
       Name = name;
       NameSpace = ns;
@@ -247,18 +240,19 @@ namespace CAS.Lib.ControlLibrary
     }
     #endregion
   }
+
   #region TypeConverter class
   /// <summary>
   /// This class is used in DataTypeConverter dropdown list 
   /// </summary>
-  internal class NamespaceConverter: StringConverter
+  internal class NamespaceConverter : StringConverter
   {
     /// <summary>
     /// Gets a value indicating whether this object supports a standard set of values that can be picked from a list. 
     /// </summary>
     /// <param name="context">An <see cref="ITypeDescriptorContext"/> that provides a format context. </param>
     /// <returns>Always returns <b>true</b> - means show a combobox </returns>
-    public override bool GetStandardValuesSupported( ITypeDescriptorContext context )
+    public override bool GetStandardValuesSupported(ITypeDescriptorContext context)
     {
       //true means show a combobox
       return true;
@@ -268,7 +262,7 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <param name="context">An <see cref="ITypeDescriptorContext"/> that provides a format context. </param>
     /// <returns>Always returns <b>true</b> - means it limits to list</returns>
-    public override bool GetStandardValuesExclusive( ITypeDescriptorContext context )
+    public override bool GetStandardValuesExclusive(ITypeDescriptorContext context)
     {
       //true will limit to list. false will show the list, but allow free-form entry
       return false;
@@ -278,14 +272,14 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <param name="context">An <see cref="ITypeDescriptorContext"/> that provides a format context. </param>
     /// <returns>A <see cref="TypeConverter.StandardValuesCollection"/>  that holds a standard set of valid values </returns>
-    public override StandardValuesCollection GetStandardValues( ITypeDescriptorContext context )
+    public override StandardValuesCollection GetStandardValues(ITypeDescriptorContext context)
     {
       XmlQualifiedNameEditor editor = context.Instance as XmlQualifiedNameEditor;
-      if ( editor != null && editor.NamespaceProvider != null )
+      if (editor != null && editor.NamespaceProvider != null)
       {
-        return new StandardValuesCollection( editor.NamespaceProvider.GetAvailiableNamespaces() );
+        return new StandardValuesCollection(editor.NamespaceProvider.GetAvailiableNamespaces());
       }
-      return new StandardValuesCollection( new string[ 0 ] );
+      return new StandardValuesCollection(new string[0]);
     }
   }
   #endregion
@@ -308,4 +302,5 @@ namespace CAS.Lib.ControlLibrary
     string GetTargetNamespace();
   }
   #endregion IXmlQualifiedNameEditorNamespaceProvider
+
 }

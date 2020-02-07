@@ -9,8 +9,8 @@ string Phone = "+48 608 619 899";
 string Owner = "Mariusz Postol";
 
 //CAS.Windows.Forms
-string CASWindowsFormsName = "CAS.Windows.Forms";
-string CASWindowsFormsTitle = "CAS Windows Forms Controls Library";
+string CASWindowsFormsName = "UAOOI.Windows.Forms";
+string CASWindowsFormsTitle = "Windows Forms Controls Library";
 string CASWindowsFormsTrademark = "Object-Oriented Internet";
 string CASWindowsFormsVersion = "7.0.0";
 string CASWindowsFormsPreRelease = "-Alpha";

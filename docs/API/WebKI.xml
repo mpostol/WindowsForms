@@ -100,7 +100,10 @@
   <HelpKINode Title="Bottom enumeration member" Url="html/T-CAS.Lib.ControlLibrary.GDI.HotpointType.htm" />
   <HelpKINode Title="Bottom field" Url="html/F-CAS.Lib.ControlLibrary.GDI.HotpointType.Bottom.htm" />
   <HelpKINode Title="BrowseFilter property" Url="html/P-CAS.Lib.ControlLibrary.ImportFileControll.ImportInfo.BrowseFilter.htm" />
-  <HelpKINode Title="CanBeAccepted method" Url="html/M-CAS.Lib.ControlLibrary.OKCancelForm.CanBeAccepted.htm" />
+  <HelpKINode Title="CanBeAccepted method">
+    <HelpKINode Title="CanBeAccepted Method " Url="html/M-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.CanBeAccepted.htm" />
+    <HelpKINode Title="CanBeAccepted Method " Url="html/M-CAS.Lib.ControlLibrary.OKCancelForm.CanBeAccepted.htm" />
+  </HelpKINode>
   <HelpKINode Title="CAS.Lib.ControlLibrary namespace" Url="html/N-CAS.Lib.ControlLibrary.htm" />
   <HelpKINode Title="CAS.Lib.ControlLibrary.About class">
     <HelpKINode Title="About Class" Url="html/T-CAS.Lib.ControlLibrary.About.htm" />
@@ -488,10 +491,10 @@
   <HelpKINode Title="DockPanelUserControl.MainControl property" Url="html/P-CAS.Lib.ControlLibrary.DockPanelUserControl.MainControl.htm" />
   <HelpKINode Title="DockPanelUserControl.Show method" Url="html/M-CAS.Lib.ControlLibrary.DockPanelUserControl.Show.htm" />
   <HelpKINode Title="Draw method">
-    <HelpKINode Title="Draw Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.Connection.Draw.htm" />
-    <HelpKINode Title="Draw Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.HotPointSelectableConnectableArray.Draw.htm" />
-    <HelpKINode Title="Draw Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.ConnectionsList.Draw.htm" />
     <HelpKINode Title="Draw Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.HotPointSelectableConnectable.Draw.htm" />
+    <HelpKINode Title="Draw Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.ConnectionsList.Draw.htm" />
+    <HelpKINode Title="Draw Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.HotPointSelectableConnectableArray.Draw.htm" />
+    <HelpKINode Title="Draw Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.Connection.Draw.htm" />
   </HelpKINode>
   <HelpKINode Title="EditedText property" Url="html/P-CAS.Lib.ControlLibrary.TextEditPanel.EditedText.htm" />
   <HelpKINode Title="EditorPanel class">
@@ -550,8 +553,8 @@
   </HelpKINode>
   <HelpKINode Title="Floaties property" Url="html/P-CAS.Lib.ControlLibrary.ControlExtenders.DockExtender.Floaties.htm" />
   <HelpKINode Title="Floaties.Find method">
-    <HelpKINode Title="Find Method " Url="html/M-CAS.Lib.ControlLibrary.ControlExtenders.Floaties.Find.htm" />
     <HelpKINode Title="Find Method " Url="html/Overload-CAS.Lib.ControlLibrary.ControlExtenders.Floaties.Find.htm" />
+    <HelpKINode Title="Find Method " Url="html/M-CAS.Lib.ControlLibrary.ControlExtenders.Floaties.Find.htm" />
   </HelpKINode>
   <HelpKINode Title="Floaty property" Url="html/P-CAS.Lib.ControlLibrary.DockPanelUserControl.Floaty.htm" />
   <HelpKINode Title="Focused property" Url="html/P-CAS.Lib.ControlLibrary.DockPanelUserControl.Focused.htm" />
@@ -618,8 +621,8 @@
   <HelpKINode Title="GetLicenseInfo method" Url="html/M-CAS.Windows.Forms.CodeProtectControls.Licenses.GetLicenseInfo.htm" />
   <HelpKINode Title="GetLicenseMessageRequest method" Url="html/M-CAS.Windows.Forms.CodeProtectControls.Licenses.GetLicenseMessageRequest.htm" />
   <HelpKINode Title="GetListOfToolStripMenuItem method">
-    <HelpKINode Title="GetListOfToolStripMenuItem Method " Url="html/M-CAS.Lib.ControlLibrary.ControlExtenders.DockExtender.GetListOfToolStripMenuItem.htm" />
     <HelpKINode Title="GetListOfToolStripMenuItem Method " Url="html/M-CAS.Lib.ControlLibrary.ToolStripContainerHelper.GetListOfToolStripMenuItem.htm" />
+    <HelpKINode Title="GetListOfToolStripMenuItem Method " Url="html/M-CAS.Lib.ControlLibrary.ControlExtenders.DockExtender.GetListOfToolStripMenuItem.htm" />
   </HelpKINode>
   <HelpKINode Title="GetMenuItems method">
     <HelpKINode Title="GetMenuItems Method " Url="html/M-CAS.Lib.ControlLibrary.GenericTreeNode-2.GetMenuItems.htm" />
@@ -634,12 +637,12 @@
   <HelpKINode Title="GetToolTipTextBackward method" Url="html/M-CAS.Lib.ControlLibrary.BackForwardTreViewHelper.GetToolTipTextBackward.htm" />
   <HelpKINode Title="GetToolTipTextForward method" Url="html/M-CAS.Lib.ControlLibrary.BackForwardTreViewHelper.GetToolTipTextForward.htm" />
   <HelpKINode Title="GoBackward method">
-    <HelpKINode Title="GoBackward Method " Url="html/M-CAS.Lib.ControlLibrary.BackForwardTreViewToolStrip.GoBackward.htm" />
     <HelpKINode Title="GoBackward Method " Url="html/M-CAS.Lib.ControlLibrary.BackForwardTreViewHelper.GoBackward.htm" />
+    <HelpKINode Title="GoBackward Method " Url="html/M-CAS.Lib.ControlLibrary.BackForwardTreViewToolStrip.GoBackward.htm" />
   </HelpKINode>
   <HelpKINode Title="GoForward method">
-    <HelpKINode Title="GoForward Method " Url="html/M-CAS.Lib.ControlLibrary.BackForwardTreViewHelper.GoForward.htm" />
     <HelpKINode Title="GoForward Method " Url="html/M-CAS.Lib.ControlLibrary.BackForwardTreViewToolStrip.GoForward.htm" />
+    <HelpKINode Title="GoForward Method " Url="html/M-CAS.Lib.ControlLibrary.BackForwardTreViewHelper.GoForward.htm" />
   </HelpKINode>
   <HelpKINode Title="GraphicsSettings class">
     <HelpKINode Title="GraphicsSettings Class" Url="html/T-CAS.Lib.ControlLibrary.GDI.GraphicsSettings.htm" />
@@ -717,6 +720,14 @@
   <HelpKINode Title="HotpointType.Left field" Url="html/F-CAS.Lib.ControlLibrary.GDI.HotpointType.Left.htm" />
   <HelpKINode Title="HotpointType.Right field" Url="html/F-CAS.Lib.ControlLibrary.GDI.HotpointType.Right.htm" />
   <HelpKINode Title="HotpointType.Top field" Url="html/F-CAS.Lib.ControlLibrary.GDI.HotpointType.Top.htm" />
+  <HelpKINode Title="ICanBeAccepted interface">
+    <HelpKINode Title="ICanBeAccepted Interface" Url="html/T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
+    <HelpKINode Title="ICanBeAccepted Members" Url="html/AllMembers.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
+    <HelpKINode Title="about ICanBeAccepted interface" Url="html/T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICanBeAccepted.CanBeAccepted method" Url="html/M-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.CanBeAccepted.htm" />
   <HelpKINode Title="Icons.IMAGE_CLOSED_YELLOW_FOLDER field" Url="html/F-CAS.Lib.ControlLibrary.ImageListLibrary.Icons.IMAGE_CLOSED_YELLOW_FOLDER.htm" />
   <HelpKINode Title="Icons.IMAGE_DICTIONARY field" Url="html/F-CAS.Lib.ControlLibrary.ImageListLibrary.Icons.IMAGE_DICTIONARY.htm" />
   <HelpKINode Title="Icons.IMAGE_MYCOMPUTER field" Url="html/F-CAS.Lib.ControlLibrary.ImageListLibrary.Icons.IMAGE_MYCOMPUTER.htm" />
@@ -870,8 +881,8 @@
     <HelpKINode Title="InformationEndIsPassed Property " Url="html/P-CAS.Lib.ControlLibrary.SearchTreeViewHelper.InformationEndIsPassed.htm" />
   </HelpKINode>
   <HelpKINode Title="InformationStartIsPassed property">
-    <HelpKINode Title="InformationStartIsPassed Property " Url="html/P-CAS.Lib.ControlLibrary.SearchTreeViewToolStrip.InformationStartIsPassed.htm" />
     <HelpKINode Title="InformationStartIsPassed Property " Url="html/P-CAS.Lib.ControlLibrary.SearchTreeViewHelper.InformationStartIsPassed.htm" />
+    <HelpKINode Title="InformationStartIsPassed Property " Url="html/P-CAS.Lib.ControlLibrary.SearchTreeViewToolStrip.InformationStartIsPassed.htm" />
   </HelpKINode>
   <HelpKINode Title="InformationText property" Url="html/P-CAS.Lib.ControlLibrary.ImportFileControll.ImportInfo.InformationText.htm" />
   <HelpKINode Title="InitialDirectory property" Url="html/P-CAS.Lib.ControlLibrary.ImportFileControll.ImportInfo.InitialDirectory.htm" />
@@ -882,8 +893,8 @@
   <HelpKINode Title="IsHorizontal property" Url="html/P-CAS.Lib.ControlLibrary.GDI.HotPoint.IsHorizontal.htm" />
   <HelpKINode Title="IsNull property" Url="html/P-CAS.Lib.ControlLibrary.XmlQualifiedNameEditor.IsNull.htm" />
   <HelpKINode Title="IsSelected property">
-    <HelpKINode Title="IsSelected Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.HotPointSelectableConnectable.IsSelected.htm" />
     <HelpKINode Title="IsSelected Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.Shape.IsSelected.htm" />
+    <HelpKINode Title="IsSelected Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.HotPointSelectableConnectable.IsSelected.htm" />
   </HelpKINode>
   <HelpKINode Title="IsVertical property" Url="html/P-CAS.Lib.ControlLibrary.GDI.HotPoint.IsVertical.htm" />
   <HelpKINode Title="ITreeNodeInterface interface">
@@ -910,8 +921,8 @@
   <HelpKINode Title="IXmlQualifiedNameEditorNamespaceProvider.GetAvailiableNamespaces method" Url="html/M-CAS.Lib.ControlLibrary.IXmlQualifiedNameEditorNamespaceProvider.GetAvailiableNamespaces.htm" />
   <HelpKINode Title="IXmlQualifiedNameEditorNamespaceProvider.GetTargetNamespace method" Url="html/M-CAS.Lib.ControlLibrary.IXmlQualifiedNameEditorNamespaceProvider.GetTargetNamespace.htm" />
   <HelpKINode Title="Label property">
-    <HelpKINode Title="Label Property " Url="html/P-CAS.Lib.ControlLibrary.LabeledTreeViewPair.Label.htm" />
     <HelpKINode Title="Label Property " Url="html/P-CAS.Lib.ControlLibrary.DockPanelUserControl.Label.htm" />
+    <HelpKINode Title="Label Property " Url="html/P-CAS.Lib.ControlLibrary.LabeledTreeViewPair.Label.htm" />
   </HelpKINode>
   <HelpKINode Title="LabeledTreeViewPair class">
     <HelpKINode Title="LabeledTreeViewPair Class" Url="html/T-CAS.Lib.ControlLibrary.LabeledTreeViewPair.htm" />
@@ -986,18 +997,18 @@
   <HelpKINode Title="MainPen property" Url="html/P-CAS.Lib.ControlLibrary.GDI.GraphicsSettings.MainPen.htm" />
   <HelpKINode Title="MaintenancePeriodWarning property" Url="html/P-CAS.Windows.Forms.CodeProtectControls.SplashScreen.MaintenancePeriodWarning.htm" />
   <HelpKINode Title="MakeSelected method">
-    <HelpKINode Title="MakeSelected Method " Url="html/M-CAS.Lib.ControlLibrary.GenericTreeNode-2.MakeSelected.htm" />
     <HelpKINode Title="MakeSelected Method " Url="html/M-CAS.Lib.ControlLibrary.ITreeNodeInterface.MakeSelected.htm" />
+    <HelpKINode Title="MakeSelected Method " Url="html/M-CAS.Lib.ControlLibrary.GenericTreeNode-2.MakeSelected.htm" />
   </HelpKINode>
   <HelpKINode Title="MarginSize field" Url="html/F-CAS.Lib.ControlLibrary.GDI.Connection.MarginSize.htm" />
   <HelpKINode Title="Match method">
-    <HelpKINode Title="Match Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.HotPoint.Match.htm" />
     <HelpKINode Title="Match Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.Connection.Match.htm" />
+    <HelpKINode Title="Match Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.HotPoint.Match.htm" />
   </HelpKINode>
   <HelpKINode Title="MatchAndSelect method" Url="html/M-CAS.Lib.ControlLibrary.GDI.HotPointSelectableConnectableArray.MatchAndSelect.htm" />
   <HelpKINode Title="Menu property">
-    <HelpKINode Title="Menu Property " Url="html/P-CAS.Lib.ControlLibrary.GenericTreeNode-2.Menu.htm" />
     <HelpKINode Title="Menu Property " Url="html/P-CAS.Lib.ControlLibrary.ITreeNodeInterface.Menu.htm" />
+    <HelpKINode Title="Menu Property " Url="html/P-CAS.Lib.ControlLibrary.GenericTreeNode-2.Menu.htm" />
   </HelpKINode>
   <HelpKINode Title="MessageBackColor property" Url="html/P-CAS.Lib.ControlLibrary.ScrollableMessageBox.MessageBackColor.htm" />
   <HelpKINode Title="MessageBoxSentEmail class">
@@ -1020,8 +1031,8 @@
   <HelpKINode Title="MyToolStripItemCollaps property" Url="html/P-CAS.Lib.ControlLibrary.PropertyGridExpandAllExpander.MyToolStripItemCollaps.htm" />
   <HelpKINode Title="MyToolStripItemExpand property" Url="html/P-CAS.Lib.ControlLibrary.PropertyGridExpandAllExpander.MyToolStripItemExpand.htm" />
   <HelpKINode Title="Name property">
-    <HelpKINode Title="Name Property " Url="html/P-CAS.Lib.ControlLibrary.TextBoxBaseWithTraceListener.Name.htm" />
     <HelpKINode Title="Name Property " Url="html/P-CAS.Lib.ControlLibrary.XmlQualifiedNameEditor.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-CAS.Lib.ControlLibrary.TextBoxBaseWithTraceListener.Name.htm" />
   </HelpKINode>
   <HelpKINode Title="NameIsBasedOnDefault property" Url="html/P-CAS.Lib.ControlLibrary.XmlQualifiedNameEditor.NameIsBasedOnDefault.htm" />
   <HelpKINode Title="NameSpace property" Url="html/P-CAS.Lib.ControlLibrary.XmlQualifiedNameEditor.NameSpace.htm" />
@@ -1165,8 +1176,8 @@
   <HelpKINode Title="SearchTreeViewToolStrip.ToolStripBackwardImage property" Url="html/P-CAS.Lib.ControlLibrary.SearchTreeViewToolStrip.ToolStripBackwardImage.htm" />
   <HelpKINode Title="SearchTreeViewToolStrip.ToolStripForwardImage property" Url="html/P-CAS.Lib.ControlLibrary.SearchTreeViewToolStrip.ToolStripForwardImage.htm" />
   <HelpKINode Title="SelectedHotpoint property">
-    <HelpKINode Title="SelectedHotpoint Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.ShapeWithHotpoints.SelectedHotpoint.htm" />
     <HelpKINode Title="SelectedHotpoint Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.HotPointSelectableConnectableArray.SelectedHotpoint.htm" />
+    <HelpKINode Title="SelectedHotpoint Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.ShapeWithHotpoints.SelectedHotpoint.htm" />
   </HelpKINode>
   <HelpKINode Title="SelectedObjects property" Url="html/P-CAS.Lib.ControlLibrary.PropertyGridCollection.SelectedObjects.htm" />
   <HelpKINode Title="SelectionBrush property" Url="html/P-CAS.Lib.ControlLibrary.GDI.GraphicsSettings.SelectionBrush.htm" />
@@ -1248,12 +1259,12 @@
   </HelpKINode>
   <HelpKINode Title="ShapeWithHotpointsAndLabel.ShapeWithHotpointsAndLabel constructor" Url="html/M-CAS.Lib.ControlLibrary.GDI.ShapeWithHotpointsAndLabel.-ctor.htm" />
   <HelpKINode Title="Show method">
-    <HelpKINode Title="Show Method " Url="html/Overload-CAS.Windows.Forms.CodeProtectControls.SplashScreen.Show.htm" />
-    <HelpKINode Title="Show Method " Url="html/M-CAS.Lib.ControlLibrary.ControlExtenders.DockExtender.Show.htm" />
     <HelpKINode Title="Show Method " Url="html/M-CAS.Windows.Forms.CodeProtectControls.SplashScreen.Show.htm" />
+    <HelpKINode Title="Show Method " Url="html/M-CAS.Lib.ControlLibrary.ControlExtenders.DockExtender.Show.htm" />
     <HelpKINode Title="Show Method " Url="html/M-CAS.Lib.ControlLibrary.ControlExtenders.IFloaty.Show.htm" />
-    <HelpKINode Title="Show Method " Url="html/M-CAS.Lib.ControlLibrary.DockPanelUserControl.Show.htm" />
     <HelpKINode Title="Show Method " Url="html/Overload-CAS.Lib.ControlLibrary.ScrollableMessageBox.Show.htm" />
+    <HelpKINode Title="Show Method " Url="html/Overload-CAS.Windows.Forms.CodeProtectControls.SplashScreen.Show.htm" />
+    <HelpKINode Title="Show Method " Url="html/M-CAS.Lib.ControlLibrary.DockPanelUserControl.Show.htm" />
   </HelpKINode>
   <HelpKINode Title="ShowFromFile method" Url="html/M-CAS.Lib.ControlLibrary.ScrollableMessageBox.ShowFromFile.htm" />
   <HelpKINode Title="ShowMessageAndOpenEmailClient method" Url="html/M-CAS.Lib.ControlLibrary.MessageBoxSentEmail.ShowMessageAndOpenEmailClient.htm" />
@@ -1331,9 +1342,9 @@
     <HelpKINode Title="Tag Property " Url="html/P-CAS.Lib.ControlLibrary.GenericEventArgs-1.Tag.htm" />
   </HelpKINode>
   <HelpKINode Title="Text property">
+    <HelpKINode Title="Text Property " Url="html/P-CAS.Lib.ControlLibrary.ServiceControlToolStrip.Text.htm" />
     <HelpKINode Title="Text Property " Url="html/P-CAS.Lib.ControlLibrary.ControlExtenders.IFloaty.Text.htm" />
     <HelpKINode Title="Text Property " Url="html/P-CAS.Lib.ControlLibrary.DebugDockPanelUserControl.Text.htm" />
-    <HelpKINode Title="Text Property " Url="html/P-CAS.Lib.ControlLibrary.ServiceControlToolStrip.Text.htm" />
     <HelpKINode Title="Text Property " Url="html/P-CAS.Lib.ControlLibrary.LabeledTreeViewToolStrip.Text.htm" />
   </HelpKINode>
   <HelpKINode Title="TextBoxBaseTraceListener class">
@@ -1411,23 +1422,23 @@
   <HelpKINode Title="ToolStripContainerHelper.GetListOfToolStripMenuItem method" Url="html/M-CAS.Lib.ControlLibrary.ToolStripContainerHelper.GetListOfToolStripMenuItem.htm" />
   <HelpKINode Title="ToolStripContainerHelper.ToolStripContainerHelper constructor" Url="html/M-CAS.Lib.ControlLibrary.ToolStripContainerHelper.-ctor.htm" />
   <HelpKINode Title="ToolStripForwardImage property">
-    <HelpKINode Title="ToolStripForwardImage Property " Url="html/P-CAS.Lib.ControlLibrary.SearchTreeViewToolStrip.ToolStripForwardImage.htm" />
     <HelpKINode Title="ToolStripForwardImage Property " Url="html/P-CAS.Lib.ControlLibrary.BackForwardTreViewToolStrip.ToolStripForwardImage.htm" />
+    <HelpKINode Title="ToolStripForwardImage Property " Url="html/P-CAS.Lib.ControlLibrary.SearchTreeViewToolStrip.ToolStripForwardImage.htm" />
   </HelpKINode>
   <HelpKINode Title="Top enumeration member" Url="html/T-CAS.Lib.ControlLibrary.GDI.HotpointType.htm" />
   <HelpKINode Title="Top field" Url="html/F-CAS.Lib.ControlLibrary.GDI.HotpointType.Top.htm" />
   <HelpKINode Title="ToString method">
     <HelpKINode Title="ToString Method " Url="html/M-CAS.Windows.Forms.CSVManagement.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.EditorPanel.StatusInformationClass.ToString.htm" />
     <HelpKINode Title="ToString Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.HotPoint.ToString.htm" />
     <HelpKINode Title="ToString Method " Url="html/M-CAS.Lib.ControlLibrary.XmlQualifiedNameEditor.ToString.htm" />
-    <HelpKINode Title="ToString Method " Url="html/M-CAS.Lib.ControlLibrary.GDI.EditorPanel.StatusInformationClass.ToString.htm" />
   </HelpKINode>
   <HelpKINode Title="TraceListenerName property" Url="html/P-CAS.Lib.ControlLibrary.DebugDockPanelUserControl.TraceListenerName.htm" />
   <HelpKINode Title="TreeView property">
+    <HelpKINode Title="TreeView Property " Url="html/P-CAS.Lib.ControlLibrary.BackForwardTreViewHelper.TreeView.htm" />
     <HelpKINode Title="TreeView Property " Url="html/P-CAS.Lib.ControlLibrary.LabeledTreeViewPair.TreeView.htm" />
     <HelpKINode Title="TreeView Property " Url="html/P-CAS.Lib.ControlLibrary.ITreeNodeInterface.TreeView.htm" />
     <HelpKINode Title="TreeView Property " Url="html/P-CAS.Lib.ControlLibrary.LabeledTreeViewToolStrip.TreeView.htm" />
-    <HelpKINode Title="TreeView Property " Url="html/P-CAS.Lib.ControlLibrary.BackForwardTreViewHelper.TreeView.htm" />
   </HelpKINode>
   <HelpKINode Title="TreeViewSearcher class">
     <HelpKINode Title="TreeViewSearcher Class" Url="html/T-CAS.Lib.ControlLibrary.TreeViewSearcher.htm" />
@@ -1442,6 +1453,11 @@
   <HelpKINode Title="TreeViewSearcher.SearchAndReturnNextNodeThatContainsText method" Url="html/M-CAS.Lib.ControlLibrary.TreeViewSearcher.SearchAndReturnNextNodeThatContainsText.htm" />
   <HelpKINode Title="TreeViewSearcher.SearchAndSelectNextNodeThatContainsText method" Url="html/M-CAS.Lib.ControlLibrary.TreeViewSearcher.SearchAndSelectNextNodeThatContainsText.htm" />
   <HelpKINode Title="Type property" Url="html/P-CAS.Lib.ControlLibrary.GDI.HotPoint.Type.htm" />
+  <HelpKINode Title="UAOOI.Windows.GUIAbstractions namespace" Url="html/N-UAOOI.Windows.GUIAbstractions.htm" />
+  <HelpKINode Title="UAOOI.Windows.GUIAbstractions.ICanBeAccepted interface">
+    <HelpKINode Title="ICanBeAccepted Interface" Url="html/T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
+    <HelpKINode Title="ICanBeAccepted Members" Url="html/AllMembers.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
+  </HelpKINode>
   <HelpKINode Title="UnlockKeyDialog class">
     <HelpKINode Title="UnlockKeyDialog Class" Url="html/T-CAS.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
     <HelpKINode Title="UnlockKeyDialog Members" Url="html/AllMembers.T-CAS.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
@@ -1493,9 +1509,9 @@
   <HelpKINode Title="XmlQualifiedNameEditor.XmlQualifiedNameHasChanged event" Url="html/E-CAS.Lib.ControlLibrary.XmlQualifiedNameEditor.XmlQualifiedNameHasChanged.htm" />
   <HelpKINode Title="XmlQualifiedNameHasChanged event" Url="html/E-CAS.Lib.ControlLibrary.XmlQualifiedNameEditor.XmlQualifiedNameHasChanged.htm" />
   <HelpKINode Title="Zoom property">
-    <HelpKINode Title="Zoom Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.EditorPanel.Zoom.htm" />
-    <HelpKINode Title="Zoom Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.GraphicsSettings.Zoom.htm" />
     <HelpKINode Title="Zoom Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.Shape.Zoom.htm" />
+    <HelpKINode Title="Zoom Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.GraphicsSettings.Zoom.htm" />
+    <HelpKINode Title="Zoom Property " Url="html/P-CAS.Lib.ControlLibrary.GDI.EditorPanel.Zoom.htm" />
   </HelpKINode>
   <HelpKINode Title="ZoomIsChanged event" Url="html/E-CAS.Lib.ControlLibrary.GDI.EditorPanel.ZoomIsChanged.htm" />
 </HelpKI>

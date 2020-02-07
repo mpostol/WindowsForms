@@ -6,12 +6,12 @@
 //___________________________________________________________________________________
 
 using CAS.Windows.Forms.Diagnostics;
-using CAS.Windows.Forms.Properties;
 using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
+using UAOOI.Windows.Forms.Properties;
 
 namespace CAS.Lib.ControlLibrary.GDI
 {
