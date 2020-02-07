@@ -5,7 +5,6 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-
 using CAS.Lib.RTLib.Processes;
 using CAS.Windows.Forms.Properties;
 using System;
@@ -15,8 +14,9 @@ using System.Windows.Forms;
 
 namespace CAS.Lib.ControlLibrary.GDI
 {
+
   /// <summary>
-  /// Shape with hotpoints and label on it
+  /// Shape with hot points and label on it
   /// </summary>
   public class ShapeWithHotpointsAndLabel : ShapeWithHotpoints
   {
@@ -131,6 +131,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       }
     }
     #endregion private
+
     #region public
     /// <summary>
     /// Initializes a new instance of the <see cref="ShapeWithHotpointsAndLabel"/> class.
@@ -139,7 +140,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     {
       InitializeComponent();
     }
-
     #endregion public
+
   }
 }

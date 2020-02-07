@@ -7,10 +7,10 @@
 //  $URL:  $
 //  $Id:  $
 //
-//  Copyright (c) 2000-2016 CAS LODZ POLAND
-//  +48 (42) 686 25 47
-//  techsupp@cas.eu
-//  www.cas.eu
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//  +48 608 619 899
+//  mpostol@cas.eu
+//  https://github.com/mpostol/CodeProtect
 //_______________________________________________________________
 
 using System.Reflection;
@@ -19,13 +19,13 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("CAS.Windows.Forms.Scripts")]
 [assembly: AssemblyDescription("Scripts Prototyping Workspace for CAS.Windows.Forms.Scripts")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CAS")]
-[assembly: AssemblyProduct("CAS CommServer Family")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
-[assembly: AssemblyTrademark("CommServer")]
+[assembly: AssemblyCompany("Mariusz Postol")]
+[assembly: AssemblyProduct("Process Observer")]
+[assembly: AssemblyCopyright("Copyright (C) 2020, Mariusz Postol LODZ POLAND.")]
+[assembly: AssemblyTrademark("CAS Framework")]
 [assembly: AssemblyCulture("")]
 [assembly: Guid("1978B4D2-ACDF-4164-9677-BBEC3B858A45")]
 [assembly: ComVisible(false)]
-[assembly: AssemblyVersion("6.1.2.*")]
-[assembly: AssemblyFileVersion("6.1.2")]
+[assembly: AssemblyVersion("7.0.0.*")]
+[assembly: AssemblyFileVersion("7.0.0")]
 

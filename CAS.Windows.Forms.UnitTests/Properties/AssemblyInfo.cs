@@ -1,33 +1,24 @@
-﻿//<summary>
-//  Title   : Assembly info for: CAS.Windows.Forms
-//  System  : Microsoft Visual C# .NET
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (c) 2000-2016 CAS LODZ POLAND
-//  +48 (42) 686 25 47
-//  techsupp@cas.eu
-//  www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("CAS.Windows.FormsUnitTests")]
 [assembly: AssemblyDescription("CAS Windows Forms Controls Library Unit Test")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CAS")]
-[assembly: AssemblyProduct("CAS Framework Core")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
-[assembly: AssemblyTrademark("CAS Framework")]
+[assembly: AssemblyCompany("Mariusz Postol")]
+[assembly: AssemblyProduct("Object-Oriented Internet")]
+[assembly: AssemblyCopyright("Copyright (C) 2020, Mariusz Postol LODZ POLAND.")]
+[assembly: AssemblyTrademark("Object-Oriented Internet")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
 [assembly: Guid( "ab1adb44-affb-4735-bdf1-8d37533eed8b" )]
-[assembly: AssemblyVersion("6.1.2.*")]
-[assembly: AssemblyFileVersion("6.1.2")]
+[assembly: AssemblyVersion("7.0.0.*")]
+[assembly: AssemblyFileVersion("7.0.0")]
 
 

@@ -23,10 +23,8 @@ namespace CAS.Lib.ControlLibrary.GDI
   {
     #region private
     private float mZoom;
-    private GraphicsSettings myGraphicsSettings;
     private bool isMoving = false;
-    private bool isSelected = false;
-    private Point mStableLocation;
+
     /// <summary>
     /// Path that displays this shape
     /// </summary>
@@ -48,16 +46,11 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// <summary>
     /// Refreshes the path. this function recreate the shape depends on the control size
     /// </summary>
-    protected virtual void RefreshPath()
-    {
-
-    }
+    protected virtual void RefreshPath() { }
     /// <summary>
     /// Recalculates the and check size of the shape. This method should be override by child class to checks any restrictions that size of the shape should preserve.
     /// </summary>
-    protected virtual void RecalculateAndCheckSizeOfTheShape()
-    {
-    }
+    protected virtual void RecalculateAndCheckSizeOfTheShape() { }
     /// <summary>
     /// Adds the path.
     /// </summary>
@@ -71,9 +64,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// Gets my graphics settings.
     /// </summary>
     /// <value>My graphics settings.</value>
-    protected GraphicsSettings MyGraphicsSettings => myGraphicsSettings;
-
-
+    protected GraphicsSettings MyGraphicsSettings { get; private set; }
     /// <summary>
     /// Handles the Resize event of the Shape control.
     /// </summary>
@@ -94,7 +85,6 @@ namespace CAS.Lib.ControlLibrary.GDI
         AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 102, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
       }
     }
-
     /// <summary>
     /// Handles the Paint event of the Shape control.
     /// </summary>
@@ -111,10 +101,10 @@ namespace CAS.Lib.ControlLibrary.GDI
             {
               Graphics dc = e.Graphics;
               dc.SmoothingMode = SmoothingMode.AntiAlias;
-              if (isSelected)
-                dc.DrawPath(myGraphicsSettings.SelectionPen, p);
+              if (IsSelected)
+                dc.DrawPath(MyGraphicsSettings.SelectionPen, p);
               else
-                dc.DrawPath(myGraphicsSettings.MainPen, p);
+                dc.DrawPath(MyGraphicsSettings.MainPen, p);
             }
         }
       }
@@ -125,7 +115,6 @@ namespace CAS.Lib.ControlLibrary.GDI
         AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 140, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
       }
     }
-
     private void Shape_Load(object sender, EventArgs e)
     {
       RefreshPathRootShape();
@@ -150,10 +139,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       if (!isMoving)
         UpdateStableLocation();
     }
-    private void Shape_Scroll(object sender, ScrollEventArgs e)
-    {
-
-    }
+    private void Shape_Scroll(object sender, ScrollEventArgs e) { }
     #endregion private
     /// <summary>
     /// Gets or sets a value indicating whether this instance is selected.
@@ -161,20 +147,15 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// <value>
     /// 	<c>true</c> if this instance is selected; otherwise, <c>false</c>.
     /// </value>
-    public bool IsSelected
-    {
-      get => isSelected;
-      set => isSelected = value;
-    }
+    public bool IsSelected { get; set; } = false;
     /// <summary>
     /// Initializes a new instance of the <see cref="Shape"/> class.
     /// </summary>
     public Shape()
     {
-      myGraphicsSettings = GraphicsSettings.Default;
+      MyGraphicsSettings = GraphicsSettings.Default;
       mZoom = 1;
       InitializeComponent();
-
       UpdateStableLocation();
       SetStyle(
         ControlStyles.UserPaint |
@@ -185,15 +166,14 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// Gets the stable location. This location is not changed while shape is moved.
     /// </summary>
     /// <value>The stable location.</value>
-    public Point StableLocation => mStableLocation;
+    public Point StableLocation { get; private set; }
     /// <summary>
     /// Updates the stable location.
     /// </summary>
     public void UpdateStableLocation()
     {
-      mStableLocation = new Point(Left, Top);
+      StableLocation = new Point(Left, Top);
     }
-
     /// <summary>
     /// Gets or sets the zoom.
     /// </summary>
@@ -206,7 +186,7 @@ namespace CAS.Lib.ControlLibrary.GDI
         if (value <= 0)
           throw new ArgumentOutOfRangeException("Zomm alows only greater than 0 values");
         mZoom = value;
-        myGraphicsSettings = myGraphicsSettings.GetGraphicsSettingsWithSpecifiedZoom(value);
+        MyGraphicsSettings = MyGraphicsSettings.GetGraphicsSettingsWithSpecifiedZoom(value);
         Size = new Size(0, 0);
       }
     }

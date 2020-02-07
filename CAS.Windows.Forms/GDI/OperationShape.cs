@@ -15,11 +15,45 @@ using System.Windows.Forms;
 
 namespace CAS.Lib.ControlLibrary.GDI
 {
+
   /// <summary>
   /// Shape for operation
   /// </summary>
   public class OperationShape : ShapeWithHotpointsAndLabel
   {
+
+    #region constructor
+    /// <summary>
+    /// Initializes a new instance of the <see cref="OperationShape"/> class.
+    /// </summary>
+    /// <param name="NumberOfInputs">The number of inputs.</param>
+    /// <param name="NumberOfOutputs">The number of outputs.</param>
+    /// <param name="NumberOfTopInputs">The number of top inputs.</param>
+    /// <param name="NumberOfBottomInputs">The number of bottom inputs.</param>
+    /// <param name="MainShapeColor">the main color of the shape.</param>
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Reliability", "CA2002:DoNotLockOnObjectsWithWeakIdentity")]
+    public OperationShape(int NumberOfInputs, int NumberOfOutputs, int NumberOfTopInputs, int NumberOfBottomInputs, Color MainShapeColor)
+      : base()
+    {
+      lock (this)
+      {
+        InitializeComponent();
+        HotpointsInputs = new HotPointSelectableConnectableArray
+        {
+          { HotpointType.Left, new HotPointSelectableConnectable[NumberOfInputs] },
+          { HotpointType.Right, new HotPointSelectableConnectable[NumberOfOutputs] },
+          { HotpointType.Top, new HotPointSelectableConnectable[NumberOfTopInputs] },
+          { HotpointType.Bottom, new HotPointSelectableConnectable[NumberOfBottomInputs] }
+        };
+        BackColor = MainShapeColor;
+        MyMainWidth = (int)(DefaultMainWidth * Zoom);
+        MyMainHeight = (int)(DefaultMainHeight * Zoom);
+        Size = new System.Drawing.Size(MyMainWidth, MyMainWidth);
+      }
+    }
+    #endregion
+
+    #region private
     private const float m_InputSpacingCoefficient = 1.3F;
     private const int ConnectorLengthInPercent = 25;
     private const int DefaultMainWidth = 40;
@@ -48,8 +82,8 @@ namespace CAS.Lib.ControlLibrary.GDI
         }
         catch (Exception ex)
         {
-          string sourceName = this.GetType().FullName + ".RefreshPath";
-          MessageBox.Show(String.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
+          string sourceName = GetType().FullName + ".RefreshPath";
+          MessageBox.Show(string.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
           AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 61, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
         }
         base.RefreshPath();
@@ -63,10 +97,10 @@ namespace CAS.Lib.ControlLibrary.GDI
       try
       {
         #region main_function
-        if (this.Size != null)
+        if (Size != null)
         {
-          MyMainWidth = this.Size.Width;
-          MyMainHeight = this.Size.Height;
+          MyMainWidth = Size.Width;
+          MyMainHeight = Size.Height;
         }
         if (MyMainWidth < (int)(DefaultMainWidth * Zoom))
           MyMainWidth = (int)(DefaultMainWidth * Zoom);
@@ -113,14 +147,14 @@ namespace CAS.Lib.ControlLibrary.GDI
           MyMainWidth = topbottomsize;
         if (MyMainHeight < leftrightsize)
           MyMainHeight = leftrightsize;
-        if (this.Size == null || this.Size.Width != MyMainWidth || this.Size.Height != MyMainHeight)
-          this.Size = new System.Drawing.Size(MyMainWidth, MyMainHeight);
+        if (Size == null || Size.Width != MyMainWidth || Size.Height != MyMainHeight)
+          Size = new System.Drawing.Size(MyMainWidth, MyMainHeight);
         #endregion main_function
       }
       catch (Exception ex)
       {
-        string sourceName = this.GetType().FullName + ".RecalculateAndCheckSizeOfTheShape";
-        MessageBox.Show(String.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        string sourceName = GetType().FullName + ".RecalculateAndCheckSizeOfTheShape";
+        MessageBox.Show(string.Format(Resources.ErrorMessage, sourceName), Resources.ErrorMessageCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
         AssemblyTraceEvent.Tracer.TraceEvent(TraceEventType.Error, 118, sourceName, TraceEvent.GetMessageWithExceptionNameFromExceptionIncludingInnerException(ex));
       }
       base.RecalculateAndCheckSizeOfTheShape();
@@ -128,18 +162,13 @@ namespace CAS.Lib.ControlLibrary.GDI
     private GraphicsPath RefreshPathBottomInputs(int MyConnectorSize)
     {
       if (HotpointsInputs != null && HotpointsInputs.ContainsKey(HotpointType.Bottom) && HotpointsInputs[HotpointType.Bottom] != null && HotpointsInputs[HotpointType.Bottom].Length > 0)
-      {
         throw new NotImplementedException();
-      }
       return null;
     }
-
     private GraphicsPath RefreshPathTopInputs(int MyConnectorSize)
     {
       if (HotpointsInputs != null && HotpointsInputs.ContainsKey(HotpointType.Top) && HotpointsInputs[HotpointType.Top] != null && HotpointsInputs[HotpointType.Top].Length > 0)
-      {
         throw new NotImplementedException();
-      }
       return null;
     }
     private GraphicsPath RefreshPathRightInputs(int MyConnectorSize)
@@ -151,12 +180,12 @@ namespace CAS.Lib.ControlLibrary.GDI
         //RightInputs
         for (int i = 0; i < HotpointsInputs[HotpointType.Right].Length; i++)
         {
-          Point A = new Point(this.ClientRectangle.X + this.ClientRectangle.Width - MyConnectorSize,
-            this.ClientRectangle.Y + MyConnectorSize + i * MyConnectorSize);
-          Point B = new Point(this.ClientRectangle.X + this.ClientRectangle.Width,
-            this.ClientRectangle.Y + MyConnectorSize + MyConnectorSize / 2 + i * MyConnectorSize);
-          Point C = new Point(this.ClientRectangle.X + this.ClientRectangle.Width - MyConnectorSize,
-            this.ClientRectangle.Y + 2 * MyConnectorSize + i * MyConnectorSize);
+          Point A = new Point(ClientRectangle.X + ClientRectangle.Width - MyConnectorSize,
+            ClientRectangle.Y + MyConnectorSize + i * MyConnectorSize);
+          Point B = new Point(ClientRectangle.X + ClientRectangle.Width,
+            ClientRectangle.Y + MyConnectorSize + MyConnectorSize / 2 + i * MyConnectorSize);
+          Point C = new Point(ClientRectangle.X + ClientRectangle.Width - MyConnectorSize,
+            ClientRectangle.Y + 2 * MyConnectorSize + i * MyConnectorSize);
           p.AddLine(A, B);
           p.AddLine(B, C);
           p.AddLine(C, A);
@@ -168,7 +197,6 @@ namespace CAS.Lib.ControlLibrary.GDI
       }
       return null;
     }
-
     private GraphicsPath RefreshPathLeftInputs(int MyConnectorSize)
     {
       if (HotpointsInputs != null && HotpointsInputs.ContainsKey(HotpointType.Left) && HotpointsInputs[HotpointType.Left] != null
@@ -178,12 +206,12 @@ namespace CAS.Lib.ControlLibrary.GDI
         //LeftInputs
         for (int i = 0; i < HotpointsInputs[HotpointType.Left].Length; i++)
         {
-          Point A = new Point(this.ClientRectangle.X + MyConnectorSize,
-            this.ClientRectangle.Y + MyConnectorSize + i * MyConnectorSize);
-          Point B = new Point(this.ClientRectangle.X,
-            this.ClientRectangle.Y + MyConnectorSize + MyConnectorSize / 2 + i * MyConnectorSize);
-          Point C = new Point(this.ClientRectangle.X + MyConnectorSize,
-            this.ClientRectangle.Y + 2 * MyConnectorSize + i * MyConnectorSize);
+          Point A = new Point(ClientRectangle.X + MyConnectorSize,
+            ClientRectangle.Y + MyConnectorSize + i * MyConnectorSize);
+          Point B = new Point(ClientRectangle.X,
+            ClientRectangle.Y + MyConnectorSize + MyConnectorSize / 2 + i * MyConnectorSize);
+          Point C = new Point(ClientRectangle.X + MyConnectorSize,
+            ClientRectangle.Y + 2 * MyConnectorSize + i * MyConnectorSize);
           p.AddLine(A, B);
           p.AddLine(B, C);
           p.AddLine(C, A);
@@ -195,81 +223,40 @@ namespace CAS.Lib.ControlLibrary.GDI
       }
       return null;
     }
-
     private GraphicsPath RefreshPathRectangle(int MyConnectorSize)
     {
-      if (this.ClientRectangle == null)
+      if (ClientRectangle == null)
         return null;
       GraphicsPath p = new GraphicsPath();
       //rectangle:
-      Point A = new Point(this.ClientRectangle.X + MyConnectorSize,
-        this.ClientRectangle.Y + MyConnectorSize);
-      Size size = new Size(this.ClientRectangle.Width - 2 * MyConnectorSize, this.ClientRectangle.Height - 2 * MyConnectorSize);
+      Point A = new Point(ClientRectangle.X + MyConnectorSize,
+        ClientRectangle.Y + MyConnectorSize);
+      Size size = new Size(ClientRectangle.Width - 2 * MyConnectorSize, ClientRectangle.Height - 2 * MyConnectorSize);
       Rectangle rect = new Rectangle(A, size);
       p.AddRectangle(rect);
       return p;
     }
-    /// <summary>
-    /// Initializes a new instance of the <see cref="OperationShape"/> class.
-    /// </summary>
-    /// <param name="NumberOfInputs">The number of inputs.</param>
-    /// <param name="NumberOfOutputs">The number of outputs.</param>
-    /// <param name="NumberOfTopInputs">The number of top inputs.</param>
-    /// <param name="NumberOfBottomInputs">The number of bottom inputs.</param>
-    /// <param name="MainShapeColor">the main color of the shape.</param>
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Reliability", "CA2002:DoNotLockOnObjectsWithWeakIdentity")]
-    public OperationShape(int NumberOfInputs, int NumberOfOutputs, int NumberOfTopInputs, int NumberOfBottomInputs, Color MainShapeColor)
-      : base()
-    {
-      lock (this)
-      {
-        this.InitializeComponent();
-        HotpointsInputs = new HotPointSelectableConnectableArray();
-        HotpointsInputs.Add(HotpointType.Left, new HotPointSelectableConnectable[NumberOfInputs]);
-        HotpointsInputs.Add(HotpointType.Right, new HotPointSelectableConnectable[NumberOfOutputs]);
-        HotpointsInputs.Add(HotpointType.Top, new HotPointSelectableConnectable[NumberOfTopInputs]);
-        HotpointsInputs.Add(HotpointType.Bottom, new HotPointSelectableConnectable[NumberOfBottomInputs]);
-        this.BackColor = MainShapeColor;
-        MyMainWidth = (int)(DefaultMainWidth * Zoom);
-        MyMainHeight = (int)(DefaultMainHeight * Zoom);
-        this.Size = new System.Drawing.Size(MyMainWidth, MyMainWidth);
-      }
-    }
-
     private void InitializeComponent()
     {
-      this.components = new System.ComponentModel.Container();
-      this.toolTip_main = new System.Windows.Forms.ToolTip(this.components);
-      this.SuspendLayout();
-      // 
+      components = new System.ComponentModel.Container();
+      toolTip_main = new System.Windows.Forms.ToolTip(components);
+      SuspendLayout();
       // OperationShape
-      // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-      this.Name = "OperationShape";
-      this.Paint += new System.Windows.Forms.PaintEventHandler(this.OperationShape_Paint);
-      this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OperationShape_MouseDown);
-      this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.OperationShape_MouseUp);
-      this.ResumeLayout(false);
-
+      AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+      Name = "OperationShape";
+      Paint += new System.Windows.Forms.PaintEventHandler(OperationShape_Paint);
+      MouseDown += new System.Windows.Forms.MouseEventHandler(OperationShape_MouseDown);
+      MouseUp += new System.Windows.Forms.MouseEventHandler(OperationShape_MouseUp);
+      ResumeLayout(false);
     }
-
     /// <summary>
     /// Handles the MouseDown event of the OperationShape control.
     /// </summary>
     /// <param name="sender">The source of the event.</param>
     /// <param name="e">The <see cref="System.Windows.Forms.MouseEventArgs"/> instance containing the event data.</param>
-    private void OperationShape_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
-    {
-    }
-
-    private void OperationShape_Paint(object sender, System.Windows.Forms.PaintEventArgs e)
-    {
-    }
-
-    private void OperationShape_MouseUp(object sender, System.Windows.Forms.MouseEventArgs e)
-    {
-    }
-
+    private void OperationShape_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e) { }
+    private void OperationShape_Paint(object sender, System.Windows.Forms.PaintEventArgs e) { }
+    private void OperationShape_MouseUp(object sender, System.Windows.Forms.MouseEventArgs e) { }
     /// <summary>
     /// Changes the number of inputs.
     /// </summary>
@@ -281,7 +268,7 @@ namespace CAS.Lib.ControlLibrary.GDI
         return;
       HotpointsInputs.Remove(HotpointType);
       HotpointsInputs.Add(HotpointType, new HotPointSelectableConnectable[NewInputNumber]);
-      this.Size = new Size(0, 0);
+      Size = new Size(0, 0);
       RefreshPathRootShape();
     }
     /// <summary>
@@ -290,14 +277,11 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// <value>The tool tip text.</value>
     protected string ToolTipText
     {
-      get
-      {
-        return this.toolTip_main.GetToolTip(this);
-      }
-      set
-      {
-        this.toolTip_main.SetToolTip(this, value);
-      }
+      get => toolTip_main.GetToolTip(this);
+      set => toolTip_main.SetToolTip(this, value);
     }
+    #endregion
+
   }
+
 }

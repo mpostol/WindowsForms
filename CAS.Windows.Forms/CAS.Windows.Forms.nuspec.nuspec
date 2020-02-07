@@ -1,1 +1,37 @@
-﻿ErrorGeneratingOutput
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CAS.Windows.Forms</id>
+    <version>7.0.0-Alpha</version>
+    <title>CAS Windows Forms Controls Library</title>
+    <authors>Mariusz Postol</authors>
+    <owners>Mariusz Postol</owners>
+    <projectUrl>https://github.com/mpostol/WindowsForms</projectUrl>
+    <licenseUrl>http://www.commsvr.com/DownloadCenter/ProductSoftware/LicenseAgreement.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <description>
+      The library contains Windows.Forms controls.
+    </description>
+    <summary>
+      Library of Forms controls.
+    </summary>
+    <releaseNotes>
+      Maintenance 2016. Contains previously released CAS.Controls.dll containing Form components.
+    </releaseNotes>
+    <copyright>
+      Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+    </copyright>
+    <tags>CAS Software, Forms, CAS Framework</tags>
+    <dependencies>
+      <dependency id="CAS.CodeProtect" version="6.0.1"  />
+      <dependency id="CAS.RealTime" version="5.0.5" />
+    </dependencies>
+  </metadata>
+  <files>
+        <file src="bin\Release\CAS.Windows.Forms.dll" target="lib\net451\CAS.Windows.Forms.dll" />
+        <file src="bin\Release\CAS.Windows.Forms.dll.config" target="lib\net451\CAS.Windows.Forms.dll.config" />
+        <file src="bin\Release\CAS.Windows.Forms.xml" target="lib\net451\CAS.Windows.Forms.xml" />
+  </files>
+</package>
+

@@ -5,16 +5,14 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-
+using CAS.Lib.CodeProtect.EnvironmentAccess;
+using CAS.Lib.CodeProtect.LicenseDsc;
+using CAS.Lib.CodeProtect.Properties;
 using System;
 using System.Drawing;
 using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
-using CAS.Lib.CodeProtect.LicenseDsc;
-using CAS.Lib.CodeProtect.Properties;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
-
 
 namespace CAS.Windows.Forms.CodeProtectControls
 {
@@ -23,6 +21,7 @@ namespace CAS.Windows.Forms.CodeProtectControls
   /// </summary>
   public partial class UnlockKeyDialog: Form
   {
+
     #region public
     /// <summary>
     /// Initializes a new instance of the <see cref="UnlockKeyDialog"/> class.
@@ -194,5 +193,6 @@ namespace CAS.Windows.Forms.CodeProtectControls
       catch ( Exception ) { }
     }
     #endregion
+
   }
 }

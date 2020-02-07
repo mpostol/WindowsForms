@@ -15,7 +15,7 @@ namespace CAS.Lib.ControlLibrary
   /// <summary>
   /// Control That is responsible for selecting file to import
   /// </summary>
-  public partial class ImportFileControll: UserControl
+  public partial class ImportFileControll : UserControl
   {
     #region members
     private ImportInfo m_info;
@@ -26,13 +26,15 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     public abstract class ImportInfo
     {
+
       #region private
-      string m_filename;
+      private string m_filename;
       #endregion
+
       /// <summary>
       /// the name for that import
       /// </summary>
-      [BrowsableAttribute( false )]
+      [Browsable(false)]
       public abstract string ImportName
       {
         get;
@@ -40,23 +42,23 @@ namespace CAS.Lib.ControlLibrary
       /// <summary>
       /// default directory for importing file
       /// </summary>
-      [BrowsableAttribute( false )]
+      [BrowsableAttribute(false)]
       public abstract string InitialDirectory
       {
         get;
       }
       /// <summary>
-      /// deafult browse filter for the dialog which is used for selecting a file
+      /// default browse filter for the dialog which is used for selecting a file
       /// </summary>
-      [BrowsableAttribute( false )]
+      [Browsable(false)]
       public abstract string BrowseFilter
       {
         get;
       }
       /// <summary>
-      /// deafult extension for the dialog which is used for selecting a file
+      /// default extension for the dialog which is used for selecting a file
       /// </summary>
-      [BrowsableAttribute( false )]
+      [Browsable(false)]
       public abstract string DefaultExt
       {
         get;
@@ -64,7 +66,7 @@ namespace CAS.Lib.ControlLibrary
       /// <summary>
       /// text that is used to show the information about this importing function
       /// </summary>
-      [BrowsableAttribute( false )]
+      [Browsable(false)]
       public abstract string InformationText
       {
         get;
@@ -72,20 +74,15 @@ namespace CAS.Lib.ControlLibrary
       /// <summary>
       /// selected filename
       /// </summary>
-      [BrowsableAttribute( false )]
+      [BrowsableAttribute(false)]
       public string Filename
       {
-        get
-        {
-          return m_filename;
-        }
-        set
-        {
-          m_filename = value;
-        }
+        get => m_filename;
+        set => m_filename = value;
       }
     }
-    #region creator
+
+    #region constructor
     internal ImportFileControll()
     {
       InitializeComponent();
@@ -94,10 +91,10 @@ namespace CAS.Lib.ControlLibrary
     /// Constructor for the import File Dialog
     /// </summary>
     /// <param name="_info">object <see cref="ImportInfo"/> that contains all setting for this import tool</param>
-    /// <param name="_canbeaccepted">this is link ti the main window to enable ok button if settings are correct. 
+    /// <param name="_canbeaccepted">this is link ti the main window to enable OK button if settings are correct. 
     /// Pleas see <see cref="ICanBeAccepted" /></param>
-    public ImportFileControll(ImportInfo _info, ICanBeAccepted _canbeaccepted):this()
-     {
+    public ImportFileControll(ImportInfo _info, ICanBeAccepted _canbeaccepted) : this()
+    {
       m_info = _info;
       openFileDialog_for_import.InitialDirectory = m_info.InitialDirectory;
       openFileDialog_for_import.Filter = m_info.BrowseFilter;
@@ -105,23 +102,24 @@ namespace CAS.Lib.ControlLibrary
       textBox_info.Text = m_info.InformationText;
       propertyGrid_info.SelectedObject = m_info;
       m_canbeaccepted = _canbeaccepted;
-      this.ActiveControl = textBox_filename;
+      ActiveControl = textBox_filename;
     }
     #endregion
-    #region events
-    private void button1_Click( object sender, EventArgs e )
+
+    #region handlers
+    private void button1_Click(object sender, EventArgs e)
     {
-      if ( openFileDialog_for_import.ShowDialog() == DialogResult.OK )
+      if (openFileDialog_for_import.ShowDialog() == DialogResult.OK)
       {
-        this.textBox_filename.Text = openFileDialog_for_import.FileName;
+        textBox_filename.Text = openFileDialog_for_import.FileName;
       }
     }
     #endregion
 
-    private void textBox_filename_TextChanged( object sender, EventArgs e )
+    private void textBox_filename_TextChanged(object sender, EventArgs e)
     {
-      m_info.Filename = this.textBox_filename.Text;
-      m_canbeaccepted.CanBeAccepted( true );
+      m_info.Filename = textBox_filename.Text;
+      m_canbeaccepted.CanBeAccepted(true);
     }
   }
 }

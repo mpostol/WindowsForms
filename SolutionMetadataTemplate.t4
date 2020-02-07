@@ -1,0 +1,24 @@
+<#+
+
+//Solution common
+string AssemblyCopyright = "Copyright (C) 2020, Mariusz Postol LODZ POLAND.";
+string AssemblyCompany = "Mariusz Postol";
+string URL = "https://github.com/mpostol/WindowsForms";
+string Email = "mpostol@cas.eu";
+string Phone = "+48 608 619 899";
+string Owner = "Mariusz Postol";
+
+//CAS.Windows.Forms
+string CASWindowsFormsName = "CAS.Windows.Forms";
+string CASWindowsFormsTitle = "CAS Windows Forms Controls Library";
+string CASWindowsFormsTrademark = "Object-Oriented Internet";
+string CASWindowsFormsVersion = "7.0.0";
+string CASWindowsFormsPreRelease = "-Alpha";
+string ProductName = "Object-Oriented Internet";
+
+//Note: 
+//Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliet, 
+//Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango,
+//Uniform, Victor, Whiskey, X-Ray, Yankee, Zulu 
+
+#>

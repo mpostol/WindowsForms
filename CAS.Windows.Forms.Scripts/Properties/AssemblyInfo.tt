@@ -22,16 +22,16 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Scripts Prototyping Workspace for <#=m_AssemblyTitle#>")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("<#=AssemblyCompany#>")]
-[assembly: AssemblyProduct("<#=DefaultProductName#>")]
-[assembly: AssemblyCopyright("<#=AssemblyCopyright#>")]
-[assembly: AssemblyTrademark("<#=DefaultProductTrademark#>")]
+[assembly: AssemblyProduct("<#= ProductName #>")]
+[assembly: AssemblyCopyright("<#= AssemblyCopyright #>")]
+[assembly: AssemblyTrademark("<#= CASWindowsFormsTrademark #>")]
 [assembly: AssemblyCulture("")]
 [assembly: Guid("1978B4D2-ACDF-4164-9677-BBEC3B858A45")]
 [assembly: ComVisible(false)]
 [assembly: AssemblyVersion("<#= CASWindowsFormsVersion #>.*")]
 [assembly: AssemblyFileVersion("<#= CASWindowsFormsVersion #>")]
 
-<#@ include file = "..\..\PR39-CommonResources\T4Definitions\CAS.OPC.t4" #>
+<#@ include file = "..\..\SolutionMetadataTemplate.t4" #>
 <#+
 string m_AssemblyTitle = "CAS.Windows.Forms.Scripts";
 #>
