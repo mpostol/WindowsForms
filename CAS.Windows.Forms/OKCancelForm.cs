@@ -26,7 +26,7 @@ namespace CAS.Lib.ControlLibrary
     /// <summary>
     /// Adds the button.
     /// </summary>
-    /// <param name="name">The name of teh button.</param>
+    /// <param name="name">The name of the button.</param>
     /// <param name="dialogResult">The dialog result.</param>
     public void AddButton(string name, DialogResult dialogResult)
     {
