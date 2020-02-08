@@ -95,7 +95,7 @@
     </SelectedProjects>
   </HelpConfiguration>
   <HelpConfiguration name="APIHelpConfiguration">
-    <OutputPath>.\docs\API</OutputPath>
+    <OutputPath>.\docs\API2</OutputPath>
     <CleanupOutputPath>false</CleanupOutputPath>
     <HelpFileName />
     <HelpFileNamingMethod>MemberName</HelpFileNamingMethod>
