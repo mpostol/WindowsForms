@@ -1,4 +1,4 @@
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// Form allowing to modify properties of new created object.
@@ -36,7 +36,7 @@ namespace CAS.Lib.ControlLibrary
       this.cm_TSButtonZaakceptuj = new System.Windows.Forms.ToolStripButton();
       this.cm_TSButtonZakoñcz = new System.Windows.Forms.ToolStripButton();
       this.cm_PropertyGrid = new System.Windows.Forms.PropertyGrid();
-      this.propertyGridExpandAllExpander1 = new CAS.Lib.ControlLibrary.PropertyGridExpandAllExpander( this.components );
+      this.propertyGridExpandAllExpander1 = new PropertyGridExpandAllExpander( this.components );
       cm_toolStripContainer = new System.Windows.Forms.ToolStripContainer();
       cm_toolStripContainer.BottomToolStripPanel.SuspendLayout();
       cm_toolStripContainer.ContentPanel.SuspendLayout();
@@ -127,6 +127,7 @@ namespace CAS.Lib.ControlLibrary
     }
 
     #endregion
+
     private System.Windows.Forms.ToolStrip cm_ToolStrip;
     private System.Windows.Forms.ToolStripButton cm_TSButtonZaakceptuj;
     private System.Windows.Forms.ToolStripButton cm_TSButtonZakoñcz;

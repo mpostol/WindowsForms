@@ -1,4 +1,4 @@
-﻿namespace CAS.Lib.ControlLibrary.GDI
+﻿namespace UAOOI.Windows.Forms.GDI
 {
   partial class Shape
   {

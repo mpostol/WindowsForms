@@ -1,32 +1,22 @@
-﻿//<summary>
-//  Title   : Editor Panel - panel on wich GDI+ GUI is displayed
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    20081103: mzbrzezny: new operation,  - shape should be created at mouse location
-//    20080300 - mzbrzezny: created
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary.GDI
+namespace UAOOI.Windows.Forms.GDI
 {
   /// <summary>
   /// Editor Panel - panel on which GDI+ GUI is displayed
   /// </summary>
   public partial class EditorPanel: Panel
   {
+
     #region members
     #region protected
     /// <summary>
@@ -56,6 +46,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     private Point mousePosition = new Point();
     #endregion private
     #endregion members
+
     #region private functions
     private void InitializeComponent()
     {
@@ -342,6 +333,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       }
     }
     #endregion private functions
+
     #region public functions
     /// <summary>
     /// Initializes a new instance of the <see cref="EditorPanel"/> class.
@@ -461,5 +453,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// </summary>
     public event EventHandler ZoomIsChanged;
     #endregion public functions
+
   }
+
 }

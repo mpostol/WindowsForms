@@ -1,4 +1,4 @@
-﻿namespace CAS.Lib.ControlLibrary
+﻿namespace UAOOI.Windows.Forms
 {
   partial class PropertyGridExpandAllExpander
   {
@@ -32,5 +32,6 @@
     }
 
     #endregion
+
   }
 }

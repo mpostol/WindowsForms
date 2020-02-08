@@ -1,17 +1,9 @@
-﻿//<summary>
-//  Title   : SplashScreen: UA Model Designer
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using CAS.Lib.CodeProtect;
 using CAS.Lib.CodeProtect.EnvironmentAccess;
@@ -25,7 +17,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace CAS.Windows.Forms.CodeProtectControls
+namespace UAOOI.Windows.Forms.CodeProtectControls
 {
   /// <summary>
   /// SplashScreen to provide information about events while starting.

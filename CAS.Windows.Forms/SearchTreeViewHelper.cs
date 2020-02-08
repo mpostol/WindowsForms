@@ -1,28 +1,21 @@
-﻿//<summary>
-//  Title   : Helper for tree searcher
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// Helper for tree searcher
   /// </summary>
   public class SearchTreeViewHelper: LabeledTreeViewPair
   {
+
     #region types definition
     /// <summary>
     /// Additional Delegate for node test
@@ -33,27 +26,9 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     public delegate string GetToolStripTextToFindDelegate();
     #endregion types definition
-    #region private
-    private AdditionalNodeTestDelegate m_AdditionalNodeTestDelegate;
-    private GetToolStripTextToFindDelegate m_GetToolStripTextToFindDelegate;
-    private bool DefaultAdditionalNodeTestDelegate( TreeNode FoundNode )
-    {
-      return true;
-    }
-    /// <summary>
-    /// Additionals the node test.
-    /// It test if this node is valid and return true if ok.
-    /// </summary>
-    /// <param name="foundNode">The found node.</param>
-    /// <returns>true if ok</returns>
-    private bool PerformAdditionalNodeTest( TreeNode foundNode )
-    {
-      if ( m_AdditionalNodeTestDelegate == null )
-        return true; // none additional test is required
-      else
-        return m_AdditionalNodeTestDelegate( foundNode );
-    }
-    #endregion private
+
+
+    #region public
     /// <summary>
     /// Gets or sets the information about start is passed.
     /// </summary>
@@ -89,18 +64,18 @@ namespace CAS.Lib.ControlLibrary
     /// Searches the tree.
     /// </summary>
     /// <param name="backward">if set to <c>true</c> backward search is performed.</param>
-    public void Search( bool backward )
+    public void Search(bool backward)
     {
-      if ( TreeView == null )
+      if (TreeView == null)
         return;
-      //preaparation for serching:
+      //preparation for searching:
       TreeView.Focus();
       string tobesearched = m_GetToolStripTextToFindDelegate();
       StringComparison stringcmp = StringComparison.InvariantCulture;
-      if ( this.IgnoreCase )
+      if (this.IgnoreCase)
         stringcmp = StringComparison.InvariantCultureIgnoreCase;
       string message_end_is_passed = "";
-      if ( backward ) //selection of message depend on searching forward/backward
+      if (backward) //selection of message depend on searching forward/backward
       {
         message_end_is_passed = InformationStartIsPassed;
       }
@@ -110,48 +85,48 @@ namespace CAS.Lib.ControlLibrary
       }
       //selecting starting node:
       TreeNode StartNode = TreeView.SelectedNode;
-      if ( StartNode == null )
-        StartNode = TreeView.Nodes[ 0 ];
-      if ( TreeView == null )
+      if (StartNode == null)
+        StartNode = TreeView.Nodes[0];
+      if (TreeView == null)
         return;
       //searching
       int QualtityOfEndIsPassed = 0; // here is information that search at leas once has passed end of tree
       TreeNode foundNode_prev = null;
-      TreeNode foundNode = TreeViewSearcher.SearchAndReturnNextNodeThatContainsText( StartNode,
-        tobesearched, !backward, false, stringcmp );//first search
-      if ( foundNode == null )
+      TreeNode foundNode = TreeViewSearcher.SearchAndReturnNextNodeThatContainsText(StartNode,
+        tobesearched, !backward, false, stringcmp);//first search
+      if (foundNode == null)
       {
-        MessageBox.Show( message_end_is_passed ); //if end is passed, dispaly message
-        foundNode = TreeViewSearcher.SearchAndReturnNextNodeThatContainsText( StartNode,
-        tobesearched, !backward, true, stringcmp );
+        MessageBox.Show(message_end_is_passed); //if end is passed, dispaly message
+        foundNode = TreeViewSearcher.SearchAndReturnNextNodeThatContainsText(StartNode,
+        tobesearched, !backward, true, stringcmp);
         QualtityOfEndIsPassed++;
       }
       //we are sarching while any can be found but this node is node NodeClass 
-      while ( foundNode != null && !PerformAdditionalNodeTest( foundNode ) && QualtityOfEndIsPassed < 2 )
+      while (foundNode != null && !PerformAdditionalNodeTest(foundNode) && QualtityOfEndIsPassed < 2)
       {
         foundNode_prev = foundNode;
-        foundNode = TreeViewSearcher.SearchAndReturnNextNodeThatContainsText( foundNode,
-     tobesearched, !backward, false, stringcmp );
-        if ( foundNode == null )
+        foundNode = TreeViewSearcher.SearchAndReturnNextNodeThatContainsText(foundNode,
+     tobesearched, !backward, false, stringcmp);
+        if (foundNode == null)
         {
-          if ( QualtityOfEndIsPassed == 0 )
+          if (QualtityOfEndIsPassed == 0)
           {
-            MessageBox.Show( message_end_is_passed );
+            MessageBox.Show(message_end_is_passed);
             QualtityOfEndIsPassed++;
           }
           else
             break;
-          foundNode = TreeViewSearcher.SearchAndReturnNextNodeThatContainsText( foundNode_prev,
-          tobesearched, !backward, true, stringcmp );
+          foundNode = TreeViewSearcher.SearchAndReturnNextNodeThatContainsText(foundNode_prev,
+          tobesearched, !backward, true, stringcmp);
           QualtityOfEndIsPassed++;
         }
       }
-      if ( foundNode == null /* we have not found enything */
-        || !PerformAdditionalNodeTest( foundNode ) /* TreeNode does not represent node class */)
+      if (foundNode == null /* we have not found enything */
+        || !PerformAdditionalNodeTest(foundNode) /* TreeNode does not represent node class */)
       {
         // message is not displayed if current node contains searched text 
-        if ( TreeView.SelectedNode.Text.IndexOf( tobesearched, stringcmp ) < 0 )
-          MessageBox.Show( InformationCannotBeFound );
+        if (TreeView.SelectedNode.Text.IndexOf(tobesearched, stringcmp) < 0)
+          MessageBox.Show(InformationCannotBeFound);
       }
       else
         TreeView.SelectedNode = foundNode;
@@ -160,13 +135,36 @@ namespace CAS.Lib.ControlLibrary
     /// Initializes a new instance of the <see cref="SearchTreeViewHelper"/> class.
     /// </summary>
     /// <param name="GetToolStripTextToFindDelegate">The get tool strip text to find delegate.</param>
-    public SearchTreeViewHelper( GetToolStripTextToFindDelegate GetToolStripTextToFindDelegate )
+    public SearchTreeViewHelper(GetToolStripTextToFindDelegate GetToolStripTextToFindDelegate)
     {
-      m_AdditionalNodeTestDelegate = new AdditionalNodeTestDelegate( DefaultAdditionalNodeTestDelegate );
+      m_AdditionalNodeTestDelegate = new AdditionalNodeTestDelegate(DefaultAdditionalNodeTestDelegate);
       InformationStartIsPassed = "Start of the tree is passed";
       InformationEndIsPassed = "End of the tree is passed";
       InformationCannotBeFound = "Searched element cannot be found";
       m_GetToolStripTextToFindDelegate = GetToolStripTextToFindDelegate;
     }
+    #endregion
+
+    #region private
+    private AdditionalNodeTestDelegate m_AdditionalNodeTestDelegate;
+    private GetToolStripTextToFindDelegate m_GetToolStripTextToFindDelegate;
+    private bool DefaultAdditionalNodeTestDelegate(TreeNode FoundNode)
+    {
+      return true;
+    }
+    /// <summary>
+    /// An additional node test. It test if this node is valid and return true if OK.
+    /// </summary>
+    /// <param name="foundNode">The found node.</param>
+    /// <returns>true if OK</returns>
+    private bool PerformAdditionalNodeTest(TreeNode foundNode)
+    {
+      if (m_AdditionalNodeTestDelegate == null)
+        return true; // none additional test is required
+      else
+        return m_AdditionalNodeTestDelegate(foundNode);
+    }
+    #endregion private
+
   }
 }

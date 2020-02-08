@@ -5,7 +5,6 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.Windows.Forms.CodeProtectControls;
 using Microsoft.Win32;
 using System;
 using System.ComponentModel;
@@ -15,12 +14,14 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
+using UAOOI.Windows.Forms.CodeProtectControls;
 using UAOOI.Windows.Forms.Properties;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   public partial class LicenseForm : Form
   {
+
     #region public API
     /// <summary>
     /// delegate that provide license request message
@@ -54,7 +55,7 @@ namespace CAS.Lib.ControlLibrary
 
     #endregion
 
-    #region construtors
+    #region constructors
     /// <summary>
     /// Form shows CAS about information
     /// </summary>

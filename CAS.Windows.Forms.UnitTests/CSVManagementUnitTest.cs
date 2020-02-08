@@ -1,8 +1,8 @@
-﻿using CAS.Windows.Forms;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
+using UAOOI.Windows.Forms;
 
-namespace CAS.Windows.Forms.UnitTests
+namespace UAOOI.Windows.Forms
 {
   [TestClass]
   public class CSVManagementUnitTest

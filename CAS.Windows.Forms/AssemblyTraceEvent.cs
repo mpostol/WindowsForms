@@ -9,7 +9,7 @@ using System;
 using System.Diagnostics;
 using System.Reflection;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
 
   /// <summary>

@@ -1,24 +1,16 @@
-﻿//<summary>
-//  Title   : Generic Tab Control Manager
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// Generic Tab Control Manager
@@ -26,7 +18,8 @@ namespace CAS.Lib.ControlLibrary
   /// </summary>
   public partial class TabControlManager: Component
   {
-    #region Creators and Initializations
+
+    #region constructors
     /// <summary>
     /// Initializes a new instance of the <see cref="TabControlManager"/> class.
     /// </summary>
@@ -51,6 +44,8 @@ namespace CAS.Lib.ControlLibrary
       mAllTabPageList = new List<TabPage>();
     }
     #endregion  Creators and Initializations
+
+    #region public
     /// <summary>
     /// Gets or sets the tab control.
     /// </summary>
@@ -58,8 +53,8 @@ namespace CAS.Lib.ControlLibrary
     public TabControl TabControl
     {
       get
-      { 
-        return mTabControl; 
+      {
+        return mTabControl;
       }
       set
       {
@@ -70,19 +65,21 @@ namespace CAS.Lib.ControlLibrary
     /// <summary>
     /// Gets the tool strip item collection(eg. for the menu).
     /// </summary>
-    /// <returns>colletion of tool strip item(eg. for the menu).</returns>
+    /// <returns>collection of tool strip item(e.g. for the menu).</returns>
     public ToolStripItem[] GetToolStripItemCollection()
     {
       CheckAndFillAllTabPageList();
-      ToolStripItem[] to_be_returned = new ToolStripItem[ mAllTabPageList.Count ];
-      for ( int i = 0; i < mAllTabPageList.Count; i++ )
+      ToolStripItem[] to_be_returned = new ToolStripItem[mAllTabPageList.Count];
+      for (int i = 0; i < mAllTabPageList.Count; i++)
       {
-        to_be_returned[ i ] = 
-          new ToolStripItemMenuItemWithTabPage( mTabControl, mAllTabPageList[ i ], 
-            mTabControl.TabPages.Contains( mAllTabPageList[ i ] ) );
+        to_be_returned[i] =
+          new ToolStripItemMenuItemWithTabPage(mTabControl, mAllTabPageList[i],
+            mTabControl.TabPages.Contains(mAllTabPageList[i]));
       }
       return to_be_returned;
     }
+
+    #endregion
     #region private
     private class ToolStripItemMenuItemWithTabPage: ToolStripMenuItem
     {

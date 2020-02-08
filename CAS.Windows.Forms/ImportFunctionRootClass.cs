@@ -1,25 +1,14 @@
-//<summary>
-//  Title   : Class that is base for the importing classes
-//  System  : Microsoft Visual C# .NET 2005
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    MZbrzezny - 20070615 - created.
+//___________________________________________________________________________________
 //
-//  Copyright (C)2006, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-using CAS.Lib.ControlLibrary;
 using System;
 using System.Windows.Forms;
 
-namespace CAS.Windows.Forms
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// Class ImportFunctionRootClass - base class to implement import functionality 
@@ -29,14 +18,12 @@ namespace CAS.Windows.Forms
   /// </remarks>
   public abstract class ImportFunctionRootClass
   {
-    #region private members
+    #region private
     private OKCancelForm m_okcancelform;
     private ImportFileControll m_ImportFileControll;
     private ImportFileControll.ImportInfo m_importinfo = null;
     private string m_import_log = "";
     private System.Windows.Forms.Form m_parrent_form = null;
-    #endregion
-    #region protected function
     /// <summary>
     /// Does the import functionality.
     /// </summary>
@@ -58,6 +45,7 @@ namespace CAS.Windows.Forms
       m_import_log += " " + text2Append + "\r\n";
     }
     #endregion
+    
     #region creator
     internal ImportFunctionRootClass( ImportFileControll.ImportInfo _importinfo, Form parentForm )
     {

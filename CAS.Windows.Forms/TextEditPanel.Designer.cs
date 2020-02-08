@@ -1,20 +1,11 @@
-﻿//<summary>
-//  Title   : Panel to edit text
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  20080425: mzbrzezny : created;
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
-namespace CAS.Lib.ControlLibrary
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
+
+namespace UAOOI.Windows.Forms
 {
   partial class TextEditPanel
   {

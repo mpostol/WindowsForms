@@ -1,22 +1,11 @@
-//<summary>
-//  Title   : Company standard About form.
-//  System  : Microsoft Visual C# .NET 2005
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    MPostol - 9-03-2007: created.
-//    <Author> - <date>:
-//    <description>
+//___________________________________________________________________________________
 //
-//  Copyright (C)2006, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.com.pl
-//  http:\\www.cas.eu
-//</summary>
-namespace CAS.Lib.ControlLibrary
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
+
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// About License Form 
@@ -52,7 +41,7 @@ namespace CAS.Lib.ControlLibrary
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager( typeof( AboutForm ) );
       System.Windows.Forms.ToolStripButton toolStripButton2;
       this.toolStripButton_OpenLogFolder = new System.Windows.Forms.ToolStripButton();
-      this.m_about = new CAS.Lib.ControlLibrary.About();
+      this.m_about = new About();
       toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
       m_ToolStrip = new System.Windows.Forms.ToolStrip();
       toolStripButton1 = new System.Windows.Forms.ToolStripButton();

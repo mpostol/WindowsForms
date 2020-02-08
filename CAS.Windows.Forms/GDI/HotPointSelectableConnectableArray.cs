@@ -1,25 +1,14 @@
-﻿//<summary>
-//  Title   : Array of HotPointSelectableConnectable
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    20080307 mzbrzezny: created
-//    <date> - <author>: <description>
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace CAS.Lib.ControlLibrary.GDI
+namespace UAOOI.Windows.Forms.GDI
 {
   /// <summary>
   /// Array of HotPointSelectableConnectable
@@ -27,11 +16,10 @@ namespace CAS.Lib.ControlLibrary.GDI
   public class HotPointSelectableConnectableArray: SortedList<HotpointType, HotPointSelectableConnectable[]>, IDraw
   {
     /// <summary>
-    /// Deselects all hotpoints.
+    /// Desellects all hotpoints.
     /// </summary>
     internal void DeselectAll()
     {
-      // trzeba przeszukac wszystkie hot pointy
       foreach ( KeyValuePair<HotpointType, HotPointSelectableConnectable[]> hp_array in this )
       {
         foreach ( HotPointSelectableConnectable hp in hp_array.Value )
@@ -41,6 +29,7 @@ namespace CAS.Lib.ControlLibrary.GDI
         }
       }
     }
+
     #region IDraw Members
 
     /// <summary>
@@ -62,6 +51,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     }
 
     #endregion
+
     /// <summary>
     /// Matches and selects the hotpoint. 
     /// This function checks whether one of the hotpoints is clicked and if yes the hotpoint is selected.

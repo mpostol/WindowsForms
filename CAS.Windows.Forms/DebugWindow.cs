@@ -1,26 +1,17 @@
-﻿//<summary>
-//  Title   : Debug window
-//  System  : Microsoft Visual C# .NET 
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//  20081102: mzbrzezny: created
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
+
   /// <summary>
   /// Debug window - standard window for debugging output
   /// 
@@ -96,6 +87,7 @@ namespace CAS.Lib.ControlLibrary
     {
       AppendToLog(StringLineToBeAppended+"\r\n");
     }
+
     #region private
     private void toolStripButton_clear_Click(object sender, EventArgs e)
     {
@@ -125,5 +117,6 @@ namespace CAS.Lib.ControlLibrary
     }
     private delegate void AppendToLogDelegate(string AppendToLogText);
     #endregion private
+
   }
 }

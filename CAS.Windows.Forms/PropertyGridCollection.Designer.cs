@@ -1,7 +1,8 @@
-﻿namespace CAS.Lib.ControlLibrary
+﻿namespace UAOOI.Windows.Forms
 {
   partial class PropertyGridCollection
   {
+
     /// <summary> 
     /// Required designer variable.
     /// </summary>
@@ -40,7 +41,6 @@
     }
 
     #endregion
-
 
   }
 }

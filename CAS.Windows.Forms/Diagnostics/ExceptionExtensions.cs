@@ -8,7 +8,7 @@
 using System;
 using System.Text;
 
-namespace CAS.Windows.Forms.Diagnostics
+namespace UAOOI.Windows.Forms.Diagnostics
 {
   internal static class ExceptionExtensions
   {

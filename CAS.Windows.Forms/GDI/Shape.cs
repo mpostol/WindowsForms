@@ -5,16 +5,16 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.Windows.Forms.Diagnostics;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
+using UAOOI.Windows.Forms.Diagnostics;
 using UAOOI.Windows.Forms.Properties;
 
-namespace CAS.Lib.ControlLibrary.GDI
+namespace UAOOI.Windows.Forms.GDI
 {
   /// <summary>
   /// Shape root graphical element

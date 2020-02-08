@@ -1,26 +1,21 @@
-﻿//<summary>
-//  Title   : OPC products dedicated <see cref="TreeView"/> 
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
+
 using System;
 using System.Windows.Forms;
-namespace CAS.Lib.ControlLibrary
+
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// OPC products dedicated <see cref="TreeView"/> 
   /// </summary>
   public partial class OPCTreeView: TreeView
   {
+
     #region constructor
     /// <summary>
     /// Initializes a new instance of the <see cref="OPCTreeView"/> class.
@@ -31,6 +26,7 @@ namespace CAS.Lib.ControlLibrary
       this.ImageList = m_IimageListLibrary.ProjectImageList;
     }
     #endregion
+
     #region public
     /// <summary>
     /// Clears this instance.
@@ -43,5 +39,6 @@ namespace CAS.Lib.ControlLibrary
       System.Diagnostics.Debug.Assert( this.Nodes.Count == 0 );
     }
     #endregion
+
   }
 }

@@ -1,22 +1,12 @@
 //<summary>
-//  Title   : Company standard About form.
-//  System  : Microsoft Visual C# .NET 2005
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    MPostol - 9-03-2007: created.
+//___________________________________________________________________________________
 //
-//  Copyright (C)2006, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using CAS.Lib.CodeProtect;
-using CAS.Windows.Forms.CodeProtectControls;
 using Microsoft.Win32;
 using System;
 using System.ComponentModel;
@@ -25,8 +15,9 @@ using System.Drawing;
 using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
+using UAOOI.Windows.Forms.CodeProtectControls;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// Class AboutForm - company standard About form.
@@ -61,6 +52,7 @@ namespace CAS.Lib.ControlLibrary
       m_about.SetLicenseLabel = _licenses;
       licenseInformation = String.Format("User: {0}, Product: {1}", licenseOwner, _licenses.GetLicenseInfo());
     }
+
     #region private
     private AboutForm()
     {
@@ -149,5 +141,6 @@ namespace CAS.Lib.ControlLibrary
       }
     }
     #endregion
+
   }
 }

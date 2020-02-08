@@ -1,4 +1,4 @@
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
     /// <summary>
     /// Component shows CAS about information

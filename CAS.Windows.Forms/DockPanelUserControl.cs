@@ -1,26 +1,16 @@
-﻿//<summary>
-//  Title   : DockPanelUserControl panel with label and close button that can be used for docking
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  20090513: mzbrzezny created
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using CAS.Lib.ControlLibrary.ControlExtenders;
+using UAOOI.Windows.Forms.ControlExtenders;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// panel with label and close button that can be used for docking
@@ -66,7 +56,7 @@ namespace CAS.Lib.ControlLibrary
       }
     }
     /// <summary>
-    /// Gets or sets the floaty. <see cref="CAS.Lib.ControlLibrary.ControlExtenders.IFloaty"/>
+    /// Gets or sets the floaty. <see cref="IFloaty"/>
     /// </summary>
     /// <value>The floaty.</value>
     public IFloaty Floaty { get; private set; }
@@ -74,7 +64,7 @@ namespace CAS.Lib.ControlLibrary
     /// Attaches to dock extender.
     /// </summary>
     /// <param name="DockExtender">The dock extender.</param>
-    /// <param name="spliter">The spliter.</param>
+    /// <param name="spliter">The splitter.</param>
     public void AttachToDockExtender( DockExtender DockExtender, Splitter spliter )
     {
       if ( DockExtender != null )
@@ -87,7 +77,7 @@ namespace CAS.Lib.ControlLibrary
     /// Initializes a new instance of the <see cref="DockPanelUserControl"/> class.
     /// </summary>
     /// <param name="DockExtender">The dock extender.</param>
-    /// <param name="spliter">The spliter.</param>
+    /// <param name="spliter">The splitter.</param>
     public DockPanelUserControl( DockExtender DockExtender, Splitter spliter )
       : this()
     {
@@ -129,6 +119,7 @@ namespace CAS.Lib.ControlLibrary
     {
       this.Floaty.Show();
     }
+
     #region private
     private DockExtender dockExtender = null;
     private void DockPanelUserControl_EnterExited( object sender, EventArgs e )
@@ -175,5 +166,6 @@ namespace CAS.Lib.ControlLibrary
       return false;
     }
     #endregion private
+
   }
 }

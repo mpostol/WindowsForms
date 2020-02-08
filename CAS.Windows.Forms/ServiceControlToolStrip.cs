@@ -1,28 +1,23 @@
-﻿//<summary>
-//  Title   : Service Control ToolStrip
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.ServiceProcess;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
+
+  #region public
+
   /// <summary>
   /// ToolStrip to control the service
   /// </summary>
-  public partial class ServiceControlToolStrip: ToolStrip
+  public partial class ServiceControlToolStrip : ToolStrip
   {
     /// <summary>
     /// Initializes a new instance of the <see cref="ServiceControlToolStrip"/> class.
@@ -30,8 +25,8 @@ namespace CAS.Lib.ControlLibrary
     public ServiceControlToolStrip()
     {
       InitializeComponent();
-      ServiceResponseTimeout = new TimeSpan( 0, 0, 0, 10 ); //default timeout 10s
-      this.MouseEnter += new EventHandler( ServiceControlToolStrip_MouseEnter );
+      ServiceResponseTimeout = new TimeSpan(0, 0, 0, 10); //default timeout 10s
+      this.MouseEnter += new EventHandler(ServiceControlToolStrip_MouseEnter);
     }
     /// <summary>
     /// Gets or sets the service response timeout.
@@ -73,6 +68,8 @@ namespace CAS.Lib.ControlLibrary
         UpdateServiceStatus();
       }
     }
+    #endregion
+
     #region event handlers
     private void toolStripButton_restart_Click( object sender, System.EventArgs e )
     {
@@ -140,6 +137,7 @@ namespace CAS.Lib.ControlLibrary
       UpdateServiceStatus();
     }
     #endregion event handlers
+
     #region private
     private static void ExceptionInfo( Exception ex )
     {
@@ -168,5 +166,6 @@ namespace CAS.Lib.ControlLibrary
       }
     }
     #endregion private
+
   }
 }

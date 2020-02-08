@@ -1,33 +1,22 @@
-//<summary>
-//  Title   : Form allowing to modify properties of new created object.
-//  System  : Microsoft Visual C# .NET 2005
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    MPOstol - 18-12-2006: created
-//    <Author> - <date>:
-//    <description>
+//___________________________________________________________________________________
 //
-//  Copyright (C)2006, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.com.pl
-//  http:\\www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
+
   /// <summary>
-  /// The form allows to edit values of the browse-able properties of the assigned object using property grid. 
-  /// Returning dialog result can be used to accept or reject changes.
+  /// The form allows editing values of the browse-able properties of the assigned object using the property grid. Returning dialog results can be used to accept or reject changes.
   /// </summary>
   public partial class AddObject<TObject>: Form
   {
+
     #region public
     /// <summary>
     /// Default creator of the object
@@ -56,6 +45,7 @@ namespace CAS.Lib.ControlLibrary
       get { return (TObject)cm_PropertyGrid.SelectedObject; }
     }
     #endregion
+    
     #region Private events handlers
     private void cm_TSButtonAccept_Click( object sender, EventArgs e )
     {
@@ -68,5 +58,6 @@ namespace CAS.Lib.ControlLibrary
       this.Close();
     }
     #endregion
+
   }
 }

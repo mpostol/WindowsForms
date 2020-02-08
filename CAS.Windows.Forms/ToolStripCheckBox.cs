@@ -1,47 +1,35 @@
-﻿//<summary>
-//  Title   : ToolStripCheckBox
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    20090127: MZBRZEZNY:created
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
-using System.Drawing;
 using System.Windows.Forms;
 
-
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// ToolStripCheckBox
   /// </summary>
-  public class ToolStripCheckBox: System.Windows.Forms.ToolStripControlHost
+  public class ToolStripCheckBox : System.Windows.Forms.ToolStripControlHost
   {
+
+    #region public
+    /// <summary>
+    /// Occurs when checked state is changed.
+    /// </summary>
+    public event EventHandler CheckedChanged;
     /// <summary>
     /// Initializes a new instance of the <see cref="ToolStripCheckBox"/> class.
     /// </summary>
-    public ToolStripCheckBox() : base( new System.Windows.Forms.CheckBox() ) { }
+    public ToolStripCheckBox() : base(new System.Windows.Forms.CheckBox()) { }
     /// <summary>
     /// Gets the tool strip check box control.
     /// </summary>
     /// <value>The tool strip check box control.</value>
-    public CheckBox ToolStripCheckBoxControl
-    {
-      get
-      {
-        return Control as CheckBox;
-      }
-    }
+    public CheckBox ToolStripCheckBoxControl => Control as CheckBox;
     /// <summary>
     /// Gets or sets a value indicating whether [tool strip check box enabled].
     /// expose checkbox.enabled as property
@@ -51,57 +39,53 @@ namespace CAS.Lib.ControlLibrary
     /// </value>
     public bool ToolStripCheckBoxEnabled
     {
-      get
-      {
-        return ToolStripCheckBoxControl.Enabled;
-      }
-      set
-      {
-        ToolStripCheckBoxControl.Enabled = value;
-      }
+      get => ToolStripCheckBoxControl.Enabled;
+      set => ToolStripCheckBoxControl.Enabled = value;
     }
+    #endregion
+
+    #region private
     /// <summary>
     /// Called when [subscribe control events].
     /// </summary>
     /// <param name="c">The c.</param>
-    protected override void OnSubscribeControlEvents( Control c )
+    protected override void OnSubscribeControlEvents(Control c)
     {
       // Call the base method so the basic events are unsubscribed.
-      base.OnSubscribeControlEvents( c );
+      base.OnSubscribeControlEvents(c);
       CheckBox ToolStripCheckBoxControl = (CheckBox)c;
-      if ( CheckedChanged != null )
+      if (CheckedChanged != null)
       {
         // Remove the event.
-        ToolStripCheckBoxControl.CheckedChanged += new EventHandler( CheckedChanged );
+        ToolStripCheckBoxControl.CheckedChanged += new EventHandler(CheckedChanged);
       }
     }
     /// <summary>
-    /// Called when [unsubscribe control events].
+    /// Called when on unsubscribe control events.
     /// </summary>
     /// <param name="c">The c.</param>
-    protected override void OnUnsubscribeControlEvents( Control c )
+    protected override void OnUnsubscribeControlEvents(Control c)
     {
       // Call the base method so the basic events are unsubscribed.
-      base.OnUnsubscribeControlEvents( c );
+      base.OnUnsubscribeControlEvents(c);
       CheckBox ToolStripCheckBoxControl = (CheckBox)c;
-      if ( CheckedChanged != null )
+      if (CheckedChanged != null)
       {
         // Remove the event.
-        ToolStripCheckBoxControl.CheckedChanged -= new EventHandler( CheckedChanged );
+        ToolStripCheckBoxControl.CheckedChanged -= new EventHandler(CheckedChanged);
       }
     }
-
     /// <summary>
     /// Occurs when checked is changed.
     /// </summary>
-    public event EventHandler CheckedChanged;
-
-    private void OnCheckChanged( object sender, DateRangeEventArgs e )
+    private void OnCheckChanged(object sender, DateRangeEventArgs e)
     {
-      if ( CheckedChanged != null )
+      if (CheckedChanged != null)
       {
-        CheckedChanged( this, e );
+        CheckedChanged(this, e);
       }
     }
+    #endregion
+
   }
 }

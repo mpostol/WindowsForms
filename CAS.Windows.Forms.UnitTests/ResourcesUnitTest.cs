@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Drawing;
 using UAOOI.Windows.Forms.Properties;
 
-namespace CAS.Windows.Forms.UnitTests
+namespace UAOOI.Windows.Forms
 {
   [TestClass]
   public class ResourcesUnitTest

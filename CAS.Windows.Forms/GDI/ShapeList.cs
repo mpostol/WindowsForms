@@ -1,30 +1,21 @@
-﻿//<summary>
-//  Title   : List of shapes
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    20080305 - mzbrzezny - created
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Collections.Generic;
 
-namespace CAS.Lib.ControlLibrary.GDI
+namespace UAOOI.Windows.Forms.GDI
 {
   /// <summary>
   /// List of the Shapes
   /// </summary>
   public class ShapeList : IEnumerable<Shape>
   {
+
     #region private
     private List<Shape> mList = new List<Shape>();
     private void RaiseShapeIsRemovedEvent( Shape RemovedShape )
@@ -35,6 +26,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       }
     }
     #endregion
+
     #region internal
     /// <summary>
     /// Deselects all shapes.
@@ -148,6 +140,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     {
     }
     #endregion internal
+
     #region IEnumerable<Shape> Members
 
     IEnumerator<Shape> IEnumerable<Shape>.GetEnumerator()
@@ -159,6 +152,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     }
 
     #endregion
+
     #region IEnumerable Members
 
     System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
@@ -170,6 +164,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     }
 
     #endregion
+
     /// <summary>
     /// Occurs when [shape is removed].
     /// </summary>

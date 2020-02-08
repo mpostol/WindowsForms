@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Reflection;
 
-namespace CAS.Windows.Forms.UnitTests.Instrumentation
+namespace UAOOI.Windows.Forms.Instrumentation
 {
   internal static class Extensions
   {

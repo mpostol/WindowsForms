@@ -13,8 +13,8 @@ string Owner = "Mariusz Postol";
 string CASWindowsFormsName = "UAOOI.Windows.Forms";
 string CASWindowsFormsTitle = "Windows Forms Controls Library";
 string CASWindowsFormsTrademark = "Object-Oriented Internet";
-string CASWindowsFormsVersion = "7.0.0";
-string CASWindowsFormsPreRelease = "-Alpha";
+string CASWindowsFormsVersion = "7.0.1";
+string CASWindowsFormsPreRelease = "-Bravo";
 string ProductName = "Object-Oriented Internet";
 
 //Note: 

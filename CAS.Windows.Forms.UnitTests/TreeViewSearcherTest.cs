@@ -5,12 +5,11 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.Lib.ControlLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Windows.Forms;
 
-namespace CAS.Windows.Forms.UnitTests
+namespace UAOOI.Windows.Forms
 {
 
   /// <summary>
@@ -23,23 +22,12 @@ namespace CAS.Windows.Forms.UnitTests
 
     private TreeView m_TreeView;
     private string[] stringlist;
-    private TestContext testContextInstance;
 
     /// <summary>
     ///Gets or sets the test context which provides
     ///information about and functionality for the current test run.
     ///</summary>
-    public TestContext TestContext
-    {
-      get
-      {
-        return testContextInstance;
-      }
-      set
-      {
-        testContextInstance = value;
-      }
-    }
+    public TestContext TestContext { get; set; }
 
     #region Additional test attributes
     // 

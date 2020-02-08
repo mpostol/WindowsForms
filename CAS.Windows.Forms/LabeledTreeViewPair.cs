@@ -1,30 +1,20 @@
-﻿//<summary>
-//  Title   : Pair of label and tree view
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// Pair of label and tree view
   /// </summary>
   public class LabeledTreeViewPair
   {
+
     /// <summary>
     /// Gets or sets the tree view.
     /// </summary>
@@ -35,5 +25,6 @@ namespace CAS.Lib.ControlLibrary
     /// </summary>
     /// <value>The label.</value>
     public string Label { get; set; }
+
   }
 }

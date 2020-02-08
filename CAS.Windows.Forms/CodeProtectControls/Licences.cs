@@ -1,20 +1,9 @@
-//<summary>
-//  Title   : A control to support licenses management
-//  System  : Microsoft Visual C# .NET 2005
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    20080508: mzbrzezny namespace is changed to CAS.Lib.ControlLibrary
-//    MPostol - 19-03-2007: created 
+//___________________________________________________________________________________
 //
-//  Copyright (C)2006, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using CAS.Lib.CodeProtect.EnvironmentAccess;
 using CAS.Lib.CodeProtect.LicenseDsc;
@@ -25,13 +14,14 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
-namespace CAS.Windows.Forms.CodeProtectControls
+namespace UAOOI.Windows.Forms.CodeProtectControls
 {
   /// <summary>
   /// A control to support licenses management
   /// </summary>
   public partial class Licenses : UserControl
   {
+
     #region public
     #region creator
     /// <summary>
@@ -173,5 +163,6 @@ namespace CAS.Windows.Forms.CodeProtectControls
     #endregion event handlers
 
     #endregion private
+
   }
 }

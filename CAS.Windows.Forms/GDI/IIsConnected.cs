@@ -1,23 +1,11 @@
-﻿//<summary>
-//  Title   : IsConnected is interface that indicate if particular object is Connected
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    20080305 - mzbrzezny - created
-//    <date> - <author>: <description>
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-
-namespace CAS.Lib.ControlLibrary.GDI
+namespace UAOOI.Windows.Forms.GDI
 {
   /// <summary>
   /// IsConnected is interface that indicate if particular object is Connected

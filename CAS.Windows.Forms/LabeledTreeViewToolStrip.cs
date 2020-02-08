@@ -1,29 +1,20 @@
-﻿//<summary>
-//  Title   : ToolStrip with Label and tree view
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-// 20090428: mzbrzezny: created
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>      
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// ToolStrip with Label and tree view
   /// </summary>
   public class LabeledTreeViewToolStrip: ToolStrip
   {
+
     #region private
     /// <summary>
     /// TreeView member
@@ -39,6 +30,8 @@ namespace CAS.Lib.ControlLibrary
         m_toolStripLabel_info} );
     }
     #endregion private
+
+    #region public
     /// <summary>
     /// Initializes a new instance of the <see cref="BackForwardTreViewToolStrip"/> class.
     /// </summary>
@@ -46,7 +39,6 @@ namespace CAS.Lib.ControlLibrary
     {
       InitializeComponent();
     }
-    #region properties
     /// <summary>
     /// Gets or sets the text associated with this control.
     /// </summary>

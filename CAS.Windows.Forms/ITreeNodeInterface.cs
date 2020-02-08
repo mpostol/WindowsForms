@@ -1,29 +1,20 @@
-﻿//<summary>
-//  Title   : Interface of the tree node
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  20080507: mzbrzezny - created
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
+
   /// <summary>
   /// Interface of the tree node
   /// </summary>
-  public interface ITreeNodeInterface: IDisposable
+  public interface ITreeNodeInterface : IDisposable
   {
     /// <summary>
     /// Gets the menu items.
@@ -59,5 +50,6 @@ namespace CAS.Lib.ControlLibrary
     /// Clears this instance and removes all tree nodes from the collection.
     /// </summary>
     void Clear();
+
   }
 }

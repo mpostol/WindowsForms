@@ -15,7 +15,7 @@ using System.Reflection;
 using System.Windows.Forms;
 using UAOOI.Windows.Forms.CodeProtectControls;
 
-namespace CAS.Windows.Forms.CodeProtectControls
+namespace UAOOI.Windows.Forms.CodeProtectControls
 {
   /// <summary>
   /// Dialog used to provide the unlock key.

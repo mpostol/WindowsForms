@@ -10,7 +10,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using UAOOI.Windows.GUIAbstractions;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// Control That is responsible for selecting file to import

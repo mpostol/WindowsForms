@@ -5,8 +5,6 @@
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
 
-using CAS.Lib.ControlLibrary;
-using CAS.Windows.Forms.UnitTests.Instrumentation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -14,8 +12,9 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using UAOOI.Windows.Forms.Instrumentation;
 
-namespace CAS.Windows.Forms.UnitTests
+namespace UAOOI.Windows.Forms
 {
   [TestClass]
   public class AssemblyTraceEventUnitTest

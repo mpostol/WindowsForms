@@ -1,4 +1,4 @@
-﻿namespace CAS.Windows.Forms.CodeProtectControls
+﻿namespace UAOOI.Windows.Forms.CodeProtectControls
 {
   public partial class SplashScreen
   {

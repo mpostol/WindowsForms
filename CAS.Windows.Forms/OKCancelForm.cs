@@ -11,7 +11,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using UAOOI.Windows.GUIAbstractions;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   public partial class OKCancelForm : Form, ICanBeAccepted
   {

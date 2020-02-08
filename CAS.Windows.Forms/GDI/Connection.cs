@@ -1,30 +1,21 @@
-﻿//<summary>
-//  Title   : Connection class - class that displays connection between shapes
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    20080307 - mzbrzezny: created
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Drawing;
 
-namespace CAS.Lib.ControlLibrary.GDI
+namespace UAOOI.Windows.Forms.GDI
 {
   /// <summary>
   /// Connection class - class that displays connection between shapes
   /// </summary>
   public class Connection: IDraw, IIsSelected
   {
+
     #region PRIVATE
     const int MaxNodeCount = 7;
  		const int PrecisionSize = 2;
@@ -332,6 +323,7 @@ namespace CAS.Lib.ControlLibrary.GDI
 			return line.Contains(point);
 		}
     #endregion PRIVATE
+    
     #region PUBLIC
     /// <summary>
     /// Exchanges the beginning with end.
@@ -455,5 +447,6 @@ namespace CAS.Lib.ControlLibrary.GDI
     }
 
     #endregion
+
   }
 }

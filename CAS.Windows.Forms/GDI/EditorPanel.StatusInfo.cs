@@ -1,23 +1,14 @@
-﻿//<summary>
-//  Title   : Status for Editor Panel 
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  20080423: mzbrzezny:created
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Text;
 
-namespace CAS.Lib.ControlLibrary.GDI
+namespace UAOOI.Windows.Forms.GDI
 {
   /// <summary>
   /// Editor Panel
@@ -29,6 +20,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// </summary>
     public class StatusInformationClass
     {
+
       #region private
       private bool mConnecting = false;
       private bool mShapeIsMoving = false;
@@ -41,6 +33,7 @@ namespace CAS.Lib.ControlLibrary.GDI
         }
       }
       #endregion private
+
       #region internal
       /// <summary>
       /// Gets or sets a value indicating whether this <see cref="StatusInformationClass"/> is connecting.
@@ -91,6 +84,8 @@ namespace CAS.Lib.ControlLibrary.GDI
         }
       }
       #endregion internal
+
+      #region public
       /// <summary>
       /// Returns a <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
       /// </summary>
@@ -100,17 +95,19 @@ namespace CAS.Lib.ControlLibrary.GDI
       public override string ToString()
       {
         StringBuilder sb = new StringBuilder();
-        if ( mConnecting )
-          sb.Append( "connecting " );
-        if ( mShapeIsMoving )
-          sb.Append( "moving shape " );
-        sb.Append( mAdditionalInfo );
+        if (mConnecting)
+          sb.Append("connecting ");
+        if (mShapeIsMoving)
+          sb.Append("moving shape ");
+        sb.Append(mAdditionalInfo);
         return sb.ToString();
       }
       /// <summary>
       /// Occurs when information is changed.
       /// </summary>
       public event EventHandler InfoIsChanged;
+      #endregion
+
     }
   }
 }

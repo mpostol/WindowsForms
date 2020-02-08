@@ -1,24 +1,17 @@
-﻿//<summary>
-//  Title   : Generic and disposable
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
+
   /// <summary>
   /// Generic and disposable <see cref="TreeNode"/>
   /// </summary>
@@ -27,6 +20,7 @@ namespace CAS.Lib.ControlLibrary
     where ObjectType: class
     where ParentType: class, ITreeNodeInterface
   {
+
     #region private
     private List<List<ToolStripMenuItem>> m_ListOfListOfToolStripMenuItem = new List<List<ToolStripMenuItem>>();
     /// <summary>
@@ -191,5 +185,6 @@ namespace CAS.Lib.ControlLibrary
       set { base.Tag = value; }
     }
     #endregion
+
   }
 }

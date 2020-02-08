@@ -1,31 +1,22 @@
-﻿//<summary>
-//  Title   : The shape with hotpoints on it
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//    20080300 - mzbrzezny: created
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System.Drawing;
 
-namespace CAS.Lib.ControlLibrary.GDI
+namespace UAOOI.Windows.Forms.GDI
 {
   /// <summary>
-  /// The shape with hotpoints on it
+  /// The shape with hot-points on it
   /// </summary>
   public class ShapeWithHotpoints: Shape
   {
     private bool hotpointismatched = false;
     /// <summary>
-    /// the array of hotpoints inputs
+    /// the array of hot-points inputs
     /// </summary>
     protected HotPointSelectableConnectableArray HotpointsInputs;
     /// <summary>
@@ -43,9 +34,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       this.MouseDown += new System.Windows.Forms.MouseEventHandler( this.OperationShape_MouseDown );
       this.MouseUp += new System.Windows.Forms.MouseEventHandler( this.OperationShape_MouseUp );
       this.ResumeLayout( false );
-
     }
-
     /// <summary>
     /// Handles the MouseDown event of the OperationShape control.
     /// </summary>
@@ -56,7 +45,6 @@ namespace CAS.Lib.ControlLibrary.GDI
       if ( HotpointsInputs != null )
         hotpointismatched = HotpointsInputs.MatchAndSelect( new Point( e.X, e.Y ) );
     }
-
     /// <summary>
     /// Handles the Paint event of the OperationShape control.
     /// </summary>
@@ -78,9 +66,9 @@ namespace CAS.Lib.ControlLibrary.GDI
         HotpointsInputs.DeselectAll();
     }
     /// <summary>
-    /// Gets the selected hotpoint.
+    /// Gets the selected hot-point.
     /// </summary>
-    /// <value>The selected hotpoint.</value>
+    /// <value>The selected hot-point.</value>
     public HotPointSelectableConnectable SelectedHotpoint
     {
       get
@@ -92,9 +80,9 @@ namespace CAS.Lib.ControlLibrary.GDI
       }
     }
     /// <summary>
-    /// Gets a value indicating whether one of the hotpoint is matched.
+    /// Gets a value indicating whether one of the hot-point is matched.
     /// </summary>
-    /// <value><c>true</c> if the hotpoint is matched; otherwise, <c>false</c>.</value>
+    /// <value><c>true</c> if the hot-point is matched; otherwise, <c>false</c>.</value>
     public bool HotPointIsMatched
     {
       get
@@ -111,8 +99,8 @@ namespace CAS.Lib.ControlLibrary.GDI
       InitializeComponent();
     }
     /// <summary>
-    /// Matches and selects the hotpoint. 
-    /// This function checks whether one of the hotpoints is clicked and if yes the hotpoint is selected.
+    /// Matches and selects the hot-point. 
+    /// This function checks whether one of the hot-points is clicked and if yes the hot-point is selected.
     /// </summary>
     /// <param name="PointToBeChecked">The point that is clicked.</param>
     /// <returns>true if any hot point is selected</returns>
@@ -124,10 +112,10 @@ namespace CAS.Lib.ControlLibrary.GDI
         return false;
     }
     /// <summary>
-    /// Gets the hotpoint.
+    /// Gets the hot-point.
     /// </summary>
     /// <param name="Type">The type.</param>
-    /// <param name="HotpointNumber">The hotpoint number.</param>
+    /// <param name="HotpointNumber">The hot-point number.</param>
     /// <returns>the particular HotPoint</returns>
     public HotPoint GetHotpoint( HotpointType Type, int HotpointNumber )
     {

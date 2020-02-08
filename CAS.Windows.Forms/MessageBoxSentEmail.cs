@@ -6,13 +6,14 @@
 //___________________________________________________________________________________
 
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Windows.Forms;
 using UAOOI.Windows.Forms.Properties;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
-  /// MessageBoxSentEmail class- this class can display message boxes and open emial client
+  /// MessageBoxSentEmail class- this class can display message boxes and open email client
   /// </summary>
   public class MessageBoxSentEmail
   {
@@ -31,7 +32,7 @@ namespace CAS.Lib.ControlLibrary
       {
         MessageBody = MessageBody.Replace("\r\n", "%0A") + "%0A"; // we have to change new line representation
         string request = string.Format("mailto:{0}?subject={1}&body={2}", EmailAddress, MessageSubject, MessageBody);
-        System.Diagnostics.Process.Start(request);
+        Process.Start(request);
       }
       catch (Win32Exception)
       {

@@ -1,26 +1,16 @@
-//<summary>
-//  Title   : About control to be addend to products about form
-//  System  : Microsoft Visual C# .NET 
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    MPostol 08-03-2007: Created.
+//___________________________________________________________________________________
 //
-//  Copyright (C)2006, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
-using CAS.Windows.Forms.CodeProtectControls;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using UAOOI.Windows.Forms.CodeProtectControls;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   public partial class About: UserControl
   {
@@ -76,6 +66,7 @@ namespace CAS.Lib.ControlLibrary
       }
     }
     #endregion
+
     #region private
     private static void LinkActivator( object sender )
     {
@@ -84,8 +75,12 @@ namespace CAS.Lib.ControlLibrary
       System.Diagnostics.Process.Start( todo );
       ml.LinkVisited = true;
     }
-    #endregion
-    #region eventhandlers
+    private void webBrowser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+    {
+      this.Cursor = Cursors.Default;
+    }
+
+    #region event handlers
     private void linkLabel1_LinkClicked( object sender, LinkLabelLinkClickedEventArgs e )
     {
       LinkActivator( sender );
@@ -100,9 +95,7 @@ namespace CAS.Lib.ControlLibrary
     }
     #endregion
 
-    private void webBrowser_DocumentCompleted( object sender, WebBrowserDocumentCompletedEventArgs e )
-    {
-      this.Cursor = Cursors.Default;
-    }
+    #endregion
+
   }
 }

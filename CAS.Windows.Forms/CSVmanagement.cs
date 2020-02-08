@@ -1,23 +1,16 @@
-//_______________________________________________________________
-//  Title   : CSVManagement
-//  System  : Microsoft VisualStudio 2015 / C#
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+//___________________________________________________________________________________
 //
-//  Copyright (C) 2016, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//_______________________________________________________________
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.IO;
 
-namespace CAS.Windows.Forms
+namespace UAOOI.Windows.Forms
 {
+
   /// <summary>
   /// Class CSVManagement - provides functionality to manage import files contained comma separated values. 
   /// </summary>
@@ -85,5 +78,6 @@ namespace CAS.Windows.Forms
       return m_Buffer;
     }
     private string m_Buffer = String.Empty;
+
   }
 }

@@ -1,5 +1,6 @@
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
+
   /// <summary>
   /// Form allowing to modify properties of new created object.
   /// </summary>
@@ -21,6 +22,7 @@ namespace CAS.Lib.ControlLibrary
       }
       base.Dispose( disposing );
     }
+
     #region Windows Form Designer generated code
 
     /// <summary>
@@ -135,9 +137,11 @@ namespace CAS.Lib.ControlLibrary
     }
 
     #endregion
+
     private System.Windows.Forms.ToolStrip cm_ToolStrip;
     private System.Windows.Forms.ToolStripContainer cm_toolStripContainer;
     private System.Windows.Forms.ToolStripButton cm_TSButtonAccept;
     private System.Windows.Forms.Button cm_ButtonEnter;
+
   }
 }

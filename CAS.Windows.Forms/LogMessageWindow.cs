@@ -1,15 +1,17 @@
+//___________________________________________________________________________________
+//
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
+
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
-  /// Window to dispaly information
+  /// Window to display information
   /// </summary>
   public partial class LogMessageWindow: Form
   {
@@ -22,7 +24,7 @@ namespace CAS.Lib.ControlLibrary
     }
     /// <summary>
     /// constructor
-    /// <param name="message">message to be shouwn</param>
+    /// <param name="message">message to be shown</param>
     /// </summary>
     public LogMessageWindow(string message)
     {
@@ -36,7 +38,7 @@ namespace CAS.Lib.ControlLibrary
     /// <summary>
     /// this function sets the log message
     /// </summary>
-    /// <param name="message">message to be shouwn</param>
+    /// <param name="message">message to be shown</param>
     public void SetLogMessage(string message)
     {
       this.textBox_log.Text = message;

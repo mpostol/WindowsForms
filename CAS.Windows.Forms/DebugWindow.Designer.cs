@@ -1,7 +1,9 @@
-﻿namespace CAS.Lib.ControlLibrary
+﻿namespace UAOOI.Windows.Forms
 {
+
   partial class DebugWindow
   {
+
     /// <summary>
     /// Required designer variable.
     /// </summary>
@@ -104,5 +106,6 @@
     private System.Windows.Forms.ToolStrip toolStrip1;
     private System.Windows.Forms.ToolStripButton toolStripButton_clear;
     private System.Windows.Forms.ToolStripButton toolStripButton_alwaysontop;
+
   }
 }

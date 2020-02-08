@@ -1,7 +1,8 @@
-﻿namespace CAS.Windows.Forms.CodeProtectControls
+﻿namespace UAOOI.Windows.Forms.CodeProtectControls
 {
   partial class UnlockKeyDialog
   {
+
     /// <summary> 
     /// Required designer variable.
     /// </summary>
@@ -157,5 +158,6 @@
     private System.Windows.Forms.SplitContainer m_SplitContainer;
     private System.Windows.Forms.TextBox m_UnlockKey;
     private System.Windows.Forms.RichTextBox m_HelpText;
+
   }
 }

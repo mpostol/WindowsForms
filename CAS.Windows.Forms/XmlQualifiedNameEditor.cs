@@ -10,7 +10,7 @@ using System.ComponentModel;
 using System.Xml;
 using UAOOI.Windows.Forms.Properties;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
 
   /// <summary>
@@ -286,17 +286,17 @@ namespace CAS.Lib.ControlLibrary
 
   #region IXmlQualifiedNameEditorNamespaceProvider
   /// <summary>
-  /// Interface responsible for creating the list of availiable namespaces
+  /// Interface responsible for creating the list of available namespaces
   /// </summary>
   public interface IXmlQualifiedNameEditorNamespaceProvider
   {
     /// <summary>
-    /// Gets the availiable namespaces.
+    /// Gets the available namespaces.
     /// </summary>
     /// <returns></returns>
     string[] GetAvailiableNamespaces();
     /// <summary>
-    /// Gets the target namespace of the current model.
+    /// Gets the target namespaces of the current model.
     /// </summary>
     /// <returns>The target namespace.</returns>
     string GetTargetNamespace();

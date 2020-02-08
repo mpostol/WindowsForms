@@ -1,31 +1,23 @@
-﻿//<summary>
-//  Title   : Class that represents graphic setting 
-//  System  : Microsoft Visual C# .NET 
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    20080305 - mzbrzezny - created
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 
-namespace CAS.Lib.ControlLibrary.GDI
+namespace UAOOI.Windows.Forms.GDI
 {
+
   /// <summary>
   /// Class that represents graphic setting
   /// </summary>
   public class GraphicsSettings
   {
+
     #region private
     private Color mBackgroundColor;
     private Color mForegroundColor;
@@ -68,6 +60,7 @@ namespace CAS.Lib.ControlLibrary.GDI
       textPen = new Pen( textBrush, 0.25F );
     }
     #endregion private
+
     #region public
     /// <summary>
     /// Initializes a new instance of the <see cref="GraphicsSettings"/> class.
@@ -242,5 +235,6 @@ namespace CAS.Lib.ControlLibrary.GDI
       }
     }
     #endregion public
+
   }
 }

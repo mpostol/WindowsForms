@@ -1,24 +1,17 @@
-﻿//<summary>
-//  Title   : Helper that provides some additional functionality for ToolStripContainer
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
+
   /// <summary>
   /// Helper that provides some additional functionality for ToolStripContainer
   /// </summary>
@@ -28,7 +21,7 @@ namespace CAS.Lib.ControlLibrary
     /// Initializes a new instance of the <see cref="ToolStripContainerHelper"/> class.
     /// </summary>
     /// <param name="Container">The Tool Strip Container.</param>
-    public ToolStripContainerHelper( ToolStripContainer Container )
+    public ToolStripContainerHelper(ToolStripContainer Container)
     {
       myToolStripContainer = Container;
     }
@@ -39,62 +32,64 @@ namespace CAS.Lib.ControlLibrary
     public ToolStripMenuItem[] GetListOfToolStripMenuItem()
     {
       List<ToolStripMenuItem> menuItemList = new List<ToolStripMenuItem>();
-      foreach ( Control f in myToolStripContainer.ContentPanel.Controls )
+      foreach (Control f in myToolStripContainer.ContentPanel.Controls)
       {
-        CreateMenuItem( menuItemList, f );
+        CreateMenuItem(menuItemList, f);
       }
-      foreach ( Control f in myToolStripContainer.TopToolStripPanel.Controls )
+      foreach (Control f in myToolStripContainer.TopToolStripPanel.Controls)
       {
-        CreateMenuItem( menuItemList, f );
+        CreateMenuItem(menuItemList, f);
       }
-      foreach ( Control f in myToolStripContainer.BottomToolStripPanel.Controls )
+      foreach (Control f in myToolStripContainer.BottomToolStripPanel.Controls)
       {
-        CreateMenuItem( menuItemList, f );
+        CreateMenuItem(menuItemList, f);
       }
-      foreach ( Control f in myToolStripContainer.RightToolStripPanel.Controls )
+      foreach (Control f in myToolStripContainer.RightToolStripPanel.Controls)
       {
-        CreateMenuItem( menuItemList, f );
+        CreateMenuItem(menuItemList, f);
       }
-      foreach ( Control f in myToolStripContainer.LeftToolStripPanel.Controls )
+      foreach (Control f in myToolStripContainer.LeftToolStripPanel.Controls)
       {
-        CreateMenuItem( menuItemList, f );
+        CreateMenuItem(menuItemList, f);
       }
       return menuItemList.ToArray();
     }
+
     #region private
     private ToolStripContainer myToolStripContainer;
-    private void CreateMenuItem( List<ToolStripMenuItem> menuItemList, Control f )
+    private void CreateMenuItem(List<ToolStripMenuItem> menuItemList, Control f)
     {
-      if ( f is ToolStrip )
+      if (f is ToolStrip)
       {
-        ToolStripMenuItem item = new ToolStripMenuItem( f.Text );
-        item.Click += new EventHandler( menuItem_Click );
+        ToolStripMenuItem item = new ToolStripMenuItem(f.Text);
+        item.Click += new EventHandler(menuItem_Click);
         item.Tag = f;
         item.CheckOnClick = true;
         item.Checked = f.Visible;
-        item.Paint += new PaintEventHandler( menuItem_Paint );
-        menuItemList.Add( item );
+        item.Paint += new PaintEventHandler(menuItem_Paint);
+        menuItemList.Add(item);
       }
     }
-    private void menuItem_Paint( object sender, PaintEventArgs e )
+    private void menuItem_Paint(object sender, PaintEventArgs e)
     {
       ToolStripMenuItem item = sender as ToolStripMenuItem;
       ToolStrip toolStrip = item.Tag as ToolStrip;
-      if ( toolStrip == null || item == null )
+      if (toolStrip == null || item == null)
         return;
       item.Checked = toolStrip.Visible;
     }
-    private void menuItem_Click( object sender, EventArgs e )
+    private void menuItem_Click(object sender, EventArgs e)
     {
       ToolStripItem item = sender as ToolStripItem;
       ToolStrip toolStrip = item.Tag as ToolStrip;
-      if ( toolStrip == null || item == null )
+      if (toolStrip == null || item == null)
         return;
-      if ( toolStrip.Visible )
+      if (toolStrip.Visible)
         toolStrip.Hide();
       else
         toolStrip.Show();
     }
     #endregion private
+
   }
 }

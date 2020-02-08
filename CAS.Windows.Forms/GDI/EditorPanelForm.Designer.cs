@@ -1,22 +1,13 @@
-﻿//<summary>
-//  Title   : Form that contains Editor Panel
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
-//  History :
-//    200803 - mzbrzezny: created
-//    <date> - <author>: <description>
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2008, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
-namespace CAS.Lib.ControlLibrary.GDI
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
+
+namespace UAOOI.Windows.Forms.GDI
 {
+
   /// <summary>
   /// Form that contains Editor Panel
   /// </summary>
@@ -26,7 +17,6 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// Required designer variable.
     /// </summary>
     private System.ComponentModel.IContainer components = null;
-
     /// <summary>
     /// Clean up any resources being used.
     /// </summary>
@@ -39,7 +29,6 @@ namespace CAS.Lib.ControlLibrary.GDI
       }
       base.Dispose( disposing );
     }
-
     #region Windows Form Designer generated code
 
     /// <summary>
@@ -48,7 +37,7 @@ namespace CAS.Lib.ControlLibrary.GDI
     /// </summary>
     private void InitializeComponent()
     {
-      this.MyEditorPanel = new CAS.Lib.ControlLibrary.GDI.EditorPanel();
+      this.MyEditorPanel = new EditorPanel();
       this.SuspendLayout();
       // 
       // MyEditorPanel
@@ -71,11 +60,10 @@ namespace CAS.Lib.ControlLibrary.GDI
       this.Name = "EditorPanelForm";
       this.Text = "EditorPanelForm";
       this.ResumeLayout(false);
-
     }
 
     #endregion
-
     private EditorPanel MyEditorPanel;
+
   }
 }

@@ -1,30 +1,20 @@
-﻿//<summary>
-//  Title   : ToolStrip with backward / forward navigation
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-// 20090428: mzbrzezny: created
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>      
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// ToolStrip with backward / forward tree navigation
   /// </summary>
-  public class BackForwardTreViewToolStrip: LabeledTreeViewToolStrip
+  public class BackForwardTreViewToolStrip : LabeledTreeViewToolStrip
   {
     #region private
     private ToolStripButton m_toolStrip_Forward;
@@ -35,26 +25,26 @@ namespace CAS.Lib.ControlLibrary
       m_BackForwardTreViewHelper = new BackForwardTreViewHelper();
       m_LabeledTreeViewPair = m_BackForwardTreViewHelper;
       this.Text = "Navigate: ";
-      m_toolStrip_Forward = new ToolStripButton( "->" );
-      m_toolStrip_Backward = new ToolStripButton( "<-" );
-      this.Items.AddRange( new System.Windows.Forms.ToolStripItem[] {
+      m_toolStrip_Forward = new ToolStripButton("->");
+      m_toolStrip_Backward = new ToolStripButton("<-");
+      this.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
         m_toolStrip_Backward,
-        m_toolStrip_Forward} );
-      m_toolStrip_Backward.Click += new EventHandler( m_toolStrip_Backward_Click );
-      m_toolStrip_Forward.Click += new EventHandler( m_toolStrip_Forward_Click );
-      m_toolStrip_Backward.MouseEnter += new EventHandler( m_toolStrip_Button_MouseEnter );
-      m_toolStrip_Forward.MouseEnter += new EventHandler( m_toolStrip_Button_MouseEnter );
+        m_toolStrip_Forward});
+      m_toolStrip_Backward.Click += new EventHandler(m_toolStrip_Backward_Click);
+      m_toolStrip_Forward.Click += new EventHandler(m_toolStrip_Forward_Click);
+      m_toolStrip_Backward.MouseEnter += new EventHandler(m_toolStrip_Button_MouseEnter);
+      m_toolStrip_Forward.MouseEnter += new EventHandler(m_toolStrip_Button_MouseEnter);
     }
-    private void m_toolStrip_Button_MouseEnter( object sender, EventArgs e )
+    private void m_toolStrip_Button_MouseEnter(object sender, EventArgs e)
     {
       m_toolStrip_Forward.ToolTipText = m_BackForwardTreViewHelper.GetToolTipTextForward();
       m_toolStrip_Backward.ToolTipText = m_BackForwardTreViewHelper.GetToolTipTextBackward();
     }
-    private void m_toolStrip_Forward_Click( object sender, EventArgs e )
+    private void m_toolStrip_Forward_Click(object sender, EventArgs e)
     {
       GoForward();
     }
-    private void m_toolStrip_Backward_Click( object sender, EventArgs e )
+    private void m_toolStrip_Backward_Click(object sender, EventArgs e)
     {
       GoBackward();
     }
@@ -87,13 +77,10 @@ namespace CAS.Lib.ControlLibrary
     /// <value>The tool strip forward image.</value>
     public Image ToolStripForwardImage
     {
-      get
-      {
-        return m_toolStrip_Forward.Image;
-      }
+      get => m_toolStrip_Forward.Image;
       set
       {
-        if ( value == null )
+        if (value == null)
           m_toolStrip_Forward.DisplayStyle = ToolStripItemDisplayStyle.Text;
         else
           m_toolStrip_Forward.DisplayStyle = ToolStripItemDisplayStyle.Image;
@@ -106,13 +93,10 @@ namespace CAS.Lib.ControlLibrary
     /// <value>The tool strip Backward image.</value>
     public Image ToolStripBackwardImage
     {
-      get
-      {
-        return m_toolStrip_Backward.Image;
-      }
+      get => m_toolStrip_Backward.Image;
       set
       {
-        if ( value == null )
+        if (value == null)
           m_toolStrip_Backward.DisplayStyle = ToolStripItemDisplayStyle.Text;
         else
           m_toolStrip_Backward.DisplayStyle = ToolStripItemDisplayStyle.Image;
@@ -125,14 +109,8 @@ namespace CAS.Lib.ControlLibrary
     /// <value>The number of previous nodes in the tooltip.</value>
     public int NumberOfPreviousNodesInTheTooltip
     {
-      get
-      {
-        return m_BackForwardTreViewHelper.NumberOfPreviousNodesInTheTooltip;
-      }
-      set
-      {
-        m_BackForwardTreViewHelper.NumberOfPreviousNodesInTheTooltip = value;
-      }
+      get => m_BackForwardTreViewHelper.NumberOfPreviousNodesInTheTooltip;
+      set => m_BackForwardTreViewHelper.NumberOfPreviousNodesInTheTooltip = value;
     }
     #endregion properties
   }

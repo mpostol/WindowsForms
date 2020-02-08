@@ -1,32 +1,26 @@
-﻿using System.ComponentModel;
-//<summary>
-//  Title   : Image List Library
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+﻿//___________________________________________________________________________________
 //
-//  Copyright (C)2006, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto:techsupp@cas.com.pl
-//  http:\\www.cas.eu
-//</summary>
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
+
+using System.ComponentModel;
 using System.Windows.Forms;
-namespace CAS.Lib.ControlLibrary
+
+namespace UAOOI.Windows.Forms
 {
   /// <summary>
   /// Image List Library
   /// </summary>
-  public partial class ImageListLibrary: Component
+  public partial class ImageListLibrary : Component
   {
     private static ImageListLibrary m_ImageListLibrary = new ImageListLibrary();
     // global constants
     /// <summary>
     /// 
     /// </summary>
-    public enum Icons: int
+    public enum Icons : int
     {
       /// <summary>
       /// image closed yellow folder
@@ -49,7 +43,7 @@ namespace CAS.Lib.ControlLibrary
       /// </summary>
       IMAGE_SUBSCRIPTION_FAIL,
       /// <summary>
-      /// image subscription worning
+      /// image subscription warning
       /// </summary>
       IMAGE_SUBSCRIPTION_WOR,
       /// <summary>
@@ -69,7 +63,7 @@ namespace CAS.Lib.ControlLibrary
       /// </summary>
       IMAGE_TAG_FAIL,
       /// <summary>
-      /// image tag worning
+      /// image tag warning
       /// </summary>
       IMAGE_TAG_WOR,
       /// <summary>
@@ -85,7 +79,7 @@ namespace CAS.Lib.ControlLibrary
       /// </summary>
       IMAGE_PROPERTY_FAIL,
       /// <summary>
-      /// image property worning
+      /// image property warning
       /// </summary>
       IMAGE_PROPERTY_WOR,
       /// <summary>
@@ -101,7 +95,7 @@ namespace CAS.Lib.ControlLibrary
       /// </summary>
       IMAGE_OPC_SERVER_FAIL,
       /// <summary>
-      /// image opc server worning
+      /// image OPC server warning
       /// </summary>
       IMAGE_OPC_SERVER_WOR,
       /// <summary>
@@ -109,7 +103,7 @@ namespace CAS.Lib.ControlLibrary
       /// </summary>
       IMAGE_NETWORK,
       /// <summary>
-      /// image mycomputer
+      /// image my computer
       /// </summary>
       IMAGE_MYCOMPUTER,
       /// <summary>
@@ -144,11 +138,11 @@ namespace CAS.Lib.ControlLibrary
     /// Gets the project image list.
     /// </summary>
     /// <value>The project image list.</value>
-    public ImageList ProjectImageList { get { return m_ImageList; } }
+    public ImageList ProjectImageList => m_ImageList;
     /// <summary>
     /// Gets the project static image list.
     /// </summary>
     /// <value>The project image list.</value>
-    public static ImageList StaticProjectImageList { get { return m_ImageListLibrary.m_ImageList; } }
+    public static ImageList StaticProjectImageList => m_ImageListLibrary.m_ImageList;
   }
 }

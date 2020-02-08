@@ -1,19 +1,9 @@
-//<summary>
-//  Title   : Overlay - support for docking
-//  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate$
-//  $Rev$
-//  $LastChangedBy$
-//  $URL$
-//  $Id$
+//___________________________________________________________________________________
 //
-//  20090513: mzbrzezny added
+//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
 //
-//  Copyright (C)2009, CAS LODZ POLAND.
-//  TEL: +48 (42) 686 25 47
-//  mailto://techsupp@cas.eu
-//  http://www.cas.eu
-//</summary>
+//  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
+//___________________________________________________________________________________
 
 // information:
 // http://www.codeproject.com/KB/miscctrl/DockExtender.aspx
@@ -29,71 +19,73 @@
 //-----------------------------------------------------------------------
 using System.Windows.Forms;
 
-namespace CAS.Lib.ControlLibrary.ControlExtenders
+namespace UAOOI.Windows.Forms.ControlExtenders
 {
-    /// <summary>
-    /// this is the overlay preview control
-    /// </summary>
-    internal sealed class Overlay : Form
+
+  /// <summary>
+  /// this is the overlay preview control
+  /// </summary>
+  internal sealed class Overlay : Form
+  {
+    public Overlay()
     {
-        public Overlay()
-        {
-            InitializeComponent();
-        }
-
-        /// <summary>
-        /// override <see cref="Form"/> member.
-        /// </summary>
-        public new DockStyle Dock;
-        /// <summary>
-        /// DockHostControl
-        /// </summary>
-        public Control DockHostControl;
-
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
-
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            // 
-            // Overlay
-            // 
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ControlBox = false;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "Overlay";
-            this.Opacity = 0.3;
-            this.ShowIcon = false;
-            this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Overlay";
-            this.ResumeLayout(false);
-        }
-
-        #endregion
+      InitializeComponent();
     }
+
+    /// <summary>
+    /// override <see cref="Form"/> member.
+    /// </summary>
+    public new DockStyle Dock;
+    /// <summary>
+    /// DockHostControl
+    /// </summary>
+    public Control DockHostControl;
+
+    /// <summary>
+    /// Required designer variable.
+    /// </summary>
+    private System.ComponentModel.IContainer components = null;
+
+    /// <summary>
+    /// Clean up any resources being used.
+    /// </summary>
+    /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    protected override void Dispose(bool disposing)
+    {
+      if (disposing && (components != null))
+      {
+        components.Dispose();
+      }
+      base.Dispose(disposing);
+    }
+
+    #region Windows Form Designer generated code
+
+    /// <summary>
+    /// Required method for Designer support - do not modify
+    /// the contents of this method with the code editor.
+    /// </summary>
+    private void InitializeComponent()
+    {
+      this.SuspendLayout();
+      // 
+      // Overlay
+      // 
+      this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+      this.ControlBox = false;
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+      this.MaximizeBox = false;
+      this.MinimizeBox = false;
+      this.Name = "Overlay";
+      this.Opacity = 0.3;
+      this.ShowIcon = false;
+      this.ShowInTaskbar = false;
+      this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+      this.Text = "Overlay";
+      this.ResumeLayout(false);
+    }
+
+    #endregion
+
+  }
 }
