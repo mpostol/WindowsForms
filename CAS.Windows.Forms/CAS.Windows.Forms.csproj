@@ -112,7 +112,6 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="BackForwardTreViewHelper.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="CodeProtectControls\Licences.cs">
       <SubType>UserControl</SubType>
     </Compile>

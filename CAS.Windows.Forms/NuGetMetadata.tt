@@ -33,9 +33,8 @@
   </metadata>
   <files>
     <file src="Logo64.PNG" target=""/>
-    <file src="bin\Release\UAOOI.Windows.Forms.dll" target="lib\net451\CAS.Windows.Forms.dll" />
-    <file src="bin\Release\UAOOI.Windows.Forms.dll.config" target="lib\net451\CAS.Windows.Forms.dll.config" />
-    <file src="bin\Release\UAOOI.Windows.Forms.xml" target="lib\net451\CAS.Windows.Forms.xml" />
+    <file src="bin\Release\UAOOI.Windows.Forms.dll" target="lib\net451\UAOOI.Windows.Forms.dll" />
+    <file src="bin\Release\UAOOI.Windows.Forms.xml" target="lib\net451\UAOOI.Windows.Forms.xml" />
     <file src="bin\Release\UAOOI.Windows.GUIAbstractions.dll" target="lib\netstandard2.0\UAOOI.Windows.GUIAbstractions.dll" />
     <file src="bin\Release\UAOOI.Windows.GUIAbstractions.xml" target="lib\netstandard2.0\UAOOI.Windows.GUIAbstractions.xml" />
   </files>
