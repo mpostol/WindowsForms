@@ -14,7 +14,7 @@ string CASWindowsFormsName = "UAOOI.Windows.Forms";
 string CASWindowsFormsTitle = "Windows Forms Controls Library";
 string CASWindowsFormsTrademark = "Object-Oriented Internet";
 string CASWindowsFormsVersion = "7.0.1";
-string CASWindowsFormsPreRelease = "-Bravo";
+string CASWindowsFormsPreRelease = "-Charlie";
 string ProductName = "Object-Oriented Internet";
 
 //Note: 
