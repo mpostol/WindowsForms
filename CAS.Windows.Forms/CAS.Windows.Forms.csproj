@@ -417,6 +417,7 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>NuGetMetadata.tt</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\AssemblyInfo.tt">
@@ -448,6 +449,7 @@
     <Content Include="NuGetMetadata.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NuGetMetadata.nuspec</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="Resources\SecurityUnlock.ico" />
   </ItemGroup>
