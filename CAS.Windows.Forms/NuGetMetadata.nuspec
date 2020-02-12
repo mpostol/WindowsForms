@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>UAOOI.Windows.Forms</id>
-    <version>7.0.3-Delta</version>
+    <version>7.1.1-Foxtrot</version>
     <title>Windows Forms Controls Library</title>
     <authors>Mariusz Postol</authors>
     <owners>Mariusz Postol</owners>
@@ -27,14 +27,13 @@
     <tags>CAS Software, Forms, CAS Framework</tags>
     <dependencies>
       <dependency id="CAS.CodeProtect" version="7.0.0"  />
+      <dependency id="UAOOI.ASMD.GUIAbstractions" version="1.0.0-Alpha"  />
     </dependencies>
   </metadata>
   <files>
     <file src="Logo64.PNG" target=""/>
     <file src="bin\Release\UAOOI.Windows.Forms.dll" target="lib\net451\UAOOI.Windows.Forms.dll" />
     <file src="bin\Release\UAOOI.Windows.Forms.xml" target="lib\net451\UAOOI.Windows.Forms.xml" />
-    <file src="bin\Release\UAOOI.Windows.GUIAbstractions.dll" target="lib\netstandard2.0\UAOOI.Windows.GUIAbstractions.dll" />
-    <file src="bin\Release\UAOOI.Windows.GUIAbstractions.xml" target="lib\netstandard2.0\UAOOI.Windows.GUIAbstractions.xml" />
   </files>
 </package>
 

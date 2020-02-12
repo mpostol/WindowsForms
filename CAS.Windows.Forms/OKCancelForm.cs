@@ -9,7 +9,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using UAOOI.Windows.GUIAbstractions;
+using UAOOI.ASMD.GUIAbstractions;
 
 namespace UAOOI.Windows.Forms
 {

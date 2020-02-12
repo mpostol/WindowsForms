@@ -88,6 +88,9 @@
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UAOOI.ASMD.GUIAbstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
+      <HintPath>..\packages\UAOOI.ASMD.GUIAbstractions.1.0.0-Alpha\lib\netstandard2.0\UAOOI.ASMD.GUIAbstractions.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.cs">
@@ -454,12 +457,6 @@
     <None Include="Resources\SecurityUnlock.ico" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <ProjectReference Include="..\Windows.GUIAbstractions\Windows.GUIAbstractions.csproj">
-      <Project>{787af5f5-847a-4cb9-bdc0-a8b1959cd031}</Project>
-      <Name>Windows.GUIAbstractions</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

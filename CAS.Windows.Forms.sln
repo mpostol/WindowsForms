@@ -12,8 +12,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.Windows.Forms", "CAS.Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.Windows.Forms.UnitTests", "CAS.Windows.Forms.UnitTests\CAS.Windows.Forms.UnitTests.csproj", "{6AC85A36-DD69-4E7A-B4E1-A3A5E5FC2F4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows.GUIAbstractions", "Windows.GUIAbstractions\Windows.GUIAbstractions.csproj", "{787AF5F5-847A-4CB9-BDC0-A8B1959CD031}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,14 +36,6 @@ Global
 		{6AC85A36-DD69-4E7A-B4E1-A3A5E5FC2F4B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6AC85A36-DD69-4E7A-B4E1-A3A5E5FC2F4B}.Release|x64.ActiveCfg = Release|x64
 		{6AC85A36-DD69-4E7A-B4E1-A3A5E5FC2F4B}.Release|x64.Build.0 = Release|x64
-		{787AF5F5-847A-4CB9-BDC0-A8B1959CD031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{787AF5F5-847A-4CB9-BDC0-A8B1959CD031}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{787AF5F5-847A-4CB9-BDC0-A8B1959CD031}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{787AF5F5-847A-4CB9-BDC0-A8B1959CD031}.Debug|x64.Build.0 = Debug|Any CPU
-		{787AF5F5-847A-4CB9-BDC0-A8B1959CD031}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{787AF5F5-847A-4CB9-BDC0-A8B1959CD031}.Release|Any CPU.Build.0 = Release|Any CPU
-		{787AF5F5-847A-4CB9-BDC0-A8B1959CD031}.Release|x64.ActiveCfg = Release|Any CPU
-		{787AF5F5-847A-4CB9-BDC0-A8B1959CD031}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

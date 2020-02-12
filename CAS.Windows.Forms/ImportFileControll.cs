@@ -8,7 +8,7 @@
 using System;
 using System.ComponentModel;
 using System.Windows.Forms;
-using UAOOI.Windows.GUIAbstractions;
+using UAOOI.ASMD.GUIAbstractions;
 
 namespace UAOOI.Windows.Forms
 {
