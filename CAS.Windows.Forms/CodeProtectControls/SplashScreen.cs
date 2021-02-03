@@ -22,6 +22,7 @@ namespace UAOOI.Windows.Forms.CodeProtectControls
   /// <summary>
   /// SplashScreen to provide information about events while starting.
   /// </summary>
+  //TODO Remove dependency on CodeProtect #12 - removed from ASMD, check if still required
   public partial class SplashScreen: Form
   {
 
