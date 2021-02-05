@@ -19,14 +19,13 @@
       Library of Forms controls.
     </summary>
     <releaseNotes>
-      CommServer integration with the OOI
+      Removed dependency id="CAS.CodeProtect" version="7.0.0" and all licensing support
     </releaseNotes>
     <copyright>
       Copyright (C) 2020, Mariusz Postol LODZ POLAND.
     </copyright>
     <tags>CAS Software, Forms, CAS Framework</tags>
     <dependencies>
-      <dependency id="CAS.CodeProtect" version="7.0.0"  />
       <dependency id="UAOOI.ASMD.GUIAbstractions" version="1.0.0-Alpha"  />
     </dependencies>
   </metadata>

@@ -9,13 +9,8 @@ The library contains `System.Windows.Forms` level programming support for [Objec
 
 The library was ported from the [CommServer](http://www.commsvr.com/) software family developed by [www.cas.eu](http://www.commsvr.com).
 
-## Dependency graph
-
-![Graph](docs/_media/UAOOI.Windows.Forms.png)
-
 ## See also
 
 - [API Browser](https://mpostol.github.io/WindowsForms//API)
 - [Releases](https://github.com/mpostol/WindowsForms/releases)
 - [Home page](https://mpostol.github.io/WindowsForms/)
- 
