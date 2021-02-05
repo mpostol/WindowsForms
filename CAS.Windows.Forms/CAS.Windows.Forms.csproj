@@ -115,12 +115,6 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="BackForwardTreViewHelper.cs" />
-    <Compile Include="CodeProtectControls\Licences.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CodeProtectControls\Licences.Designer.cs">
-      <DependentUpon>Licences.cs</DependentUpon>
-    </Compile>
     <Compile Include="CodeProtectControls\UlockKeyDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -318,9 +312,6 @@
     <EmbeddedResource Include="AddObject.resx">
       <DependentUpon>AddObject.cs</DependentUpon>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CodeProtectControls\Licences.resx">
-      <DependentUpon>Licences.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CodeProtectControls\UlockKeyDialog.resx">
       <DependentUpon>UlockKeyDialog.cs</DependentUpon>

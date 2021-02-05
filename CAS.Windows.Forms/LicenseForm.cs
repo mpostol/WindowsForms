@@ -1,6 +1,6 @@
 //___________________________________________________________________________________
 //
-//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//  Copyright (C) 2021, Mariusz Postol LODZ POLAND.
 //
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
@@ -14,24 +14,25 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
-using UAOOI.Windows.Forms.CodeProtectControls;
 using UAOOI.Windows.Forms.Properties;
 
 namespace UAOOI.Windows.Forms
 {
   public partial class LicenseForm : Form
   {
-
     #region public API
+
     /// <summary>
     /// delegate that provide license request message
     /// </summary>
     public delegate string LicenceRequestMessageProviderDelegate();
+
     /// <summary>
     /// Gets or sets the license request message provider.
     /// </summary>
     /// <value>The license request message provider.</value>
     public LicenceRequestMessageProviderDelegate LicenceRequestMessageProvider { set; private get; }
+
     /// <summary>
     /// Adds an additional control.
     /// </summary>
@@ -40,43 +41,45 @@ namespace UAOOI.Windows.Forms
     {
       set
       {
-        this.m_TabControl.SuspendLayout();
+        m_TabControl.SuspendLayout();
         if (!m_TabControl.Controls.Contains(m_TB_License))
           m_TabControl.Controls.Add(m_TB_License);
-        this.m_TB_License.Controls.Add(value);
+        m_TB_License.Controls.Add(value);
         value.Dock = System.Windows.Forms.DockStyle.Fill;
         value.Location = new System.Drawing.Point(3, 3);
         value.Name = "m_Licences";
         value.Size = new System.Drawing.Size(904, 434);
         value.TabIndex = 0;
-        this.m_TabControl.ResumeLayout();
+        m_TabControl.ResumeLayout();
       }// cn_TableLayoutPanel.
     }
 
-    #endregion
+    #endregion public API
 
     #region constructors
+
     /// <summary>
     /// Form shows CAS about information
     /// </summary>
     /// <param name="productImage">Icon of the product </param>
-    /// <param name="cLicenseOwner">Owner name of the product license.</param>
     /// <param name="assembly">Assembly the about form is for.</param>
-    public LicenseForm(Image productImage, string cLicenseOwner, Assembly assembly)
-      : this()
+    public LicenseForm(Image productImage, Assembly assembly) : this()
     {
-      Licenses l = new Licenses();
       if (assembly == null)
         throw (new ArgumentException("Assembly cannot be null"));
-      licenseInformation = String.Format("User: {0}, Product: {1}", cLicenseOwner, l.GetLicenseInfo());
+      AssemblyName assemblyName = assembly.GetName();
+      licenseInformation = string.Format($"Product: {assemblyName.FullName}/{assemblyName.Version}");
     }
-    #endregion
+
+    #endregion constructors
 
     #region private
+
     private LicenseForm()
     {
       InitializeComponent();
     }
+
     /// <summary>
     /// Taken from http://www.codeproject.com/miscctrl/hyperlink.asp
     /// </summary>
@@ -84,7 +87,7 @@ namespace UAOOI.Windows.Forms
     /// <returns></returns>
     private bool GetMsinfo32Path(ref string strPath)
     {
-      strPath = String.Empty;
+      strPath = string.Empty;
       object objTmp = null;
       RegistryKey regKey = Registry.LocalMachine;
       if (regKey != null)
@@ -116,6 +119,7 @@ namespace UAOOI.Windows.Forms
       }
       return false;
     }
+
     /// <summary>
     /// Taken from: http://www.codeproject.com/miscctrl/hyperlink.asp
     /// </summary>
@@ -132,16 +136,19 @@ namespace UAOOI.Windows.Forms
           MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
       }
     }
+
     private void m_button_OK_Click(object sender, EventArgs e)
     {
-      this.Close();
+      Close();
     }
+
     private void m_button_Sysinfo_Click(object sender, EventArgs e)
     {
       string strSysInfo = string.Empty;
       if (GetMsinfo32Path(ref strSysInfo))
         StartSysInfo(strSysInfo);
     }
+
     private void toolStripButton_request_for_license_Click(object sender, EventArgs e)
     {
       string message;
@@ -164,8 +171,9 @@ namespace UAOOI.Windows.Forms
       }
       MessageBoxSentEmail.OpenEmailClient(Settings.Default.EmailAddress, "License Request", message);
     }
-    private string licenseInformation;
-    #endregion
 
+    private string licenseInformation;
+
+    #endregion private
   }
 }

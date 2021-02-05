@@ -38,8 +38,6 @@ namespace UAOOI.Windows.Forms
       this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
       this.LabelProgramVer = new System.Windows.Forms.Label();
       this.m_pictureBox = new System.Windows.Forms.PictureBox();
-      this.m_ProductLabel = new System.Windows.Forms.Label();
-      this.m_label_user = new System.Windows.Forms.Label();
       this.webBrowser = new System.Windows.Forms.WebBrowser();
       tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
       richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -56,9 +54,7 @@ namespace UAOOI.Windows.Forms
       tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
       tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
       tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
-      tableLayoutPanel1.Controls.Add(this.m_ProductLabel, 0, 1);
       tableLayoutPanel1.Controls.Add(richTextBox1, 0, 3);
-      tableLayoutPanel1.Controls.Add(this.m_label_user, 1, 1);
       tableLayoutPanel1.Controls.Add(richTextBox2, 0, 2);
       tableLayoutPanel1.Controls.Add(this.webBrowser, 0, 4);
       tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -119,18 +115,6 @@ namespace UAOOI.Windows.Forms
       this.m_pictureBox.TabIndex = 2;
       this.m_pictureBox.TabStop = false;
       // 
-      // m_ProductLabel
-      // 
-      this.m_ProductLabel.AutoSize = true;
-      this.m_ProductLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.m_ProductLabel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-      this.m_ProductLabel.Location = new System.Drawing.Point(3, 67);
-      this.m_ProductLabel.Name = "m_ProductLabel";
-      this.m_ProductLabel.Size = new System.Drawing.Size(114, 21);
-      this.m_ProductLabel.TabIndex = 11;
-      this.m_ProductLabel.Text = "Product is licensed to: ";
-      this.m_ProductLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-      // 
       // richTextBox1
       // 
       richTextBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -138,7 +122,7 @@ namespace UAOOI.Windows.Forms
       tableLayoutPanel1.SetColumnSpan(richTextBox1, 2);
       richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
       richTextBox1.HideSelection = false;
-      richTextBox1.Location = new System.Drawing.Point(2, 194);
+      richTextBox1.Location = new System.Drawing.Point(2, 191);
       richTextBox1.Margin = new System.Windows.Forms.Padding(2);
       richTextBox1.Name = "richTextBox1";
       richTextBox1.ReadOnly = true;
@@ -149,27 +133,17 @@ namespace UAOOI.Windows.Forms
       richTextBox1.Text = "CAS \nhttp://www.cas.eu\nhttp://www.commsvr.com/\n";
       richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox_LinkClicked);
       // 
-      // m_label_user
-      // 
-      this.m_label_user.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.m_label_user.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-      this.m_label_user.Location = new System.Drawing.Point(123, 67);
-      this.m_label_user.Name = "m_label_user";
-      this.m_label_user.Size = new System.Drawing.Size(580, 21);
-      this.m_label_user.TabIndex = 12;
-      this.m_label_user.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-      // 
       // richTextBox2
       // 
       richTextBox2.CausesValidation = false;
       tableLayoutPanel1.SetColumnSpan(richTextBox2, 2);
       richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-      richTextBox2.Location = new System.Drawing.Point(2, 90);
+      richTextBox2.Location = new System.Drawing.Point(2, 69);
       richTextBox2.Margin = new System.Windows.Forms.Padding(2);
       richTextBox2.Name = "richTextBox2";
       richTextBox2.ReadOnly = true;
       richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-      richTextBox2.Size = new System.Drawing.Size(702, 100);
+      richTextBox2.Size = new System.Drawing.Size(702, 118);
       richTextBox2.TabIndex = 9;
       richTextBox2.Tag = "";
       richTextBox2.Text = resources.GetString("richTextBox2.Text");
@@ -179,10 +153,10 @@ namespace UAOOI.Windows.Forms
       // 
       tableLayoutPanel1.SetColumnSpan(this.webBrowser, 2);
       this.webBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.webBrowser.Location = new System.Drawing.Point(3, 257);
+      this.webBrowser.Location = new System.Drawing.Point(3, 254);
       this.webBrowser.MinimumSize = new System.Drawing.Size(700, 100);
       this.webBrowser.Name = "webBrowser";
-      this.webBrowser.Size = new System.Drawing.Size(700, 105);
+      this.webBrowser.Size = new System.Drawing.Size(700, 108);
       this.webBrowser.TabIndex = 13;
       this.webBrowser.Url = new System.Uri("http://www.commsvr.com/rss/commservernews_en.rss", System.UriKind.Absolute);
       this.webBrowser.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser_DocumentCompleted);
@@ -211,8 +185,6 @@ namespace UAOOI.Windows.Forms
 
     private System.Windows.Forms.Label LabelProgramVer;
     private System.Windows.Forms.PictureBox m_pictureBox;
-    private System.Windows.Forms.Label m_ProductLabel;
-    private System.Windows.Forms.Label m_label_user;
     private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
     private System.Windows.Forms.WebBrowser webBrowser;
   }
