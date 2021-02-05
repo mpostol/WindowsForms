@@ -115,17 +115,6 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="BackForwardTreViewHelper.cs" />
-    <Compile Include="CodeProtectControls\UlockKeyDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CodeProtectControls\UlockKeyDialog.Designer.cs">
-      <DependentUpon>UlockKeyDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CodeProtectControls\UnlockKeyDialogResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>UnlockKeyDialogResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="ControlExtenders\DockExtender.cs" />
     <Compile Include="ControlExtenders\Floaty.cs">
       <SubType>Form</SubType>
@@ -313,13 +302,6 @@
       <DependentUpon>AddObject.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="CodeProtectControls\UlockKeyDialog.resx">
-      <DependentUpon>UlockKeyDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CodeProtectControls\UnlockKeyDialogResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>UnlockKeyDialogResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="DebugDockPanelUserControl.resx">
       <DependentUpon>DebugDockPanelUserControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -427,7 +409,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CodeProtectControls\security.ico" />
     <Content Include="Images\restart.png" />
     <Content Include="Images\start.png" />
     <Content Include="Images\stop.png" />
