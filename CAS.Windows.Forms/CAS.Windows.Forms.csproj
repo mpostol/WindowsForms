@@ -79,9 +79,6 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CAS.CodeProtect, Version=7.0.0.18157, Culture=neutral, PublicKeyToken=8832ff1a67ea61a3, processorArchitecture=MSIL">
-      <HintPath>..\packages\CAS.CodeProtect.7.0.1-Bravo\lib\net451\CAS.CodeProtect.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -115,29 +112,6 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="BackForwardTreViewHelper.cs" />
-    <Compile Include="CodeProtectControls\Licences.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CodeProtectControls\Licences.Designer.cs">
-      <DependentUpon>Licences.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CodeProtectControls\SplashScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CodeProtectControls\SplashScreen.Designer.cs">
-      <DependentUpon>SplashScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CodeProtectControls\UlockKeyDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CodeProtectControls\UlockKeyDialog.Designer.cs">
-      <DependentUpon>UlockKeyDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CodeProtectControls\UnlockKeyDialogResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>UnlockKeyDialogResources.resx</DependentUpon>
-    </Compile>
     <Compile Include="ControlExtenders\DockExtender.cs" />
     <Compile Include="ControlExtenders\Floaty.cs">
       <SubType>Form</SubType>
@@ -325,19 +299,6 @@
       <DependentUpon>AddObject.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="CodeProtectControls\Licences.resx">
-      <DependentUpon>Licences.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CodeProtectControls\SplashScreen.resx">
-      <DependentUpon>SplashScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CodeProtectControls\UlockKeyDialog.resx">
-      <DependentUpon>UlockKeyDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CodeProtectControls\UnlockKeyDialogResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>UnlockKeyDialogResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="DebugDockPanelUserControl.resx">
       <DependentUpon>DebugDockPanelUserControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -445,7 +406,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CodeProtectControls\security.ico" />
     <Content Include="Images\restart.png" />
     <Content Include="Images\start.png" />
     <Content Include="Images\stop.png" />

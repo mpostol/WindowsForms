@@ -1,6 +1,6 @@
 //___________________________________________________________________________________
 //
-//  Copyright (C) 2020, Mariusz Postol LODZ POLAND.
+//  Copyright (C) 2021, Mariusz Postol LODZ POLAND.
 //
 //  To be in touch join the community at GITTER: https://gitter.im/mpostol/OPC-UA-OOI
 //___________________________________________________________________________________
@@ -40,7 +40,6 @@ namespace UAOOI.Windows.Forms
       System.Windows.Forms.ToolStripButton toolStripButton1;
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager( typeof( AboutForm ) );
       System.Windows.Forms.ToolStripButton toolStripButton2;
-      this.toolStripButton_OpenLogFolder = new System.Windows.Forms.ToolStripButton();
       this.m_about = new About();
       toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
       m_ToolStrip = new System.Windows.Forms.ToolStrip();
@@ -83,8 +82,7 @@ namespace UAOOI.Windows.Forms
       m_ToolStrip.Dock = System.Windows.Forms.DockStyle.None;
       m_ToolStrip.Items.AddRange( new System.Windows.Forms.ToolStripItem[] {
             toolStripButton1,
-            toolStripButton2,
-            this.toolStripButton_OpenLogFolder} );
+            toolStripButton2} );
       m_ToolStrip.Location = new System.Drawing.Point( 3, 0 );
       m_ToolStrip.Name = "m_ToolStrip";
       m_ToolStrip.Size = new System.Drawing.Size( 386, 25 );
@@ -112,16 +110,6 @@ namespace UAOOI.Windows.Forms
       toolStripButton2.Size = new System.Drawing.Size( 120, 22 );
       toolStripButton2.Text = "System Information";
       toolStripButton2.Click += new System.EventHandler( this.m_button_Sysinfo_Click );
-      // 
-      // toolStripButton_OpenLogFolder
-      // 
-      this.toolStripButton_OpenLogFolder.AutoSize = false;
-      this.toolStripButton_OpenLogFolder.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-      this.toolStripButton_OpenLogFolder.ImageTransparentColor = System.Drawing.Color.Magenta;
-      this.toolStripButton_OpenLogFolder.Name = "toolStripButton_OpenLogFolder";
-      this.toolStripButton_OpenLogFolder.Size = new System.Drawing.Size( 154, 22 );
-      this.toolStripButton_OpenLogFolder.Text = "Open log containing folder";
-      this.toolStripButton_OpenLogFolder.Click += new System.EventHandler( this.m_OpenLogFolder_Click );
       // 
       // m_about
       // 
@@ -161,7 +149,6 @@ namespace UAOOI.Windows.Forms
     }
     #endregion
 
-    private System.Windows.Forms.ToolStripButton toolStripButton_OpenLogFolder;
     private About m_about;
   }
 }
