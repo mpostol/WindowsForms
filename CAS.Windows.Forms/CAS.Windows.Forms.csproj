@@ -121,12 +121,6 @@
     <Compile Include="CodeProtectControls\Licences.Designer.cs">
       <DependentUpon>Licences.cs</DependentUpon>
     </Compile>
-    <Compile Include="CodeProtectControls\SplashScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CodeProtectControls\SplashScreen.Designer.cs">
-      <DependentUpon>SplashScreen.cs</DependentUpon>
-    </Compile>
     <Compile Include="CodeProtectControls\UlockKeyDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -327,9 +321,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CodeProtectControls\Licences.resx">
       <DependentUpon>Licences.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CodeProtectControls\SplashScreen.resx">
-      <DependentUpon>SplashScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CodeProtectControls\UlockKeyDialog.resx">
       <DependentUpon>UlockKeyDialog.cs</DependentUpon>
