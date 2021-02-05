@@ -95,7 +95,7 @@
     </SelectedProjects>
   </HelpConfiguration>
   <HelpConfiguration name="APIHelpConfiguration">
-    <OutputPath>.\docs\API2</OutputPath>
+    <OutputPath>.\docs\API</OutputPath>
     <CleanupOutputPath>false</CleanupOutputPath>
     <HelpFileName />
     <HelpFileNamingMethod>MemberName</HelpFileNamingMethod>
@@ -122,19 +122,18 @@
     </IncludeScopes>
     <SyntaxLanguages>
       <CSharp>true</CSharp>
-      <VisualBasic>true</VisualBasic>
-      <CPlusPlus>true</CPlusPlus>
+      <VisualBasic>false</VisualBasic>
+      <CPlusPlus>false</CPlusPlus>
     </SyntaxLanguages>
     <ResolveCrefLinks>true</ResolveCrefLinks>
-    <HeaderText>CAS.Windows.Forms</HeaderText>
-    <FooterText>7.0.0-Alpha</FooterText>
+    <HeaderText>UAOOI.Windows.Forms</HeaderText>
+    <FooterText>8.1.1-Alpha</FooterText>
     <ConceptualContent>
       <ContentLayout />
       <MediaContent />
     </ConceptualContent>
     <SelectedProjects>
       <SelectedProject>CAS.Windows.Forms</SelectedProject>
-      <SelectedProject>Windows.GUIAbstractions</SelectedProject>
     </SelectedProjects>
   </HelpConfiguration>
 </HelpConfigurations>

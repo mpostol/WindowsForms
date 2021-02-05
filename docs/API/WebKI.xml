@@ -11,9 +11,7 @@
     <HelpKINode Title="properties" Url="html/Properties.T-UAOOI.Windows.Forms.About.htm" />
   </HelpKINode>
   <HelpKINode Title="About.About constructor" Url="html/M-UAOOI.Windows.Forms.About.-ctor.htm" />
-  <HelpKINode Title="About.SetLicenseLabel property" Url="html/P-UAOOI.Windows.Forms.About.SetLicenseLabel.htm" />
   <HelpKINode Title="About.SetProductIcon property" Url="html/P-UAOOI.Windows.Forms.About.SetProductIcon.htm" />
-  <HelpKINode Title="About.SetUser property" Url="html/P-UAOOI.Windows.Forms.About.SetUser.htm" />
   <HelpKINode Title="AboutForm class">
     <HelpKINode Title="AboutForm Class" Url="html/T-UAOOI.Windows.Forms.AboutForm.htm" />
     <HelpKINode Title="AboutForm Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.AboutForm.htm" />
@@ -26,11 +24,9 @@
   <HelpKINode Title="AboutForm.LicenceRequestMessageProvider property" Url="html/P-UAOOI.Windows.Forms.AboutForm.LicenceRequestMessageProvider.htm" />
   <HelpKINode Title="AboutForm.LicenceRequestMessageProviderDelegate delegate" Url="html/T-UAOOI.Windows.Forms.AboutForm.LicenceRequestMessageProviderDelegate.htm" />
   <HelpKINode Title="AbsoluteLocation property" Url="html/P-UAOOI.Windows.Forms.GDI.HotPoint.AbsoluteLocation.htm" />
-  <HelpKINode Title="ActivateBuyNow method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.ActivateBuyNow.htm" />
   <HelpKINode Title="AddButton method" Url="html/M-UAOOI.Windows.Forms.OKCancelForm.AddButton.htm" />
   <HelpKINode Title="AddConnection method" Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.AddConnection.htm" />
   <HelpKINode Title="AddControlsToToolStrip method" Url="html/M-UAOOI.Windows.Forms.TextEditPanel.AddControlsToToolStrip.htm" />
-  <HelpKINode Title="AddMenu method" Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.AddMenu.htm" />
   <HelpKINode Title="AddObject(Of TObject) class">
     <HelpKINode Title="AddObject(TObject) Class" Url="html/T-UAOOI.Windows.Forms.AddObject-1.htm" />
     <HelpKINode Title="AddObject(TObject) Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.AddObject-1.htm" />
@@ -56,8 +52,6 @@
   <HelpKINode Title="AddObject&lt;TObject&gt;.AddObject constructor" Url="html/Overload-UAOOI.Windows.Forms.AddObject-1.-ctor.htm" />
   <HelpKINode Title="AddObject&lt;TObject&gt;.Object property" Url="html/P-UAOOI.Windows.Forms.AddObject-1.Object.htm" />
   <HelpKINode Title="AddShape method" Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.AddShape.htm" />
-  <HelpKINode Title="AppendText method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.AppendText.htm" />
-  <HelpKINode Title="AppendTextIfInstantiated method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.AppendTextIfInstantiated.htm" />
   <HelpKINode Title="AppendToLog method" Url="html/M-UAOOI.Windows.Forms.DebugWindow.AppendToLog.htm" />
   <HelpKINode Title="AppendToLogLine method" Url="html/M-UAOOI.Windows.Forms.DebugWindow.AppendToLogLine.htm" />
   <HelpKINode Title="Attach method" Url="html/Overload-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Attach.htm" />
@@ -96,23 +90,18 @@
   <HelpKINode Title="BackForwardTreViewToolStrip.ToolStripForwardImage property" Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.ToolStripForwardImage.htm" />
   <HelpKINode Title="BackgroundBrush property" Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.BackgroundBrush.htm" />
   <HelpKINode Title="BackgroundPen property" Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.BackgroundPen.htm" />
-  <HelpKINode Title="BoolEventArg.Value property" Url="html/P-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.Value.htm" />
   <HelpKINode Title="Bottom enumeration member" Url="html/T-UAOOI.Windows.Forms.GDI.HotpointType.htm" />
   <HelpKINode Title="Bottom field" Url="html/F-UAOOI.Windows.Forms.GDI.HotpointType.Bottom.htm" />
   <HelpKINode Title="BrowseFilter property" Url="html/P-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.BrowseFilter.htm" />
-  <HelpKINode Title="CanBeAccepted method">
-    <HelpKINode Title="CanBeAccepted Method " Url="html/M-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.CanBeAccepted.htm" />
-    <HelpKINode Title="CanBeAccepted Method " Url="html/M-UAOOI.Windows.Forms.OKCancelForm.CanBeAccepted.htm" />
-  </HelpKINode>
+  <HelpKINode Title="CanBeAccepted method" Url="html/M-UAOOI.Windows.Forms.OKCancelForm.CanBeAccepted.htm" />
   <HelpKINode Title="CheckedChanged event" Url="html/E-UAOOI.Windows.Forms.ToolStripCheckBox.CheckedChanged.htm" />
   <HelpKINode Title="Clear method">
-    <HelpKINode Title="Clear Method " Url="html/M-UAOOI.Windows.Forms.OPCTreeView.Clear.htm" />
     <HelpKINode Title="Clear Method " Url="html/M-UAOOI.Windows.Forms.ITreeNodeInterface.Clear.htm" />
     <HelpKINode Title="Clear Method " Url="html/M-UAOOI.Windows.Forms.GenericTreeNode-2.Clear.htm" />
+    <HelpKINode Title="Clear Method " Url="html/M-UAOOI.Windows.Forms.OPCTreeView.Clear.htm" />
   </HelpKINode>
   <HelpKINode Title="ClearConnectionList method" Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.ClearConnectionList.htm" />
   <HelpKINode Title="ClearShapesList method" Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.ClearShapesList.htm" />
-  <HelpKINode Title="CloseSplashScreen method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.CloseSplashScreen.htm" />
   <HelpKINode Title="Connection class">
     <HelpKINode Title="Connection Class" Url="html/T-UAOOI.Windows.Forms.GDI.Connection.htm" />
     <HelpKINode Title="Connection Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.Connection.htm" />
@@ -225,8 +214,8 @@
   <HelpKINode Title="DockPanelUserControl.Show method" Url="html/M-UAOOI.Windows.Forms.DockPanelUserControl.Show.htm" />
   <HelpKINode Title="Draw method">
     <HelpKINode Title="Draw Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.Draw.htm" />
-    <HelpKINode Title="Draw Method " Url="html/M-UAOOI.Windows.Forms.GDI.ConnectionsList.Draw.htm" />
     <HelpKINode Title="Draw Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.Draw.htm" />
+    <HelpKINode Title="Draw Method " Url="html/M-UAOOI.Windows.Forms.GDI.ConnectionsList.Draw.htm" />
     <HelpKINode Title="Draw Method " Url="html/M-UAOOI.Windows.Forms.GDI.Connection.Draw.htm" />
   </HelpKINode>
   <HelpKINode Title="EditedText property" Url="html/P-UAOOI.Windows.Forms.TextEditPanel.EditedText.htm" />
@@ -351,8 +340,6 @@
   <HelpKINode Title="GetHotpoint method" Url="html/M-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.GetHotpoint.htm" />
   <HelpKINode Title="GetImportLog method" Url="html/M-UAOOI.Windows.Forms.ImportFunctionRootClass.GetImportLog.htm" />
   <HelpKINode Title="GetLastNodeOfTheTreeView method" Url="html/M-UAOOI.Windows.Forms.TreeViewSearcher.GetLastNodeOfTheTreeView.htm" />
-  <HelpKINode Title="GetLicenseInfo method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.Licenses.GetLicenseInfo.htm" />
-  <HelpKINode Title="GetLicenseMessageRequest method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.Licenses.GetLicenseMessageRequest.htm" />
   <HelpKINode Title="GetListOfToolStripMenuItem method">
     <HelpKINode Title="GetListOfToolStripMenuItem Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.GetListOfToolStripMenuItem.htm" />
     <HelpKINode Title="GetListOfToolStripMenuItem Method " Url="html/M-UAOOI.Windows.Forms.ToolStripContainerHelper.GetListOfToolStripMenuItem.htm" />
@@ -370,12 +357,12 @@
   <HelpKINode Title="GetToolTipTextBackward method" Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewHelper.GetToolTipTextBackward.htm" />
   <HelpKINode Title="GetToolTipTextForward method" Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewHelper.GetToolTipTextForward.htm" />
   <HelpKINode Title="GoBackward method">
-    <HelpKINode Title="GoBackward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.GoBackward.htm" />
     <HelpKINode Title="GoBackward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewHelper.GoBackward.htm" />
+    <HelpKINode Title="GoBackward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.GoBackward.htm" />
   </HelpKINode>
   <HelpKINode Title="GoForward method">
-    <HelpKINode Title="GoForward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.GoForward.htm" />
     <HelpKINode Title="GoForward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewHelper.GoForward.htm" />
+    <HelpKINode Title="GoForward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.GoForward.htm" />
   </HelpKINode>
   <HelpKINode Title="GraphicsSettings class">
     <HelpKINode Title="GraphicsSettings Class" Url="html/T-UAOOI.Windows.Forms.GDI.GraphicsSettings.htm" />
@@ -400,8 +387,8 @@
   <HelpKINode Title="GraphicsSettings.TextPen property" Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.TextPen.htm" />
   <HelpKINode Title="GraphicsSettings.Zoom property" Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.Zoom.htm" />
   <HelpKINode Title="Hide method">
-    <HelpKINode Title="Hide Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Hide.htm" />
     <HelpKINode Title="Hide Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Hide.htm" />
+    <HelpKINode Title="Hide Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Hide.htm" />
   </HelpKINode>
   <HelpKINode Title="HotPoint class">
     <HelpKINode Title="HotPoint Class" Url="html/T-UAOOI.Windows.Forms.GDI.HotPoint.htm" />
@@ -453,14 +440,6 @@
   <HelpKINode Title="HotpointType.Left field" Url="html/F-UAOOI.Windows.Forms.GDI.HotpointType.Left.htm" />
   <HelpKINode Title="HotpointType.Right field" Url="html/F-UAOOI.Windows.Forms.GDI.HotpointType.Right.htm" />
   <HelpKINode Title="HotpointType.Top field" Url="html/F-UAOOI.Windows.Forms.GDI.HotpointType.Top.htm" />
-  <HelpKINode Title="ICanBeAccepted interface">
-    <HelpKINode Title="ICanBeAccepted Interface" Url="html/T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
-    <HelpKINode Title="ICanBeAccepted Members" Url="html/AllMembers.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
-    <HelpKINode Title="about ICanBeAccepted interface" Url="html/T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
-  </HelpKINode>
-  <HelpKINode Title="ICanBeAccepted.CanBeAccepted method" Url="html/M-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.CanBeAccepted.htm" />
   <HelpKINode Title="Icons.IMAGE_CLOSED_YELLOW_FOLDER field" Url="html/F-UAOOI.Windows.Forms.ImageListLibrary.Icons.IMAGE_CLOSED_YELLOW_FOLDER.htm" />
   <HelpKINode Title="Icons.IMAGE_DICTIONARY field" Url="html/F-UAOOI.Windows.Forms.ImageListLibrary.Icons.IMAGE_DICTIONARY.htm" />
   <HelpKINode Title="Icons.IMAGE_MYCOMPUTER field" Url="html/F-UAOOI.Windows.Forms.ImageListLibrary.Icons.IMAGE_MYCOMPUTER.htm" />
@@ -626,8 +605,8 @@
   <HelpKINode Title="IsHorizontal property" Url="html/P-UAOOI.Windows.Forms.GDI.HotPoint.IsHorizontal.htm" />
   <HelpKINode Title="IsNull property" Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.IsNull.htm" />
   <HelpKINode Title="IsSelected property">
-    <HelpKINode Title="IsSelected Property " Url="html/P-UAOOI.Windows.Forms.GDI.Shape.IsSelected.htm" />
     <HelpKINode Title="IsSelected Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.IsSelected.htm" />
+    <HelpKINode Title="IsSelected Property " Url="html/P-UAOOI.Windows.Forms.GDI.Shape.IsSelected.htm" />
   </HelpKINode>
   <HelpKINode Title="IsVertical property" Url="html/P-UAOOI.Windows.Forms.GDI.HotPoint.IsVertical.htm" />
   <HelpKINode Title="ITreeNodeInterface interface">
@@ -654,8 +633,8 @@
   <HelpKINode Title="IXmlQualifiedNameEditorNamespaceProvider.GetAvailiableNamespaces method" Url="html/M-UAOOI.Windows.Forms.IXmlQualifiedNameEditorNamespaceProvider.GetAvailiableNamespaces.htm" />
   <HelpKINode Title="IXmlQualifiedNameEditorNamespaceProvider.GetTargetNamespace method" Url="html/M-UAOOI.Windows.Forms.IXmlQualifiedNameEditorNamespaceProvider.GetTargetNamespace.htm" />
   <HelpKINode Title="Label property">
-    <HelpKINode Title="Label Property " Url="html/P-UAOOI.Windows.Forms.DockPanelUserControl.Label.htm" />
     <HelpKINode Title="Label Property " Url="html/P-UAOOI.Windows.Forms.LabeledTreeViewPair.Label.htm" />
+    <HelpKINode Title="Label Property " Url="html/P-UAOOI.Windows.Forms.DockPanelUserControl.Label.htm" />
   </HelpKINode>
   <HelpKINode Title="LabeledTreeViewPair class">
     <HelpKINode Title="LabeledTreeViewPair Class" Url="html/T-UAOOI.Windows.Forms.LabeledTreeViewPair.htm" />
@@ -698,19 +677,6 @@
   <HelpKINode Title="LicenseForm.LicenceRequestMessageProvider property" Url="html/P-UAOOI.Windows.Forms.LicenseForm.LicenceRequestMessageProvider.htm" />
   <HelpKINode Title="LicenseForm.LicenceRequestMessageProviderDelegate delegate" Url="html/T-UAOOI.Windows.Forms.LicenseForm.LicenceRequestMessageProviderDelegate.htm" />
   <HelpKINode Title="LicenseForm.SetAdditionalControl property" Url="html/P-UAOOI.Windows.Forms.LicenseForm.SetAdditionalControl.htm" />
-  <HelpKINode Title="Licenses class">
-    <HelpKINode Title="Licenses Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-    <HelpKINode Title="Licenses Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-    <HelpKINode Title="about Licenses class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-    <HelpKINode Title="constructor" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.Licenses.-ctor.htm" />
-    <HelpKINode Title="events" Url="html/Events.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-    <HelpKINode Title="properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Licenses.GetLicenseInfo method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.Licenses.GetLicenseInfo.htm" />
-  <HelpKINode Title="Licenses.GetLicenseMessageRequest method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.Licenses.GetLicenseMessageRequest.htm" />
-  <HelpKINode Title="Licenses.Licenses constructor" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.Licenses.-ctor.htm" />
   <HelpKINode Title="ListHasChanged event" Url="html/E-UAOOI.Windows.Forms.GDI.ConnectionsList.ListHasChanged.htm" />
   <HelpKINode Title="LogMessageWindow class">
     <HelpKINode Title="LogMessageWindow Class" Url="html/T-UAOOI.Windows.Forms.LogMessageWindow.htm" />
@@ -728,15 +694,14 @@
   <HelpKINode Title="MainControl property" Url="html/P-UAOOI.Windows.Forms.DockPanelUserControl.MainControl.htm" />
   <HelpKINode Title="MainFont property" Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.MainFont.htm" />
   <HelpKINode Title="MainPen property" Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.MainPen.htm" />
-  <HelpKINode Title="MaintenancePeriodWarning property" Url="html/P-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.MaintenancePeriodWarning.htm" />
   <HelpKINode Title="MakeSelected method">
-    <HelpKINode Title="MakeSelected Method " Url="html/M-UAOOI.Windows.Forms.GenericTreeNode-2.MakeSelected.htm" />
     <HelpKINode Title="MakeSelected Method " Url="html/M-UAOOI.Windows.Forms.ITreeNodeInterface.MakeSelected.htm" />
+    <HelpKINode Title="MakeSelected Method " Url="html/M-UAOOI.Windows.Forms.GenericTreeNode-2.MakeSelected.htm" />
   </HelpKINode>
   <HelpKINode Title="MarginSize field" Url="html/F-UAOOI.Windows.Forms.GDI.Connection.MarginSize.htm" />
   <HelpKINode Title="Match method">
-    <HelpKINode Title="Match Method " Url="html/M-UAOOI.Windows.Forms.GDI.Connection.Match.htm" />
     <HelpKINode Title="Match Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPoint.Match.htm" />
+    <HelpKINode Title="Match Method " Url="html/M-UAOOI.Windows.Forms.GDI.Connection.Match.htm" />
   </HelpKINode>
   <HelpKINode Title="MatchAndSelect method" Url="html/M-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.MatchAndSelect.htm" />
   <HelpKINode Title="Menu property">
@@ -764,16 +729,16 @@
   <HelpKINode Title="MyToolStripItemCollaps property" Url="html/P-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.MyToolStripItemCollaps.htm" />
   <HelpKINode Title="MyToolStripItemExpand property" Url="html/P-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.MyToolStripItemExpand.htm" />
   <HelpKINode Title="Name property">
-    <HelpKINode Title="Name Property " Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.Name.htm" />
     <HelpKINode Title="Name Property " Url="html/P-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.Name.htm" />
   </HelpKINode>
   <HelpKINode Title="NameIsBasedOnDefault property" Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.NameIsBasedOnDefault.htm" />
   <HelpKINode Title="NameSpace property" Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.NameSpace.htm" />
   <HelpKINode Title="Nodes property" Url="html/P-UAOOI.Windows.Forms.ITreeNodeInterface.Nodes.htm" />
   <HelpKINode Title="NumberInParentShape property" Url="html/P-UAOOI.Windows.Forms.GDI.HotPoint.NumberInParentShape.htm" />
   <HelpKINode Title="NumberOfPreviousNodesInTheTooltip property">
-    <HelpKINode Title="NumberOfPreviousNodesInTheTooltip Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.NumberOfPreviousNodesInTheTooltip.htm" />
     <HelpKINode Title="NumberOfPreviousNodesInTheTooltip Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewHelper.NumberOfPreviousNodesInTheTooltip.htm" />
+    <HelpKINode Title="NumberOfPreviousNodesInTheTooltip Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.NumberOfPreviousNodesInTheTooltip.htm" />
   </HelpKINode>
   <HelpKINode Title="Object property" Url="html/P-UAOOI.Windows.Forms.AddObject-1.Object.htm" />
   <HelpKINode Title="OKCancelForm class">
@@ -788,8 +753,6 @@
   <HelpKINode Title="OKCancelForm.AddButton method" Url="html/M-UAOOI.Windows.Forms.OKCancelForm.AddButton.htm" />
   <HelpKINode Title="OKCancelForm.CanBeAccepted method" Url="html/M-UAOOI.Windows.Forms.OKCancelForm.CanBeAccepted.htm" />
   <HelpKINode Title="OKCancelForm.SetUserControl property" Url="html/P-UAOOI.Windows.Forms.OKCancelForm.SetUserControl.htm" />
-  <HelpKINode Title="OnMaintenancePeriodWarning event" Url="html/E-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.OnMaintenancePeriodWarning.htm" />
-  <HelpKINode Title="OnShowSplashScreenChanged event" Url="html/E-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.OnShowSplashScreenChanged.htm" />
   <HelpKINode Title="OPCTreeView class">
     <HelpKINode Title="OPCTreeView Class" Url="html/T-UAOOI.Windows.Forms.OPCTreeView.htm" />
     <HelpKINode Title="OPCTreeView Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.OPCTreeView.htm" />
@@ -909,8 +872,8 @@
   <HelpKINode Title="SearchTreeViewToolStrip.ToolStripBackwardImage property" Url="html/P-UAOOI.Windows.Forms.SearchTreeViewToolStrip.ToolStripBackwardImage.htm" />
   <HelpKINode Title="SearchTreeViewToolStrip.ToolStripForwardImage property" Url="html/P-UAOOI.Windows.Forms.SearchTreeViewToolStrip.ToolStripForwardImage.htm" />
   <HelpKINode Title="SelectedHotpoint property">
-    <HelpKINode Title="SelectedHotpoint Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.SelectedHotpoint.htm" />
     <HelpKINode Title="SelectedHotpoint Property " Url="html/P-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.SelectedHotpoint.htm" />
+    <HelpKINode Title="SelectedHotpoint Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.SelectedHotpoint.htm" />
   </HelpKINode>
   <HelpKINode Title="SelectedObjects property" Url="html/P-UAOOI.Windows.Forms.PropertyGridCollection.SelectedObjects.htm" />
   <HelpKINode Title="SelectionBrush property" Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.SelectionBrush.htm" />
@@ -936,10 +899,8 @@
     <HelpKINode Title="SetAdditionalNodeTestDelegate Property " Url="html/P-UAOOI.Windows.Forms.SearchTreeViewToolStrip.SetAdditionalNodeTestDelegate.htm" />
     <HelpKINode Title="SetAdditionalNodeTestDelegate Property " Url="html/P-UAOOI.Windows.Forms.SearchTreeViewHelper.SetAdditionalNodeTestDelegate.htm" />
   </HelpKINode>
-  <HelpKINode Title="SetLicenseLabel property" Url="html/P-UAOOI.Windows.Forms.About.SetLicenseLabel.htm" />
   <HelpKINode Title="SetLogMessage method" Url="html/M-UAOOI.Windows.Forms.LogMessageWindow.SetLogMessage.htm" />
   <HelpKINode Title="SetProductIcon property" Url="html/P-UAOOI.Windows.Forms.About.SetProductIcon.htm" />
-  <HelpKINode Title="SetUser property" Url="html/P-UAOOI.Windows.Forms.About.SetUser.htm" />
   <HelpKINode Title="SetUserControl property" Url="html/P-UAOOI.Windows.Forms.OKCancelForm.SetUserControl.htm" />
   <HelpKINode Title="Shape class">
     <HelpKINode Title="Shape Class" Url="html/T-UAOOI.Windows.Forms.GDI.Shape.htm" />
@@ -992,64 +953,14 @@
   </HelpKINode>
   <HelpKINode Title="ShapeWithHotpointsAndLabel.ShapeWithHotpointsAndLabel constructor" Url="html/M-UAOOI.Windows.Forms.GDI.ShapeWithHotpointsAndLabel.-ctor.htm" />
   <HelpKINode Title="Show method">
-    <HelpKINode Title="Show Method " Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.Show.htm" />
+    <HelpKINode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Show.htm" />
     <HelpKINode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.DockPanelUserControl.Show.htm" />
     <HelpKINode Title="Show Method " Url="html/Overload-UAOOI.Windows.Forms.ScrollableMessageBox.Show.htm" />
     <HelpKINode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Show.htm" />
-    <HelpKINode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.Show.htm" />
-    <HelpKINode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Show.htm" />
   </HelpKINode>
   <HelpKINode Title="ShowFromFile method" Url="html/M-UAOOI.Windows.Forms.ScrollableMessageBox.ShowFromFile.htm" />
   <HelpKINode Title="ShowMessageAndOpenEmailClient method" Url="html/M-UAOOI.Windows.Forms.MessageBoxSentEmail.ShowMessageAndOpenEmailClient.htm" />
   <HelpKINode Title="ShowMessageAndSendEmailIfOK method" Url="html/M-UAOOI.Windows.Forms.MessageBoxSentEmail.ShowMessageAndSendEmailIfOK.htm" />
-  <HelpKINode Title="ShowSplashScreen property" Url="html/P-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.ShowSplashScreen.htm" />
-  <HelpKINode Title="SplashScreen class">
-    <HelpKINode Title="SplashScreen Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-    <HelpKINode Title="SplashScreen Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-    <HelpKINode Title="about SplashScreen class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.-ctor.htm" />
-    <HelpKINode Title="events" Url="html/Events.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-    <HelpKINode Title="properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SplashScreen.ActivateBuyNow method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.ActivateBuyNow.htm" />
-  <HelpKINode Title="SplashScreen.AppendText method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.AppendText.htm" />
-  <HelpKINode Title="SplashScreen.AppendTextIfInstantiated method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.AppendTextIfInstantiated.htm" />
-  <HelpKINode Title="SplashScreen.BoolEventArg class">
-    <HelpKINode Title="SplashScreen.BoolEventArg Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-    <HelpKINode Title="SplashScreen.BoolEventArg Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-    <HelpKINode Title="about SplashScreen.BoolEventArg class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-    <HelpKINode Title="properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SplashScreen.CloseSplashScreen method" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.CloseSplashScreen.htm" />
-  <HelpKINode Title="SplashScreen.LogedIsLicensed(Of type) class">
-    <HelpKINode Title="SplashScreen.LogedIsLicensed(type) Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="SplashScreen.LogedIsLicensed(type) Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="about SplashScreen.LogedIsLicensed(Of type) class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SplashScreen.LogedIsLicensed&lt;type&gt; class">
-    <HelpKINode Title="SplashScreen.LogedIsLicensed(type) Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="SplashScreen.LogedIsLicensed(type) Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="about SplashScreen.LogedIsLicensed&lt;type&gt; class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SplashScreen.MaintenancePeriodWarning property" Url="html/P-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.MaintenancePeriodWarning.htm" />
-  <HelpKINode Title="SplashScreen.OnMaintenancePeriodWarning event" Url="html/E-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.OnMaintenancePeriodWarning.htm" />
-  <HelpKINode Title="SplashScreen.OnShowSplashScreenChanged event" Url="html/E-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.OnShowSplashScreenChanged.htm" />
-  <HelpKINode Title="SplashScreen.Show method">
-    <HelpKINode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.Show.htm" />
-    <HelpKINode Title="Show Method " Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.Show.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SplashScreen.ShowSplashScreen property" Url="html/P-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.ShowSplashScreen.htm" />
-  <HelpKINode Title="SplashScreen.SplashScreen constructor" Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.-ctor.htm" />
   <HelpKINode Title="StableLocation property" Url="html/P-UAOOI.Windows.Forms.GDI.Shape.StableLocation.htm" />
   <HelpKINode Title="StartHotpoint property" Url="html/P-UAOOI.Windows.Forms.GDI.Connection.StartHotpoint.htm" />
   <HelpKINode Title="StaticProjectImageList property" Url="html/P-UAOOI.Windows.Forms.ImageListLibrary.StaticProjectImageList.htm" />
@@ -1076,8 +987,8 @@
   </HelpKINode>
   <HelpKINode Title="Text property">
     <HelpKINode Title="Text Property " Url="html/P-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.Text.htm" />
-    <HelpKINode Title="Text Property " Url="html/P-UAOOI.Windows.Forms.ServiceControlToolStrip.Text.htm" />
     <HelpKINode Title="Text Property " Url="html/P-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Text.htm" />
+    <HelpKINode Title="Text Property " Url="html/P-UAOOI.Windows.Forms.ServiceControlToolStrip.Text.htm" />
     <HelpKINode Title="Text Property " Url="html/P-UAOOI.Windows.Forms.DebugDockPanelUserControl.Text.htm" />
   </HelpKINode>
   <HelpKINode Title="TextBoxBaseTraceListener class">
@@ -1092,8 +1003,8 @@
   <HelpKINode Title="TextBoxBaseTraceListener.UnRegisterTextBoxBase method" Url="html/M-UAOOI.Windows.Forms.TextBoxBaseTraceListener.UnRegisterTextBoxBase.htm" />
   <HelpKINode Title="TextBoxBaseTraceListener.Write method" Url="html/Overload-UAOOI.Windows.Forms.TextBoxBaseTraceListener.Write.htm" />
   <HelpKINode Title="TextBoxBaseTraceListener.WriteLine method">
-    <HelpKINode Title="WriteLine Method " Url="html/Overload-UAOOI.Windows.Forms.TextBoxBaseTraceListener.WriteLine.htm" />
     <HelpKINode Title="WriteLine Method " Url="html/M-UAOOI.Windows.Forms.TextBoxBaseTraceListener.WriteLine.htm" />
+    <HelpKINode Title="WriteLine Method " Url="html/Overload-UAOOI.Windows.Forms.TextBoxBaseTraceListener.WriteLine.htm" />
   </HelpKINode>
   <HelpKINode Title="TextBoxBaseWithTraceListener class">
     <HelpKINode Title="TextBoxBaseWithTraceListener Class" Url="html/T-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.htm" />
@@ -1155,23 +1066,23 @@
   <HelpKINode Title="ToolStripContainerHelper.GetListOfToolStripMenuItem method" Url="html/M-UAOOI.Windows.Forms.ToolStripContainerHelper.GetListOfToolStripMenuItem.htm" />
   <HelpKINode Title="ToolStripContainerHelper.ToolStripContainerHelper constructor" Url="html/M-UAOOI.Windows.Forms.ToolStripContainerHelper.-ctor.htm" />
   <HelpKINode Title="ToolStripForwardImage property">
-    <HelpKINode Title="ToolStripForwardImage Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.ToolStripForwardImage.htm" />
     <HelpKINode Title="ToolStripForwardImage Property " Url="html/P-UAOOI.Windows.Forms.SearchTreeViewToolStrip.ToolStripForwardImage.htm" />
+    <HelpKINode Title="ToolStripForwardImage Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.ToolStripForwardImage.htm" />
   </HelpKINode>
   <HelpKINode Title="Top enumeration member" Url="html/T-UAOOI.Windows.Forms.GDI.HotpointType.htm" />
   <HelpKINode Title="Top field" Url="html/F-UAOOI.Windows.Forms.GDI.HotpointType.Top.htm" />
   <HelpKINode Title="ToString method">
-    <HelpKINode Title="ToString Method " Url="html/M-UAOOI.Windows.Forms.CSVManagement.ToString.htm" />
-    <HelpKINode Title="ToString Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPoint.ToString.htm" />
     <HelpKINode Title="ToString Method " Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPoint.ToString.htm" />
+    <HelpKINode Title="ToString Method " Url="html/M-UAOOI.Windows.Forms.CSVManagement.ToString.htm" />
     <HelpKINode Title="ToString Method " Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.ToString.htm" />
   </HelpKINode>
   <HelpKINode Title="TraceListenerName property" Url="html/P-UAOOI.Windows.Forms.DebugDockPanelUserControl.TraceListenerName.htm" />
   <HelpKINode Title="TreeView property">
-    <HelpKINode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.ITreeNodeInterface.TreeView.htm" />
+    <HelpKINode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.TreeView.htm" />
     <HelpKINode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewHelper.TreeView.htm" />
     <HelpKINode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.LabeledTreeViewPair.TreeView.htm" />
-    <HelpKINode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.TreeView.htm" />
+    <HelpKINode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.ITreeNodeInterface.TreeView.htm" />
   </HelpKINode>
   <HelpKINode Title="TreeViewSearcher class">
     <HelpKINode Title="TreeViewSearcher Class" Url="html/T-UAOOI.Windows.Forms.TreeViewSearcher.htm" />
@@ -1211,31 +1122,6 @@
   <HelpKINode Title="UAOOI.Windows.Forms.BackForwardTreViewToolStrip class">
     <HelpKINode Title="BackForwardTreViewToolStrip Class" Url="html/T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm" />
     <HelpKINode Title="BackForwardTreViewToolStrip Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UAOOI.Windows.Forms.CodeProtectControls namespace" Url="html/N-UAOOI.Windows.Forms.CodeProtectControls.htm" />
-  <HelpKINode Title="UAOOI.Windows.Forms.CodeProtectControls.Licenses class">
-    <HelpKINode Title="Licenses Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-    <HelpKINode Title="Licenses Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UAOOI.Windows.Forms.CodeProtectControls.SplashScreen class">
-    <HelpKINode Title="SplashScreen Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-    <HelpKINode Title="SplashScreen Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg class">
-    <HelpKINode Title="SplashScreen.BoolEventArg Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-    <HelpKINode Title="SplashScreen.BoolEventArg Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed(Of type) class">
-    <HelpKINode Title="SplashScreen.LogedIsLicensed(type) Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="SplashScreen.LogedIsLicensed(type) Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed&lt;type&gt; class">
-    <HelpKINode Title="SplashScreen.LogedIsLicensed(type) Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    <HelpKINode Title="SplashScreen.LogedIsLicensed(type) Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog class">
-    <HelpKINode Title="UnlockKeyDialog Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-    <HelpKINode Title="UnlockKeyDialog Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
   </HelpKINode>
   <HelpKINode Title="UAOOI.Windows.Forms.ControlExtenders namespace" Url="html/N-UAOOI.Windows.Forms.ControlExtenders.htm" />
   <HelpKINode Title="UAOOI.Windows.Forms.ControlExtenders.DockExtender class">
@@ -1452,29 +1338,11 @@
     <HelpKINode Title="XmlQualifiedNameEditor Class" Url="html/T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm" />
     <HelpKINode Title="XmlQualifiedNameEditor Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm" />
   </HelpKINode>
-  <HelpKINode Title="UAOOI.Windows.GUIAbstractions namespace" Url="html/N-UAOOI.Windows.GUIAbstractions.htm" />
-  <HelpKINode Title="UAOOI.Windows.GUIAbstractions.ICanBeAccepted interface">
-    <HelpKINode Title="ICanBeAccepted Interface" Url="html/T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
-    <HelpKINode Title="ICanBeAccepted Members" Url="html/AllMembers.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UnlockKeyDialog class">
-    <HelpKINode Title="UnlockKeyDialog Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-    <HelpKINode Title="UnlockKeyDialog Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-    <HelpKINode Title="about UnlockKeyDialog class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.-ctor.htm" />
-    <HelpKINode Title="events" Url="html/Events.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-    <HelpKINode Title="properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-  </HelpKINode>
-  <HelpKINode Title="UnlockKeyDialog.AddMenu method" Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.AddMenu.htm" />
-  <HelpKINode Title="UnlockKeyDialog.UnlockKeyDialog constructor" Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.-ctor.htm" />
   <HelpKINode Title="UnRegisterTextBoxBase method" Url="html/M-UAOOI.Windows.Forms.TextBoxBaseTraceListener.UnRegisterTextBoxBase.htm" />
   <HelpKINode Title="UpdateNameAndNamespaceAndNamespaceProviderBasedOn method" Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.UpdateNameAndNamespaceAndNamespaceProviderBasedOn.htm" />
   <HelpKINode Title="UpdateNameAndNamespaceBasedOn method" Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.UpdateNameAndNamespaceBasedOn.htm" />
   <HelpKINode Title="UpdateStableLocation method" Url="html/M-UAOOI.Windows.Forms.GDI.Shape.UpdateStableLocation.htm" />
   <HelpKINode Title="Validate method" Url="html/M-UAOOI.Windows.Forms.GDI.Connection.Validate.htm" />
-  <HelpKINode Title="Value property" Url="html/P-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.Value.htm" />
   <HelpKINode Title="Visible property" Url="html/P-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Visible.htm" />
   <HelpKINode Title="Write method" Url="html/Overload-UAOOI.Windows.Forms.TextBoxBaseTraceListener.Write.htm" />
   <HelpKINode Title="WriteLine method">
@@ -1508,9 +1376,9 @@
   <HelpKINode Title="XmlQualifiedNameEditor.XmlQualifiedNameHasChanged event" Url="html/E-UAOOI.Windows.Forms.XmlQualifiedNameEditor.XmlQualifiedNameHasChanged.htm" />
   <HelpKINode Title="XmlQualifiedNameHasChanged event" Url="html/E-UAOOI.Windows.Forms.XmlQualifiedNameEditor.XmlQualifiedNameHasChanged.htm" />
   <HelpKINode Title="Zoom property">
-    <HelpKINode Title="Zoom Property " Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.Zoom.htm" />
     <HelpKINode Title="Zoom Property " Url="html/P-UAOOI.Windows.Forms.GDI.Shape.Zoom.htm" />
     <HelpKINode Title="Zoom Property " Url="html/P-UAOOI.Windows.Forms.GDI.EditorPanel.Zoom.htm" />
+    <HelpKINode Title="Zoom Property " Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.Zoom.htm" />
   </HelpKINode>
   <HelpKINode Title="ZoomIsChanged event" Url="html/E-UAOOI.Windows.Forms.GDI.EditorPanel.ZoomIsChanged.htm" />
 </HelpKI>

@@ -1,76 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="26f95fde-0cb7-4e10-b75e-2f1cb805dbe7" Title="UAOOI.Windows.Forms Namespace" Url="html/N-UAOOI.Windows.Forms.htm">
-    <HelpTOCNode Id="fb8664af-803b-4ab5-98c3-02d7c046ecb6" Title="About Class" Url="html/T-UAOOI.Windows.Forms.About.htm">
+  <HelpTOCNode Id="69f226c2-8425-4344-88ce-1eadaac883da" Title="UAOOI.Windows.Forms Namespace" Url="html/N-UAOOI.Windows.Forms.htm">
+    <HelpTOCNode Id="b2a46b3c-7c1c-4d6d-a5c5-a2064b7b5dd3" Title="About Class" Url="html/T-UAOOI.Windows.Forms.About.htm">
       <HelpTOCNode Title="About Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.About.htm" />
       <HelpTOCNode Title="About Constructor " Url="html/M-UAOOI.Windows.Forms.About.-ctor.htm" />
       <HelpTOCNode Title="About Methods" Url="html/Methods.T-UAOOI.Windows.Forms.About.htm" />
-      <HelpTOCNode Id="c5a06c1d-0077-4692-b540-6fc52283a988" Title="About Properties" Url="html/Properties.T-UAOOI.Windows.Forms.About.htm">
-        <HelpTOCNode Title="SetLicenseLabel Property " Url="html/P-UAOOI.Windows.Forms.About.SetLicenseLabel.htm" />
+      <HelpTOCNode Id="82d7235e-b1f0-4517-933d-c3ab3737b815" Title="About Properties" Url="html/Properties.T-UAOOI.Windows.Forms.About.htm">
         <HelpTOCNode Title="SetProductIcon Property " Url="html/P-UAOOI.Windows.Forms.About.SetProductIcon.htm" />
-        <HelpTOCNode Title="SetUser Property " Url="html/P-UAOOI.Windows.Forms.About.SetUser.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="About Events" Url="html/Events.T-UAOOI.Windows.Forms.About.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e771d85e-031b-44f6-b75e-2b1d66a7a201" Title="AboutForm Class" Url="html/T-UAOOI.Windows.Forms.AboutForm.htm">
+    <HelpTOCNode Id="e9b861b3-4413-4593-bf3f-119420f85683" Title="AboutForm Class" Url="html/T-UAOOI.Windows.Forms.AboutForm.htm">
       <HelpTOCNode Title="AboutForm Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.AboutForm.htm" />
-      <HelpTOCNode Title="AboutForm Constructor (Image, String, Assembly)" Url="html/M-UAOOI.Windows.Forms.AboutForm.-ctor.htm" />
+      <HelpTOCNode Title="AboutForm Constructor (Image, Assembly)" Url="html/M-UAOOI.Windows.Forms.AboutForm.-ctor.htm" />
       <HelpTOCNode Title="AboutForm Methods" Url="html/Methods.T-UAOOI.Windows.Forms.AboutForm.htm" />
-      <HelpTOCNode Id="864117ff-121f-434a-b366-3446b948ca2c" Title="AboutForm Properties" Url="html/Properties.T-UAOOI.Windows.Forms.AboutForm.htm">
+      <HelpTOCNode Id="ece95400-05f1-4786-8627-061c445cb54a" Title="AboutForm Properties" Url="html/Properties.T-UAOOI.Windows.Forms.AboutForm.htm">
         <HelpTOCNode Title="LicenceRequestMessageProvider Property " Url="html/P-UAOOI.Windows.Forms.AboutForm.LicenceRequestMessageProvider.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="AboutForm Events" Url="html/Events.T-UAOOI.Windows.Forms.AboutForm.htm" />
     </HelpTOCNode>
     <HelpTOCNode Title="AboutForm.LicenceRequestMessageProviderDelegate Delegate" Url="html/T-UAOOI.Windows.Forms.AboutForm.LicenceRequestMessageProviderDelegate.htm" />
-    <HelpTOCNode Id="b7ec8a12-0e6b-4bf4-8a02-2c8665f490c5" Title="AddObject(TObject) Class" Url="html/T-UAOOI.Windows.Forms.AddObject-1.htm">
+    <HelpTOCNode Id="0faba5b1-fcb5-4690-82a2-ffa7deeea73c" Title="AddObject(TObject) Class" Url="html/T-UAOOI.Windows.Forms.AddObject-1.htm">
       <HelpTOCNode Title="AddObject(TObject) Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.AddObject-1.htm" />
-      <HelpTOCNode Id="8a2a78d3-b710-44bb-b9cf-be34a81d9c4a" Title="AddObject(TObject) Constructor " Url="html/Overload-UAOOI.Windows.Forms.AddObject-1.-ctor.htm">
+      <HelpTOCNode Id="587ad748-942a-43ea-9ee0-1a4b0d196688" Title="AddObject(TObject) Constructor " Url="html/Overload-UAOOI.Windows.Forms.AddObject-1.-ctor.htm">
         <HelpTOCNode Title="AddObject(TObject) Constructor " Url="html/M-UAOOI.Windows.Forms.AddObject-1.-ctor.htm" />
         <HelpTOCNode Title="AddObject(TObject) Constructor (TObject)" Url="html/M-UAOOI.Windows.Forms.AddObject-1.-ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="AddObject(TObject) Methods" Url="html/Methods.T-UAOOI.Windows.Forms.AddObject-1.htm" />
-      <HelpTOCNode Id="6e2e9b19-31f5-498a-9792-25dc380d0bac" Title="AddObject(TObject) Properties" Url="html/Properties.T-UAOOI.Windows.Forms.AddObject-1.htm">
+      <HelpTOCNode Id="5c320fe5-a3c7-486e-8ada-304f692170d2" Title="AddObject(TObject) Properties" Url="html/Properties.T-UAOOI.Windows.Forms.AddObject-1.htm">
         <HelpTOCNode Title="Object Property " Url="html/P-UAOOI.Windows.Forms.AddObject-1.Object.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="AddObject(TObject) Events" Url="html/Events.T-UAOOI.Windows.Forms.AddObject-1.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d38ad713-d118-4258-b4f0-7389cdc7d395" Title="BackForwardTreViewHelper Class" Url="html/T-UAOOI.Windows.Forms.BackForwardTreViewHelper.htm">
+    <HelpTOCNode Id="6a24efff-2bb9-430b-893c-4fd4b0380686" Title="BackForwardTreViewHelper Class" Url="html/T-UAOOI.Windows.Forms.BackForwardTreViewHelper.htm">
       <HelpTOCNode Title="BackForwardTreViewHelper Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.BackForwardTreViewHelper.htm" />
       <HelpTOCNode Title="BackForwardTreViewHelper Constructor " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewHelper.-ctor.htm" />
-      <HelpTOCNode Id="badb3088-2dca-455b-8566-776919b6bc46" Title="BackForwardTreViewHelper Methods" Url="html/Methods.T-UAOOI.Windows.Forms.BackForwardTreViewHelper.htm">
+      <HelpTOCNode Id="e0ae93da-692f-460f-89e7-be3374139763" Title="BackForwardTreViewHelper Methods" Url="html/Methods.T-UAOOI.Windows.Forms.BackForwardTreViewHelper.htm">
         <HelpTOCNode Title="GetToolTipTextBackward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewHelper.GetToolTipTextBackward.htm" />
         <HelpTOCNode Title="GetToolTipTextForward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewHelper.GetToolTipTextForward.htm" />
         <HelpTOCNode Title="GoBackward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewHelper.GoBackward.htm" />
         <HelpTOCNode Title="GoForward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewHelper.GoForward.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="4f36dcc1-c146-46f1-add9-594e5512e1cd" Title="BackForwardTreViewHelper Properties" Url="html/Properties.T-UAOOI.Windows.Forms.BackForwardTreViewHelper.htm">
+      <HelpTOCNode Id="f1d721c1-3b1e-47e0-bbf6-97bbe7a90318" Title="BackForwardTreViewHelper Properties" Url="html/Properties.T-UAOOI.Windows.Forms.BackForwardTreViewHelper.htm">
         <HelpTOCNode Title="NumberOfPreviousNodesInTheTooltip Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewHelper.NumberOfPreviousNodesInTheTooltip.htm" />
         <HelpTOCNode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewHelper.TreeView.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9e4dc7d3-2c8e-435e-8873-b98ad92dacdd" Title="BackForwardTreViewToolStrip Class" Url="html/T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm">
+    <HelpTOCNode Id="4cdc073b-3ec0-4af0-a8bf-3840b9f91ead" Title="BackForwardTreViewToolStrip Class" Url="html/T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm">
       <HelpTOCNode Title="BackForwardTreViewToolStrip Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm" />
       <HelpTOCNode Title="BackForwardTreViewToolStrip Constructor " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.-ctor.htm" />
-      <HelpTOCNode Id="0276b35f-2537-4639-b0e3-0370454401e9" Title="BackForwardTreViewToolStrip Methods" Url="html/Methods.T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm">
+      <HelpTOCNode Id="dfeb9600-f432-49ab-b56c-b9ac25184d12" Title="BackForwardTreViewToolStrip Methods" Url="html/Methods.T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm">
         <HelpTOCNode Title="GoBackward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.GoBackward.htm" />
         <HelpTOCNode Title="GoForward Method " Url="html/M-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.GoForward.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="6fefbc80-e40d-4ac8-bafc-3ce3cd421c8d" Title="BackForwardTreViewToolStrip Properties" Url="html/Properties.T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm">
+      <HelpTOCNode Id="63d7fb35-b10e-4b01-8562-3e2628079fe6" Title="BackForwardTreViewToolStrip Properties" Url="html/Properties.T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm">
         <HelpTOCNode Title="NumberOfPreviousNodesInTheTooltip Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.NumberOfPreviousNodesInTheTooltip.htm" />
         <HelpTOCNode Title="ToolStripBackwardImage Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.ToolStripBackwardImage.htm" />
         <HelpTOCNode Title="ToolStripForwardImage Property " Url="html/P-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.ToolStripForwardImage.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="BackForwardTreViewToolStrip Events" Url="html/Events.T-UAOOI.Windows.Forms.BackForwardTreViewToolStrip.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a23d431f-3d92-4f24-9445-c72239e7328e" Title="CSVManagement Class" Url="html/T-UAOOI.Windows.Forms.CSVManagement.htm">
+    <HelpTOCNode Id="bc88e58a-797a-4b91-8548-e27fe880eb58" Title="CSVManagement Class" Url="html/T-UAOOI.Windows.Forms.CSVManagement.htm">
       <HelpTOCNode Title="CSVManagement Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CSVManagement.htm" />
-      <HelpTOCNode Id="02d7b950-40cd-4ebc-ba10-d4ed52624bf6" Title="CSVManagement Fields" Url="html/Fields.T-UAOOI.Windows.Forms.CSVManagement.htm">
+      <HelpTOCNode Id="474cd2f4-b728-4022-bdc3-7d6a94e5a1e2" Title="CSVManagement Fields" Url="html/Fields.T-UAOOI.Windows.Forms.CSVManagement.htm">
         <HelpTOCNode Title="DefaultExt Field" Url="html/F-UAOOI.Windows.Forms.CSVManagement.DefaultExt.htm" />
         <HelpTOCNode Title="Filter Field" Url="html/F-UAOOI.Windows.Forms.CSVManagement.Filter.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="60ab7927-f643-4f95-851f-c8eec6ac75a6" Title="CSVManagement Methods" Url="html/Methods.T-UAOOI.Windows.Forms.CSVManagement.htm">
-        <HelpTOCNode Id="b3e71a2f-508c-4a22-9163-674d0fe9401d" Title="GetAndMove2NextElement Method " Url="html/Overload-UAOOI.Windows.Forms.CSVManagement.GetAndMove2NextElement.htm">
+      <HelpTOCNode Id="70977e1b-2ea8-48cf-b401-83658ac20a2f" Title="CSVManagement Methods" Url="html/Methods.T-UAOOI.Windows.Forms.CSVManagement.htm">
+        <HelpTOCNode Id="ac7041d1-4ea3-4ecc-9e97-11c07652f300" Title="GetAndMove2NextElement Method " Url="html/Overload-UAOOI.Windows.Forms.CSVManagement.GetAndMove2NextElement.htm">
           <HelpTOCNode Title="GetAndMove2NextElement Method (Int32)" Url="html/M-UAOOI.Windows.Forms.CSVManagement.GetAndMove2NextElement.htm" />
           <HelpTOCNode Title="GetAndMove2NextElement Method " Url="html/M-UAOOI.Windows.Forms.CSVManagement.GetAndMove2NextElement_1.htm" />
         </HelpTOCNode>
@@ -78,41 +76,41 @@
         <HelpTOCNode Title="ToString Method " Url="html/M-UAOOI.Windows.Forms.CSVManagement.ToString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d8209354-e589-43ac-8a76-2dade6009c22" Title="DebugDockPanelUserControl Class" Url="html/T-UAOOI.Windows.Forms.DebugDockPanelUserControl.htm">
+    <HelpTOCNode Id="fb287971-24a6-490c-bf96-77ae037dd941" Title="DebugDockPanelUserControl Class" Url="html/T-UAOOI.Windows.Forms.DebugDockPanelUserControl.htm">
       <HelpTOCNode Title="DebugDockPanelUserControl Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.DebugDockPanelUserControl.htm" />
       <HelpTOCNode Title="DebugDockPanelUserControl Constructor " Url="html/M-UAOOI.Windows.Forms.DebugDockPanelUserControl.-ctor.htm" />
       <HelpTOCNode Title="DebugDockPanelUserControl Methods" Url="html/Methods.T-UAOOI.Windows.Forms.DebugDockPanelUserControl.htm" />
-      <HelpTOCNode Id="ee906889-b26d-4c1b-bfc8-333631a7517f" Title="DebugDockPanelUserControl Properties" Url="html/Properties.T-UAOOI.Windows.Forms.DebugDockPanelUserControl.htm">
+      <HelpTOCNode Id="7f08e8f1-b83c-401a-892a-a4999db42fe2" Title="DebugDockPanelUserControl Properties" Url="html/Properties.T-UAOOI.Windows.Forms.DebugDockPanelUserControl.htm">
         <HelpTOCNode Title="Text Property " Url="html/P-UAOOI.Windows.Forms.DebugDockPanelUserControl.Text.htm" />
         <HelpTOCNode Title="TextWriterStream Property " Url="html/P-UAOOI.Windows.Forms.DebugDockPanelUserControl.TextWriterStream.htm" />
         <HelpTOCNode Title="TraceListenerName Property " Url="html/P-UAOOI.Windows.Forms.DebugDockPanelUserControl.TraceListenerName.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="DebugDockPanelUserControl Events" Url="html/Events.T-UAOOI.Windows.Forms.DebugDockPanelUserControl.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="cc3b9600-2e4a-415f-88b6-f21bf4863d67" Title="DebugWindow Class" Url="html/T-UAOOI.Windows.Forms.DebugWindow.htm">
+    <HelpTOCNode Id="66885f67-1be2-41ac-82c8-6368f4b3341d" Title="DebugWindow Class" Url="html/T-UAOOI.Windows.Forms.DebugWindow.htm">
       <HelpTOCNode Title="DebugWindow Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.DebugWindow.htm" />
-      <HelpTOCNode Id="0a665c1d-a9e4-4cec-a188-6d56074a3d59" Title="DebugWindow Constructor " Url="html/Overload-UAOOI.Windows.Forms.DebugWindow.-ctor.htm">
+      <HelpTOCNode Id="150acf51-0adf-4975-b3af-19fb8a8991c7" Title="DebugWindow Constructor " Url="html/Overload-UAOOI.Windows.Forms.DebugWindow.-ctor.htm">
         <HelpTOCNode Title="DebugWindow Constructor " Url="html/M-UAOOI.Windows.Forms.DebugWindow.-ctor.htm" />
         <HelpTOCNode Title="DebugWindow Constructor (Icon, FormClosingEventHandler)" Url="html/M-UAOOI.Windows.Forms.DebugWindow.-ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c45fafb9-303b-4a0a-8ce9-c113aae96167" Title="DebugWindow Methods" Url="html/Methods.T-UAOOI.Windows.Forms.DebugWindow.htm">
+      <HelpTOCNode Id="a4bb00f9-659e-4099-873b-434763cf0f05" Title="DebugWindow Methods" Url="html/Methods.T-UAOOI.Windows.Forms.DebugWindow.htm">
         <HelpTOCNode Title="AppendToLog Method " Url="html/M-UAOOI.Windows.Forms.DebugWindow.AppendToLog.htm" />
         <HelpTOCNode Title="AppendToLogLine Method " Url="html/M-UAOOI.Windows.Forms.DebugWindow.AppendToLogLine.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="DebugWindow Properties" Url="html/Properties.T-UAOOI.Windows.Forms.DebugWindow.htm" />
       <HelpTOCNode Title="DebugWindow Events" Url="html/Events.T-UAOOI.Windows.Forms.DebugWindow.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="85104899-edf6-46ad-b785-95f174da949a" Title="DockPanelUserControl Class" Url="html/T-UAOOI.Windows.Forms.DockPanelUserControl.htm">
+    <HelpTOCNode Id="0f2f3210-7b6c-4f3c-949f-ed38d21cf2b3" Title="DockPanelUserControl Class" Url="html/T-UAOOI.Windows.Forms.DockPanelUserControl.htm">
       <HelpTOCNode Title="DockPanelUserControl Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.DockPanelUserControl.htm" />
-      <HelpTOCNode Id="f71b4923-b311-4f8f-a977-619469d3ec24" Title="DockPanelUserControl Constructor " Url="html/Overload-UAOOI.Windows.Forms.DockPanelUserControl.-ctor.htm">
+      <HelpTOCNode Id="8193b575-519d-4e0d-85d4-8a2f521e4cc3" Title="DockPanelUserControl Constructor " Url="html/Overload-UAOOI.Windows.Forms.DockPanelUserControl.-ctor.htm">
         <HelpTOCNode Title="DockPanelUserControl Constructor (DockExtender, Splitter)" Url="html/M-UAOOI.Windows.Forms.DockPanelUserControl.-ctor.htm" />
         <HelpTOCNode Title="DockPanelUserControl Constructor " Url="html/M-UAOOI.Windows.Forms.DockPanelUserControl.-ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="50d07904-7c6d-4d52-9151-886360bd1ef3" Title="DockPanelUserControl Methods" Url="html/Methods.T-UAOOI.Windows.Forms.DockPanelUserControl.htm">
+      <HelpTOCNode Id="772fa3df-c099-4611-a978-e9a10bdb4cd3" Title="DockPanelUserControl Methods" Url="html/Methods.T-UAOOI.Windows.Forms.DockPanelUserControl.htm">
         <HelpTOCNode Title="AttachToDockExtender Method " Url="html/M-UAOOI.Windows.Forms.DockPanelUserControl.AttachToDockExtender.htm" />
         <HelpTOCNode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.DockPanelUserControl.Show.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2281f8e0-ba1f-41b2-ab55-c70630d40774" Title="DockPanelUserControl Properties" Url="html/Properties.T-UAOOI.Windows.Forms.DockPanelUserControl.htm">
+      <HelpTOCNode Id="9abc3665-40aa-46a6-b24e-e54113d1bb5e" Title="DockPanelUserControl Properties" Url="html/Properties.T-UAOOI.Windows.Forms.DockPanelUserControl.htm">
         <HelpTOCNode Title="Floaty Property " Url="html/P-UAOOI.Windows.Forms.DockPanelUserControl.Floaty.htm" />
         <HelpTOCNode Title="Focused Property " Url="html/P-UAOOI.Windows.Forms.DockPanelUserControl.Focused.htm" />
         <HelpTOCNode Title="Label Property " Url="html/P-UAOOI.Windows.Forms.DockPanelUserControl.Label.htm" />
@@ -120,54 +118,54 @@
       </HelpTOCNode>
       <HelpTOCNode Title="DockPanelUserControl Events" Url="html/Events.T-UAOOI.Windows.Forms.DockPanelUserControl.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="82ef2b47-33ac-4efc-8b7b-36719fef82d5" Title="GenericEventArgs(T) Class" Url="html/T-UAOOI.Windows.Forms.GenericEventArgs-1.htm">
+    <HelpTOCNode Id="d20d1e66-6dce-4191-98ad-6170dbb10a00" Title="GenericEventArgs(T) Class" Url="html/T-UAOOI.Windows.Forms.GenericEventArgs-1.htm">
       <HelpTOCNode Title="GenericEventArgs(T) Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GenericEventArgs-1.htm" />
       <HelpTOCNode Title="GenericEventArgs(T) Constructor " Url="html/M-UAOOI.Windows.Forms.GenericEventArgs-1.-ctor.htm" />
       <HelpTOCNode Title="GenericEventArgs(T) Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GenericEventArgs-1.htm" />
-      <HelpTOCNode Id="494716d0-a960-45cc-8efb-c6a40d36c9ed" Title="GenericEventArgs(T) Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GenericEventArgs-1.htm">
+      <HelpTOCNode Id="4b80f049-1e93-47e7-b911-5c4e5e1ed60f" Title="GenericEventArgs(T) Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GenericEventArgs-1.htm">
         <HelpTOCNode Title="Tag Property " Url="html/P-UAOOI.Windows.Forms.GenericEventArgs-1.Tag.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ffa0b6fe-c868-4267-82c2-73a738203ace" Title="GenericTreeNode(ObjectType, ParentType) Class" Url="html/T-UAOOI.Windows.Forms.GenericTreeNode-2.htm">
+    <HelpTOCNode Id="53e377d5-cd7e-4fc8-bd75-ae193d6c4c83" Title="GenericTreeNode(ObjectType, ParentType) Class" Url="html/T-UAOOI.Windows.Forms.GenericTreeNode-2.htm">
       <HelpTOCNode Title="GenericTreeNode(ObjectType, ParentType) Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GenericTreeNode-2.htm" />
-      <HelpTOCNode Id="e5799fa7-0a47-4781-a5b1-796618daeaf1" Title="GenericTreeNode(ObjectType, ParentType) Constructor " Url="html/Overload-UAOOI.Windows.Forms.GenericTreeNode-2.-ctor.htm">
+      <HelpTOCNode Id="70cd3da7-3d33-4461-bc38-1117c180bc9d" Title="GenericTreeNode(ObjectType, ParentType) Constructor " Url="html/Overload-UAOOI.Windows.Forms.GenericTreeNode-2.-ctor.htm">
         <HelpTOCNode Title="GenericTreeNode(ObjectType, ParentType) Constructor (String, ObjectType, ParentType)" Url="html/M-UAOOI.Windows.Forms.GenericTreeNode-2.-ctor.htm" />
         <HelpTOCNode Title="GenericTreeNode(ObjectType, ParentType) Constructor (String, ObjectType)" Url="html/M-UAOOI.Windows.Forms.GenericTreeNode-2.-ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0b7ebf3c-dcfe-407b-a288-b20c5f8cd734" Title="GenericTreeNode(ObjectType, ParentType) Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GenericTreeNode-2.htm">
+      <HelpTOCNode Id="cdf32c12-12b6-4d06-9010-17e9ad80e594" Title="GenericTreeNode(ObjectType, ParentType) Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GenericTreeNode-2.htm">
         <HelpTOCNode Title="Clear Method " Url="html/M-UAOOI.Windows.Forms.GenericTreeNode-2.Clear.htm" />
         <HelpTOCNode Title="Dispose Method " Url="html/M-UAOOI.Windows.Forms.GenericTreeNode-2.Dispose.htm" />
         <HelpTOCNode Title="GetMenuItems Method " Url="html/M-UAOOI.Windows.Forms.GenericTreeNode-2.GetMenuItems.htm" />
         <HelpTOCNode Title="MakeSelected Method " Url="html/M-UAOOI.Windows.Forms.GenericTreeNode-2.MakeSelected.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2f641b48-7047-4d55-b526-ec6daf7c7807" Title="GenericTreeNode(ObjectType, ParentType) Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GenericTreeNode-2.htm">
+      <HelpTOCNode Id="dad60268-ea9d-443f-9530-3c58c767cd32" Title="GenericTreeNode(ObjectType, ParentType) Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GenericTreeNode-2.htm">
         <HelpTOCNode Title="Menu Property " Url="html/P-UAOOI.Windows.Forms.GenericTreeNode-2.Menu.htm" />
         <HelpTOCNode Title="Parent Property " Url="html/P-UAOOI.Windows.Forms.GenericTreeNode-2.Parent.htm" />
         <HelpTOCNode Title="Tag Property " Url="html/P-UAOOI.Windows.Forms.GenericTreeNode-2.Tag.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="8919efd0-7500-42e9-9d8f-8ebb91020d67" Title="ImageListLibrary Class" Url="html/T-UAOOI.Windows.Forms.ImageListLibrary.htm">
+    <HelpTOCNode Id="6dd52fe0-b3fc-4140-8f00-9d4db3a45e18" Title="ImageListLibrary Class" Url="html/T-UAOOI.Windows.Forms.ImageListLibrary.htm">
       <HelpTOCNode Title="ImageListLibrary Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ImageListLibrary.htm" />
       <HelpTOCNode Title="ImageListLibrary Constructor " Url="html/M-UAOOI.Windows.Forms.ImageListLibrary.-ctor.htm" />
       <HelpTOCNode Title="ImageListLibrary Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ImageListLibrary.htm" />
-      <HelpTOCNode Id="a428f209-4308-4d08-9d3f-7078d28b8515" Title="ImageListLibrary Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ImageListLibrary.htm">
+      <HelpTOCNode Id="2371d7c2-9e75-4392-97dd-f95cc18a5120" Title="ImageListLibrary Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ImageListLibrary.htm">
         <HelpTOCNode Title="ProjectImageList Property " Url="html/P-UAOOI.Windows.Forms.ImageListLibrary.ProjectImageList.htm" />
         <HelpTOCNode Title="StaticProjectImageList Property " Url="html/P-UAOOI.Windows.Forms.ImageListLibrary.StaticProjectImageList.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ImageListLibrary Events" Url="html/Events.T-UAOOI.Windows.Forms.ImageListLibrary.htm" />
     </HelpTOCNode>
     <HelpTOCNode Title="ImageListLibrary.Icons Enumeration" Url="html/T-UAOOI.Windows.Forms.ImageListLibrary.Icons.htm" />
-    <HelpTOCNode Id="b4326e7b-5aba-4f9f-9bc4-42b8fe258ccc" Title="ImportFileControll Class" Url="html/T-UAOOI.Windows.Forms.ImportFileControll.htm">
+    <HelpTOCNode Id="e01194ac-0444-4988-9c3d-12311979fc59" Title="ImportFileControll Class" Url="html/T-UAOOI.Windows.Forms.ImportFileControll.htm">
       <HelpTOCNode Title="ImportFileControll Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ImportFileControll.htm" />
       <HelpTOCNode Title="ImportFileControll Constructor (ImportInfo, ICanBeAccepted)" Url="html/M-UAOOI.Windows.Forms.ImportFileControll.-ctor.htm" />
       <HelpTOCNode Title="ImportFileControll Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ImportFileControll.htm" />
       <HelpTOCNode Title="ImportFileControll Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ImportFileControll.htm" />
       <HelpTOCNode Title="ImportFileControll Events" Url="html/Events.T-UAOOI.Windows.Forms.ImportFileControll.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="40b7997c-5123-4100-8cd8-57cfc752f543" Title="ImportFileControll.ImportInfo Class" Url="html/T-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.htm">
+    <HelpTOCNode Id="01e7c1bc-c083-41a4-b382-9fa98663be9d" Title="ImportFileControll.ImportInfo Class" Url="html/T-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.htm">
       <HelpTOCNode Title="ImportFileControll.ImportInfo Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.htm" />
       <HelpTOCNode Title="ImportFileControll.ImportInfo Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.htm" />
-      <HelpTOCNode Id="fa06993f-741b-4492-8eab-907991bb8920" Title="ImportFileControll.ImportInfo Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.htm">
+      <HelpTOCNode Id="5f1a0713-ce7a-4924-b514-3b83174d7339" Title="ImportFileControll.ImportInfo Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.htm">
         <HelpTOCNode Title="BrowseFilter Property " Url="html/P-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.BrowseFilter.htm" />
         <HelpTOCNode Title="DefaultExt Property " Url="html/P-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.DefaultExt.htm" />
         <HelpTOCNode Title="Filename Property " Url="html/P-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.Filename.htm" />
@@ -176,136 +174,136 @@
         <HelpTOCNode Title="InitialDirectory Property " Url="html/P-UAOOI.Windows.Forms.ImportFileControll.ImportInfo.InitialDirectory.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="05e36cc1-9492-4955-ac0d-9e9ab20b77d4" Title="ImportFunctionRootClass Class" Url="html/T-UAOOI.Windows.Forms.ImportFunctionRootClass.htm">
+    <HelpTOCNode Id="2b02cf4e-21e4-44ea-8d13-f4a09065c24a" Title="ImportFunctionRootClass Class" Url="html/T-UAOOI.Windows.Forms.ImportFunctionRootClass.htm">
       <HelpTOCNode Title="ImportFunctionRootClass Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ImportFunctionRootClass.htm" />
-      <HelpTOCNode Id="173ccb91-6fed-4b51-9ac9-03faf577cf94" Title="ImportFunctionRootClass Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ImportFunctionRootClass.htm">
+      <HelpTOCNode Id="b702eab4-69cd-44d2-a9ab-9bd535b57a43" Title="ImportFunctionRootClass Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ImportFunctionRootClass.htm">
         <HelpTOCNode Title="GetImportLog Method " Url="html/M-UAOOI.Windows.Forms.ImportFunctionRootClass.GetImportLog.htm" />
         <HelpTOCNode Title="Import Method " Url="html/M-UAOOI.Windows.Forms.ImportFunctionRootClass.Import.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7193a540-2e0f-4fa5-be48-02f9cb038e61" Title="ITreeNodeInterface Interface" Url="html/T-UAOOI.Windows.Forms.ITreeNodeInterface.htm">
+    <HelpTOCNode Id="052118d3-eeb5-4e10-9fbb-9b4066906cd2" Title="ITreeNodeInterface Interface" Url="html/T-UAOOI.Windows.Forms.ITreeNodeInterface.htm">
       <HelpTOCNode Title="ITreeNodeInterface Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ITreeNodeInterface.htm" />
-      <HelpTOCNode Id="9d02901b-0615-48f3-a854-cbfeb13141e3" Title="ITreeNodeInterface Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ITreeNodeInterface.htm">
+      <HelpTOCNode Id="29d7fb26-a98c-4f62-834d-ae50219d8ce3" Title="ITreeNodeInterface Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ITreeNodeInterface.htm">
         <HelpTOCNode Title="Clear Method " Url="html/M-UAOOI.Windows.Forms.ITreeNodeInterface.Clear.htm" />
         <HelpTOCNode Title="GetMenuItems Method " Url="html/M-UAOOI.Windows.Forms.ITreeNodeInterface.GetMenuItems.htm" />
         <HelpTOCNode Title="MakeSelected Method " Url="html/M-UAOOI.Windows.Forms.ITreeNodeInterface.MakeSelected.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3b899425-d424-4cd8-b4ec-d45d9eb6c621" Title="ITreeNodeInterface Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ITreeNodeInterface.htm">
+      <HelpTOCNode Id="8d999ebb-3032-457f-90ef-7af02386985c" Title="ITreeNodeInterface Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ITreeNodeInterface.htm">
         <HelpTOCNode Title="Menu Property " Url="html/P-UAOOI.Windows.Forms.ITreeNodeInterface.Menu.htm" />
         <HelpTOCNode Title="Nodes Property " Url="html/P-UAOOI.Windows.Forms.ITreeNodeInterface.Nodes.htm" />
         <HelpTOCNode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.ITreeNodeInterface.TreeView.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9a077bf9-1201-47b1-b6df-1957963fff0e" Title="IXmlQualifiedNameEditorNamespaceProvider Interface" Url="html/T-UAOOI.Windows.Forms.IXmlQualifiedNameEditorNamespaceProvider.htm">
+    <HelpTOCNode Id="35e0e6d7-f0f4-444c-b914-7bca411946eb" Title="IXmlQualifiedNameEditorNamespaceProvider Interface" Url="html/T-UAOOI.Windows.Forms.IXmlQualifiedNameEditorNamespaceProvider.htm">
       <HelpTOCNode Title="IXmlQualifiedNameEditorNamespaceProvider Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.IXmlQualifiedNameEditorNamespaceProvider.htm" />
-      <HelpTOCNode Id="82ea00e3-76c6-4868-931f-005201e06474" Title="IXmlQualifiedNameEditorNamespaceProvider Methods" Url="html/Methods.T-UAOOI.Windows.Forms.IXmlQualifiedNameEditorNamespaceProvider.htm">
+      <HelpTOCNode Id="15eeba4a-731b-4443-90da-a2b3096ba780" Title="IXmlQualifiedNameEditorNamespaceProvider Methods" Url="html/Methods.T-UAOOI.Windows.Forms.IXmlQualifiedNameEditorNamespaceProvider.htm">
         <HelpTOCNode Title="GetAvailiableNamespaces Method " Url="html/M-UAOOI.Windows.Forms.IXmlQualifiedNameEditorNamespaceProvider.GetAvailiableNamespaces.htm" />
         <HelpTOCNode Title="GetTargetNamespace Method " Url="html/M-UAOOI.Windows.Forms.IXmlQualifiedNameEditorNamespaceProvider.GetTargetNamespace.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6f8eb42d-21ac-4c73-8117-fff4506c2a8c" Title="LabeledTreeViewPair Class" Url="html/T-UAOOI.Windows.Forms.LabeledTreeViewPair.htm">
+    <HelpTOCNode Id="e99ef0cf-6c2a-47a6-b21f-d24104ae80c3" Title="LabeledTreeViewPair Class" Url="html/T-UAOOI.Windows.Forms.LabeledTreeViewPair.htm">
       <HelpTOCNode Title="LabeledTreeViewPair Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.LabeledTreeViewPair.htm" />
       <HelpTOCNode Title="LabeledTreeViewPair Methods" Url="html/Methods.T-UAOOI.Windows.Forms.LabeledTreeViewPair.htm" />
-      <HelpTOCNode Id="45fbe4db-05bb-4d42-9dad-8ffc1d5c58ba" Title="LabeledTreeViewPair Properties" Url="html/Properties.T-UAOOI.Windows.Forms.LabeledTreeViewPair.htm">
+      <HelpTOCNode Id="93ae677a-f87b-4290-82ff-1014362c5985" Title="LabeledTreeViewPair Properties" Url="html/Properties.T-UAOOI.Windows.Forms.LabeledTreeViewPair.htm">
         <HelpTOCNode Title="Label Property " Url="html/P-UAOOI.Windows.Forms.LabeledTreeViewPair.Label.htm" />
         <HelpTOCNode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.LabeledTreeViewPair.TreeView.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2c5107b5-a7a5-4686-bd39-c304a06ea65f" Title="LabeledTreeViewToolStrip Class" Url="html/T-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.htm">
+    <HelpTOCNode Id="cefc3f41-23c6-4740-8a9c-11ee3acda370" Title="LabeledTreeViewToolStrip Class" Url="html/T-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.htm">
       <HelpTOCNode Title="LabeledTreeViewToolStrip Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.htm" />
       <HelpTOCNode Title="LabeledTreeViewToolStrip Constructor " Url="html/M-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.-ctor.htm" />
       <HelpTOCNode Title="LabeledTreeViewToolStrip Methods" Url="html/Methods.T-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.htm" />
-      <HelpTOCNode Id="e489c4d4-dff4-476c-86f2-d92299acb2f1" Title="LabeledTreeViewToolStrip Properties" Url="html/Properties.T-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.htm">
+      <HelpTOCNode Id="557c2ed9-7dcd-41e4-b4fb-6ccf3730b223" Title="LabeledTreeViewToolStrip Properties" Url="html/Properties.T-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.htm">
         <HelpTOCNode Title="Text Property " Url="html/P-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.Text.htm" />
         <HelpTOCNode Title="TreeView Property " Url="html/P-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.TreeView.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="LabeledTreeViewToolStrip Events" Url="html/Events.T-UAOOI.Windows.Forms.LabeledTreeViewToolStrip.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="eb3ed3c2-2be9-4e9d-acf9-68b102cb665d" Title="LicenseForm Class" Url="html/T-UAOOI.Windows.Forms.LicenseForm.htm">
+    <HelpTOCNode Id="b9d3759e-8fa6-468f-8be4-3eedce2ee11e" Title="LicenseForm Class" Url="html/T-UAOOI.Windows.Forms.LicenseForm.htm">
       <HelpTOCNode Title="LicenseForm Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.LicenseForm.htm" />
-      <HelpTOCNode Title="LicenseForm Constructor (Image, String, Assembly)" Url="html/M-UAOOI.Windows.Forms.LicenseForm.-ctor.htm" />
+      <HelpTOCNode Title="LicenseForm Constructor (Image, Assembly)" Url="html/M-UAOOI.Windows.Forms.LicenseForm.-ctor.htm" />
       <HelpTOCNode Title="LicenseForm Methods" Url="html/Methods.T-UAOOI.Windows.Forms.LicenseForm.htm" />
-      <HelpTOCNode Id="6b3e5bee-ed67-4829-bfef-8381866fb7b4" Title="LicenseForm Properties" Url="html/Properties.T-UAOOI.Windows.Forms.LicenseForm.htm">
+      <HelpTOCNode Id="668a74b2-f026-4a23-8c87-03227e82c6fb" Title="LicenseForm Properties" Url="html/Properties.T-UAOOI.Windows.Forms.LicenseForm.htm">
         <HelpTOCNode Title="LicenceRequestMessageProvider Property " Url="html/P-UAOOI.Windows.Forms.LicenseForm.LicenceRequestMessageProvider.htm" />
         <HelpTOCNode Title="SetAdditionalControl Property " Url="html/P-UAOOI.Windows.Forms.LicenseForm.SetAdditionalControl.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="LicenseForm Events" Url="html/Events.T-UAOOI.Windows.Forms.LicenseForm.htm" />
     </HelpTOCNode>
     <HelpTOCNode Title="LicenseForm.LicenceRequestMessageProviderDelegate Delegate" Url="html/T-UAOOI.Windows.Forms.LicenseForm.LicenceRequestMessageProviderDelegate.htm" />
-    <HelpTOCNode Id="1498206f-c3e3-469d-8412-041a01459931" Title="LogMessageWindow Class" Url="html/T-UAOOI.Windows.Forms.LogMessageWindow.htm">
+    <HelpTOCNode Id="8298326d-611d-4476-9001-5971416aae26" Title="LogMessageWindow Class" Url="html/T-UAOOI.Windows.Forms.LogMessageWindow.htm">
       <HelpTOCNode Title="LogMessageWindow Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.LogMessageWindow.htm" />
-      <HelpTOCNode Id="bba8d695-78b0-4f2c-b684-ee986d006a79" Title="LogMessageWindow Constructor " Url="html/Overload-UAOOI.Windows.Forms.LogMessageWindow.-ctor.htm">
+      <HelpTOCNode Id="430f44a5-45d8-44d4-a947-82db828e7d96" Title="LogMessageWindow Constructor " Url="html/Overload-UAOOI.Windows.Forms.LogMessageWindow.-ctor.htm">
         <HelpTOCNode Title="LogMessageWindow Constructor " Url="html/M-UAOOI.Windows.Forms.LogMessageWindow.-ctor.htm" />
         <HelpTOCNode Title="LogMessageWindow Constructor (String)" Url="html/M-UAOOI.Windows.Forms.LogMessageWindow.-ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="7315c33d-8123-4932-8a6f-43544a4b81e6" Title="LogMessageWindow Methods" Url="html/Methods.T-UAOOI.Windows.Forms.LogMessageWindow.htm">
+      <HelpTOCNode Id="d756af19-2abb-4e0d-948a-a664f765f0b2" Title="LogMessageWindow Methods" Url="html/Methods.T-UAOOI.Windows.Forms.LogMessageWindow.htm">
         <HelpTOCNode Title="SetLogMessage Method " Url="html/M-UAOOI.Windows.Forms.LogMessageWindow.SetLogMessage.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="LogMessageWindow Properties" Url="html/Properties.T-UAOOI.Windows.Forms.LogMessageWindow.htm" />
       <HelpTOCNode Title="LogMessageWindow Events" Url="html/Events.T-UAOOI.Windows.Forms.LogMessageWindow.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="5c9a1978-86d3-4bbe-887a-78d06363c172" Title="MessageBoxSentEmail Class" Url="html/T-UAOOI.Windows.Forms.MessageBoxSentEmail.htm">
+    <HelpTOCNode Id="174e0bba-5a0e-4ba4-8978-e780e5863bef" Title="MessageBoxSentEmail Class" Url="html/T-UAOOI.Windows.Forms.MessageBoxSentEmail.htm">
       <HelpTOCNode Title="MessageBoxSentEmail Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.MessageBoxSentEmail.htm" />
       <HelpTOCNode Title="MessageBoxSentEmail Constructor " Url="html/M-UAOOI.Windows.Forms.MessageBoxSentEmail.-ctor.htm" />
-      <HelpTOCNode Id="18d40d3a-4487-41fb-b808-ac86b97f9547" Title="MessageBoxSentEmail Methods" Url="html/Methods.T-UAOOI.Windows.Forms.MessageBoxSentEmail.htm">
+      <HelpTOCNode Id="bf1a8376-8d77-4409-ace3-5ec40b04d109" Title="MessageBoxSentEmail Methods" Url="html/Methods.T-UAOOI.Windows.Forms.MessageBoxSentEmail.htm">
         <HelpTOCNode Title="OpenEmailClient Method " Url="html/M-UAOOI.Windows.Forms.MessageBoxSentEmail.OpenEmailClient.htm" />
         <HelpTOCNode Title="ShowMessageAndOpenEmailClient Method " Url="html/M-UAOOI.Windows.Forms.MessageBoxSentEmail.ShowMessageAndOpenEmailClient.htm" />
         <HelpTOCNode Title="ShowMessageAndSendEmailIfOK Method " Url="html/M-UAOOI.Windows.Forms.MessageBoxSentEmail.ShowMessageAndSendEmailIfOK.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="62e7210f-c145-4db2-af6d-f4a0123e3497" Title="OKCancelForm Class" Url="html/T-UAOOI.Windows.Forms.OKCancelForm.htm">
+    <HelpTOCNode Id="11c6187d-d6a2-4580-b0b0-9a5772bbb5f2" Title="OKCancelForm Class" Url="html/T-UAOOI.Windows.Forms.OKCancelForm.htm">
       <HelpTOCNode Title="OKCancelForm Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.OKCancelForm.htm" />
       <HelpTOCNode Title="OKCancelForm Constructor (String)" Url="html/M-UAOOI.Windows.Forms.OKCancelForm.-ctor.htm" />
-      <HelpTOCNode Id="be2b36e2-5bed-4d5b-add3-ac8896aaf803" Title="OKCancelForm Methods" Url="html/Methods.T-UAOOI.Windows.Forms.OKCancelForm.htm">
+      <HelpTOCNode Id="553e7fc0-540f-455d-bbac-c4feb15933e7" Title="OKCancelForm Methods" Url="html/Methods.T-UAOOI.Windows.Forms.OKCancelForm.htm">
         <HelpTOCNode Title="AddButton Method " Url="html/M-UAOOI.Windows.Forms.OKCancelForm.AddButton.htm" />
         <HelpTOCNode Title="CanBeAccepted Method " Url="html/M-UAOOI.Windows.Forms.OKCancelForm.CanBeAccepted.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="074afb27-85c5-47cd-b5a3-de9fe365a47a" Title="OKCancelForm Properties" Url="html/Properties.T-UAOOI.Windows.Forms.OKCancelForm.htm">
+      <HelpTOCNode Id="199d06db-a80b-42b2-ba52-60c5de534f6d" Title="OKCancelForm Properties" Url="html/Properties.T-UAOOI.Windows.Forms.OKCancelForm.htm">
         <HelpTOCNode Title="SetUserControl Property " Url="html/P-UAOOI.Windows.Forms.OKCancelForm.SetUserControl.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="OKCancelForm Events" Url="html/Events.T-UAOOI.Windows.Forms.OKCancelForm.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b8006034-63bc-4482-a5e2-ca11dd1f0032" Title="OPCTreeView Class" Url="html/T-UAOOI.Windows.Forms.OPCTreeView.htm">
+    <HelpTOCNode Id="f9d2960f-38fb-4d70-8ec3-42ed97c81e51" Title="OPCTreeView Class" Url="html/T-UAOOI.Windows.Forms.OPCTreeView.htm">
       <HelpTOCNode Title="OPCTreeView Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.OPCTreeView.htm" />
       <HelpTOCNode Title="OPCTreeView Constructor " Url="html/M-UAOOI.Windows.Forms.OPCTreeView.-ctor.htm" />
-      <HelpTOCNode Id="c2f325e9-4eae-45fa-941d-34fad7515d65" Title="OPCTreeView Methods" Url="html/Methods.T-UAOOI.Windows.Forms.OPCTreeView.htm">
+      <HelpTOCNode Id="0eba552a-92a7-44a9-b1e3-bafe55a59d5b" Title="OPCTreeView Methods" Url="html/Methods.T-UAOOI.Windows.Forms.OPCTreeView.htm">
         <HelpTOCNode Title="Clear Method " Url="html/M-UAOOI.Windows.Forms.OPCTreeView.Clear.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="OPCTreeView Properties" Url="html/Properties.T-UAOOI.Windows.Forms.OPCTreeView.htm" />
       <HelpTOCNode Title="OPCTreeView Events" Url="html/Events.T-UAOOI.Windows.Forms.OPCTreeView.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a6b20e35-5942-45ce-80d9-00cf6984400f" Title="PropertyGridCollection Class" Url="html/T-UAOOI.Windows.Forms.PropertyGridCollection.htm">
+    <HelpTOCNode Id="e2f4ab9f-71bc-4291-934b-d6e57a46cf21" Title="PropertyGridCollection Class" Url="html/T-UAOOI.Windows.Forms.PropertyGridCollection.htm">
       <HelpTOCNode Title="PropertyGridCollection Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.PropertyGridCollection.htm" />
       <HelpTOCNode Title="PropertyGridCollection Constructor " Url="html/M-UAOOI.Windows.Forms.PropertyGridCollection.-ctor.htm" />
-      <HelpTOCNode Id="b5856f34-a96f-4d46-bf1c-0cd371e47d3f" Title="PropertyGridCollection Methods" Url="html/Methods.T-UAOOI.Windows.Forms.PropertyGridCollection.htm">
+      <HelpTOCNode Id="766b39bd-fb44-4266-82e6-571b6e65ffef" Title="PropertyGridCollection Methods" Url="html/Methods.T-UAOOI.Windows.Forms.PropertyGridCollection.htm">
         <HelpTOCNode Title="Refresh Method " Url="html/M-UAOOI.Windows.Forms.PropertyGridCollection.Refresh.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="6a7a14dc-5a27-4a47-b577-399faacf968b" Title="PropertyGridCollection Properties" Url="html/Properties.T-UAOOI.Windows.Forms.PropertyGridCollection.htm">
+      <HelpTOCNode Id="a80b1cac-2f1b-415b-b5ba-d5a3ce139c78" Title="PropertyGridCollection Properties" Url="html/Properties.T-UAOOI.Windows.Forms.PropertyGridCollection.htm">
         <HelpTOCNode Title="SelectedObjects Property " Url="html/P-UAOOI.Windows.Forms.PropertyGridCollection.SelectedObjects.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="b7113033-ae58-4b2f-974f-e2a4e8f7a1c7" Title="PropertyGridCollection Events" Url="html/Events.T-UAOOI.Windows.Forms.PropertyGridCollection.htm">
+      <HelpTOCNode Id="5fb43e5e-792c-47a9-9f7e-39f698de9416" Title="PropertyGridCollection Events" Url="html/Events.T-UAOOI.Windows.Forms.PropertyGridCollection.htm">
         <HelpTOCNode Title="PropertyValueChanged Event" Url="html/E-UAOOI.Windows.Forms.PropertyGridCollection.PropertyValueChanged.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="bbd33d11-7c69-4991-aeb5-9397fa4e0a50" Title="PropertyGridExpandAllExpander Class" Url="html/T-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.htm">
+    <HelpTOCNode Id="f52c980d-c1cc-4319-a985-3b3f4b76b5b0" Title="PropertyGridExpandAllExpander Class" Url="html/T-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.htm">
       <HelpTOCNode Title="PropertyGridExpandAllExpander Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.htm" />
-      <HelpTOCNode Id="ea0d40d2-89f9-485c-aa41-61b7bcd859d2" Title="PropertyGridExpandAllExpander Constructor " Url="html/Overload-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.-ctor.htm">
+      <HelpTOCNode Id="b77b7aa0-fc89-4c69-825e-eeb7fe399265" Title="PropertyGridExpandAllExpander Constructor " Url="html/Overload-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.-ctor.htm">
         <HelpTOCNode Title="PropertyGridExpandAllExpander Constructor " Url="html/M-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.-ctor.htm" />
         <HelpTOCNode Title="PropertyGridExpandAllExpander Constructor (IContainer)" Url="html/M-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.-ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="PropertyGridExpandAllExpander Methods" Url="html/Methods.T-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.htm" />
-      <HelpTOCNode Id="5425a95e-d51a-42e7-86ee-9ef99791a8c4" Title="PropertyGridExpandAllExpander Properties" Url="html/Properties.T-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.htm">
+      <HelpTOCNode Id="75f8bf77-c453-4d0e-a603-45c9a1ffdef9" Title="PropertyGridExpandAllExpander Properties" Url="html/Properties.T-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.htm">
         <HelpTOCNode Title="MyPropertyGrid Property " Url="html/P-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.MyPropertyGrid.htm" />
         <HelpTOCNode Title="MyToolStripItemCollaps Property " Url="html/P-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.MyToolStripItemCollaps.htm" />
         <HelpTOCNode Title="MyToolStripItemExpand Property " Url="html/P-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.MyToolStripItemExpand.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="PropertyGridExpandAllExpander Events" Url="html/Events.T-UAOOI.Windows.Forms.PropertyGridExpandAllExpander.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="610c3adc-51f7-473c-b040-7164131883ff" Title="ScrollableMessageBox Class" Url="html/T-UAOOI.Windows.Forms.ScrollableMessageBox.htm">
+    <HelpTOCNode Id="05986b21-fc97-4d55-8474-a3b5b350c23d" Title="ScrollableMessageBox Class" Url="html/T-UAOOI.Windows.Forms.ScrollableMessageBox.htm">
       <HelpTOCNode Title="ScrollableMessageBox Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ScrollableMessageBox.htm" />
       <HelpTOCNode Title="ScrollableMessageBox Constructor " Url="html/M-UAOOI.Windows.Forms.ScrollableMessageBox.-ctor.htm" />
-      <HelpTOCNode Id="1270d3ed-1721-4058-9c62-64fe78f78339" Title="ScrollableMessageBox Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ScrollableMessageBox.htm">
-        <HelpTOCNode Id="de8008bb-0284-45db-8d50-2e01215df7b7" Title="Show Method " Url="html/Overload-UAOOI.Windows.Forms.ScrollableMessageBox.Show.htm">
+      <HelpTOCNode Id="49f6d9e4-67fe-437e-9343-562727912a65" Title="ScrollableMessageBox Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ScrollableMessageBox.htm">
+        <HelpTOCNode Id="542ff887-8cb6-4ad0-aa54-34e101187a8e" Title="Show Method " Url="html/Overload-UAOOI.Windows.Forms.ScrollableMessageBox.Show.htm">
           <HelpTOCNode Title="Show Method (String, String)" Url="html/M-UAOOI.Windows.Forms.ScrollableMessageBox.Show.htm" />
           <HelpTOCNode Title="Show Method (String, String, MessageBoxButtons)" Url="html/M-UAOOI.Windows.Forms.ScrollableMessageBox.Show_1.htm" />
           <HelpTOCNode Title="Show Method (String, String, MessageBoxButtons, MessageBoxIcon)" Url="html/M-UAOOI.Windows.Forms.ScrollableMessageBox.Show_2.htm" />
@@ -313,7 +311,7 @@
         </HelpTOCNode>
         <HelpTOCNode Title="ShowFromFile Method " Url="html/M-UAOOI.Windows.Forms.ScrollableMessageBox.ShowFromFile.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="8a7cfb83-f7f1-43f4-965b-e232201044e9" Title="ScrollableMessageBox Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ScrollableMessageBox.htm">
+      <HelpTOCNode Id="ddfc1ae6-dd6a-45f5-90b7-cd01fe45038c" Title="ScrollableMessageBox Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ScrollableMessageBox.htm">
         <HelpTOCNode Title="Instance Property " Url="html/P-UAOOI.Windows.Forms.ScrollableMessageBox.Instance.htm" />
         <HelpTOCNode Title="MessageBackColor Property " Url="html/P-UAOOI.Windows.Forms.ScrollableMessageBox.MessageBackColor.htm" />
         <HelpTOCNode Title="MessageFont Property " Url="html/P-UAOOI.Windows.Forms.ScrollableMessageBox.MessageFont.htm" />
@@ -321,13 +319,13 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ScrollableMessageBox Events" Url="html/Events.T-UAOOI.Windows.Forms.ScrollableMessageBox.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f6e6f099-e3d1-42ac-a0c5-794cb24f1564" Title="SearchTreeViewHelper Class" Url="html/T-UAOOI.Windows.Forms.SearchTreeViewHelper.htm">
+    <HelpTOCNode Id="4029c026-d958-46dc-9db3-fcd27dadcccc" Title="SearchTreeViewHelper Class" Url="html/T-UAOOI.Windows.Forms.SearchTreeViewHelper.htm">
       <HelpTOCNode Title="SearchTreeViewHelper Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.SearchTreeViewHelper.htm" />
       <HelpTOCNode Title="SearchTreeViewHelper Constructor " Url="html/M-UAOOI.Windows.Forms.SearchTreeViewHelper.-ctor.htm" />
-      <HelpTOCNode Id="aca91e90-55ed-40c1-8015-510d578853e7" Title="SearchTreeViewHelper Methods" Url="html/Methods.T-UAOOI.Windows.Forms.SearchTreeViewHelper.htm">
+      <HelpTOCNode Id="33c533fc-1801-4fd0-b719-5d8e8fe39722" Title="SearchTreeViewHelper Methods" Url="html/Methods.T-UAOOI.Windows.Forms.SearchTreeViewHelper.htm">
         <HelpTOCNode Title="Search Method " Url="html/M-UAOOI.Windows.Forms.SearchTreeViewHelper.Search.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="7041fa83-2a24-428b-9315-bee475a8ec6f" Title="SearchTreeViewHelper Properties" Url="html/Properties.T-UAOOI.Windows.Forms.SearchTreeViewHelper.htm">
+      <HelpTOCNode Id="46863599-adf9-4055-8e1f-13905b00ad8f" Title="SearchTreeViewHelper Properties" Url="html/Properties.T-UAOOI.Windows.Forms.SearchTreeViewHelper.htm">
         <HelpTOCNode Title="IgnoreCase Property " Url="html/P-UAOOI.Windows.Forms.SearchTreeViewHelper.IgnoreCase.htm" />
         <HelpTOCNode Title="InformationCannotBeFound Property " Url="html/P-UAOOI.Windows.Forms.SearchTreeViewHelper.InformationCannotBeFound.htm" />
         <HelpTOCNode Title="InformationEndIsPassed Property " Url="html/P-UAOOI.Windows.Forms.SearchTreeViewHelper.InformationEndIsPassed.htm" />
@@ -337,11 +335,11 @@
     </HelpTOCNode>
     <HelpTOCNode Title="SearchTreeViewHelper.AdditionalNodeTestDelegate Delegate" Url="html/T-UAOOI.Windows.Forms.SearchTreeViewHelper.AdditionalNodeTestDelegate.htm" />
     <HelpTOCNode Title="SearchTreeViewHelper.GetToolStripTextToFindDelegate Delegate" Url="html/T-UAOOI.Windows.Forms.SearchTreeViewHelper.GetToolStripTextToFindDelegate.htm" />
-    <HelpTOCNode Id="88677ffe-4fd5-4d56-9710-04a183e7cb44" Title="SearchTreeViewToolStrip Class" Url="html/T-UAOOI.Windows.Forms.SearchTreeViewToolStrip.htm">
+    <HelpTOCNode Id="611af5d1-fbf0-4c19-bf09-16693276549d" Title="SearchTreeViewToolStrip Class" Url="html/T-UAOOI.Windows.Forms.SearchTreeViewToolStrip.htm">
       <HelpTOCNode Title="SearchTreeViewToolStrip Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.SearchTreeViewToolStrip.htm" />
       <HelpTOCNode Title="SearchTreeViewToolStrip Constructor " Url="html/M-UAOOI.Windows.Forms.SearchTreeViewToolStrip.-ctor.htm" />
       <HelpTOCNode Title="SearchTreeViewToolStrip Methods" Url="html/Methods.T-UAOOI.Windows.Forms.SearchTreeViewToolStrip.htm" />
-      <HelpTOCNode Id="23bfa5f9-7eb2-469f-947b-525dce868a8d" Title="SearchTreeViewToolStrip Properties" Url="html/Properties.T-UAOOI.Windows.Forms.SearchTreeViewToolStrip.htm">
+      <HelpTOCNode Id="15e82c69-cd50-48ab-9659-a93e00a20984" Title="SearchTreeViewToolStrip Properties" Url="html/Properties.T-UAOOI.Windows.Forms.SearchTreeViewToolStrip.htm">
         <HelpTOCNode Title="InformationCannotBeFound Property " Url="html/P-UAOOI.Windows.Forms.SearchTreeViewToolStrip.InformationCannotBeFound.htm" />
         <HelpTOCNode Title="InformationEndIsPassed Property " Url="html/P-UAOOI.Windows.Forms.SearchTreeViewToolStrip.InformationEndIsPassed.htm" />
         <HelpTOCNode Title="InformationStartIsPassed Property " Url="html/P-UAOOI.Windows.Forms.SearchTreeViewToolStrip.InformationStartIsPassed.htm" />
@@ -351,89 +349,89 @@
       </HelpTOCNode>
       <HelpTOCNode Title="SearchTreeViewToolStrip Events" Url="html/Events.T-UAOOI.Windows.Forms.SearchTreeViewToolStrip.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="17e6cfb9-894f-40bf-9eb3-9a08bb425c58" Title="ServiceControlToolStrip Class" Url="html/T-UAOOI.Windows.Forms.ServiceControlToolStrip.htm">
+    <HelpTOCNode Id="f83ede7c-5b6b-4b14-ac29-15061a24419a" Title="ServiceControlToolStrip Class" Url="html/T-UAOOI.Windows.Forms.ServiceControlToolStrip.htm">
       <HelpTOCNode Title="ServiceControlToolStrip Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ServiceControlToolStrip.htm" />
       <HelpTOCNode Title="ServiceControlToolStrip Constructor " Url="html/M-UAOOI.Windows.Forms.ServiceControlToolStrip.-ctor.htm" />
       <HelpTOCNode Title="ServiceControlToolStrip Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ServiceControlToolStrip.htm" />
-      <HelpTOCNode Id="07569a8a-774a-4e45-9c7d-0f81f49d04a8" Title="ServiceControlToolStrip Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ServiceControlToolStrip.htm">
+      <HelpTOCNode Id="15aed24a-7ea4-4ef7-9481-c30bbd4eb94f" Title="ServiceControlToolStrip Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ServiceControlToolStrip.htm">
         <HelpTOCNode Title="ServiceName Property " Url="html/P-UAOOI.Windows.Forms.ServiceControlToolStrip.ServiceName.htm" />
         <HelpTOCNode Title="ServiceResponseTimeout Property " Url="html/P-UAOOI.Windows.Forms.ServiceControlToolStrip.ServiceResponseTimeout.htm" />
         <HelpTOCNode Title="Text Property " Url="html/P-UAOOI.Windows.Forms.ServiceControlToolStrip.Text.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ServiceControlToolStrip Events" Url="html/Events.T-UAOOI.Windows.Forms.ServiceControlToolStrip.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="47eb1136-1e8e-4a4d-b0c1-c86de0c8602f" Title="TabControlManager Class" Url="html/T-UAOOI.Windows.Forms.TabControlManager.htm">
+    <HelpTOCNode Id="21c6ed7f-cf06-49f6-ad2b-63555058eec5" Title="TabControlManager Class" Url="html/T-UAOOI.Windows.Forms.TabControlManager.htm">
       <HelpTOCNode Title="TabControlManager Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.TabControlManager.htm" />
-      <HelpTOCNode Id="54741ad1-0847-4c33-b7a9-3d64a75c90b1" Title="TabControlManager Constructor " Url="html/Overload-UAOOI.Windows.Forms.TabControlManager.-ctor.htm">
+      <HelpTOCNode Id="ef7576aa-cd4c-48be-801f-a9dcf7f181ea" Title="TabControlManager Constructor " Url="html/Overload-UAOOI.Windows.Forms.TabControlManager.-ctor.htm">
         <HelpTOCNode Title="TabControlManager Constructor " Url="html/M-UAOOI.Windows.Forms.TabControlManager.-ctor.htm" />
         <HelpTOCNode Title="TabControlManager Constructor (IContainer)" Url="html/M-UAOOI.Windows.Forms.TabControlManager.-ctor_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="282c22ad-68b8-4f15-95e0-257503d22305" Title="TabControlManager Methods" Url="html/Methods.T-UAOOI.Windows.Forms.TabControlManager.htm">
+      <HelpTOCNode Id="fa66f76a-0a43-4774-8cb3-2aa0f615e39b" Title="TabControlManager Methods" Url="html/Methods.T-UAOOI.Windows.Forms.TabControlManager.htm">
         <HelpTOCNode Title="GetToolStripItemCollection Method " Url="html/M-UAOOI.Windows.Forms.TabControlManager.GetToolStripItemCollection.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="fa1eceaf-86c0-4dbd-8d63-132d4d40c802" Title="TabControlManager Properties" Url="html/Properties.T-UAOOI.Windows.Forms.TabControlManager.htm">
+      <HelpTOCNode Id="d5e5f557-fb23-4d7f-967a-bf0d5bcc3b5d" Title="TabControlManager Properties" Url="html/Properties.T-UAOOI.Windows.Forms.TabControlManager.htm">
         <HelpTOCNode Title="TabControl Property " Url="html/P-UAOOI.Windows.Forms.TabControlManager.TabControl.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="TabControlManager Events" Url="html/Events.T-UAOOI.Windows.Forms.TabControlManager.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="53d2624f-6ccb-4720-8177-5843b02b5bf1" Title="TextBoxBaseTraceListener Class" Url="html/T-UAOOI.Windows.Forms.TextBoxBaseTraceListener.htm">
+    <HelpTOCNode Id="5cdc94c7-a73c-406f-b96f-ac2bb8f0a250" Title="TextBoxBaseTraceListener Class" Url="html/T-UAOOI.Windows.Forms.TextBoxBaseTraceListener.htm">
       <HelpTOCNode Title="TextBoxBaseTraceListener Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.TextBoxBaseTraceListener.htm" />
       <HelpTOCNode Title="TextBoxBaseTraceListener Constructor " Url="html/M-UAOOI.Windows.Forms.TextBoxBaseTraceListener.-ctor.htm" />
-      <HelpTOCNode Id="c7d6f957-c2e4-4995-b6e9-fbe818cc30c3" Title="TextBoxBaseTraceListener Methods" Url="html/Methods.T-UAOOI.Windows.Forms.TextBoxBaseTraceListener.htm">
+      <HelpTOCNode Id="053189b4-a4dc-4673-a033-56c0f78b63de" Title="TextBoxBaseTraceListener Methods" Url="html/Methods.T-UAOOI.Windows.Forms.TextBoxBaseTraceListener.htm">
         <HelpTOCNode Title="RegisterTextBoxBase Method " Url="html/M-UAOOI.Windows.Forms.TextBoxBaseTraceListener.RegisterTextBoxBase.htm" />
         <HelpTOCNode Title="UnRegisterTextBoxBase Method " Url="html/M-UAOOI.Windows.Forms.TextBoxBaseTraceListener.UnRegisterTextBoxBase.htm" />
-        <HelpTOCNode Id="7e25d848-fafb-4eb4-91c5-ca50cbe43669" Title="Write Method " Url="html/Overload-UAOOI.Windows.Forms.TextBoxBaseTraceListener.Write.htm">
+        <HelpTOCNode Id="4143429e-066b-430f-8683-7442f04d474f" Title="Write Method " Url="html/Overload-UAOOI.Windows.Forms.TextBoxBaseTraceListener.Write.htm">
           <HelpTOCNode Title="Write Method (String)" Url="html/M-UAOOI.Windows.Forms.TextBoxBaseTraceListener.Write.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9bdb1522-40f7-4173-80f6-44c1f93a85d2" Title="WriteLine Method " Url="html/Overload-UAOOI.Windows.Forms.TextBoxBaseTraceListener.WriteLine.htm">
+        <HelpTOCNode Id="87bcfc99-bd07-4d09-bdf6-bf48a9260856" Title="WriteLine Method " Url="html/Overload-UAOOI.Windows.Forms.TextBoxBaseTraceListener.WriteLine.htm">
           <HelpTOCNode Title="WriteLine Method " Url="html/M-UAOOI.Windows.Forms.TextBoxBaseTraceListener.WriteLine.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="TextBoxBaseTraceListener Properties" Url="html/Properties.T-UAOOI.Windows.Forms.TextBoxBaseTraceListener.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f91ecca4-5c6b-475b-bd2f-13c8eca52d5d" Title="TextBoxBaseWithTraceListener Class" Url="html/T-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.htm">
+    <HelpTOCNode Id="11e9570c-a755-47c2-b4ee-a51dcf812605" Title="TextBoxBaseWithTraceListener Class" Url="html/T-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.htm">
       <HelpTOCNode Title="TextBoxBaseWithTraceListener Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.htm" />
       <HelpTOCNode Title="TextBoxBaseWithTraceListener Constructor " Url="html/M-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.-ctor.htm" />
       <HelpTOCNode Title="TextBoxBaseWithTraceListener Methods" Url="html/Methods.T-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.htm" />
-      <HelpTOCNode Id="abed6296-d557-47cb-b4bc-f2fa8a89814c" Title="TextBoxBaseWithTraceListener Properties" Url="html/Properties.T-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.htm">
+      <HelpTOCNode Id="58905724-83d6-4608-bd17-d37ca87067f1" Title="TextBoxBaseWithTraceListener Properties" Url="html/Properties.T-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.htm">
         <HelpTOCNode Title="Name Property " Url="html/P-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.Name.htm" />
         <HelpTOCNode Title="OutputTextBox Property " Url="html/P-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.OutputTextBox.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="TextBoxBaseWithTraceListener Events" Url="html/Events.T-UAOOI.Windows.Forms.TextBoxBaseWithTraceListener.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="264464e3-3f0f-48ea-8040-0004d766f2dc" Title="TextEditPanel Class" Url="html/T-UAOOI.Windows.Forms.TextEditPanel.htm">
+    <HelpTOCNode Id="f5916e6a-3f0f-4b9e-a88c-d06de6332fb2" Title="TextEditPanel Class" Url="html/T-UAOOI.Windows.Forms.TextEditPanel.htm">
       <HelpTOCNode Title="TextEditPanel Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.TextEditPanel.htm" />
       <HelpTOCNode Title="TextEditPanel Constructor " Url="html/M-UAOOI.Windows.Forms.TextEditPanel.-ctor.htm" />
-      <HelpTOCNode Id="5be2a0c6-e753-46fd-ba33-66b05d819324" Title="TextEditPanel Methods" Url="html/Methods.T-UAOOI.Windows.Forms.TextEditPanel.htm">
+      <HelpTOCNode Id="74ed0c9d-b9dc-4ab4-990b-5f417ab34c1c" Title="TextEditPanel Methods" Url="html/Methods.T-UAOOI.Windows.Forms.TextEditPanel.htm">
         <HelpTOCNode Title="AddControlsToToolStrip Method " Url="html/M-UAOOI.Windows.Forms.TextEditPanel.AddControlsToToolStrip.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="94adbe0c-591c-4802-b766-e9e6f0090d20" Title="TextEditPanel Properties" Url="html/Properties.T-UAOOI.Windows.Forms.TextEditPanel.htm">
+      <HelpTOCNode Id="5d5e7bc8-98ad-445e-be30-bc0a2e8840ce" Title="TextEditPanel Properties" Url="html/Properties.T-UAOOI.Windows.Forms.TextEditPanel.htm">
         <HelpTOCNode Title="EditedText Property " Url="html/P-UAOOI.Windows.Forms.TextEditPanel.EditedText.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="TextEditPanel Events" Url="html/Events.T-UAOOI.Windows.Forms.TextEditPanel.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="64e952b6-dcd9-450f-a212-6eda158451da" Title="ToolStripCheckBox Class" Url="html/T-UAOOI.Windows.Forms.ToolStripCheckBox.htm">
+    <HelpTOCNode Id="53c2a3ea-aac6-4f88-b6a8-6f6705313907" Title="ToolStripCheckBox Class" Url="html/T-UAOOI.Windows.Forms.ToolStripCheckBox.htm">
       <HelpTOCNode Title="ToolStripCheckBox Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ToolStripCheckBox.htm" />
       <HelpTOCNode Title="ToolStripCheckBox Constructor " Url="html/M-UAOOI.Windows.Forms.ToolStripCheckBox.-ctor.htm" />
       <HelpTOCNode Title="ToolStripCheckBox Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ToolStripCheckBox.htm" />
-      <HelpTOCNode Id="3c26df6a-210e-479a-82e1-f79a4bbff9ae" Title="ToolStripCheckBox Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ToolStripCheckBox.htm">
+      <HelpTOCNode Id="afeeee96-437f-4ef1-9a57-db2094a85b96" Title="ToolStripCheckBox Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ToolStripCheckBox.htm">
         <HelpTOCNode Title="ToolStripCheckBoxControl Property " Url="html/P-UAOOI.Windows.Forms.ToolStripCheckBox.ToolStripCheckBoxControl.htm" />
         <HelpTOCNode Title="ToolStripCheckBoxEnabled Property " Url="html/P-UAOOI.Windows.Forms.ToolStripCheckBox.ToolStripCheckBoxEnabled.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="36a68da8-1909-471c-98f7-62cfd3f38132" Title="ToolStripCheckBox Events" Url="html/Events.T-UAOOI.Windows.Forms.ToolStripCheckBox.htm">
+      <HelpTOCNode Id="1c78d65a-2b9f-41fc-9865-f39a0e2e5e96" Title="ToolStripCheckBox Events" Url="html/Events.T-UAOOI.Windows.Forms.ToolStripCheckBox.htm">
         <HelpTOCNode Title="CheckedChanged Event" Url="html/E-UAOOI.Windows.Forms.ToolStripCheckBox.CheckedChanged.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b94cdcdc-755b-4e7c-9e85-a7d8fe964d8e" Title="ToolStripContainerHelper Class" Url="html/T-UAOOI.Windows.Forms.ToolStripContainerHelper.htm">
+    <HelpTOCNode Id="a0a12e2f-b194-48a0-8989-0892a1c438bc" Title="ToolStripContainerHelper Class" Url="html/T-UAOOI.Windows.Forms.ToolStripContainerHelper.htm">
       <HelpTOCNode Title="ToolStripContainerHelper Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ToolStripContainerHelper.htm" />
       <HelpTOCNode Title="ToolStripContainerHelper Constructor " Url="html/M-UAOOI.Windows.Forms.ToolStripContainerHelper.-ctor.htm" />
-      <HelpTOCNode Id="057cd28d-e4fb-4307-9d3c-b0bf2c61c814" Title="ToolStripContainerHelper Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ToolStripContainerHelper.htm">
+      <HelpTOCNode Id="2c587178-4b5b-4f53-bcb4-abe859621946" Title="ToolStripContainerHelper Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ToolStripContainerHelper.htm">
         <HelpTOCNode Title="GetListOfToolStripMenuItem Method " Url="html/M-UAOOI.Windows.Forms.ToolStripContainerHelper.GetListOfToolStripMenuItem.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9f33a686-c888-43d8-aec1-4910e58299d5" Title="TreeViewSearcher Class" Url="html/T-UAOOI.Windows.Forms.TreeViewSearcher.htm">
+    <HelpTOCNode Id="319b70d5-aeb6-424c-a28e-8d58c944c6f1" Title="TreeViewSearcher Class" Url="html/T-UAOOI.Windows.Forms.TreeViewSearcher.htm">
       <HelpTOCNode Title="TreeViewSearcher Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.TreeViewSearcher.htm" />
-      <HelpTOCNode Id="c47663bb-c821-4c26-96c5-48a4c8b27a0a" Title="TreeViewSearcher Methods" Url="html/Methods.T-UAOOI.Windows.Forms.TreeViewSearcher.htm">
+      <HelpTOCNode Id="bc51427c-1a33-48cf-bf50-186ed1d32a50" Title="TreeViewSearcher Methods" Url="html/Methods.T-UAOOI.Windows.Forms.TreeViewSearcher.htm">
         <HelpTOCNode Title="GetLastNodeOfTheTreeView Method " Url="html/M-UAOOI.Windows.Forms.TreeViewSearcher.GetLastNodeOfTheTreeView.htm" />
         <HelpTOCNode Title="GetNextNode Method " Url="html/M-UAOOI.Windows.Forms.TreeViewSearcher.GetNextNode.htm" />
         <HelpTOCNode Title="GetPreviousNode Method " Url="html/M-UAOOI.Windows.Forms.TreeViewSearcher.GetPreviousNode.htm" />
@@ -441,14 +439,14 @@
         <HelpTOCNode Title="SearchAndSelectNextNodeThatContainsText Method " Url="html/M-UAOOI.Windows.Forms.TreeViewSearcher.SearchAndSelectNextNodeThatContainsText.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="040154ba-bd02-46bd-a056-095e537aeaca" Title="XmlQualifiedNameEditor Class" Url="html/T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm">
+    <HelpTOCNode Id="952a4d80-83b3-4589-97d2-c42733ea63b0" Title="XmlQualifiedNameEditor Class" Url="html/T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm">
       <HelpTOCNode Title="XmlQualifiedNameEditor Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm" />
-      <HelpTOCNode Id="f2167cb4-df41-48f2-8c47-c3a2a00a39ab" Title="XmlQualifiedNameEditor Constructor " Url="html/Overload-UAOOI.Windows.Forms.XmlQualifiedNameEditor.-ctor.htm">
+      <HelpTOCNode Id="c33b2a3e-f23f-4972-bd9a-7d41e4cb4d4c" Title="XmlQualifiedNameEditor Constructor " Url="html/Overload-UAOOI.Windows.Forms.XmlQualifiedNameEditor.-ctor.htm">
         <HelpTOCNode Title="XmlQualifiedNameEditor Constructor (XmlQualifiedName, IXmlQualifiedNameEditorNamespaceProvider)" Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.-ctor.htm" />
         <HelpTOCNode Title="XmlQualifiedNameEditor Constructor (XmlQualifiedName, IXmlQualifiedNameEditorNamespaceProvider, Boolean)" Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.-ctor_1.htm" />
         <HelpTOCNode Title="XmlQualifiedNameEditor Constructor (String, String, IXmlQualifiedNameEditorNamespaceProvider)" Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.-ctor_2.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="d14132b3-924c-482b-89f3-8283bef72633" Title="XmlQualifiedNameEditor Methods" Url="html/Methods.T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm">
+      <HelpTOCNode Id="89c0b938-0d0f-40ef-932b-2c832c1ca72b" Title="XmlQualifiedNameEditor Methods" Url="html/Methods.T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm">
         <HelpTOCNode Title="CreateXmlQualifiedNameEditor Method " Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.CreateXmlQualifiedNameEditor.htm" />
         <HelpTOCNode Title="GetNameOrGenerateIfInstanceIsNull Method " Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.GetNameOrGenerateIfInstanceIsNull.htm" />
         <HelpTOCNode Title="GetNamespaceOrGenerateIfInstanceIsNull Method " Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.GetNamespaceOrGenerateIfInstanceIsNull.htm" />
@@ -456,7 +454,7 @@
         <HelpTOCNode Title="UpdateNameAndNamespaceAndNamespaceProviderBasedOn Method " Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.UpdateNameAndNamespaceAndNamespaceProviderBasedOn.htm" />
         <HelpTOCNode Title="UpdateNameAndNamespaceBasedOn Method " Url="html/M-UAOOI.Windows.Forms.XmlQualifiedNameEditor.UpdateNameAndNamespaceBasedOn.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="73a1502d-37b4-4d9f-8413-d60279ef68f1" Title="XmlQualifiedNameEditor Properties" Url="html/Properties.T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm">
+      <HelpTOCNode Id="ab74df5f-0b38-4fcf-80df-0b7ac808115f" Title="XmlQualifiedNameEditor Properties" Url="html/Properties.T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm">
         <HelpTOCNode Title="IsEmpty Property " Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.IsEmpty.htm" />
         <HelpTOCNode Title="IsNull Property " Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.IsNull.htm" />
         <HelpTOCNode Title="Name Property " Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.Name.htm" />
@@ -464,82 +462,17 @@
         <HelpTOCNode Title="NameSpace Property " Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.NameSpace.htm" />
         <HelpTOCNode Title="XmlQualifiedName Property " Url="html/P-UAOOI.Windows.Forms.XmlQualifiedNameEditor.XmlQualifiedName.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0e169e0c-be24-490d-8fe5-e4bce00a896d" Title="XmlQualifiedNameEditor Events" Url="html/Events.T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm">
+      <HelpTOCNode Id="f5f196fe-fb5f-4e8c-bd26-03a29f1fc55f" Title="XmlQualifiedNameEditor Events" Url="html/Events.T-UAOOI.Windows.Forms.XmlQualifiedNameEditor.htm">
         <HelpTOCNode Title="XmlQualifiedNameHasChanged Event" Url="html/E-UAOOI.Windows.Forms.XmlQualifiedNameEditor.XmlQualifiedNameHasChanged.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="af235085-febe-4979-b2e4-f452ddc7b237" Title="UAOOI.Windows.Forms.CodeProtectControls Namespace" Url="html/N-UAOOI.Windows.Forms.CodeProtectControls.htm">
-    <HelpTOCNode Id="99c1f9cc-283f-4d6f-b1b6-dd56e19c7c8e" Title="Licenses Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm">
-      <HelpTOCNode Title="Licenses Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-      <HelpTOCNode Title="Licenses Constructor " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.Licenses.-ctor.htm" />
-      <HelpTOCNode Id="c941a97e-5e66-4dcc-9125-4e4e967cbb87" Title="Licenses Methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm">
-        <HelpTOCNode Title="GetLicenseInfo Method " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.Licenses.GetLicenseInfo.htm" />
-        <HelpTOCNode Title="GetLicenseMessageRequest Method " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.Licenses.GetLicenseMessageRequest.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Title="Licenses Properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-      <HelpTOCNode Title="Licenses Events" Url="html/Events.T-UAOOI.Windows.Forms.CodeProtectControls.Licenses.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="6c5686d8-8153-42a2-8af8-10e900aa7cfa" Title="SplashScreen Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm">
-      <HelpTOCNode Title="SplashScreen Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm" />
-      <HelpTOCNode Id="207a512d-e870-41f5-a1fc-5234019d43a8" Title="SplashScreen Constructor " Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.-ctor.htm">
-        <HelpTOCNode Title="SplashScreen Constructor (Boolean, Boolean)" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.-ctor.htm" />
-        <HelpTOCNode Title="SplashScreen Constructor " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.-ctor_1.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="ae02ccda-1451-44d7-a426-51cd9c0f31a7" Title="SplashScreen Methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm">
-        <HelpTOCNode Title="ActivateBuyNow Method " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.ActivateBuyNow.htm" />
-        <HelpTOCNode Title="AppendText Method " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.AppendText.htm" />
-        <HelpTOCNode Title="AppendTextIfInstantiated Method " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.AppendTextIfInstantiated.htm" />
-        <HelpTOCNode Title="CloseSplashScreen Method " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.CloseSplashScreen.htm" />
-        <HelpTOCNode Id="bb100b93-e3ee-41f4-b613-53d576147f33" Title="Show Method " Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.Show.htm">
-          <HelpTOCNode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.Show.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="69ed3e27-a15c-4b10-9bc0-3db60748826b" Title="SplashScreen Properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm">
-        <HelpTOCNode Title="MaintenancePeriodWarning Property " Url="html/P-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.MaintenancePeriodWarning.htm" />
-        <HelpTOCNode Title="ShowSplashScreen Property " Url="html/P-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.ShowSplashScreen.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="f05a5bd8-8483-4369-853b-15567a614ceb" Title="SplashScreen Events" Url="html/Events.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.htm">
-        <HelpTOCNode Title="OnMaintenancePeriodWarning Event" Url="html/E-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.OnMaintenancePeriodWarning.htm" />
-        <HelpTOCNode Title="OnShowSplashScreenChanged Event" Url="html/E-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.OnShowSplashScreenChanged.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="1b492042-4600-49e5-b242-9e750ffb2259" Title="SplashScreen.BoolEventArg Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm">
-      <HelpTOCNode Title="SplashScreen.BoolEventArg Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-      <HelpTOCNode Title="SplashScreen.BoolEventArg Methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm" />
-      <HelpTOCNode Id="be8bc740-1107-4e52-ba24-bad69495238f" Title="SplashScreen.BoolEventArg Properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.htm">
-        <HelpTOCNode Title="Value Property " Url="html/P-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.BoolEventArg.Value.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="3582873e-9a10-4f2e-9c5f-0c11f648e2b1" Title="SplashScreen.LogedIsLicensed(type) Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm">
-      <HelpTOCNode Title="SplashScreen.LogedIsLicensed(type) Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-      <HelpTOCNode Title="SplashScreen.LogedIsLicensed(type) Methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-      <HelpTOCNode Title="SplashScreen.LogedIsLicensed(type) Properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.SplashScreen.LogedIsLicensed-1.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="1dc6b126-ee19-4d8e-b587-85e35a085e1c" Title="UnlockKeyDialog Class" Url="html/T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm">
-      <HelpTOCNode Title="UnlockKeyDialog Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-      <HelpTOCNode Id="665efa8a-603e-44c5-83eb-62d7b4057b6c" Title="UnlockKeyDialog Constructor " Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.-ctor.htm">
-        <HelpTOCNode Title="UnlockKeyDialog Constructor (Assembly)" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.-ctor.htm" />
-        <HelpTOCNode Title="UnlockKeyDialog Constructor (String)" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.-ctor_1.htm" />
-        <HelpTOCNode Title="UnlockKeyDialog Constructor " Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.-ctor_2.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="54d341e9-95b5-4c84-95b8-512fdc2a123e" Title="UnlockKeyDialog Methods" Url="html/Methods.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm">
-        <HelpTOCNode Id="4948778f-944a-4f7b-808d-44eeedb852f2" Title="AddMenu Method " Url="html/Overload-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.AddMenu.htm">
-          <HelpTOCNode Title="AddMenu Method (ToolStripItemCollection)" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.AddMenu.htm" />
-          <HelpTOCNode Title="AddMenu Method (ToolStripItemCollection, String)" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.AddMenu_1.htm" />
-          <HelpTOCNode Title="AddMenu Method (ToolStripItemCollection, Assembly)" Url="html/M-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.AddMenu_2.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Title="UnlockKeyDialog Properties" Url="html/Properties.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-      <HelpTOCNode Title="UnlockKeyDialog Events" Url="html/Events.T-UAOOI.Windows.Forms.CodeProtectControls.UnlockKeyDialog.htm" />
-    </HelpTOCNode>
-  </HelpTOCNode>
-  <HelpTOCNode Id="4dcfe54f-152b-4ee1-b332-c777c0603539" Title="UAOOI.Windows.Forms.ControlExtenders Namespace" Url="html/N-UAOOI.Windows.Forms.ControlExtenders.htm">
-    <HelpTOCNode Id="5c415f34-4694-4604-bf02-17660f60c7f5" Title="DockExtender Class" Url="html/T-UAOOI.Windows.Forms.ControlExtenders.DockExtender.htm">
+  <HelpTOCNode Id="312eb1bd-6651-411e-aae6-bdffb78683a4" Title="UAOOI.Windows.Forms.ControlExtenders Namespace" Url="html/N-UAOOI.Windows.Forms.ControlExtenders.htm">
+    <HelpTOCNode Id="b3c2e1a2-6e3e-4a7c-888f-29b9460fe39f" Title="DockExtender Class" Url="html/T-UAOOI.Windows.Forms.ControlExtenders.DockExtender.htm">
       <HelpTOCNode Title="DockExtender Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ControlExtenders.DockExtender.htm" />
       <HelpTOCNode Title="DockExtender Constructor " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.-ctor.htm" />
-      <HelpTOCNode Id="300f9818-147a-45a0-b6a8-d8c155cc9196" Title="DockExtender Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ControlExtenders.DockExtender.htm">
-        <HelpTOCNode Id="b5674d37-c55a-462e-8ee5-73f183a33d7b" Title="Attach Method " Url="html/Overload-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Attach.htm">
+      <HelpTOCNode Id="cd8f382f-2937-4179-a563-00f1cf557b9f" Title="DockExtender Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ControlExtenders.DockExtender.htm">
+        <HelpTOCNode Id="d347c681-8165-4742-a1ca-35458513ec8c" Title="Attach Method " Url="html/Overload-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Attach.htm">
           <HelpTOCNode Title="Attach Method (ScrollableControl)" Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Attach.htm" />
           <HelpTOCNode Title="Attach Method (ScrollableControl, Control)" Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Attach_1.htm" />
           <HelpTOCNode Title="Attach Method (ScrollableControl, Control, Splitter)" Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Attach_2.htm" />
@@ -548,106 +481,106 @@
         <HelpTOCNode Title="Hide Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Hide.htm" />
         <HelpTOCNode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Show.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="653702ad-daa6-4e38-98ed-aea89d683d6d" Title="DockExtender Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ControlExtenders.DockExtender.htm">
+      <HelpTOCNode Id="ad395b86-8853-4a2d-bdb3-eef45edba014" Title="DockExtender Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ControlExtenders.DockExtender.htm">
         <HelpTOCNode Title="Floaties Property " Url="html/P-UAOOI.Windows.Forms.ControlExtenders.DockExtender.Floaties.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e3d8a32c-b513-4a16-ad47-2c14849f19e9" Title="Floaties Class" Url="html/T-UAOOI.Windows.Forms.ControlExtenders.Floaties.htm">
+    <HelpTOCNode Id="4dc28c5e-0b6e-49b1-bc5d-61d2434acc09" Title="Floaties Class" Url="html/T-UAOOI.Windows.Forms.ControlExtenders.Floaties.htm">
       <HelpTOCNode Title="Floaties Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ControlExtenders.Floaties.htm" />
-      <HelpTOCNode Id="8db715ec-5e5e-4712-a44b-64719509053a" Title="Floaties Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ControlExtenders.Floaties.htm">
-        <HelpTOCNode Id="ea356aa2-9f00-4da5-8a03-960534659074" Title="Find Method " Url="html/Overload-UAOOI.Windows.Forms.ControlExtenders.Floaties.Find.htm">
+      <HelpTOCNode Id="fb75f8ef-39a9-4493-a1d2-a577ca43fe6e" Title="Floaties Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ControlExtenders.Floaties.htm">
+        <HelpTOCNode Id="eff2678b-0748-45ae-957c-d5f2468f4e51" Title="Find Method " Url="html/Overload-UAOOI.Windows.Forms.ControlExtenders.Floaties.Find.htm">
           <HelpTOCNode Title="Find Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.Floaties.Find.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="Floaties Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ControlExtenders.Floaties.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1328dd8e-b591-47b6-b66e-c6f584b67b3c" Title="IFloaty Interface" Url="html/T-UAOOI.Windows.Forms.ControlExtenders.IFloaty.htm">
+    <HelpTOCNode Id="907ad04c-54b0-40b6-9ccd-10b07f4179b9" Title="IFloaty Interface" Url="html/T-UAOOI.Windows.Forms.ControlExtenders.IFloaty.htm">
       <HelpTOCNode Title="IFloaty Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.ControlExtenders.IFloaty.htm" />
-      <HelpTOCNode Id="386cb2d9-efcd-4060-a756-7f02abd6aae2" Title="IFloaty Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ControlExtenders.IFloaty.htm">
+      <HelpTOCNode Id="4a712f05-b9d9-4acb-9c22-eb75c9eb10d7" Title="IFloaty Methods" Url="html/Methods.T-UAOOI.Windows.Forms.ControlExtenders.IFloaty.htm">
         <HelpTOCNode Title="Hide Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Hide.htm" />
         <HelpTOCNode Title="Show Method " Url="html/M-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Show.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="940e36fa-ae56-4d57-a60a-418a58f33a6e" Title="IFloaty Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ControlExtenders.IFloaty.htm">
+      <HelpTOCNode Id="4bd869d1-2ade-47bc-aa3f-6038c9fb521b" Title="IFloaty Properties" Url="html/Properties.T-UAOOI.Windows.Forms.ControlExtenders.IFloaty.htm">
         <HelpTOCNode Title="DockOnHostOnly Property " Url="html/P-UAOOI.Windows.Forms.ControlExtenders.IFloaty.DockOnHostOnly.htm" />
         <HelpTOCNode Title="DockOnInside Property " Url="html/P-UAOOI.Windows.Forms.ControlExtenders.IFloaty.DockOnInside.htm" />
         <HelpTOCNode Title="Text Property " Url="html/P-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Text.htm" />
         <HelpTOCNode Title="Visible Property " Url="html/P-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Visible.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="5e252b3d-5045-4296-b254-510bb9dc413e" Title="IFloaty Events" Url="html/Events.T-UAOOI.Windows.Forms.ControlExtenders.IFloaty.htm">
+      <HelpTOCNode Id="c55babec-d8fc-4a2e-8175-e3d687b7c8c7" Title="IFloaty Events" Url="html/Events.T-UAOOI.Windows.Forms.ControlExtenders.IFloaty.htm">
         <HelpTOCNode Title="Docking Event" Url="html/E-UAOOI.Windows.Forms.ControlExtenders.IFloaty.Docking.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="e6d27a2c-a777-483f-b655-f8cd6840c52b" Title="UAOOI.Windows.Forms.GDI Namespace" Url="html/N-UAOOI.Windows.Forms.GDI.htm">
-    <HelpTOCNode Id="54bbf13f-d1a6-436e-94cb-f04a4cd69c13" Title="Connection Class" Url="html/T-UAOOI.Windows.Forms.GDI.Connection.htm">
+  <HelpTOCNode Id="cec8c6e6-f476-4bdc-9ead-68e283babe21" Title="UAOOI.Windows.Forms.GDI Namespace" Url="html/N-UAOOI.Windows.Forms.GDI.htm">
+    <HelpTOCNode Id="a5f3550f-7064-437b-b690-0d7b933fd0a8" Title="Connection Class" Url="html/T-UAOOI.Windows.Forms.GDI.Connection.htm">
       <HelpTOCNode Title="Connection Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.Connection.htm" />
       <HelpTOCNode Title="Connection Constructor " Url="html/M-UAOOI.Windows.Forms.GDI.Connection.-ctor.htm" />
-      <HelpTOCNode Id="b2e45562-e265-4731-a73e-b60ea0e25ffd" Title="Connection Fields" Url="html/Fields.T-UAOOI.Windows.Forms.GDI.Connection.htm">
+      <HelpTOCNode Id="a8ed171e-3e68-4c84-8887-c4900a38728c" Title="Connection Fields" Url="html/Fields.T-UAOOI.Windows.Forms.GDI.Connection.htm">
         <HelpTOCNode Title="MarginSize Field" Url="html/F-UAOOI.Windows.Forms.GDI.Connection.MarginSize.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c13fdb9a-4ca0-41f3-a58c-2577a6b49452" Title="Connection Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.Connection.htm">
+      <HelpTOCNode Id="889481f6-7b03-440b-b944-e0c53e2e22e9" Title="Connection Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.Connection.htm">
         <HelpTOCNode Title="Draw Method " Url="html/M-UAOOI.Windows.Forms.GDI.Connection.Draw.htm" />
         <HelpTOCNode Title="Match Method " Url="html/M-UAOOI.Windows.Forms.GDI.Connection.Match.htm" />
         <HelpTOCNode Title="Validate Method " Url="html/M-UAOOI.Windows.Forms.GDI.Connection.Validate.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="e7fa85c8-419b-473c-8603-04a018a52130" Title="Connection Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.Connection.htm">
+      <HelpTOCNode Id="275c8f69-3f59-44f0-a450-95f5272c2b02" Title="Connection Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.Connection.htm">
         <HelpTOCNode Title="EndHotpoint Property " Url="html/P-UAOOI.Windows.Forms.GDI.Connection.EndHotpoint.htm" />
         <HelpTOCNode Title="StartHotpoint Property " Url="html/P-UAOOI.Windows.Forms.GDI.Connection.StartHotpoint.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="773d7951-91ca-45b2-82c5-163f4e32a4dd" Title="ConnectionsList Class" Url="html/T-UAOOI.Windows.Forms.GDI.ConnectionsList.htm">
+    <HelpTOCNode Id="8145eb81-5fc8-4ea0-bac9-1e3f1787b6fe" Title="ConnectionsList Class" Url="html/T-UAOOI.Windows.Forms.GDI.ConnectionsList.htm">
       <HelpTOCNode Title="ConnectionsList Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.ConnectionsList.htm" />
-      <HelpTOCNode Id="89ffc285-5265-4d01-b344-1aaa360803f9" Title="ConnectionsList Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.ConnectionsList.htm">
+      <HelpTOCNode Id="95e6b369-6d70-455e-b977-4dff4b46b1fc" Title="ConnectionsList Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.ConnectionsList.htm">
         <HelpTOCNode Title="Draw Method " Url="html/M-UAOOI.Windows.Forms.GDI.ConnectionsList.Draw.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="79ff5e9c-b44b-4e84-8e7c-97243cb1eb29" Title="ConnectionsList Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.ConnectionsList.htm">
+      <HelpTOCNode Id="93ccc82e-ecaf-47d2-8451-2ab5dbe97d93" Title="ConnectionsList Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.ConnectionsList.htm">
         <HelpTOCNode Title="ConnectionIsAdded Event" Url="html/E-UAOOI.Windows.Forms.GDI.ConnectionsList.ConnectionIsAdded.htm" />
         <HelpTOCNode Title="ConnectionIsRemoved Event" Url="html/E-UAOOI.Windows.Forms.GDI.ConnectionsList.ConnectionIsRemoved.htm" />
         <HelpTOCNode Title="ListHasChanged Event" Url="html/E-UAOOI.Windows.Forms.GDI.ConnectionsList.ListHasChanged.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="880fd0e5-61a8-4835-9c0b-8e0bd0206279" Title="EditorPanel Class" Url="html/T-UAOOI.Windows.Forms.GDI.EditorPanel.htm">
+    <HelpTOCNode Id="a3aff7f5-310a-4873-b6da-626388a74f8b" Title="EditorPanel Class" Url="html/T-UAOOI.Windows.Forms.GDI.EditorPanel.htm">
       <HelpTOCNode Title="EditorPanel Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.EditorPanel.htm" />
       <HelpTOCNode Title="EditorPanel Constructor " Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.-ctor.htm" />
-      <HelpTOCNode Id="2448bdbc-0714-4e18-b3a3-abd857918120" Title="EditorPanel Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.EditorPanel.htm">
+      <HelpTOCNode Id="6acaa597-feee-4c48-bbe3-b6b4d61b4135" Title="EditorPanel Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.EditorPanel.htm">
         <HelpTOCNode Title="AddConnection Method " Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.AddConnection.htm" />
         <HelpTOCNode Title="AddShape Method " Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.AddShape.htm" />
         <HelpTOCNode Title="ClearConnectionList Method " Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.ClearConnectionList.htm" />
         <HelpTOCNode Title="ClearShapesList Method " Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.ClearShapesList.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="05cbe920-c8eb-442a-bc86-d4104f0c5856" Title="EditorPanel Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.EditorPanel.htm">
+      <HelpTOCNode Id="3204940a-10f7-461f-a7b2-fd0e410e8890" Title="EditorPanel Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.EditorPanel.htm">
         <HelpTOCNode Title="StatusInfo Property " Url="html/P-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInfo.htm" />
         <HelpTOCNode Title="Zoom Property " Url="html/P-UAOOI.Windows.Forms.GDI.EditorPanel.Zoom.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="66092878-ac8c-4312-9ebc-135a11256d75" Title="EditorPanel Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.EditorPanel.htm">
+      <HelpTOCNode Id="582758f1-4202-45e5-9d6b-17582d0d1ae6" Title="EditorPanel Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.EditorPanel.htm">
         <HelpTOCNode Title="ZoomIsChanged Event" Url="html/E-UAOOI.Windows.Forms.GDI.EditorPanel.ZoomIsChanged.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="64fb9405-6999-4cd2-bcef-012f1a03af55" Title="EditorPanel.StatusInformationClass Class" Url="html/T-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.htm">
+    <HelpTOCNode Id="23d477e5-6e29-4bcc-84b3-b0a7a2c8ddcf" Title="EditorPanel.StatusInformationClass Class" Url="html/T-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.htm">
       <HelpTOCNode Title="EditorPanel.StatusInformationClass Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.htm" />
-      <HelpTOCNode Id="d7f1ef01-6397-4dd3-9222-e4af9bbbe245" Title="EditorPanel.StatusInformationClass Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.htm">
+      <HelpTOCNode Id="a9d47cc2-e3a4-4317-8375-4c91e333dd3a" Title="EditorPanel.StatusInformationClass Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.htm">
         <HelpTOCNode Title="ToString Method " Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1a686be2-61f4-4709-a584-0edaf0cc71a4" Title="EditorPanel.StatusInformationClass Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.htm">
+      <HelpTOCNode Id="f26b1a14-088a-4cf8-a7fb-204baf8814c3" Title="EditorPanel.StatusInformationClass Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.htm">
         <HelpTOCNode Title="InfoIsChanged Event" Url="html/E-UAOOI.Windows.Forms.GDI.EditorPanel.StatusInformationClass.InfoIsChanged.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ff8f0858-0847-4551-8db8-f27162634975" Title="EditorPanelForm Class" Url="html/T-UAOOI.Windows.Forms.GDI.EditorPanelForm.htm">
+    <HelpTOCNode Id="f3416346-3837-4dfd-922b-feab10672095" Title="EditorPanelForm Class" Url="html/T-UAOOI.Windows.Forms.GDI.EditorPanelForm.htm">
       <HelpTOCNode Title="EditorPanelForm Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.EditorPanelForm.htm" />
       <HelpTOCNode Title="EditorPanelForm Constructor " Url="html/M-UAOOI.Windows.Forms.GDI.EditorPanelForm.-ctor.htm" />
       <HelpTOCNode Title="EditorPanelForm Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.EditorPanelForm.htm" />
-      <HelpTOCNode Id="0dbf1425-4401-4738-b574-534a40520de1" Title="EditorPanelForm Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.EditorPanelForm.htm">
+      <HelpTOCNode Id="57205bce-8324-4a9e-82e4-49eec4b27f62" Title="EditorPanelForm Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.EditorPanelForm.htm">
         <HelpTOCNode Title="EditorPanel Property " Url="html/P-UAOOI.Windows.Forms.GDI.EditorPanelForm.EditorPanel.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="EditorPanelForm Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.EditorPanelForm.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="62c914aa-08a3-4e4f-9c1f-43c48c9a673b" Title="GraphicsSettings Class" Url="html/T-UAOOI.Windows.Forms.GDI.GraphicsSettings.htm">
+    <HelpTOCNode Id="3785abdc-19ab-416c-85d8-59498296594b" Title="GraphicsSettings Class" Url="html/T-UAOOI.Windows.Forms.GDI.GraphicsSettings.htm">
       <HelpTOCNode Title="GraphicsSettings Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.GraphicsSettings.htm" />
       <HelpTOCNode Title="GraphicsSettings Constructor " Url="html/M-UAOOI.Windows.Forms.GDI.GraphicsSettings.-ctor.htm" />
-      <HelpTOCNode Id="379acef4-a7ba-46dc-bcd6-f8d74ce1c977" Title="GraphicsSettings Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.GraphicsSettings.htm">
+      <HelpTOCNode Id="d932d08d-59dd-439f-94fa-d2aa1606ea72" Title="GraphicsSettings Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.GraphicsSettings.htm">
         <HelpTOCNode Title="GetGraphicsSettingsWithSpecifiedZoom Method " Url="html/M-UAOOI.Windows.Forms.GDI.GraphicsSettings.GetGraphicsSettingsWithSpecifiedZoom.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="9459daae-ce98-4aa6-8403-7c1fba8fd3f8" Title="GraphicsSettings Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.GraphicsSettings.htm">
+      <HelpTOCNode Id="d263db3b-33fc-4a69-92a7-563e62d2b5f8" Title="GraphicsSettings Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.GraphicsSettings.htm">
         <HelpTOCNode Title="BackgroundBrush Property " Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.BackgroundBrush.htm" />
         <HelpTOCNode Title="BackgroundPen Property " Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.BackgroundPen.htm" />
         <HelpTOCNode Title="Default Property " Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.Default.htm" />
@@ -661,14 +594,14 @@
         <HelpTOCNode Title="Zoom Property " Url="html/P-UAOOI.Windows.Forms.GDI.GraphicsSettings.Zoom.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2c8232fa-15fa-4a28-956d-86efeeb985ad" Title="HotPoint Class" Url="html/T-UAOOI.Windows.Forms.GDI.HotPoint.htm">
+    <HelpTOCNode Id="621319ad-b26c-4043-81cf-5ea2a0905aa1" Title="HotPoint Class" Url="html/T-UAOOI.Windows.Forms.GDI.HotPoint.htm">
       <HelpTOCNode Title="HotPoint Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.HotPoint.htm" />
       <HelpTOCNode Title="HotPoint Constructor " Url="html/M-UAOOI.Windows.Forms.GDI.HotPoint.-ctor.htm" />
-      <HelpTOCNode Id="6c86116e-f7eb-4947-b574-c8cf9746fb10" Title="HotPoint Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.HotPoint.htm">
+      <HelpTOCNode Id="be6a6599-dbdd-4493-b3ba-89ee7ea94485" Title="HotPoint Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.HotPoint.htm">
         <HelpTOCNode Title="Match Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPoint.Match.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPoint.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="f061c927-70d6-4c67-adb7-13f4d1d1a7c3" Title="HotPoint Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.HotPoint.htm">
+      <HelpTOCNode Id="7a5e6dba-7f8f-4dc3-949e-8f1481b61737" Title="HotPoint Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.HotPoint.htm">
         <HelpTOCNode Title="AbsoluteLocation Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPoint.AbsoluteLocation.htm" />
         <HelpTOCNode Title="IsFixed Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPoint.IsFixed.htm" />
         <HelpTOCNode Title="IsHorizontal Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPoint.IsHorizontal.htm" />
@@ -681,80 +614,72 @@
         <HelpTOCNode Title="Type Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPoint.Type.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="93708d94-b8ca-44a4-a398-fc0e5f50f41c" Title="HotPointSelectableConnectable Class" Url="html/T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.htm">
+    <HelpTOCNode Id="5c328826-fe0f-4f85-a1a3-9fa53d119f3a" Title="HotPointSelectableConnectable Class" Url="html/T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.htm">
       <HelpTOCNode Title="HotPointSelectableConnectable Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.htm" />
-      <HelpTOCNode Id="656797ae-ee43-40a2-94eb-7349274486f3" Title="HotPointSelectableConnectable Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.htm">
+      <HelpTOCNode Id="74a15c4a-c22c-40c8-9270-efbc9b8d62e2" Title="HotPointSelectableConnectable Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.htm">
         <HelpTOCNode Title="Draw Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.Draw.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="834a8d67-30c7-4154-8362-6710384b3afc" Title="HotPointSelectableConnectable Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.htm">
+      <HelpTOCNode Id="ef683261-aa78-486d-9ea0-6ac8ddbb54a5" Title="HotPointSelectableConnectable Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.htm">
         <HelpTOCNode Title="IsConnected Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.IsConnected.htm" />
         <HelpTOCNode Title="IsSelected Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectable.IsSelected.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="8be4b6de-6538-4832-8ca1-71f6f0bb8186" Title="HotPointSelectableConnectableArray Class" Url="html/T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.htm">
+    <HelpTOCNode Id="86411049-f5c4-476a-9207-e24d848c32fb" Title="HotPointSelectableConnectableArray Class" Url="html/T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.htm">
       <HelpTOCNode Title="HotPointSelectableConnectableArray Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.htm" />
-      <HelpTOCNode Id="793e4160-7f95-4fb5-b8e3-180b2228dda8" Title="HotPointSelectableConnectableArray Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.htm">
+      <HelpTOCNode Id="cc01fd75-8103-49c8-8d54-fdf6c7817249" Title="HotPointSelectableConnectableArray Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.htm">
         <HelpTOCNode Title="Draw Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.Draw.htm" />
         <HelpTOCNode Title="MatchAndSelect Method " Url="html/M-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.MatchAndSelect.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0a831869-193c-4a1d-b31c-c8a0d316990f" Title="HotPointSelectableConnectableArray Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.htm">
+      <HelpTOCNode Id="c98e2e53-8545-45c5-bad3-cd60ee5490a3" Title="HotPointSelectableConnectableArray Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.htm">
         <HelpTOCNode Title="SelectedHotpoint Property " Url="html/P-UAOOI.Windows.Forms.GDI.HotPointSelectableConnectableArray.SelectedHotpoint.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="HotpointType Enumeration" Url="html/T-UAOOI.Windows.Forms.GDI.HotpointType.htm" />
-    <HelpTOCNode Id="619116b6-daa6-4df1-8635-fc376c566c0e" Title="OperationShape Class" Url="html/T-UAOOI.Windows.Forms.GDI.OperationShape.htm">
+    <HelpTOCNode Id="09857b10-ce12-4b88-881a-ba14865653c5" Title="OperationShape Class" Url="html/T-UAOOI.Windows.Forms.GDI.OperationShape.htm">
       <HelpTOCNode Title="OperationShape Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.OperationShape.htm" />
       <HelpTOCNode Title="OperationShape Constructor " Url="html/M-UAOOI.Windows.Forms.GDI.OperationShape.-ctor.htm" />
       <HelpTOCNode Title="OperationShape Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.OperationShape.htm" />
       <HelpTOCNode Title="OperationShape Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.OperationShape.htm" />
       <HelpTOCNode Title="OperationShape Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.OperationShape.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b71cf4be-e860-4685-88b4-35f45fbcf308" Title="Shape Class" Url="html/T-UAOOI.Windows.Forms.GDI.Shape.htm">
+    <HelpTOCNode Id="af3d2515-3b19-4061-a7f5-cb958aeddc7a" Title="Shape Class" Url="html/T-UAOOI.Windows.Forms.GDI.Shape.htm">
       <HelpTOCNode Title="Shape Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.Shape.htm" />
       <HelpTOCNode Title="Shape Constructor " Url="html/M-UAOOI.Windows.Forms.GDI.Shape.-ctor.htm" />
-      <HelpTOCNode Id="6b73b11f-433e-4157-9906-a6c0cdfae902" Title="Shape Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.Shape.htm">
+      <HelpTOCNode Id="4ad7a0f5-ed71-4c2b-9998-e181a4a06303" Title="Shape Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.Shape.htm">
         <HelpTOCNode Title="UpdateStableLocation Method " Url="html/M-UAOOI.Windows.Forms.GDI.Shape.UpdateStableLocation.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="300d94c3-d311-426c-bf4b-a17d3a53507d" Title="Shape Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.Shape.htm">
+      <HelpTOCNode Id="c002c89c-b691-46e3-a780-0db1414a3a82" Title="Shape Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.Shape.htm">
         <HelpTOCNode Title="IsSelected Property " Url="html/P-UAOOI.Windows.Forms.GDI.Shape.IsSelected.htm" />
         <HelpTOCNode Title="StableLocation Property " Url="html/P-UAOOI.Windows.Forms.GDI.Shape.StableLocation.htm" />
         <HelpTOCNode Title="Zoom Property " Url="html/P-UAOOI.Windows.Forms.GDI.Shape.Zoom.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="Shape Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.Shape.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="cf4be00d-c462-4b19-b759-a0bc63d61e4e" Title="ShapeList Class" Url="html/T-UAOOI.Windows.Forms.GDI.ShapeList.htm">
+    <HelpTOCNode Id="85261703-cfee-440c-942d-620578aa1674" Title="ShapeList Class" Url="html/T-UAOOI.Windows.Forms.GDI.ShapeList.htm">
       <HelpTOCNode Title="ShapeList Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.ShapeList.htm" />
       <HelpTOCNode Title="ShapeList Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.ShapeList.htm" />
-      <HelpTOCNode Id="1cffcc8c-3123-46fe-9933-fecc092b5c4f" Title="ShapeList Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.ShapeList.htm">
+      <HelpTOCNode Id="00e0f9db-5fe5-49e8-9aa6-085d37be048a" Title="ShapeList Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.ShapeList.htm">
         <HelpTOCNode Title="ShapeIsRemoved Event" Url="html/E-UAOOI.Windows.Forms.GDI.ShapeList.ShapeIsRemoved.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a5c02fbd-7572-432b-aa26-3a4b240f14a9" Title="ShapeWithHotpoints Class" Url="html/T-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.htm">
+    <HelpTOCNode Id="53847484-99d8-4ffa-8d4e-761d91db2814" Title="ShapeWithHotpoints Class" Url="html/T-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.htm">
       <HelpTOCNode Title="ShapeWithHotpoints Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.htm" />
       <HelpTOCNode Title="ShapeWithHotpoints Constructor " Url="html/M-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.-ctor.htm" />
-      <HelpTOCNode Id="01ae7770-dcdb-4878-b03e-6e92e81397f1" Title="ShapeWithHotpoints Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.htm">
+      <HelpTOCNode Id="2bf2b061-c363-46cb-9b81-480e34d6981c" Title="ShapeWithHotpoints Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.htm">
         <HelpTOCNode Title="GetHotpoint Method " Url="html/M-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.GetHotpoint.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="631c8253-ce45-4b9a-9aea-ac9c4e550f3a" Title="ShapeWithHotpoints Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.htm">
+      <HelpTOCNode Id="2f6ee4e9-afb4-4841-8ad0-a88733f89e54" Title="ShapeWithHotpoints Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.htm">
         <HelpTOCNode Title="HotPointIsMatched Property " Url="html/P-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.HotPointIsMatched.htm" />
         <HelpTOCNode Title="SelectedHotpoint Property " Url="html/P-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.SelectedHotpoint.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ShapeWithHotpoints Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpoints.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="34182401-7a9a-4d45-8b91-3e5744a159f5" Title="ShapeWithHotpointsAndLabel Class" Url="html/T-UAOOI.Windows.Forms.GDI.ShapeWithHotpointsAndLabel.htm">
+    <HelpTOCNode Id="041b6930-4fbb-4fcf-bff0-1b8d412060f8" Title="ShapeWithHotpointsAndLabel Class" Url="html/T-UAOOI.Windows.Forms.GDI.ShapeWithHotpointsAndLabel.htm">
       <HelpTOCNode Title="ShapeWithHotpointsAndLabel Members" Url="html/AllMembers.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpointsAndLabel.htm" />
       <HelpTOCNode Title="ShapeWithHotpointsAndLabel Constructor " Url="html/M-UAOOI.Windows.Forms.GDI.ShapeWithHotpointsAndLabel.-ctor.htm" />
       <HelpTOCNode Title="ShapeWithHotpointsAndLabel Methods" Url="html/Methods.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpointsAndLabel.htm" />
       <HelpTOCNode Title="ShapeWithHotpointsAndLabel Properties" Url="html/Properties.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpointsAndLabel.htm" />
       <HelpTOCNode Title="ShapeWithHotpointsAndLabel Events" Url="html/Events.T-UAOOI.Windows.Forms.GDI.ShapeWithHotpointsAndLabel.htm" />
-    </HelpTOCNode>
-  </HelpTOCNode>
-  <HelpTOCNode Id="8e5ea01c-5556-4afc-b866-aea8c8270b26" Title="UAOOI.Windows.GUIAbstractions Namespace" Url="html/N-UAOOI.Windows.GUIAbstractions.htm">
-    <HelpTOCNode Id="28427086-751b-405b-9214-eca80cd7f326" Title="ICanBeAccepted Interface" Url="html/T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm">
-      <HelpTOCNode Title="ICanBeAccepted Members" Url="html/AllMembers.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm" />
-      <HelpTOCNode Id="8f6c648f-dbb9-4399-8354-ff2a5e7ffd50" Title="ICanBeAccepted Methods" Url="html/Methods.T-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.htm">
-        <HelpTOCNode Title="CanBeAccepted Method " Url="html/M-UAOOI.Windows.GUIAbstractions.ICanBeAccepted.CanBeAccepted.htm" />
-      </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
 </HelpTOC>
